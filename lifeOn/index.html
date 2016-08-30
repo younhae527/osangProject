@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<meta name="viewport" content="user-scalable=yes, width=1100, target-densitydpi=medium-dpi" />
+		<link rel="shortcut icon" type="image/x-icon" href="" />
+		<link href="css/base.css" rel="stylesheet" type="text/css"/>
+		<link href="css/common.css" rel="stylesheet" type="text/css"/>
+		<link href="css/main.css" rel="stylesheet" type="text/css"/>
+		<link href="css/sub.css" rel="stylesheet" type="text/css"/>
+		<link href="css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css"/>
+		<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+		<script src="js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+		<script src="js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+		<script src="js/jquery.ui.datepicker-ko.js" type="text/javascript"></script>
+		<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+		<script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
+		<script src="js/common.js" type="text/javascript"></script>
+		<!--[if lt IE 9]>
+			<script src="js/html5.js"></script>
+		<![endif]-->
+		<title>늘곁애</title>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<div class="headerwrap">
+					<div class="topAreaWrap">
+						<div class="topArea">
+							<h1 class="logo"><a href="javascript:;"><img src="img/common/ico_logo.png" alt="늘곁애" /></a></h1>
+							<div class="gnbArea">
+								<a href="javascript:;">
+									<img src="img/common/ico_gnbMenu.png" alt="gnbMenu" />
+									<span>MENU</span>
+								</a>
+							</div>
+							<div class="gnbGrayArea">
+								<a href="javascript:;">
+									<img src="img/common/ico_gnbMenuGray.png" alt="gnbMenu" />
+									<span>MENU</span>
+								</a>
+							</div>
+						</div>
+						<!-- //topArea -->
+					</div>
+					<!-- //topAreaWrap -->
+					<ul class="visual">
+						<li><img src="img/main/img_visual01.jpg" alt="" /></li>
+						<li><img src="img/main/img_visual02.jpg" alt="" /></li>
+						<li><img src="img/main/img_visual03.jpg" alt="" /></li>
+						<li><img src="img/main/img_visual04.jpg" alt="" /></li>
+					</ul>
+
+					<div class="headerInnerWrap">
+						<div class="headerInner">
+							<div class="headerMenuWrap">
+								<div class="headerMenuTitle">
+									<img src="img/main/img_headerMenuTitle.png" alt="대한민국 1호 상조 늘곁애가 함께 있겠습니다." />
+								</div>
+								<!-- //headerMenuTitle -->
+								<div class="headerMenuArea">
+									<ul>
+										<li class="headerMenu01"><a href="javascript:;"></a></li>
+										<li class="headerMenu02"><a href="javascript:;"></a></li>
+										<li class="headerMenu03"><a href="javascript:;"></a></li>
+										<li class="headerMenu04"><a href="javascript:;"></a></li>
+										<li class="headerMenu05"><a href="javascript:;"></a></li>
+									</ul>
+								</div>
+								<!-- //headerMenu -->
+								<div class="headerInfoWrap">
+									<div class="headerCounsel">
+										<div class="headerCounselField">
+											<div class="headerCounselFieldInner">
+												<div class="inputWrap">
+													<div class="inputName">
+														<input type="text" name="name" value="" placeholder="이름" />
+													</div>
+													<!-- //inputName -->
+													<div class="inputPhone">
+														<input type="text" name="name" value="" placeholder="핸드폰" maxlength="11" />
+													</div>
+													<!-- //inputPhone -->
+												</div>
+												<!-- //inputWrap -->
+												<div class="fieldButton">
+													<a href="javascript:;">
+														<img src="img/main/btn_headerCounsel01.jpg" alt="상담신청" />
+													</a>
+												</div>
+												<!-- //fieldButton -->
+											</div>
+											<!-- //headerCounselFieldInner -->
+											<div class="infoAgree">
+												<input type="radio" name="infoAgree" value="정보동의" /> <label>정보동의</label>
+												<a href="javascript:;">
+													<img src="img/main/btn_headerCounsel02.jpg" alt="보기" />
+												</a>		
+											</div>
+											<!-- //infoAgree -->
+										</div>
+										<!-- //headerCounselField -->
+									</div>
+									<!-- //headerCounsel -->
+									<div class="headerBannerWrap">
+										<ul class="headerBanner">
+											<li>
+												<a href="javascript:;">
+													<img src="img/main/img_headerBanner01.png" alt="늘곁애는 대한민국 1호상조 늘곁애 노하우가 다르가!" />
+												</a>
+											</li>
+											<li>
+												<a href="javascript:;">
+													<img src="img/main/img_headerBanner01.png" alt="늘곁애는 대한민국 1호상조 늘곁애 노하우가 다르가!" />
+												</a>
+											</li>
+										</ul>
+									</div>
+									<!-- //headerBannerWrap -->
+								</div>
+								<!-- //headerInfoWrap -->
+							</div>
+							<!-- //headerMenuWrap -->
+						</div>
+						<!-- //headerInner -->
+					</div>
+					<!-- //headerInnerWrap -->
+				</div>
+				<!-- //headerwrap -->
+			</div>
+			<!-- //header -->
+			<div id="container">
+				<div class="neulneulWrap section" id="section_01">
+					<div class="neulneulInner">
+						<div class="neulneulTitleWrap">
+							<span class="bg_top"></span>
+							<span class="neulneulBtitle">늘곁애는 늘</span>
+							<span class="neulneulTitle">신뢰할 수 있습니다</span>
+							<span class="bg_bot"></span>
+						</div>
+						<!-- //neulneulTitleWrap -->
+						<p>BNK 부산은행과 지급보증 계약 체결</p>
+
+						<div class="neulneulContentWrap">
+							<ul>
+								<li class="neulneulIcon neulneulIcon01 ml_0">
+									<a href="javascript:;">
+										<span>대한민국 1호상조</span>
+										Since 1982
+									</a>
+								</li>
+								<li class="neulneulIcon neulneulIcon02">
+									<a href="javascript:;">
+										<span>회원수</span>
+										25만명 ↑
+									</a>
+								</li>
+								<li class="neulneulIcon neulneulIcon03">
+									<a href="javascript:;">
+										<span>자산</span>
+										1000억원 ↑
+									</a>
+								</li>
+								<li class="neulneulIcon neulneulIcon04">
+									<a href="javascript:;">
+										<span>지급여력비율</span>
+										112%
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- //neulneulContentWrap -->
+					</div>
+					<!-- //neulneulInner -->
+				</div>
+				<!-- //neulneulWrap -->
+
+				<div class="infoWrap section" id="section_02">
+					<div class="infoInner">
+						<div class="infoTitleWrap">
+							<span class="bg_top"></span>
+							<span class="infoBtitle">늘곁애</span>
+							<span class="infoTitle">소개</span>						
+							<span class="bg_bot"></span>
+						</div>
+						<!-- //infoTitleWrap -->
+
+						<div class="infoContentWrap">
+							<div class="infoContent01">
+								<div class="infoMenu infoMenu01">
+									<a href="javascript:;">
+										<div class="customerMenuTitle">
+											소개
+										</div>
+										<!-- //customerMenuTitle -->
+										<span class="ico_customerMenu">
+											<img src="img/main/ico_infoMenu01.png" alt="" />
+										</span>
+									</a>
+								</div>
+								<div class="infoMenu infoMenu02">
+									<a href="javascript:;">
+										<div class="customerMenuTitle">
+											연혁
+										</div>
+										<!-- //customerMenuTitle -->
+										<span class="ico_customerMenu">
+											<img src="img/main/ico_infoMenu02.png" alt="" />
+										</span>
+									</a>
+								</div>
+								<div class="infoMenu infoMenu03">
+									<a href="javascript:;">
+										<div class="customerMenuTitle">
+											계열사
+											<span>늘곁애와 함께하는 파트너</span>
+										</div>
+										<!-- //customerMenuTitle -->
+										<span class="ico_customerMenu">
+											<img src="img/main/ico_infoMenu03.png" alt="" />
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="infoContent02">
+								<div class="infoMenu infoMenu04">
+									<a href="javascript:;">
+										<div class="customerMenuTitle">
+											조직도
+										</div>
+										<!-- //customerMenuTitle -->
+										<span class="ico_customerMenu">
+											<img src="img/main/ico_infoMenu04.png" alt="" />
+										</span>
+									</a>
+								</div>
+								<div class="infoMenu infoMenu05">
+									<a href="javascript:;">
+										<div class="customerMenuTitle">
+											오시는길
+											<span>늘곁애 방문을 환영합니다</span>
+										</div>
+										<!-- //customerMenuTitle -->
+										<span class="ico_customerMenu">
+											<img src="img/main/ico_infoMenu05.png" alt="" />
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- //infoContentWrap -->
+					</div>
+					<!-- //infoWrap -->
+				</div>
+				<!-- //infoWrap -->
+
+				<div class="productWrap section" id="section_03">
+					<div class="productInner">
+						<div class="productTitleWrap">
+							<span class="bg_gTop"></span>
+							<span class="productBtitle">늘곁애</span>
+							<span class="productTitle">상품안내</span>						
+							<span class="bg_gBot"></span>
+						</div>
+						<!-- //productTitleWrap -->
+
+						<div class="productContentWrap">
+							<ul>
+								<li class="ml_0">
+									<div class="productMenuWrap">
+										<div class="productMenu productMenu01">
+											<a href="javascript:;">
+												<img src="img/main/ico_productMenu01.png" alt="장례" />
+											</a>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="productMenuWrap">
+										<div class="productMenu productMenu02">
+											<a href="javascript:;">
+												<img src="img/main/ico_productMenu02.png" alt="웨딩" />
+											</a>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="productMenuWrap">
+										<div class="productMenu productMenu03">
+											<a href="javascript:;">
+												<img src="img/main/ico_productMenu03.png" alt="약관대출" />
+											</a>
+										</div>
+									</div>
+								</li>
+								<li class="ml_0">
+									<div class="productMenuWrap">
+										<div class="productMenu productMenu04">
+											<a href="javascript:;">
+												<img src="img/main/ico_productMenu04.png" alt="결혼정보" />
+											</a>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="productMenuWrap">
+										<div class="productMenu productMenu05">
+											<a href="javascript:;">
+												<img src="img/main/ico_productMenu05.png" alt="어학캠프" />
+											</a>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="productMenuWrap">
+										<div class="productMenu productMenu06">
+											<a href="javascript:;">
+												<img src="img/main/ico_productMenu06.png" alt="여행" />
+											</a>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<div class="productLinkWrap">
+								<a href="javascript:;" class="productLink productLink01">
+									<span class="ico_roundArrow"></span> 온라인 상품문의
+								</a>
+								<a href="javascript:;" class="productLink productLink02">
+									<span class="ico_roundArrow"></span> 서비스 체험관
+								</a>
+							</div>
+						</div>
+						<!-- //promotionContentWrap -->
+					</div>
+					<!-- //productInner -->
+				</div>
+				<!-- //productWrap -->
+
+				<div class="promotionWrap section" id="section_04">
+					<div class="promotionInner">
+						<div class="promotionTitleWrap">
+							<span class="bg_top"></span>
+							<span class="promotionBtitle">홍보</span>
+							<span class="promotionTitle">채널</span>						
+							<span class="bg_bot"></span>
+						</div>
+						<!-- //promotionTitleWrap -->
+
+						<div class="promotionContentWrap">
+							<div class="promotionContent">
+								<div class="promotionMenuWrap">
+									<div class="promotionMenu01">
+										<div class="promotionMenu promotionMenu01_01">
+											<a href="javascript:;">
+												<div class="promotionMenuTitle">
+													미디어
+												</div>
+												<!-- //promotionMenuTitle -->
+												<span class="ico_customerMenu">
+													<img src="img/main/ico_promotionMenu01.png" alt="" />
+												</span>
+											</a>
+										</div>
+										<div class="promotionMenu promotionMenu01_02">
+											<a href="javascript:;">
+												<div class="promotionMenuTitle">
+													행사후기
+												</div>
+												<!-- //promotionMenuTitle -->
+												<span class="ico_customerMenu">
+													<img src="img/main/ico_promotionMenu02.png" alt="" />
+												</span>
+											</a>
+										</div>
+										<div class="promotionMenu promotionMenu01_03">
+											<a href="javascript:;">
+												<div class="promotionMenuTitle">
+													장례정보
+												</div>
+												<!-- //promotionMenuTitle -->
+												<span class="ico_customerMenu">
+													<img src="img/main/ico_promotionMenu03.png" alt="" />
+												</span>
+											</a>
+										</div>
+									</div>
+									<!-- //promotionMenu01 -->
+									<div class="promotionMenu02">
+										<div class="promotionMenu promotionMenu02_01">
+											<a href="javascript:;">
+												<div class="promotionMenuTitle">
+													공지사항
+													<span>늘곁애 소식을 한눈에</span>
+												</div>
+												<!-- //promotionMenuTitle -->
+												<span class="ico_customerMenu">
+													<img src="img/main/ico_promotionMenu04.png" alt="" />
+												</span>
+											</a>
+										</div>
+										<div class="promotionMenu promotionMenu02_02">
+											<a href="javascript:;">
+												<div class="promotionMenuTitle">
+													제휴혜택
+													<span>늘곁애 회원만을 위한 특별한 서비스</span>
+												</div>
+												<!-- //promotionMenuTitle -->
+												<span class="ico_customerMenu">
+													<img src="img/main/ico_promotionMenu05.png" alt="" />
+												</span>
+											</a>
+										</div>
+									</div>
+									<!-- //promotionMenu02 -->
+								</div>
+								<!-- //promotionMenuWrap -->
+							</div>
+							<!-- //promotionContent -->
+							<div class="promotionVideo">
+								<iframe width="436" height="396" src="https://www.youtube.com/v/fEC3IsLBLlY&autohide=1&rel=0" frameborder="0" allowfullscreen></iframe>
+							</div>
+							<!-- //promotionVideo -->
+						</div>
+						<!-- //promotionContentWrap -->
+					</div>
+					<!-- //promotionInner -->
+				</div>
+				<!-- //promotionWrap -->
+
+				<div class="customerWrap section" id="section_05">
+					<div class="customerInner">
+						<div class="customerTitleWrap">
+							<span class="bg_top"></span>
+							<span class="customerBtitle">고객</span>
+							<span class="customerTitle">센터</span>						
+							<span class="bg_bot"></span>
+						</div>
+						<!-- //myneulTitleWrap -->
+						<div class="customerContentWrap">
+							<div class="customerContent01">
+								<div class="customerMenu customerMenu01">
+									<a href="javascript:;">
+										<div class="customerMenuTitle">
+											행사현황
+										</div>
+										<!-- //customerMenuTitle -->
+										<span class="ico_customerMenu">
+											<img src="img/main/ico_customerMenu01.png" alt="" />
+										</span>
+									</a>
+								</div>
+								<!-- //customerMenu01 -->
+
+								<div class="customerMenu customerMenu02">
+									<a href="javascript:;">
+										<div class="customerMenuTitle">
+											AP검색
+										</div>
+										<!-- //customerMenuTitle -->
+										<span class="ico_customerMenu">
+											<img src="img/main/ico_customerMenu02.png" alt="" />
+										</span>
+									</a>
+								</div>
+								<!-- //customerMenu02 -->
+							</div>
+							<!-- //customerContent01 -->
+
+							<div class="customerMenu customerContent02">
+								<a href="javascript:;">
+									<div class="customerMenuTitle">
+										자주묻는<br />질문
+									</div>
+									<!-- //customerMenuTitle -->
+									<span class="ico_customerMenu">
+										<img src="img/main/ico_customerMenu03.png" alt="" />
+									</span>
+								</a>
+							</div>
+							<!-- //customerContent02 -->
+							
+							<div class="customerContent03">
+								<div class="customerMenu03">
+									<div class="customerMenu customerMenu03_01">
+										<a href="javascript:;">
+											<div class="customerMenuTitle">
+												빠른 상담신청
+											</div>
+											<!-- //customerMenuTitle -->
+											<span class="ico_customerMenu">
+												<img src="img/main/ico_customerMenu04.png" alt="" />
+											</span>
+										</a>
+									</div>
+									<!-- //customerMenu03_01 -->
+
+									<div class="customerMenu customerMenu03_02">
+										<a href="javascript:;">
+											<div class="customerMenuTitle">
+												제휴문의
+											</div>
+											<!-- //customerMenuTitle -->
+											<span class="ico_customerMenu">
+												<img src="img/main/ico_customerMenu05.png" alt="" />
+											</span>
+										</a>
+									</div>
+									<!-- //customerMenu03_02 -->
+								</div>
+								<!-- //customerMenu03 -->
+								<div class="customerMenu customerMenu04">
+									<a href="javascript:;">
+										<div class="customerMenuTitle">
+											1:1 상담센터
+										</div>
+										<!-- //customerMenuTitle -->
+										<span class="ico_customerMenu">
+											<img src="img/main/ico_customerMenu06.png" alt="" />
+										</span>
+									</a>
+								</div>
+								<!-- //customerMenu04 -->
+							</div>
+							<!-- //customerContent03 -->
+						</div>
+						<!-- //customerContentWrap -->
+					</div>
+					<!-- //customerInner -->
+				</div>
+				<!-- //customerWrap -->
+
+				<div class="myneulWrap section" id="section_06">
+					<div class="myneulInner">
+						<div class="myneulTitleWrap">
+							<span class="bg_top"></span>
+							<span class="myneulBtitle">MY</span>
+							<span class="myneulTitle">늘곁애</span>						
+							<span class="bg_bot"></span>
+						</div>
+						<!-- //myneulTitleWrap -->
+						<div class="myneulContentWrap">
+							<div class="myneulContent01">
+								<div class="myneulMenu myneulMenu01">
+									<a href="javascript:;">
+										<div class="myneulMenuTitle">
+											늘곁애 상품가입
+										</div>
+										<!-- //myneulMenuTitle -->
+										<span class="ico_myneulMenu">
+											<img src="img/main/ico_myneulMenu01.png" alt="" />
+										</span>
+									</a>
+								</div>
+								<!-- //myneulMenu01 -->
+															
+								<div class="myneulMenu myneulMenu02">
+									<a href="javascript:;">
+										<div class="myneulMenuTitle">
+											상품 가입현황
+											<span>현재 어떤 상품에 가입되어 있는 지 궁금하신가요?</span>
+										</div>
+										<!-- //myneulMenuTitle -->
+										<span class="ico_myneulMenu">
+											<img src="img/main/ico_myneulMenu02.png" alt="" />
+										</span>
+									</a>
+								</div>
+								<!-- //myneulMenu02 -->
+							</div>
+							<!-- //myneulContent01 -->
+
+							<div class="myneulMenu myneulContent02">
+								<a href="javascript:;">
+									<div class="myneulMenuTitle">
+										내정보
+										<span>고객님의 소중한 정보를 변경 하실 수<br />있습니다.</span>
+									</div>
+									<span class="ico_myneulMenu">
+										<img src="img/main/ico_myneulMenu03.png" alt="" />
+									</span>
+								</a>
+							</div>
+							<!-- //myneulContent02 -->
+							
+							<div class="myneulContent03">
+								<div class="myneulMenu myneulMenu03">
+									<a href="javascript:;">
+										<div class="myneulMenuTitle">
+											1:1상담내역
+										</div>
+										<span class="ico_myneulMenu">
+											<img src="img/main/ico_myneulMenu04.png" alt="" />
+										</span>
+									</a>
+								</div>
+								
+								<div class="myneulMenu myneulMenu04">
+									<a href="javascript:;">
+										<div class="myneulMenuTitle">
+											본인인증
+										</div>
+										<span class="ico_myneulMenu">
+											<img src="img/main/ico_myneulMenu05.png" alt="" />
+										</span>
+									</a>
+								</div>
+							</div>
+							<!-- //myneulContent03 -->
+						</div>
+						<!-- //myneulCotentWrap -->
+					</div>	
+					<!-- //myneulInner -->
+				</div>
+				<!-- //myneulWrap -->
+
+				<div class="counselWrap">
+					<div class="counselInner">
+						<div class="counsel">
+							<img src="img/main/img_counsel.png" alt="" />
+						</div>
+						<!-- //counsel -->
+					</div>
+					<!-- //counselInner -->
+				</div>
+				<!-- //counselWrap -->
+			</div>
+			<!-- //container -->
+			<div class="naviGation">
+				<div id="navi">
+					<ul class="">
+						<li data-menuanchor="header" class="active n1"><a href="#header" class="nvi" title=""></a></li>
+						<li data-menuanchor="section_01" class="n2"><a href="#section_01" class="nvi" title=""></a></li>
+						<li data-menuanchor="section_02" class="n3"><a href="#section_02" class="nvi" title=""></a></li>
+						<li data-menuanchor="section_03" class="n4"><a href="#section_03" class="nvi" title=""></a></li>
+						<li data-menuanchor="section_04" class="n5"><a href="#section_04" class="nvi" title=""></a></li>
+						<li data-menuanchor="section_05" class="n6"><a href="#section_05" class="nvi" title=""></a></li>
+						<li data-menuanchor="section_06" class="n7"><a href="#section_06" class="nvi" title=""></a></li>
+					</ul>
+				</div>
+				<!-- //navi -->
+			</div>
+			<!-- //navigation -->
+			<div id="footer">
+				<div class="footMenuWrap">
+					<div class="footMenuInner">
+						<ul class="footMenu">
+							<li class="first"><a href="javascript:;">개인정보취급방침</a></li>
+							<li><a href="javascript:;">이용약관</a></li>
+							<li><a href="javascript:;">이메일모단수집거부</a></li>
+							<li><a href="javascript:;">AP검색</a></li>
+							<li><a href="javascript:;">인재채용</a></li>
+							<li class="last"><a href="javascript:;">중요정보고시사항</a></li>
+						</ul>
+					</div>
+					<!-- //footMenuInner -->
+				</div>
+				<!-- //footMenuWrap -->
+				<div class="footContent">
+					<div class="fLogo">
+						<img src="img/common/fLogo.png" alt="" />
+					</div>
+					<!-- //logo -->
+					<div class="copyRightWrap">
+						<div>
+							서울시 강남구 테헤란로7길 8(역삼동), 부산광역시 연제구 중앙대로 1066(연산동)
+							<span class="pl_15">대표이사 : 조중래</span>
+							<span class="pl_15">TEL : 1577-6250</span>
+							<span class="pl_15">FAX : 03030-462-6250</span>
+						</div>
+						<div>
+							사업자등록번호 : 604-81-04641
+							<span class="pl_15">방문판매업 : 제 2009-부산연제 28호</span>
+							<span class="pl_15">통신판매업 : 제 2009-부산연제 111호</span>
+						</div>
+						<div>
+							선불식 할부거래업 등록번호 : 부산-2010-3호
+							<span class="pl_15">COPYRIGHT &copy; 2016 YOURSIDE.KR.ALL RIGHT RESERVED.</span>
+						</div>
+					</div>
+					<!-- //copyRightWrap -->
+				</div>
+				<!-- //footContent -->
+			</div>
+			<!-- //footer -->
+		</div>
+		<!-- //wrap -->
+	</body>
+</html>
