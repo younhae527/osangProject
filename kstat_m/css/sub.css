@@ -1,0 +1,437 @@
+/* submain_Top */
+.subHeaderWrap{ position:relative; padding-top:3px; }
+
+.subHeader{ position:absolute; left:0; top:0; z-index:100; width:100%; }
+.type2{ display:none; }
+.subHeader h1{ width:24%; position:absolute; left:10px; top:15px; }
+.subHeader h1.back{ width:8%; position:absolute; left:10px; top:10px; }/* 20150729_추가 */
+
+.subHeader h1 a{ display:block; }
+.subHeader h1 img{ width:100%; }
+.subHeader p{ text-align:center; color:#fff; font-size:2.2em; font-weight:bold; padding-top:15px; }
+.subHeader .topMenu{ width:6.5%; position:absolute; right:10px; top:10px; }
+.subHeader .topMenu a{ display:block; }
+.subHeader .topMenu img{ width:100%; }
+
+ /* layerPop */
+.layerDim{ width:100%; height:100%; display:none; background:#000; opacity:0.8; position:absolute; left:0; top:0; z-index:110; }
+.layerPop{ width:90%; display:none; position:absolute; left:50%; top:10%; margin-left:-164px; z-index:120; }
+.layerPop h2{ background:#5a6b7f; color:#fff; font-weight:bold; font-size:2.4em; padding:5% 0 5% 5%; position:relative; }
+.layerPop h2 a{ width:8%; display:block; position:absolute; right:5%; top:30%; }
+.layerPop h2 a img{ width:100%; }
+
+.layerPop p{ width:97%; background:#e7e7e7; font-weight:bold; font-size:1.6em; padding:2% 0 2% 3%; }
+
+.layerPop .layerCon { background:#fff; overflow-y:auto; height:360px; }
+.layerPop .layerCon ul:after{ content:''; display:block; clear:both; }
+.layerPop .layerCon ul li{ width:45.9%; float:left; padding:5% 0 5% 4%; border-bottom:1px solid #999; }
+
+.layerPop .layerCon ul li a{ text-align:left; color:#999; font-weight:normal; font-size:1.6em; padding-left:10%; background:url('../img/common/rightDot.png') 3% 53% no-repeat; background-size:4px 4px; }
+.layerPop .layerCon ul li.bagRe a{ background:url('../img/common/rightDot.png') 2% 53% no-repeat; background-size:4px 4px; padding-left:5%; }
+.layerPop .layerCon ul li a img.on{ display:none; }
+.layerPop .layerCon ul li a:hover{ color:#4f88cf; background:url('../img/common/rightDot_hover.png') 3% 53% no-repeat; background-size:4px 4px; }
+.layerPop .layerCon ul li a:hover img.off{ display:none; }
+.layerPop .layerCon ul li a:hover img.on{ display:inline-block; }
+.layerPop .layerCon ul li a img{ width:26px; height:18px; vertical-align:middle; }/* 20150806_수정 */
+
+/* subTop button */
+#gotop{ width:10%; position:fixed; bottom:0; right:3%; display:none; } /* 20150827_수정 */
+#gotop a{ display:block; }
+#gotop a img{ width:100%; }
+
+/* 국가메인 */
+.bx-wrapper{ position:relative; }
+a.bx-prev{ width:8px; height:14px; display:block; position:absolute; top:50%; left:10px; text-indent:-99999px; background:url('../img/sub/main/subView_prev.png') left top no-repeat; background-size:8px 14px; }
+a.bx-next{ width:8px; height:14px; display:block; position:absolute; top:50%; right:10px; text-indent:-99999px; background:url('../img/sub/main/subView_next.png') right top no-repeat; background-size:8px 14px; }
+ul.bxslider{ width:100%; }
+ul.bxslider li{ width:100%; }
+ul.bxslider li img{ width:100%; }
+
+ul.bxslider li{ position:relative; }
+
+.subCenterWrap{ position:absolute; top:25%; left:50%; margin-left:-180px; }
+.subCenterWrap .subCenter{ width:90%; margin:0 auto;text-align:center; }
+.subCenterWrap .subCenter img{ width:100%; }
+
+.subCenterWrap ul.subBottom{ width:60%; margin:5% auto 0 auto; }
+.subCenterWrap ul.subBottom li{ width:49%; float:left; }
+.subCenterWrap ul.subBottom li:first-child{ padding-right:2%; }
+.subCenterWrap ul.subBottom li a{ display:block; }
+
+/* 국가메인_Center */
+.submainWrap{}
+.submainContWrap{ background:#f4f4f4; padding:3%; }
+.submainCont{ border:1px solid #cdcdcd; background:#fff; border-radius:5px; position:relative; }
+.submainCont h3{ font-size:1.8em; line-height:26px;margin-bottom:2%; font-weight:bold; color:#000; background:url('../img/sub/common/conTitle_bg.png') left center no-repeat; background-size:1.4% auto; vertical-align:middle; padding-left:2.5%; }
+.submainCont p{ color:#999; font-size:1.3em; position:absolute; right:2%; top:9%; }
+.submainContTop,.submainContCenter{ margin-bottom:3%; padding:2%; }
+
+table.table_type1{ width:100%; border-bottom:1px solid #52565a; }
+table.table_type1 th{ font-size:1.3em; text-align:center; color:#fff; border-top:3px solid #52565a; background:#5a6b7f; padding:2% 0; }
+table.table_type1 td{ font-size:1.3em; text-align:center; color:#999; padding:2% 0; }
+
+table.table_type2{ width:100%; border-bottom:1px solid #52565a; }
+table.table_type2 tr.first th{ border-top:3px solid #52565a; }
+table.table_type2 tr.first td{ border-top:3px solid #52565a; }
+table.table_type2 th{ font-size:1.3em; text-align:center; color:#fff; background:#5a6b7f; padding:2% 0; border-bottom:1px solid #a3a3a3; }
+table.table_type2 td{ font-size:1.3em; text-align:left; color:#999; padding:2% 0 2% 2%; border-bottom:1px solid #a3a3a3; }
+
+.submainContbottom{ padding:2%; }
+.submainContbottom .tabWrap{ position:relative; }
+.submainContbottom .tabWrap p{ position:absolute; right:0; top:28px; color:#999; font-size:1.3em; }
+
+.submainContbottom ul{  margin-bottom:2%; }
+.submainContbottom ul:after{ content:''; display:block; clear:both; }
+.submainContbottom ul li{ float:left; width:40%; line-height:26px; position:relative; }
+.submainContbottom ul li a{ color:#999; display:block; font-size:1.6em; background:url('../img/sub/common/conTitle_bgOff.png') left center no-repeat; background-size:3% auto; vertical-align:middle; padding-left:8%; }
+.submainContbottom ul li a.on{ font-size:1.8em; font-weight:bold; color:#000; background:url('../img/sub/common/conTitle_bg.png') left center no-repeat; background-size:3.5% auto; vertical-align:middle; padding-left:8%; }
+.tabConAll{ padding-top:5%; }
+.tabConAll .tab{ display:none; }
+
+/* 서브_해외통계 */
+.subHConWrap{ width:100%; }
+.subHConWrap .subHCon{ width:100%; position:relative; }
+.subHConWrap .subHCon>img{ height:125px; }
+.subHConWrap .subHCon .subHConInner{ width:90%; position:absolute; left:50%; bottom:10%; margin-left:-162px; }
+
+/* 20150722_추가 */
+.subHConWrap .subHCon .subHConInner .countryName{ position:relative; }
+.subHConWrap .subHCon .subHConInner .countryName p{ color:#fff; font-size:2.2em; font-weight:bold; position:absolute; left:36%; bottom:18px; }
+
+.subHConWrap .subHCon .subHConInner .countryName01 p{ left:32%; }
+
+.subHConWrap .subHCon .subHConInner .countrySel{ position:relative; }
+.subHConWrap .subHCon .subHConInner .countrySel a{ display:block; text-align:right; color:#fff; font-size:1.4em; position:absolute; right:2%; bottom:22px; }
+.subHConWrap .subHCon .subHConInner .countrySel select{ width:77%; height:27px; position:absolute; right:0; top:-40px; opacity: 0; }
+.subHConWrap .subHCon .subHConInner .countrySel select option{ font-size:1.4em; }
+
+/* 20150728_추가 */
+.subHConWrap .subHCon .subHConInner01{ width:90%; position:absolute; left:50%; bottom:24%; margin-left:-162px; } /* 20150729_수정 */
+
+.subHConWrap .subHCon .subHConInner01 .countryName{ position:relative; }
+.subHConWrap .subHCon .subHConInner01 .countryName p{ color:#fff; font-size:2.2em; font-weight:bold; position:absolute; left:22%; bottom:4px; }
+
+
+.subHCon.country01{}
+.subHCon.country02, .subHCon.country03, .subHCon.country04, .subHCon.country05, .subHCon.country06, .subHCon.country07, .subHCon.country08, .subHCon.country09, .subHCon.country10, 
+.subHCon.country11, .subHCon.country12, .subHCon.country13, .subHCon.country14, .subHCon.country15, .subHCon.country16, .subHCon.country17, .subHCon.country18, .subHCon.country19,
+.subHCon.country20, .subHCon.country21, .subHCon.country22, .subHCon.country23, .subHCon.country24, .subHCon.country25, .subHCon.country26, .subHCon.country27, .subHCon.country28,
+.subHCon.country29, .subHCon.country30, .subHCon.country31, .subHCon.country32{ display:none; }
+
+ /* 20150721_수정 */
+.subConWrap{ position:relative; }
+.subConTitle:after{ content:''; display:block; clear:both; }
+.tab_type1 li{ width:33.3%; float:left; position:relative; }
+.tab_type1 li a{ width:100%; display:block; position:relative; }
+.tab_type1 li a .on{display:none;} 
+.tab_type1 li a .off{display:block;}  
+.tab_type1 li a.active .on{display:block;}
+.tab_type1 li a.active .off{display:none;} 
+
+.tab_type1 li a span{ font-size:1.4em; color:#b9b9b9; position:absolute; left:45%; bottom:10px; display:block !important; }
+.tab_type1 li a.active span.on{ color:#e72e25; }
+
+ /* 20150722_수정 */
+.tab_type2 li{ width:25%; float:left; position:relative; }
+.tab_type2 li a{ width:100%; display:block; position:relative; }
+.tab_type2 li a .on{display:none;} 
+.tab_type2 li a .off{display:block;}  
+.tab_type2 li a.active .on{display:block;}
+.tab_type2 li a.active .off{display:none;} 
+
+.tab_type2 li a span{ font-size:1.4em; color:#b9b9b9; position:absolute; left:45%; bottom:10px; display:block !important; }
+.tab_type2 li a.active span.on{ color:#e72e25; }
+
+/* 20150723_수정 */
+.tab_type3{ height:3.7em; }/* 20150731_수정 */
+.tab_type3 li{ width:33.3% !important; float:left; position:relative; margin-right:0 !important; } /* 20150727_수정 */
+.tab_type3 li a{ width:100%; display:block; position:relative; }
+.tab_type3 li a .on{display:none;} 
+.tab_type3 li a .off{display:block;}  
+.tab_type3 li a.active .on{display:block;}
+.tab_type3 li a.active .off{display:none;} 
+
+.tab_type3 li a span{ font-size:1.4em; color:#b9b9b9; position:absolute; left:45%; bottom:11px; display:block !important; }
+.tab_type3 li a span.longTxt{ left:36%; }
+.tab_type3 li a span.longTxt01{ left:25%; }/* 20150805_추가 */
+.tab_type3 li a.active span.on{ color:#e72e25; }
+
+/* 국내통계 탭슬라이드 *//* 20150723_수정 */
+#s_menu{overflow:hidden;margin:0;padding:0;position:relative;}
+.rotator_btn a{ width:12px; height:26px; display:block; text-indent:-99999px; position:absolute; top:19px; margin-top:-13px; }/* 20150731_수정 */
+.rotator_btn a.rotator_prev{ background: url('../img/sub/sub/korTabSlidePrev.png') no-repeat; background-size:12px 26px; left:2%; }
+.rotator_btn a.rotator_prev:hover{ background: url('../img/sub/sub/korTabSlidePrev_on.png') no-repeat; background-size:12px 26px; left:2%; }
+.rotator_btn a.rotator_next{ background: url('../img/sub/sub/korTabSlideNext.png') no-repeat; background-size:12px 26px; right:2%; }
+.rotator_btn a.rotator_next:hover{ background: url('../img/sub/sub/korTabSlideNext_on.png') no-repeat; background-size:12px 26px; right:2%; }
+.rotator_btn a.none{display:none;}
+
+.tabConContent .conTab{ display:none; }
+.tabConContent .conTab01{ display:block; }
+.tabConContent .conTab_01{ display:none; } /* 20150801_수정 */
+.tabConContent .conTab11{ display:block; } /* 20150801_수정 */
+.selectWrap{ background:#e7e7e7; padding:0 2%; width:96%; display:none; }
+.selectWrap ul{ width:100%; }
+.selectWrap ul li{ border-bottom:1px solid #ccc; vertical-align:middle; padding:3% 0; position:relative; } 
+.selectWrap ul li select{ font-size:1.4em; padding-right:0.5%; vertical-align:middle; } 
+.selectWrap ul li span.subTitle{ background:url('../img/sub/sub/subDot.png') left center no-repeat; background-size:4px 4px; color:#666; font-size:1.4em; padding-left:2%; vertical-align:middle; } /* 20150723_수정 */
+.selectWrap ul li input[type="radio"]{ vertical-align:middle; }
+.selectWrap ul li input[type="radio"]+label{ color:#666; font-size:1.4em; padding-right:3%; vertical-align:middle; }
+.selectWrap ul li input[type="text"]{ color:#666; font-size:1.4em; width:24%; vertical-align:middle; margin-right:1%; }
+.selectWrap ul li a.searchBtn{ width:15%; display:inline-block;  position:absolute; right:0; top:12%; }
+.selectWrap ul li a.checkBtn{ width:10%; display:inline-block; vertical-align:middle; }
+
+.tabContent{ border-top:2px solid #e72e25; padding:0 2%; position:relative; } /* 20150729_수정 */
+.tabContent .countInfoTxt{ font-size:1.4em; color:#666; font-weight:bold; background:url('../img/sub/sub/subDot.png') left center no-repeat; background-size:4px 4px; padding:3% 0 3% 2%; }
+.tabContent .countInfoTxt span{ display:inline-block; }
+.tabContent .countInfoTxt span.count{ color:#de5a71; }
+.tabContent .countInfoTxt span.subTxt{ color:#666; font-size:0.75em; }
+.tabContent .button{ position:absolute; }
+.tabContent .button a{ display:block; text-indent:-99999px; }
+.tabContent .button01{ right:25%; top:8%; }
+.tabContent .button01 a{ width:32px; height:27px; background:url('../img/sub/sub/sublistBtn.png') right top no-repeat; background-size:32px 27px; }
+.tabContent .button01 a.on{ background:url('../img/sub/sub/sublistBtn_on.png') right top no-repeat; background-size:32px 27px; }
+.tabContent .button02{ right:15%; top:8%; }
+.tabContent .button02 a{ width:32px; height:27px; background:url('../img/sub/sub/subGraphBtn.png') right top no-repeat; background-size:32px 27px; }
+.tabContent .button02 a.on{ background:url('../img/sub/sub/subGraphBtn_on.png') right top no-repeat; background-size:32px 27px; }
+.tabContent .button03{ right:2%; top:0; }
+.tabContent .button03 a{ width:42px; height:31px; background:url('../img/sub/sub/subOpenBtn.png') right top no-repeat; background-size:42px 31px; }
+.tabContent .button03 a.on{ background:url('../img/sub/sub/subCloseBtn.png') right top no-repeat; background-size:42px 31px; }
+
+.tableWrap{ padding:0 2%; display:none; position:relative; }
+.graphWrap{ padding:0 2%; display:none; }
+.tableWrap p.info{ font-size:1.2em; color:#de5a71; font-weight:bold; background:url('../img/sub/sub/subDot01.png') left center no-repeat; background-size:4px 4px; padding:1% 0 1% 2%; } /* 20150731_수정 */
+table.table_subType1{ width:100%; border-bottom:1px solid #a3a3a3; }
+table.table_subType1 th{ font-size:1.3em; text-align:center; color:#666; border:1px solid #a3a3a3; background:#e7e7e7; padding:2% 0; }
+table.table_subType1 tr.tHead th{ border-top:2px solid #666; }
+table.table_subType1 td{ position:relative; font-size:1.3em; text-align:center; color:#666; padding:2% 0; }
+table.table_subType1 td.up{ color:#de5a71; }
+table.table_subType1 td.down{ color:#4f88cf; }
+table.table_subType1 td.downCellTop{ width:11px; height:42px; padding-left:2%; background:url('../img/sub/sub/barTop.png') 20% 27px no-repeat; }
+table.table_subType1 td.downCellBottom{ width:11px; height:42px; padding-left:2%; background:url('../img/sub/sub/barFoot.png') 20% -2px no-repeat; }
+table.table_subType1 td.downCell{ width:11px; height:42px; padding-left:2%; background:url('../img/sub/sub/barCenter.png') 20% top no-repeat; }
+table.table_subType1 td.downCell2{ background:url('../img/sub/sub/barCenter_downCell.png') 20% top no-repeat; }
+table.table_subType1 td .downCellInner{ height:15px; background:url('../img/sub/sub/barCenter.png') 45% -8px no-repeat; padding:20% 0 20% 40%; }
+table.table_subType1 td .downCellInnerBottom{ height:15px; background:url('../img/sub/sub/barFoot.png') 45% -10px no-repeat; padding:20% 0 20% 40%; }
+table.table_subType1 td a.downCellSlideBtn{ width:13px; height:13px; display:block; position:absolute; left:5px; top:21px; background:url('../img/sub/sub/longNumIcon.png') left top no-repeat; background-size:13px 13px; }
+table.table_subType1 td a.downCellSlideBtn.on{ width:13px; height:13px; display:block; position:absolute; left:5px; top:21px; background:url('../img/sub/sub/minorBtn.png') left top no-repeat; background-size:13px 13px; }
+table.table_subType1 td a{ display:inline-block; }
+table.table_subType1 td a img{ width:13px; height:13px; }/* 20150722_수정 */
+table.table_subType1 tr.highlight td{ background:#fae2e7; }
+table.table_subType1 tr.downCellSlide{ display:none; }
+
+.countMore{ border-top:1px solid #a3a3a3; margin:3% 0; text-align:center; }
+.countMore a{ width:100%; display:block; font-size:1.4em; padding:3% 0; color:#fff; background:url('../img/sub/sub/countMoreBg.png') left top no-repeat; background-size:100% 100%; }
+
+/* 20150722_국내통계 주요통계 */
+.table_cont02, .table_cont03, .table_cont04, .table_cont05, .table_cont06, .table_cont07, .table_cont08, .table_cont09{ display:none; }
+
+.pagging{ margin:3% auto; text-align:center; } /* 20150724_수정 */
+.pagging a{ display:inline-block; }
+.pagging a.paggingButton{ width:20px; height:25px; } /* 20150724_수정 */
+.pagging a{ vertical-align:middle; font-weight:bold; color:#999; font-size:1.4em; padding:0 2%; }
+.pagging a:hover{ color:#000; text-decoration:underline; }
+.pagging a img{ width:100%; } /* 20150724_추가 */
+.pagging a img.hover{ display:none; } /* 20150724_추가 */
+.pagging a:hover img.nonHover{ display:none; } /* 20150724_추가 */
+.pagging a:hover img.hover{ display:block; } /* 20150724_추가 */
+
+/* 동양분석 */
+ul.boardList{ margin:10% 2%; }/* 20150804_수정 */
+ul.boardList>li{ border-bottom:1px solid #c3c3c3; padding:10px 0; background:url('../img/sub/sub/korTabSlideNext.png') right center no-repeat; background-size:10px 23px; }
+ul.boardList>li:first-child{ border-top:1px solid #c3c3c3; }/* 20150803_추가 */
+ul.boardList>li:hover{ background:url('../img/sub/sub/korTabSlideNext_on.png') right center no-repeat; background-size:10px 23px; }
+ul.boardList li a{ display:block; }
+ul.boardList li a span{ display:block; text-align:left; padding-bottom:1%; }
+ul.boardList li a span.boardTitle{ max-width:90%; /* overflow:hidden; white-space:nowrap; text-overflow:ellipsis; */ font-weight:bold; color:#666; font-size:1.6em; } /* 20150804_수정 */
+ul.boardList li a span.date{ color:#a8a7a7; font-size:1.2em; }
+
+.boardViewTitle{ background:#e7e7e7; text-align:center; padding:3% 0; }
+.boardViewTitle h3{ font-weight:bold; font-size:1.8em; padding-bottom:2%; color:#666; }
+.boardViewTitle p.date{ font-weight:bold; font-size:1.4em; color:#b4b4b4; }
+
+.boardViewContent{ padding:2% 3%; min-height:404px; }
+.boardViewContent p{ text-align:left; font-size:1.4em; color:#656565; }
+
+.boardViewfile{ background:#e7e7e7; }
+.boardViewfile p.file{ margin:0 2%; font-size:1.4em; color:#666; vertical-align:middle; background:url('../img/sub/sub/subDot.png') left center no-repeat; background-size:4px 4px; padding:3% 0 3% 3%; }
+.boardViewfile p.file a{  display:inline-block; font-size:1em; vertical-align:middle; max-width:77%; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+
+.boardBtn{ text-align:center; margin:3% auto; width:50%; }
+.boardBtn a{ display:block; }
+.boardBtn a img{ width:100%; }
+
+/* 에러페이지 *//* 20150724_추가 */
+.errorWrap{ width:86%; margin:17% auto; }
+.errorImg{ text-align:center; }
+.errorImg img{ width:100%; }
+.errorText{ text-align:left; }
+.errorTitle{ font-size:1.6em; font-weight:bold; color:#333; }
+.errorConText{ font-size:1.4em; font-weight:bold; color:#747475; padding:3% 0; }
+.errorBtn{ margin:5% auto; width:50%; }
+.errorBtn a{ display:block; }
+.errorBtn a img{ width:100%; }
+
+/* 숫자더보기 레이어팝업 */
+.numMorePop{ width:90%; display:none; z-index:120; }
+.numMorePop h2{ background:#5a6b7f; color:#fff; font-weight:bold; font-size:2.4em; padding:5% 0 5% 5%; position:relative; }
+.numMorePop h2 a{ width:8%; display:block; position:absolute; right:5%; top:30%; }
+.numMorePop h2 a img{ width:100%; }
+
+.numMorePop .numMoreInner{ background:#fff; color:#666; padding:5% 3%; }
+.numMorePop .numMoreInner p{ width:100%; color:#666; font-size:1.4em; word-wrap:break-word; }
+
+/* 검색팝업 */ /* 20150728_추가 */
+.searchCountryWrap{ width:100%; display:none; position:absolute; left:0; top:0; }/* 20150805_수정 */
+.searchProductWrap{ width:100%; display:none; position:absolute; left:0; top:0; }/* 20150805_수정 */
+.searchCompanyWrap{ width:100%; display:none; position:absolute; left:0; top:0; }/* 20150805_수정 */
+.searchContinentWrap{ width:100%; display:none; position:absolute; left:0; top:0; }/* 20150805_수정 */
+.searchAreaWrap{ width:100%; display:none; position:absolute; left:0; top:0; }/* 20150805_수정 */
+
+.searchTitle{ background:#5a6b7f; }
+.searchTitle h3{ color:#fff; font-weight:bold; text-align:center; padding:3% 0; font-size:2.2em; position:relative; }
+.searchTitle h3 a{ width:8%; display:block; position:absolute; right:3%; top:15%; }
+.searchTitle h3 a img{ width:100%; }
+
+.searchContent{ background:#f9f9f9; padding:3% 0; min-height:506px; }
+.searchContent a.chooseBtn{ width:87%; display:block; margin:0 auto; }
+.searchContent a.chooseBtn img{ width:100%; }
+.searchConInner:after{ content:''; display:block; clear:both; }
+.searchConInner{ width:90%; margin:0 auto 3% auto; background:#fff; border:1px solid #ccc; padding:3%; }
+.searchConInner span.subTitle{ background:url('../img/sub/sub/subDot.png') left center no-repeat; background-size:4px 4px; color:#666; font-size:1.4em; vertical-align:middle; padding-left:3%; }
+.searchConInner select{ vertical-align:middle; padding:1%; margin-left:2%; }
+.searchConInner input[type="text"]{ width:30%; vertical-align:middle; padding:1%; margin-left:2%; }
+.searchConInner a{ width:16%; display:inline-block; vertical-align:middle; float:right; }
+.searchConInner a img{ width:100%; }
+
+.searchCon{ line-height:40px; }
+.searchCon select{ width:76%; }
+.searchCon img{ vertical-align:middle; }
+
+.tab_type4 li{ width:50%; float:left; position:relative; }
+.tab_type4 li a{ width:100%; display:block; position:relative; }
+.tab_type4 li a .on{display:none;} 
+.tab_type4 li a .off{display:block;}  
+.tab_type4 li a.active .on{display:block;}
+.tab_type4 li a.active .off{display:none;} 
+
+.tab_type4 li a span{ font-size:1.4em; color:#b9b9b9; position:absolute; left:45%; bottom:10px; display:block !important; }
+.tab_type4 li a.active span.on{ color:#5a6b7f; } /* 20150804_수정 */
+
+.tab_type5 li{ width:33.3%; float:left; position:relative; }
+.tab_type5 li a{ width:100%; display:block; position:relative; }
+.tab_type5 li a .on{display:none;} 
+.tab_type5 li a .off{display:block;}  
+.tab_type5 li a.active .on{display:block;}
+.tab_type5 li a.active .off{display:none;} 
+
+.tab_type5 li a span{ font-size:1.4em; color:#b9b9b9; position:absolute; left:45%; bottom:10px; display:block !important; }
+.tab_type5 li a.active span.on{ color:#5a6b7f; }
+
+.countInfoTxt:after{ content:''; display:block; clear:both; }
+.countInfoTxt a{ width:30%; display:block; float:right; }
+.countInfoTxt a img{ width:100%; }
+
+.topBtn{ width:10%; position:absolute; right:3%; top:-10px; }
+.topBtn img{ width:100%; vertical-align:middle; }
+
+/* 20150731_추가 */
+.tab_type11 li{ width:33.3%; float:left; position:relative; }
+.tab_type11 li a{ width:100%; display:block; position:relative; }
+.tab_type11 li a .on{display:none;} 
+.tab_type11 li a .off{display:block;}  
+.tab_type11 li a.active .on{display:block;}
+.tab_type11 li a.active .off{display:none;} 
+
+.tab_type11 li a span{ font-size:1.4em; color:#b9b9b9; position:absolute; left:45%; bottom:10px; display:block !important; }
+.tab_type11 li a.active span.on{ color:#5a6b7f; } /* 20150804_수정 */
+
+/* 세계통계 *//* 20150729_추가 */
+.subHConWrap .subHCon .subHConInner01 .worldName p{ left:50%; bottom:4px; margin-left:-40px; }
+
+.worldTab li a span{ font-size:1.4em; color:#b9b9b9; position:absolute; left:35%; bottom:10px; display:block !important; }
+.worldTab li a.active span.on{ color:#a85ac0; }
+.worldCon{ border-top:2px solid #a85ac0; }
+
+.worldCon .button01 a{ width:32px; height:27px; background:url('../img/sub/sub/worldlistBtn.png') right top no-repeat; background-size:32px 27px; }
+.worldCon .button01 a.on{ background:url('../img/sub/sub/worldlistBtn_on.png') right top no-repeat; background-size:32px 27px; }
+
+.worldCon .button02 a{ width:32px; height:27px; background:url('../img/sub/sub/worldGraphBtn.png') right top no-repeat; background-size:32px 27px; }
+.worldCon .button02 a.on{ background:url('../img/sub/sub/worldGraphBtn_on.png') right top no-repeat; background-size:32px 27px; }
+
+.worldCon .button03 a{ width:42px; height:31px; background:url('../img/sub/sub/worldOpenBtn.png') right top no-repeat; background-size:42px 31px; }
+.worldCon .button03 a.on{ background:url('../img/sub/sub/worldCloseBtn.png') right top no-repeat; background-size:42px 31px; }
+
+/* 통계분석 *//* 20150729_추가 */
+.subHConWrap .subHCon .subHConInner01 .countrySel{ position:relative; }
+.subHConWrap .subHCon .subHConInner01 .countrySel a{ display:block; text-align:right; color:#fff; font-size:1.4em; position:absolute; right:2%; bottom:22px; }
+.subHConWrap .subHCon .subHConInner01 .countrySel select{ width:77%; height:27px; position:absolute; right:0; top:-28px; opacity: 0; }
+.subHConWrap .subHCon .subHConInner01 .countrySel select option{ font-size:1.4em; }
+
+.subHConWrap .subHCon .subHConInner01 .analysisName p{ left:50%; bottom:4px; margin-left:-99px; }
+.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; bottom:4px; margin-left:-87px; }/* 20150804_추가 */
+
+.analysisTab li a span{ font-size:1.4em; color:#b9b9b9; position:absolute; left:45%; bottom:10px; display:block !important; }
+.analysisTab li a.active span.on{ color:#3d8683; }
+.analysisCon{ border-top:2px solid #3d8683; }
+
+.analysisCon .button01 a{ width:32px; height:27px; background:url('../img/sub/sub/analysislistBtn.png') right top no-repeat; background-size:32px 27px; }
+.analysisCon .button01 a.on{ background:url('../img/sub/sub/analysislistBtn_on.png') right top no-repeat; background-size:32px 27px; }
+
+.analysisCon .button02 a{ width:32px; height:27px; background:url('../img/sub/sub/analysisGraphBtn.png') right top no-repeat; background-size:32px 27px; }
+.analysisCon .button02 a.on{ background:url('../img/sub/sub/analysisGraphBtn_on.png') right top no-repeat; background-size:32px 27px; }
+
+.analysisCon .button03 a{ width:42px; height:31px; background:url('../img/sub/sub/analysisOpenBtn.png') right top no-repeat; background-size:42px 31px; }
+.analysisCon .button03 a.on{ background:url('../img/sub/sub/analysisCloseBtn.png') right top no-repeat; background-size:42px 31px; }
+
+/* 20150730_추가 */
+.analysisTab01 li a span{ font-size:1.4em; color:#b9b9b9; position:absolute; left:28%; bottom:12px; display:block !important; }
+.analysisTab01 li a.active span.on{ color:#3d8683; }
+.tableWrap p.info01{ padding:1% 0 1% 2% !important; }
+
+.subHConWrap .subHCon .subHConInner01 .exchangeName p{ left:50%; bottom:4px; margin-left:-99px; }
+
+.exchangeTable td img{ width:26%; vertical-align:middle; }
+table.exchangeTable td.up{ color:#de5a71; }
+table.exchangeTable td.down{ color:#4f88cf; }
+
+/* 통계가이드 */
+.guideWrap{ background:#fff; }
+.guideInner{ background:none; border:none; }
+.subHConWrap .subHCon .subHConInner01 .guideName p{ left:50%; bottom:4px; margin-left:-125px; }
+.guide{ padding:0 2%; }
+.guide h4{ background:url('../img/sub/common/guideBulit.png') left center no-repeat; background-size:10px 10px; color:#333; font-weight:bold; font-size:1.6em; padding-left:4%; }
+.guide .guideText{ font-size:1.4em; color:#666; padding:2%; line-height:1.5em; }
+.guide .guideText span{ color:#333; text-decoration:underline; }
+.guide .guideList{ padding:3% 1% 3% 2%; }
+.guide .guideList li{ font-size:1.4em; color:#666; font-weight:bold; background:url('../img/sub/sub/subDot.png') left 8px no-repeat; background-size:4px 4px; padding:1% 0 1% 2%; }
+.guide .guideList02{ background:none; font-size:1em; color:#666; font-weight:normal; }
+.guide .guideCaution{ margin-bottom:3%; background:#e7e7e7 url('../img/sub/common/guidecaution.png') 2% 22% no-repeat; background-size:10px 10px; font-size:1.4em; color:#666; padding:3% 2% 3% 6%; }
+
+
+/* 20150731_용도의 수출임 */
+.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:29%; }
+
+/* 20150801_결제형태의 수출입 */
+.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:24%; }
+.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:19%; }
+
+/* 20150811_통계가이드-사용방법 */
+.subHConWrap .subHCon .subHConInner01 .useInfoName p{ left:15%; }
+.submainCont{ position:relative; }
+.useInfoTitle:after{ content:''; display:block; clear:both; }
+.useInfoTitle li{ width:33.3%; float:left; }
+.useInfoTitle li a{ width:100%; display:block; border:1px solid #b0b0b0; text-align:center; color:#bababa; padding:4% 0; font-size:1.6em; font-weight:bold; }
+.useInfoTitle li a.active{display:block; background:#333; color:#fff; }
+.useInfoTab{ display:none; }
+.useInfoTab01{ display:block; }
+
+.useInfo{ padding:3% 0; }
+.useInfo h4{ color:#333; font-weight:bold; font-size:1.6em; padding-left:6%; }
+.useInfo h4.num01{ background:url('../img/sub/sub/useInfo_num01.png') left 0 no-repeat; background-size:15px 15px; }
+.useInfo h4.num02{ background:url('../img/sub/sub/useInfo_num02.png') left 0 no-repeat; background-size:15px 15px; }
+.useInfo h4.num03{ background:url('../img/sub/sub/useInfo_num03.png') left 0 no-repeat; background-size:15px 15px; }
+.useInfo h4.num04{ background:url('../img/sub/sub/useInfo_num04.png') left 0 no-repeat; background-size:15px 15px; }
+.useInfo h4.num05{ background:url('../img/sub/sub/useInfo_num05.png') left 0 no-repeat; background-size:15px 15px; }
+
+.useInfoImg{ padding:2% 0 5% 0; }
+.useInfo .summary{ color:#666; font-size:1.4em; padding:2% 0 2% 6%; }

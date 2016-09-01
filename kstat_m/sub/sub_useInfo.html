@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" /> 
+		<title>K-stat 모바일 통계가이드</title>
+		<link rel="apple-touch-icon" href="" /> 
+		<link rel="shortcut icon" type="image/x-icon" href="" />
+		<link href="../css/base.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/common.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/main.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/sub.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/jquery.mmenu.all.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/mediaQuery.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/jquery-1.10.2.min.js" type="text/javascript"></script>
+		<script src="../js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+		<script src="../js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+		<script src="../js/jquery.mmenu.min.all.js" type="text/javascript"></script>
+		<script src="../js/jquery.easing.1.3.js" type="text/javascript"></script>
+		<script src="../js/jquery.bxslider.min.js" type="text/javascript"></script>
+		<script src="../js/commonPub.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="head">
+				<!-- 우측 메뉴 START -->
+				<nav id="menu-jnb" class="mm-menu mm-vertical mm-ismenu mm-right mm-hasheader">
+					<!-- <div class="mm-header">
+						<a class="mm-prev" href="#" style="display: none;"></a><span class="mm-title">퀵메뉴</span><a class="mm-next" href="#" style="display: none;"></a>
+					</div> -->
+					<div id="content" class="content mm-panel mm-opened mm-current">
+						<ul class="mm_list_right mm-list pt_0 pb_0">	
+							<li><a href="#menu" class="rightClose"><img src="../img/common/rightClose.png" alt="닫기" /></a></li>	
+						</ul>
+						<div class="rightMenuWrap">
+							<div class="rightMenu">
+								<div class="tab_list m1">  
+									<dl>  
+										<dd>
+											<a href="../index.html"><img src="../img/common/rightHome.png" alt="홈" /></a>
+											<div class="rightloginWrap btNone">
+												<a href="javascript:;" class="login"><img src="../img/common/rightLogin.png" alt="로그인" /></a>
+											</div> 
+										</dd>
+										<dd class="m1">  
+											<a href="javascript:;" class="on">국내통계</a>   
+											<div class="rightContent">
+												<ul>
+													<li><a href="javascript:;">수출입총괄</a></li>
+													<li><a href="javascript:;">산업/성질 수출입</a></li>
+													<li><a href="javascript:;">품목 수출입</a></li>
+													<li><a href="javascript:;">국가 수출입</a></li>
+													<li><a href="javascript:;">대륙/경제권 수출입</a></li>
+													<li><a href="javascript:;">지자체 수출입</a></li>
+												</ul>
+											</div>  
+										</dd>  
+										<dd class="m2">  
+											<a href="javascript:;" class="rightTab"><img src="../img/common/rightMenu02.png" alt="해외통계" /></a>   
+											<div class="rightContent">
+												<ul>
+													<li class="country01"><a href="country_main.html"><img src="../img/common/iconCountry01.png" alt="EU" class="off" /><img src="../img/common/iconCountry01_hover.png" alt="EU" class="on" /> EU</a></li>
+
+													<li class="country02"><a href="country_main.html"><img src="../img/common/iconCountry02.png" alt="미국" class="off" /><img src="../img/common/iconCountry02_hover.png" alt="미국" class="on" /> 미국</a></li>
+
+													<li class="country03"><a href="country_main.html"><img src="../img/common/iconCountry03.png" alt="중국" class="off" /><img src="../img/common/iconCountry03_hover.png" alt="중국" class="on" /> 중국</a></li>
+
+													<li class="country04"><a href="country_main.html"><img src="../img/common/iconCountry04.png" alt="홍콩" class="off" /><img src="../img/common/iconCountry04_hover.png" alt="홍콩" class="on" /> 홍콩</a></li>
+
+													<li class="country05"><a href="country_main.html"><img src="../img/common/iconCountry05.png" alt="일본" class="off" /><img src="../img/common/iconCountry05_hover.png" alt="일본" class="on" /> 일본</a></li>
+
+													<li class="country06"><a href="country_main.html"><img src="../img/common/iconCountry06.png" alt="인도" class="off" /><img src="../img/common/iconCountry06_hover.png" alt="인도" class="on" /> 인도</a></li>
+
+													<li class="country07"><a href="country_main.html"><img src="../img/common/iconCountry07.png" alt="대만" class="off" /><img src="../img/common/iconCountry07_hover.png" alt="대만" class="on" /> 대만</a></li>
+
+													<li class="country08"><a href="country_main.html"><img src="../img/common/iconCountry08.png" alt="ASEAN" class="off" /><img src="../img/common/iconCountry08_hover.png" alt="ASEAN" class="on" /> ASEAN</a></li>
+
+													<li class="country10"><a href="country_main.html"><img src="../img/common/iconCountry10.png" alt="브라질" class="off" /><img src="../img/common/iconCountry10_hover.png" alt="브라질" class="on" /> 브라질</a></li>
+
+													<li class="country11"><a href="country_main.html"><img src="../img/common/iconCountry11.png" alt="러시아" class="off" /><img src="../img/common/iconCountry11_hover.png" alt="러시아" class="on" /> 러시아</a></li>
+
+													<li class="country12"><a href="country_main.html"><img src="../img/common/iconCountry12.png" alt="터키" class="off" /><img src="../img/common/iconCountry12_hover.png" alt="터키" class="on" /> 터키</a></li>
+
+													<li class="country13"><a href="country_main.html"><img src="../img/common/iconCountry13.png" alt="호주" class="off" /><img src="../img/common/iconCountry13_hover.png" alt="호주" class="on" /> 호주</a></li>
+
+													<li class="country14"><a href="country_main.html"><img src="../img/common/iconCountry14.png" alt="캐나다" class="off" /><img src="../img/common/iconCountry14_hover.png" alt="캐나다" class="on" /> 캐나다</a></li>
+
+													<li class="country15"><a href="country_main.html"><img src="../img/common/iconCountry15.png" alt="칠레" class="off" /><img src="../img/common/iconCountry15_hover.png" alt="칠레" class="on" /> 칠레</a></li>
+
+													<li class="country16"><a href="country_main.html"><img src="../img/common/iconCountry16.png" alt="페루" class="off" /><img src="../img/common/iconCountry16_hover.png" alt="페루" class="on" /> 페루</a></li>
+
+													<li class="country17"><a href="country_main.html"><img src="../img/common/iconCountry17.png" alt="멕시코" class="off" /><img src="../img/common/iconCountry17_hover.png" alt="멕시코" class="on" /> 멕시코</a></li>
+
+													<li class="country18"><a href="country_main.html"><img src="../img/common/iconCountry18.png" alt="사우디아라비아" class="off" /><img src="../img/common/iconCountry18_hover.png" alt="사우디아라비아" class="on" /> 사우디아라비아</a></li>
+
+													<li class="country19"><a href="country_main.html"><img src="../img/common/iconCountry19.png" alt="아랍에미리트" class="off" /><img src="../img/common/iconCountry19_hover.png" alt="아랍에미리트" class="on" /> 아랍에미리트</a></li>
+
+													<li class="country20"><a href="country_main.html"><img src="../img/common/iconCountry20.png" alt="우즈베키스탄" class="off" /><img src="../img/common/iconCountry20_hover.png" alt="우즈베키스탄" class="on" /> 우즈베키스탄</a></li>
+
+													<li class="country21"><a href="country_main.html"><img src="../img/common/iconCountry21.png" alt="뉴질랜드" class="off" /><img src="../img/common/iconCountry21_hover.png" alt="뉴질랜드" class="on" /> 뉴질랜드</a></li>
+
+													<li class="country22"><a href="country_main.html"><img src="../img/common/iconCountry22.png" alt="콜롬비아" class="off" /><img src="../img/common/iconCountry22_hover.png" alt="콜롬비아" class="on" /> 콜롬비아</a></li>
+
+													<li class="country23"><a href="country_main.html"><img src="../img/common/iconCountry23.png" alt="남아프리카공화국" class="off" /><img src="../img/common/iconCountry23_hover.png" alt="남아프리카공화국" class="on" /> 남아프리카공화국</a></li>
+
+													<li class="country24"><a href="country_main.html"><img src="../img/common/iconCountry24.png" alt="우크라이나" class="off" /><img src="../img/common/iconCountry24_hover.png" alt="우크라이나" class="on" /> 우크라이나</a></li>
+												</ul>
+											</div>  
+										</dd>
+										<dd class="m3">  
+											<a href="javascript:;" class="rightTab"><img src="../img/common/rightMenu03.png" alt="세계통계" /></a>   
+											<div class="rightContent">
+												<ul>
+													<li><a href="javascript:;">세계무역</a></li>
+												</ul>
+											</div>  
+										</dd>
+										<dd class="m4">  
+											<a href="javascript:;" class="rightTab"><img src="../img/common/rightMenu04.png" alt="맞춤분석" /></a>   
+											<div class="rightContent">
+												<ul>
+													<li><a href="javascript:;">수출입실적</a></li>
+													<li><a href="javascript:;">분석통계</a></li>
+												</ul>
+											</div> 
+										</dd>
+										<dd class="m5">  
+											<a href="javascript:;" class="rightTab"><img src="../img/common/rightMenu05.png" alt="통계가이드" /></a>   
+											<div class="rightContent">
+												<ul>
+													<li><a href="javascript:;">K-stat 란?</a></li>
+													<li><a href="javascript:;">사용방법</a></li>
+												</ul>
+											</div>  
+										</dd>
+										<dd class="m6">  
+											<a href="javascript:;" class="rightTab"><img src="../img/common/rightMenu06.png" alt="환율시세" /></a>   
+											<div class="rightContent">
+												<ul>
+													<li><a href="javascript:;">환율시세/유가/원자재</a></li>
+												</ul>
+											</div>  
+										</dd>    
+									</dl>  
+								</div> 
+							</div><!--rightMenu_end-->
+						</div><!--rightMenuWrap_end-->
+					</div>
+				</nav>
+				<!-- 우측 메뉴 END -->
+				<div id="header">
+					<div class="subHeaderWrap">
+						<put-attribute name="header" value="javascript:;">
+							<div class="subHeader">
+								<h1><a href="../index.html"><img src="../img/sub/main/subLogo_type1.png" alt="K-stat" /></a></h1>
+								<p>통계가이드</p>
+								<div class="topMenu">
+									<a href="#menu-jnb" class="vw_jnb">
+										<img src="../img/sub/main/submenu_type1.png" alt="메뉴" />
+									</a>
+								</div><!-- topMenu_end -->
+							</div><!-- subHeader_eng -->
+							<div class="subHConWrap">
+								<div class="subHCon">
+									<img src="../img/sub/main/subMainSlideBgGuide.png" alt="세계무역배경" />
+									<div class="subHConInner01">
+										<img src="../img/sub/sub/subHeaderPopImg02.png" alt="팝업타이틀백그라운드" />
+										<div class="countryName useInfoName">
+											<p>무역통계안내 – 사용방법</p>
+										</div><!--countryName-->
+										<div class="countrySel">
+											<select id="color" title="select" onchange="if(this.value) location.href=(this.value);"><!-- 20150811_수정 -->
+										        <option value="sub_guide.html">무역통계안내 – K-stat 란?</option><!-- 20150811_수정 -->
+												<option selected="selected" value="sub_useInfo.html">무역통계안내 – 사용방법</option><!-- 20150811_수정 -->
+										    </select>
+										</div><!--countrySel_end-->
+									</div><!--subHConInner_end-->
+								</div><!-- <!--subHCon_end-->
+							</div><!-- subHConWrap_end -->
+						</put-attribute>
+					</div><!--subHeaderWrap_end-->
+				</div><!--header_end-->
+			</div><!--head_end-->
+			<div id="container">
+				<div class="containerWrap">
+					<div class="submainWrap">
+						<div class="submainContWrap guideWrap">
+							<div class="submainCont guideInner">
+								<ul class="useInfoTitle">
+									<li class="useInfoTab01">
+										<a href="#useInfoTab01" onclick="return false;" class="active" >홈</a>
+									</li>
+									<li class="useInfoTab02">
+										<a href="#useInfoTab02" onclick="return false;" class="blNone">국가메인</a>	
+									</li>
+									<li class="useInfoTab03">
+										<a href="#useInfoTab03" onclick="return false;" class="blNone">국내통계</a>	
+									</li>
+									<li class="useInfoTab04">
+										<a href="#useInfoTab04" onclick="return false;" class="btNone">해외통계</a>	
+									</li>
+									<li class="useInfoTab05">
+										<a href="#useInfoTab05" onclick="return false;" class="btNone blNone">세계통계</a>	
+									</li>
+									<li class="useInfoTab06">
+										<a href="#useInfoTab06" onclick="return false;" class="btNone blNone">맞춤&middot;분석</a>	
+									</li>
+								</ul>
+								<div class="useInfoContent">
+									<div id="useInfoTab01" class="useInfoTab useInfoTab01">
+										<div class="useInfo">
+											<h4 class="num01">홈 - 무역통계 모바일 메인화면</h4>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab01_img01.png" alt="좌측 페밀리사이트 버튼 클릭시 패밀리사이트가 왼쪽에 펼쳐지며, 우측 메뉴버튼 클릭시 전체메뉴가 오른쪽에 펼쳐집니다." />
+											</div>
+											<h4 class="num02">패밀리사이트 - 왼쪽 상단 'Family Site' 버튼을 클릭</h4>
+											<div class="summary">한국무역협회 , 트레이드내비 의 모바일 페이지로 이동을 할 수 있습니다.</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab01_img02.png" alt="한국무역협회 , 트레이드내비 의 모바일 페이지로 이동" />
+											</div>
+											<h4 class="num03">메뉴 - 오늘쪽 상단 '메뉴' 버튼을 틀릭</h4>
+											<div class="summary">메뉴 버튼을 눌러, 로그인 및 원하는 페이지로 이동이 가능합니다.</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab01_img03.png" alt="메뉴 버튼을 눌러, 로그인 및 원하는 페이지로 이동" />
+											</div>
+										</div><!--useInfo_end-->
+									</div><!--useInfoTab01_end-->
+									<div id="useInfoTab02" class="useInfoTab useInfoTab02">
+										<div class="useInfo">
+											<h4 class="num01">국가메인– 홈 화면의 세계지도에서 대륙버튼을 눌러 이동</h4>
+											<div class="summary">해당 국가의  ‘세계무역현황, 우리나라와의 교역현황’, ‘수출입 총괄’ 등 간략한 정보를 볼 수 있습니다.</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab02_img01.png" alt="홈 화면의 세계지도에서 대륙버튼을 눌러 이동" />
+											</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab02_img02.png" alt="해당 국가의  ‘세계무역현황, 우리나라와의 교역현황’, ‘수출입 총괄’ 등 간략한 정보를 볼 수 있습니다." />
+											</div>
+											<h4 class="num02">국가메인 기능</h4>
+											<div class="summary">한해당 국가의  ‘세계무역현황, 우리나라와의 교역현황’, ‘수출입 총괄’ 등 간략한 정보를 볼 수 있습니다.</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab02_img03.png" alt="국가메인 기능" />
+											</div>
+										</div><!--useInfo_end-->
+									</div><!--useInfoTab02_end-->
+									<div id="useInfoTab03" class="useInfoTab useInfoTab03">
+										<div class="useInfo">
+											<h4 class="num01">국내통계– 홈 화면의 국내통계 또는 한국 국가메인 상세보기를 눌러 이동</h4>
+											<div class="summary">국내통계의 현황을 볼 수 있습니다.</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab03_img01.png" alt="홈 화면의 국내통계 또는 한국 국가메인 상세보기를 눌러 이동" />
+											</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab03_img02.png" alt="국내통계의 현황을 볼 수 있습니다." />
+											</div>
+											<h4 class="num02">국내통계 메뉴이동 – 상단 Select Box를 클릭</h4>
+											<div class="summary">수출입 총괄 , 산업/성질 수출입 , 품목 수출입 , 국가 수출입, 대륙/경제 수출입 , 지자체 수출입 등 화면 선택이 가능합니다.</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab03_img03.png" alt="좌측 페밀리사이트 버튼 클릭시 패밀리사이트가 왼쪽에 펼쳐지며, 우측 메뉴버튼 클릭시 전체메뉴가 오른쪽에 펼쳐집니다." />
+											</div>
+											<h4 class="num03">국내통계</h4>
+											<div class="summary">탭 이동 및 그래프 , 더보기 등을  할 수 있습니다.</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab03_img04.png" alt="탭 이동 및 그래프 , 더보기 등을  할 수 있습니다." />
+											</div>
+											<h4 class="num04">국내통계 그래프 – 그래프 버튼을 클릭</h4>
+											<div class="summary">5개 단위로 그래프를 확인 할 수 있습니다.(아래 < > 버튼을 이용하여 5개 단위로 이동)</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab03_img05.png" alt="5개 단위로 그래프를 확인 할 수 있습니다.(아래 < > 버튼을 이용하여 5개 단위로 이동)" />
+											</div>
+											<h4 class="num05">국내통계 검색 – 검색 버튼을 클릭</h4>
+											<div class="summary">검색 조건을 설정 후 조회 버튼을 눌러 검색 할 수 있습니다.</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab03_img06.png" alt="검색 조건을 설정 후 조회 버튼을 눌러 검색 할 수 있습니다." />
+											</div>
+										</div><!--useInfo_end-->
+									</div><!--useInfoTab03_end-->
+									<div id="useInfoTab04" class="useInfoTab useInfoTab04">
+										<div class="useInfo">
+											<h4 class="num01">해외통계 - 홈 화면의 국내통계 또는 해외 국가메인 상세보기을 눌러 이동</h4>
+											<div class="summary">각 국가별 통계의 현황을 볼 수 있습니다.</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab04_img01.png" alt="홈 화면의 국내통계 또는 해외 국가메인 상세보기을 눌러 이동" />
+											</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab04_img02.png" alt="각 국가별 통계의 현황을 볼 수 있습니다." />
+											</div>
+											<h4 class="num02">해외통계 국가선택 – 국가선택 버튼을 클릭</h4>
+											<div class="summary">국가선택 버튼을 클릭, 다른 국가의 통계로 이동 할 수 있습니다.</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab04_img03.png" alt="국가선택 버튼을 클릭, 다른 국가의 통계로 이동 할 수 있습니다." />
+											</div>
+										</div><!--useInfo_end-->
+									</div><!--useInfoTab04_end-->
+									<div id="useInfoTab05" class="useInfoTab useInfoTab05">
+										<div class="useInfo">
+											<h4 class="num01">세계통계– 메인화면의 ‘세계통계’ 버튼을 클릭</h4>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab05_img01.png" alt="메인화면의 ‘세계통계’ 버튼을 클릭." />
+											</div>
+											<h4 class="num02">세계통계</h4>
+											<div class="summary">세계 무역의 국가별 수출입 , 국가간 수출입을 확인 할 수 있습니다.</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab05_img02.png" alt="세계 무역의 국가별 수출입 , 국가간 수출입을 확인 할 수 있습니다." />
+											</div>
+										</div><!--useInfo_end-->
+									</div><!--useInfoTab05_end-->
+									<div id="useInfoTab06" class="useInfoTab useInfoTab06">
+										<div class="useInfo">
+											<h4 class="num01">맞춤&middot;분석 – 메인화면의 ‘맞춤&middot;분석’ 버튼을 클릭</h4>
+											<div class="summary">맞춤&middot;분석 화면에 접근 하기 위해서는 로그인이 필요합니다.</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab06_img01.png" alt="메인화면의 ‘맞춤&middot;분석’ 버튼을 클릭" />
+											</div>
+											<h4 class="num02">맞춤&middot;분석</h4>
+											<div class="summary">상단 SelectBox 를 통해 자사통계-수출입실적, 분석통계-순위통계 를 선택 할 수 있습니다.</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab06_img02.png" alt="상단 SelectBox 를 통해 자사통계-수출입실적, 분석통계-순위통계 를 선택 할 수 있습니다." />
+											</div>
+											<h4 class="num03">환율시세 – 메인화면의 ‘환율시세’ 버튼을 클릭</h4>
+											<div class="summary">대표적인 환율시세/유가/원자재 시세를 확인 할 수 있습니다.</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab06_img03.png" alt="메인화면의 ‘환율시세’ 버튼을 클릭" />
+											</div>
+											<div class="useInfoImg">
+												<img src="../img/sub/sub/useInfoTab06_img04.png" alt="대표적인 환율시세/유가/원자재 시세를 확인 할 수 있습니다." />
+											</div>
+										</div><!--useInfo_end-->
+									</div><!--useInfoTab06_end-->
+								</div><!--tabConContent_end-->
+							</div><!--guideWrap_end-->
+						</div><!--submainWrap_end-->
+					</div><!--submainWrap_end-->
+				</div><!--containerWrap_end-->
+			</div><!--container_end-->
+			<div id="footer">
+				<div class="footerWrap">
+					<div class="footerLogo">
+						<img src="../img/common/mainFLogo.png" alt="한국무역협회" />
+					</div><!--footerLogo_end-->
+					<ul>
+						<li>트레이드콜센터 <span>1566-5114</span></li>
+						<li class="pt_5">(135-729) 서울시 강남구 영동대로 511(삼성동)</li>						
+					</ul>
+				</div><!--footerWrap_end-->
+			</div><!--footer_end-->
+			<div id="gotop" style="position: absolute; bottom: 20px;">
+				<a href="#head" title="Top"><img src="../img/sub/sub/topBtn.png" alt="상단으로 이동"></a>
+			</div>
+			<div class="layerDim"></div><!--layerDim_end-->
+			<div class="layerPop">
+				<h2>국가선택<a href="javascript:;" class="btnLayerClose"><img src="../img/sub/main/btnLayerClose.png" alt="팝업닫기" /></a></h2>
+				<div class="layerCon">
+					<ul>
+						<li class="country25 bagRe wid95"><a href="country_main.html"><img src="../img/common/iconCountry25.png" alt="한국" class="off" /><img src="../img/common/iconCountry25_hover.png" alt="한국" class="on" /> 한국</a></li>
+					</ul>
+					<p>유럽</p>
+					<ul>
+						<li class="country01"><a href="javascript:;"><img src="../img/common/iconCountry01.png" alt="EU" class="off" /><img src="../img/common/iconCountry01_hover.png" alt="EU" class="on" /> EU(28)</a></li>
+
+						<li class="country11"><a href="javascript:;"><img src="../img/common/iconCountry11.png" alt="러시아" class="off" /><img src="../img/common/iconCountry11_hover.png" alt="러시아" class="on" /> 러시아</a></li>
+
+						<li class="country24 bagRe wid95"><a href="javascript:;"><img src="../img/common/iconCountry24.png" alt="우크라이나" class="off" /><img src="../img/common/iconCountry24_hover.png" alt="우크라이나" class="on" /> 우크라이나</a></li>
+					</ul>
+					<p>아시아</p>
+					<ul>
+						<li class="country03"><a href="javascript:;"><img src="../img/common/iconCountry03.png" alt="중국" class="off" /><img src="../img/common/iconCountry03_hover.png" alt="중국" class="on" /> 중국</a></li>
+
+						<li class="country05"><a href="javascript:;"><img src="../img/common/iconCountry05.png" alt="일본" class="off" /><img src="../img/common/iconCountry05_hover.png" alt="일본" class="on" /> 일본</a></li>
+
+						<li class="country07"><a href="javascript:;"><img src="../img/common/iconCountry07.png" alt="대만" class="off" /><img src="../img/common/iconCountry07_hover.png" alt="대만" class="on" /> 대만</a></li>
+
+						<li class="country04"><a href="javascript:;"><img src="../img/common/iconCountry04.png" alt="홍콩" class="off" /><img src="../img/common/iconCountry04_hover.png" alt="홍콩" class="on" /> 홍콩</a></li>
+
+						<li class="country06"><a href="javascript:;"><img src="../img/common/iconCountry06.png" alt="인도" class="off" /><img src="../img/common/iconCountry06_hover.png" alt="인도" class="on" /> 인도</a></li>
+
+						<li class="country20"><a href="javascript:;"><img src="../img/common/iconCountry20.png" alt="우즈베키스탄" class="off" /><img src="../img/common/iconCountry20_hover.png" alt="우즈베키스탄" class="on" /> 우즈베키스탄</a></li>
+					</ul>
+					<p>아세안</p>
+					<ul>
+						<li class="country26"><a href="javascript:;"><img src="../img/common/iconCountry26.png" alt="싱가포르" class="off" /><img src="../img/common/iconCountry26_hover.png" alt="싱가포르" class="on" /> 싱가포르</a></li>
+
+						<li class="country27"><a href="javascript:;"><img src="../img/common/iconCountry27.png" alt="태국" class="off" /><img src="../img/common/iconCountry27_hover.png" alt="태국" class="on" /> 태국</a></li>
+
+						<li class="country28"><a href="javascript:;"><img src="../img/common/iconCountry28.png" alt="말레이시아" class="off" /><img src="../img/common/iconCountry28_hover.png" alt="말레이시아" class="on" /> 말레이시아</a></li>
+
+						<li class="country29"><a href="javascript:;"><img src="../img/common/iconCountry29.png" alt="인도네시아" class="off" /><img src="../img/common/iconCountry29_hover.png" alt="인도네시아" class="on" /> 인도네시아</a></li>
+
+						<li class="country30"><a href="javascript:;"><img src="../img/common/iconCountry30.png" alt="베트남" class="off" /><img src="../img/common/iconCountry30_hover.png" alt="베트남" class="on" /> 베트남</a></li>
+
+						<li class="country31"><a href="javascript:;"><img src="../img/common/iconCountry31.png" alt="필리핀" class="off" /><img src="../img/common/iconCountry31_hover.png" alt="필리핀" class="on" /> 필리핀</a></li>
+
+						<li class="country32"><a href="javascript:;"><img src="../img/common/iconCountry32.png" alt="미얀마" class="off" /><img src="../img/common/iconCountry32_hover.png" alt="미얀마" class="on" /> 미얀마</a></li>
+
+						<li class="country33"><a href="javascript:;"><img src="../img/common/iconCountry33.png" alt="캄보디아" class="off" /><img src="../img/common/iconCountry33_hover.png" alt="캄보디아" class="on" /> 캄보디아</a></li>
+
+						<li class="country34"><a href="javascript:;"><img src="../img/common/iconCountry34.png" alt="라오스" class="off" /><img src="../img/common/iconCountry34_hover.png" alt="라오스" class="on" /> 라오스</a></li>
+
+						<li class="country09"><a href="javascript:;"><img src="../img/common/iconCountry09.png" alt="브루나이" class="off" /><img src="../img/common/iconCountry09_hover.png" alt="브루나이" class="on" /> 브루나이</a></li>
+					</ul>
+					<p>북아메리카</p>
+					<ul>
+						<li class="country02"><a href="javascript:;"><img src="../img/common/iconCountry02.png" alt="미국" class="off" /><img src="../img/common/iconCountry02_hover.png" alt="미국" class="on" /> 미국</a></li>
+
+						<li class="country14"><a href="javascript:;"><img src="../img/common/iconCountry14.png" alt="캐나다" class="off" /><img src="../img/common/iconCountry14_hover.png" alt="캐나다" class="on" /> 캐나다</a></li>
+					</ul>
+					<p>남아메리카</p>
+					<ul>
+						<li class="country17"><a href="javascript:;"><img src="../img/common/iconCountry17.png" alt="멕시코" class="off" /><img src="../img/common/iconCountry17_hover.png" alt="멕시코" class="on" /> 멕시코</a></li>
+
+						<li class="country16"><a href="javascript:;"><img src="../img/common/iconCountry16.png" alt="페루" class="off" /><img src="../img/common/iconCountry16_hover.png" alt="페루" class="on" /> 페루</a></li>
+
+						<li class="country10"><a href="javascript:;"><img src="../img/common/iconCountry10.png" alt="브라질" class="off" /><img src="../img/common/iconCountry10_hover.png" alt="브라질" class="on" /> 브라질</a></li>
+
+						<li class="country15"><a href="javascript:;"><img src="../img/common/iconCountry15.png" alt="칠레" class="off" /><img src="../img/common/iconCountry15_hover.png" alt="칠레" class="on" /> 칠레</a></li>
+
+						<li class="country22 bagRe wid95"><a href="javascript:;"><img src="../img/common/iconCountry22.png" alt="콜롬비아" class="off" /><img src="../img/common/iconCountry22_hover.png" alt="콜롬비아" class="on" /> 콜롬비아</a></li>
+					</ul>
+					<p>오세아니아</p>
+					<ul>
+						<li class="country21"><a href="javascript:;"><img src="../img/common/iconCountry21.png" alt="뉴질랜드" class="off" /><img src="../img/common/iconCountry21_hover.png" alt="뉴질랜드" class="on" /> 뉴질랜드</a></li>
+
+						<li class="country13"><a href="javascript:;"><img src="../img/common/iconCountry13.png" alt="호주" class="off" /><img src="../img/common/iconCountry13_hover.png" alt="호주" class="on" /> 호주</a></li>
+					</ul>
+					<p>중동</p>
+					<ul>
+						<li class="country12"><a href="javascript:;"><img src="../img/common/iconCountry12.png" alt="터키" class="off" /><img src="../img/common/iconCountry12_hover.png" alt="터키" class="on" /> 터키</a></li>
+
+						<li class="country18"><a href="javascript:;"><img src="../img/common/iconCountry18.png" alt="사우디아라비아" class="off" /><img src="../img/common/iconCountry18_hover.png" alt="사우디아라비아" class="on" /> 사우디아라비아</a></li>
+
+						<li class="country19 bagRe wid95"><a href="javascript:;"><img src="../img/common/iconCountry19.png" alt="아랍에미리트" class="off" /><img src="../img/common/iconCountry19_hover.png" alt="아랍에미리트" class="on" /> 아랍에미리트</a></li>						
+					</ul>
+					<p>아프리카</p>
+					<ul>
+						<li class="country23 bagRe wid95"><a href="javascript:;"><img src="../img/common/iconCountry23.png" alt="남아프리카공화국" class="off" /><img src="../img/common/iconCountry23_hover.png" alt="남아프리카공화국" class="on" /> 남아프리카공화국</a></li>
+					</ul>
+				</div><!--layerCon-->
+			</div><!--layerPop_end-->
+		</div><!--wrap_end-->
+	</body>
+</html>

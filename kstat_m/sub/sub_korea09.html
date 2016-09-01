@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" /> 
+		<title>K-stat 모바일 국내통계_금액의 수출입</title>
+		<link rel="apple-touch-icon" href="" /> 
+		<link rel="shortcut icon" type="image/x-icon" href="" />
+		<link href="../css/base.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/common.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/main.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/sub.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/jquery.mmenu.all.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/mediaQuery.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/jquery-1.10.2.min.js" type="text/javascript"></script>
+		<script src="../js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+		<script src="../js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+		<script src="../js/jquery.mmenu.min.all.js" type="text/javascript"></script>
+		<script src="../js/jquery.easing.1.3.js" type="text/javascript"></script>
+		<script src="../js/jquery.bxslider.min.js" type="text/javascript"></script>
+		<script src="../js/jquery.touchSlider.js" type="text/javascript"></script> <!-- 20150723_추가 -->
+		<script src="../js/commonPub.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="head">
+				<!-- 우측 메뉴 START -->
+				<nav id="menu-jnb" class="mm-menu mm-vertical mm-ismenu mm-right mm-hasheader">
+					<!-- <div class="mm-header">
+						<a class="mm-prev" href="#" style="display: none;"></a><span class="mm-title">퀵메뉴</span><a class="mm-next" href="#" style="display: none;"></a>
+					</div> -->
+					<div id="content" class="content mm-panel mm-opened mm-current">
+						<ul class="mm_list_right mm-list pt_0 pb_0">	
+							<li><a href="#menu" class="rightClose"><img src="../img/common/rightClose.png" alt="닫기" /></a></li>	
+						</ul>
+						<div class="rightMenuWrap">
+							<div class="rightMenu">
+								<div class="tab_list m1">  
+									<dl>  
+										<dd>
+											<a href="../index.html"><img src="../img/common/rightHome.png" alt="홈" /></a>
+											<div class="rightloginWrap btNone">
+												<a href="javascript:;" class="login"><img src="../img/common/rightLogin.png" alt="로그인" /></a>
+											</div> 
+										</dd>
+										<dd class="m1">  
+											<a href="javascript:;" class="on">국내통계</a>   
+											<div class="rightContent">
+												<ul>
+													<li><a href="javascript:;">수출입총괄</a></li>
+													<li><a href="javascript:;">산업/성질 수출입</a></li>
+													<li><a href="javascript:;">품목 수출입</a></li>
+													<li><a href="javascript:;">국가 수출입</a></li>
+													<li><a href="javascript:;">대륙/경제권 수출입</a></li>
+													<li><a href="javascript:;">지자체 수출입</a></li>
+												</ul>
+											</div>  
+										</dd>  
+										<dd class="m2">  
+											<a href="javascript:;" class="rightTab"><img src="../img/common/rightMenu02.png" alt="해외통계" /></a>   
+											<div class="rightContent">
+												<ul>
+													<li class="country01"><a href="country_main.html"><img src="../img/common/iconCountry01.png" alt="EU" class="off" /><img src="../img/common/iconCountry01_hover.png" alt="EU" class="on" /> EU</a></li>
+
+													<li class="country02"><a href="country_main.html"><img src="../img/common/iconCountry02.png" alt="미국" class="off" /><img src="../img/common/iconCountry02_hover.png" alt="미국" class="on" /> 미국</a></li>
+
+													<li class="country03"><a href="country_main.html"><img src="../img/common/iconCountry03.png" alt="중국" class="off" /><img src="../img/common/iconCountry03_hover.png" alt="중국" class="on" /> 중국</a></li>
+
+													<li class="country04"><a href="country_main.html"><img src="../img/common/iconCountry04.png" alt="홍콩" class="off" /><img src="../img/common/iconCountry04_hover.png" alt="홍콩" class="on" /> 홍콩</a></li>
+
+													<li class="country05"><a href="country_main.html"><img src="../img/common/iconCountry05.png" alt="일본" class="off" /><img src="../img/common/iconCountry05_hover.png" alt="일본" class="on" /> 일본</a></li>
+
+													<li class="country06"><a href="country_main.html"><img src="../img/common/iconCountry06.png" alt="인도" class="off" /><img src="../img/common/iconCountry06_hover.png" alt="인도" class="on" /> 인도</a></li>
+
+													<li class="country07"><a href="country_main.html"><img src="../img/common/iconCountry07.png" alt="대만" class="off" /><img src="../img/common/iconCountry07_hover.png" alt="대만" class="on" /> 대만</a></li>
+
+													<li class="country08"><a href="country_main.html"><img src="../img/common/iconCountry08.png" alt="ASEAN" class="off" /><img src="../img/common/iconCountry08_hover.png" alt="ASEAN" class="on" /> ASEAN</a></li>
+
+													<li class="country10"><a href="country_main.html"><img src="../img/common/iconCountry10.png" alt="브라질" class="off" /><img src="../img/common/iconCountry10_hover.png" alt="브라질" class="on" /> 브라질</a></li>
+
+													<li class="country11"><a href="country_main.html"><img src="../img/common/iconCountry11.png" alt="러시아" class="off" /><img src="../img/common/iconCountry11_hover.png" alt="러시아" class="on" /> 러시아</a></li>
+
+													<li class="country12"><a href="country_main.html"><img src="../img/common/iconCountry12.png" alt="터키" class="off" /><img src="../img/common/iconCountry12_hover.png" alt="터키" class="on" /> 터키</a></li>
+
+													<li class="country13"><a href="country_main.html"><img src="../img/common/iconCountry13.png" alt="호주" class="off" /><img src="../img/common/iconCountry13_hover.png" alt="호주" class="on" /> 호주</a></li>
+
+													<li class="country14"><a href="country_main.html"><img src="../img/common/iconCountry14.png" alt="캐나다" class="off" /><img src="../img/common/iconCountry14_hover.png" alt="캐나다" class="on" /> 캐나다</a></li>
+
+													<li class="country15"><a href="country_main.html"><img src="../img/common/iconCountry15.png" alt="칠레" class="off" /><img src="../img/common/iconCountry15_hover.png" alt="칠레" class="on" /> 칠레</a></li>
+
+													<li class="country16"><a href="country_main.html"><img src="../img/common/iconCountry16.png" alt="페루" class="off" /><img src="../img/common/iconCountry16_hover.png" alt="페루" class="on" /> 페루</a></li>
+
+													<li class="country17"><a href="country_main.html"><img src="../img/common/iconCountry17.png" alt="멕시코" class="off" /><img src="../img/common/iconCountry17_hover.png" alt="멕시코" class="on" /> 멕시코</a></li>
+
+													<li class="country18"><a href="country_main.html"><img src="../img/common/iconCountry18.png" alt="사우디아라비아" class="off" /><img src="../img/common/iconCountry18_hover.png" alt="사우디아라비아" class="on" /> 사우디아라비아</a></li>
+
+													<li class="country19"><a href="country_main.html"><img src="../img/common/iconCountry19.png" alt="아랍에미리트" class="off" /><img src="../img/common/iconCountry19_hover.png" alt="아랍에미리트" class="on" /> 아랍에미리트</a></li>
+
+													<li class="country20"><a href="country_main.html"><img src="../img/common/iconCountry20.png" alt="우즈베키스탄" class="off" /><img src="../img/common/iconCountry20_hover.png" alt="우즈베키스탄" class="on" /> 우즈베키스탄</a></li>
+
+													<li class="country21"><a href="country_main.html"><img src="../img/common/iconCountry21.png" alt="뉴질랜드" class="off" /><img src="../img/common/iconCountry21_hover.png" alt="뉴질랜드" class="on" /> 뉴질랜드</a></li>
+
+													<li class="country22"><a href="country_main.html"><img src="../img/common/iconCountry22.png" alt="콜롬비아" class="off" /><img src="../img/common/iconCountry22_hover.png" alt="콜롬비아" class="on" /> 콜롬비아</a></li>
+
+													<li class="country23"><a href="country_main.html"><img src="../img/common/iconCountry23.png" alt="남아프리카공화국" class="off" /><img src="../img/common/iconCountry23_hover.png" alt="남아프리카공화국" class="on" /> 남아프리카공화국</a></li>
+
+													<li class="country24"><a href="country_main.html"><img src="../img/common/iconCountry24.png" alt="우크라이나" class="off" /><img src="../img/common/iconCountry24_hover.png" alt="우크라이나" class="on" /> 우크라이나</a></li>
+												</ul>
+											</div>  
+										</dd>
+										<dd class="m3">  
+											<a href="javascript:;" class="rightTab"><img src="../img/common/rightMenu03.png" alt="세계통계" /></a>   
+											<div class="rightContent">
+												<ul>
+													<li><a href="javascript:;">세계무역</a></li>
+												</ul>
+											</div>  
+										</dd>
+										<dd class="m4">  
+											<a href="javascript:;" class="rightTab"><img src="../img/common/rightMenu04.png" alt="맞춤분석" /></a>   
+											<div class="rightContent">
+												<ul>
+													<li><a href="javascript:;">수출입실적</a></li>
+													<li><a href="javascript:;">분석통계</a></li>
+												</ul>
+											</div> 
+										</dd>
+										<dd class="m5">  
+											<a href="javascript:;" class="rightTab"><img src="../img/common/rightMenu05.png" alt="통계가이드" /></a>   
+											<div class="rightContent">
+												<ul>
+													<li><a href="javascript:;">K-stat 란?</a></li>
+													<li><a href="javascript:;">사용방법</a></li>
+												</ul>
+											</div>  
+										</dd>
+										<dd class="m6">  
+											<a href="javascript:;" class="rightTab"><img src="../img/common/rightMenu06.png" alt="환율시세" /></a>   
+											<div class="rightContent">
+												<ul>
+													<li><a href="javascript:;">환율시세/유가/원자재</a></li>
+												</ul>
+											</div>  
+										</dd>    
+									</dl>  
+								</div> 
+							</div><!--rightMenu_end-->
+						</div><!--rightMenuWrap_end-->
+					</div>
+				</nav>
+				<!-- 우측 메뉴 END -->
+				<div id="header">
+					<div class="subHeaderWrap">
+						<put-attribute name="header" value="javascript:;">
+							<div class="subHeader">
+								<h1 class="back"><a href="javascript:;"><img src="../img/sub/common/backBtn.png" alt="뒤로가기" /></a></h1><!-- 20150729_수정 -->
+								<p>국내통계</p>
+								<div class="topMenu">
+									<a href="#menu-jnb" class="vw_jnb">
+										<img src="../img/sub/main/submenu_type2.png" alt="메뉴" />
+									</a>
+								</div><!-- topMenu_end -->
+							</div><!-- subHeader_eng -->
+							<div class="subHConWrap">
+								<div class="subHCon country33">
+									<img src="../img/sub/main/subMainSlideBg25_1.png" alt="한국무역국기배경" />
+									<div class="subHConInner01">
+										<img src="../img/sub/sub/subHeaderPopImg01.png" alt="팝업타이틀백그라운드" />
+										<div class="countryName koreaPop11">
+											<p>금액의 수출입</p>
+										</div><!--countryName--><!-- 20150722_추가 -->
+									</div><!--subHConInner_end-->
+								</div><!-- <!--subHCon_end-->
+							</div><!-- subHConWrap_end -->
+						</put-attribute>
+					</div><!--subHeaderWrap_end-->
+				</div><!--header_end-->
+			</div><!--head_end-->
+			<div id="container">
+				<div class="containerWrap">
+					<div class="subConWrap">
+						<div class="tabConContent tabcon_type3">
+							<div id="conTab01" class="conTab conTab01">
+								<div class="selectWrap bt2e72e25">
+									<ul>
+										<li>
+											<span class="subTitle">상사분포</span>
+											<select>
+												<option>1천미만</option>
+											</select>
+											<span class="subTitle">주기</span>
+											<select>
+												<option>월별</option>
+											</select>
+											<span class="subTitle">당월/누계</span>
+											<select>
+												<option>당월</option>
+												<option>누계</option>
+											</select>
+										</li>
+										<li class="bbNone">
+											<span class="subTitle">단위</span>
+											<select>
+												<option>백만불,Ton,%</option>
+											</select>
+											<span class="subTitle">수출/수입</span>
+											<select>
+												<option>수출</option>
+												<option>수입</option>
+											</select>
+											<a href="javascript:;" class="searchBtn"><img src="../img/sub/sub/subSrchBtn.png" alt="조회" /></a>
+										</li>
+									</ul>
+								</div><!--selectWrap_eng-->
+								<div class="tabContent toggle01">
+									<div class="countInfoTxt">전체 <span class="count">60</span>건 <span class="subTxt">/ 단위금액 - 천불, 증감률 - %</span></div>
+									<div class="button button01">
+										<a href="javascript:;">리스트</a>
+									</div><!--button01_end-->
+									<div class="button button02">
+										<a href="javascript:;">그래프</a>
+									</div><!--button02_end-->
+									<div class="button button03">
+										<a href="javascript:;">슬라이드</a>
+									</div><!--button03_end-->
+								</div><!--tabContent_end-->
+								<div class="tableWrap">
+									<table cellpadding="0" cellspacing="0" width="100%" class="table_subType1" summary="총괄 국내통계 리스트 내용을 확인하실 수 있습니다.">
+										<caption class="blind">총괄 국내통계 리스트</caption>
+										<colgroup>
+											<col width="14%" />
+											<col width="20%" />
+											<col width="15%" />
+											<col width="20%" />
+											<col width="15%" />
+											<col width="16%" />
+										</colgroup>
+										<thead>
+											<tr class="tHead">
+												<th rowspan="2" class="blNone">년도</th>
+												<th colspan="2">수출</th>
+												<th colspan="2">수입</th>
+												<th rowspan="2" class="brNone">수지</th>
+											</tr>
+											<tr>
+												<th>금액</th>
+												<th>증가율</th>
+												<th>금액</th>
+												<th>증가율</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="blNone">2015</td>
+												<td class="numMore">1,335 <a href="javascript:;"><img src="../img/sub/sub/longNumIcon.png" alt="숫자더보기" /></a></td>
+												<td class="down">▼ 2.9%</td>
+												<td>1,119</td>
+												<td class="down">▼ 15.4%</td>
+												<td class="brNone">2,158</td>
+											</tr>
+											<tr>
+												<td class="blNone">2014</td>
+												<td>5,726</td>
+												<td class="up">▲ 2.3%</td>
+												<td>5,255</td>
+												<td class="up">▲ 1.9%</td>
+												<td class="brNone">4,715</td>
+											</tr>
+											<tr>
+												<td class="blNone">2013</td>
+												<td class="numMore">1,335 <a href="javascript:;"><img src="../img/sub/sub/longNumIcon.png" alt="숫자더보기" /></a></td>
+												<td class="down">▼ 2.9%</td>
+												<td>1,119</td>
+												<td class="down">▼ 15.4%</td>
+												<td class="brNone">2,158</td>
+											</tr>
+											<tr>
+												<td class="blNone">2012</td>
+												<td>5,726</td>
+												<td class="up">▲ 2.3%</td>
+												<td>5,255</td>
+												<td class="up">▲ 1.9%</td>
+												<td class="brNone">4,715</td>
+											</tr>
+											<tr>
+												<td class="blNone">2011</td>
+												<td class="numMore">1,335 <a href="javascript:;"><img src="../img/sub/sub/longNumIcon.png" alt="숫자더보기" /></a></td>
+												<td class="down">▼ 2.9%</td>
+												<td>1,119</td>
+												<td class="down">▼ 15.4%</td>
+												<td class="brNone">2,158</td>
+											</tr>
+											<tr>
+												<td class="blNone">2010</td>
+												<td>5,726</td>
+												<td class="up">▲ 2.3%</td>
+												<td>5,255</td>
+												<td class="up">▲ 1.9%</td>
+												<td class="brNone">4,715</td>
+											</tr>
+											<tr>
+												<td class="blNone">2009</td>
+												<td class="numMore">1,335 <a href="javascript:;"><img src="../img/sub/sub/longNumIcon.png" alt="숫자더보기" /></a></td>
+												<td class="down">▼ 2.9%</td>
+												<td>1,119</td>
+												<td class="down">▼ 15.4%</td>
+												<td class="brNone">2,158</td>
+											</tr>
+											<tr>
+												<td class="blNone">2008</td>
+												<td>5,726</td>
+												<td class="up">▲ 2.3%</td>
+												<td>5,255</td>
+												<td class="up">▲ 1.9%</td>
+												<td class="brNone">4,715</td>
+											</tr>
+											<tr>
+												<td class="blNone">2007</td>
+												<td class="numMore">1,335 <a href="javascript:;"><img src="../img/sub/sub/longNumIcon.png" alt="숫자더보기" /></a></td>
+												<td class="down">▼ 2.9%</td>
+												<td>1,119</td>
+												<td class="down">▼ 15.4%</td>
+												<td class="brNone">2,158</td>
+											</tr>
+											<tr>
+												<td class="blNone">2006</td>
+												<td>5,726</td>
+												<td class="up">▲ 2.3%</td>
+												<td>5,255</td>
+												<td class="up">▲ 1.9%</td>
+												<td class="brNone">4,715</td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="countMore">
+										<a href="javascript:;">00개 더보기</a>
+									</div><!--countMore_end-->
+								</div><!--tableWrap_end-->
+								<!-- 20150720_추가 -->
+								<div class="graphWrap">
+									<table cellpadding="0" cellspacing="0" width="100%" class="table_subType1" summary="총괄 국내통계 그래프 내용을 확인하실 수 있습니다.">
+										<caption class="blind">총괄 국내통계 그래프</caption>
+										<colgroup>
+											<col width="18%" />
+											<col width="18%" />
+											<col width="14%" />
+											<col width="18%" />
+											<col width="14%" />
+											<col width="16%" />
+										</colgroup>
+										<thead>
+											<tr class="tHead">
+												<th rowspan="2" class="blNone">년월</th>
+												<th colspan="2">수출</th>
+												<th colspan="2">수입</th>
+												<th rowspan="2" class="brNone">수지</th>
+											</tr>
+											<tr>
+												<th>수출액</th>
+												<th>수출<br />증감률</th>
+												<th>수입액</th>
+												<th>수입<br />증감률</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="blNone downCellTop">2015<a href="javascript:;" class="downCellSlideBtn"></a></td>
+												<td class="numMore">879,6 <a href="javascript:;"><img src="../img/sub/sub/longNumIcon.png" alt="숫자더보기" /></a></td>
+												<td class="up">▲ 6.0%</td>
+												<td>879,603</td>
+												<td class="up">6.0%</td>
+												<td class="brNone">35,375</td>
+											</tr>
+											<tr class="downCellSlide">
+												<td class="blNone downCell2 pt_0 pb_0">
+													<div class="downCellInner">
+														1월
+													</div>
+												</td>
+												<td>879,603</td>
+												<td class="down">▼ 6.0%</td>
+												<td>879,603</td>
+												<td class="down">6.0%</td>
+												<td class="brNone">35,375</td>
+											</tr>
+											<tr class="downCellSlide">
+												<td class="blNone downCell2 pb_0 pt_0">
+													<div class="downCellInner">
+														2월
+													</div>
+												</td>
+												<td>879,603</td>
+												<td class="up">▲6.0%</td>
+												<td>879,603</td>
+												<td class="up">▲6.0%</td>
+												<td class="brNone">35,375</td>
+											</tr>
+											<tr class="downCellSlide">
+												<td class="blNone downCell2 pt_0 pb_0">
+													<div class="downCellInnerBottom">
+														3월
+													</div>
+												</td>
+												<td>879,603</td>
+												<td class="down">▼ 6.0%</td>
+												<td>879,603</td>
+												<td class="down">6.0%</td>
+												<td class="brNone">35,375</td>
+											</tr>
+											<tr>
+												<td class="blNone downCell">2014</td>
+												<td>879,603</td>
+												<td class="down">▼ 6.0%</td>
+												<td>879,603</td>
+												<td class="down">6.0%</td>
+												<td class="brNone">35,375</td>
+											</tr>
+											<tr>
+												<td class="blNone downCell">2013</td>
+												<td>879,603</td>
+												<td class="up">6.0%</td>
+												<td>879,603</td>
+												<td class="up">6.0%</td>
+												<td class="brNone">35,375</td>
+											</tr>
+											<tr>
+												<td class="blNone downCell">2012</td>
+												<td class="numMore">879,6 <a href="javascript:;"><img src="../img/sub/sub/longNumIcon.png" alt="숫자더보기" /></a></td>
+												<td class="up">▲ 6.0%</td>
+												<td>879,603</td>
+												<td class="up">6.0%</td>
+												<td class="brNone">35,375</td>
+											</tr>
+											<tr>
+												<td class="blNone downCell">2011</td>
+												<td>879,603</td>
+												<td class="down">▼ 6.0%</td>
+												<td>879,603</td>
+												<td class="down">6.0%</td>
+												<td class="brNone">35,375</td>
+											</tr>
+											<tr>
+												<td class="blNone downCell">2010</td>
+												<td>879,603</td>
+												<td class="up">6.0%</td>
+												<td>879,603</td>
+												<td class="up">6.0%</td>
+												<td class="brNone">35,375</td>
+											</tr>
+											<tr>
+												<td class="blNone downCell">2009</td>
+												<td class="numMore">879,6 <a href="javascript:;"><img src="../img/sub/sub/longNumIcon.png" alt="숫자더보기" /></a></td>
+												<td class="up">▲ 6.0%</td>
+												<td>879,603</td>
+												<td class="up">6.0%</td>
+												<td class="brNone">35,375</td>
+											</tr>
+											<tr>
+												<td class="blNone downCell">2008</td>
+												<td>879,603</td>
+												<td class="down">▼ 6.0%</td>
+												<td>879,603</td>
+												<td class="down">6.0%</td>
+												<td class="brNone">35,375</td>
+											</tr>
+											<tr>
+												<td class="blNone downCell">2007</td>
+												<td>879,603</td>
+												<td class="up">6.0%</td>
+												<td>879,603</td>
+												<td class="up">6.0%</td>
+												<td class="brNone">35,375</td>
+											</tr>
+											<tr>
+												<td class="blNone downCellBottom">2006</td>
+												<td class="numMore">879,6 <a href="javascript:;"><img src="../img/sub/sub/longNumIcon.png" alt="숫자더보기" /></a></td>
+												<td class="up">▲ 6.0%</td>
+												<td>879,603</td>
+												<td class="up">6.0%</td>
+												<td class="brNone">35,375</td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="pagging">
+										<a href="javascript:;" class="paggingButton prev"><img src="../img/sub/common/pagging_pre.png" alt="이전" class="nonHover" /><img src="../img/sub/common/pagging_preOn.png" alt="이전" class="hover" /></a><!-- 20150724_수정 -->
+										<a href="javascript:;">1</a>
+										<a href="javascript:;">2</a>
+										<a href="javascript:;">3</a>
+										<a href="javascript:;">4</a>
+										<a href="javascript:;">5</a>
+										<a href="javascript:;">6</a>
+										<a href="javascript:;">7</a>
+										<a href="javascript:;">8</a>
+										<a href="javascript:;">9</a>
+										<a href="javascript:;">10</a>
+										<a href="javascript:;" class="paggingButton next"><img src="../img/sub/common/pagging_after.png" alt="다음" class="nonHover" /><img src="../img/sub/common/pagging_afterOn.png" alt="이전" class="hover" /></a><!-- 20150724_수정 -->
+									</div><!--pagging_end-->
+								</div><!--graphWrap_end-->
+								<!-- 20150720_추가 -->
+							</div><!--conTab01_end-->
+						</div><!--tabConContent_end-->
+					</div><!--subConWrap_end-->
+				</div><!--containerWrap_end-->
+			</div><!--container_end-->
+			<div id="footer">
+				<div class="footerWrap">
+					<div class="footerLogo">
+						<img src="../img/common/mainFLogo.png" alt="한국무역협회" />
+					</div><!--footerLogo_end-->
+					<ul>
+						<li>트레이드콜센터 <span>1566-5114</span></li>
+						<li class="pt_5">(135-729) 서울시 강남구 영동대로 511(삼성동)</li>						
+					</ul>
+				</div><!--footerWrap_end-->
+			</div><!--footer_end-->
+			<div id="gotop">
+				<a href="#head" title="Top"><img src="../img/sub/sub/topBtn.png" alt="상단으로 이동"></a>
+			</div>
+			<div class="layerDim"></div><!--layerDim_end-->
+			<div class="numMorePop">
+				<h2>더보기<a href="javascript:;" class="btnLayerClose"><img src="../img/sub/main/btnLayerClose.png" alt="팝업닫기" /></a></h2>
+				<div class="numMoreInner">
+					<p>879,603</p>
+				</div><!--numMoreInner_end-->
+			</div><!--numMorePop_end-->
+		</div><!--wrap_end-->
+	</body>
+</html>

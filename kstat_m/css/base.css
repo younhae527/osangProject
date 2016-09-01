@@ -1,0 +1,21 @@
+@charset "utf-8";
+/*맑은고딕웹폰트로드(폰트 사용할곳에font-family:'나눔고딕', 'Nanum Gothic', '굴림', 'Gulim', 'sans-serif', 'Tahoma';추가)*/
+/* @import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css"); */
+/* reset.css 스타일 초기화 */
+html,body{width:100%; height:100%; font-family:'Dotum','돋움', '굴림', 'Gulim', 'sans-serif', 'Tahoma', sans-serif; font-size:0.75em;color:#666;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;table-layout:fixed;}
+fieldset{border:0;}
+img{width:100%;border:0;vertical-align:top;}
+address,caption,cite,code,em,strong,th{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+a{text-decoration:none;margin:0;padding:0;font-size:1em;color:#666;}
+q:before,q:after{content:"";}
+abbr,acronym{border:0;}
+hr{display:none;}
+#skipnavi,.blind,legend,caption{position:absolute;left:0;top:0;width:0;height:0;font-size:0;line-height:0;text-indent:-9999px;overflow:hidden;visibility:hidden;}
+.blank {font-size: 0; line-height: 0; text-indent: -9999px;}
+
+

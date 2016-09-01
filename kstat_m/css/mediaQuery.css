@@ -1,0 +1,1983 @@
+/* 320_아이폰 사이즈 */
+@media screen and (max-width:320px){
+	.footerWrap ul li{ font-size:0.625em; }
+
+	.visualMap .mapPoint{ height:146px; }
+	.visualMap .mapPoint a.mp01{ top:5px; left:2%; }
+	.visualMap .mapPoint a.mp02{ top:37px; left:16%; }
+	.visualMap .mapPoint a.mp03{ bottom:30px; left:1%; } /* 20150717_수정 */
+	.visualMap .mapPoint a.mp04{ top:0px; left:23%; } /* 20150717_수정 */
+	.visualMap .mapPoint a.mp05{ top:20px; left:37.5%; }
+	.visualMap .mapPoint a.mp06{ bottom:25px; left:30%; }
+	.visualMap .mapPoint a.mp07{ top:25px; right:6%; }
+	.visualMap .mapPoint a.mp08{ bottom:39px; right:-2%; }
+
+	.rightMenu .tab_list dl dd .rightloginWrap{ width:174px; }
+	.rightMenu .tab_list .rightContentWrap .rightContent{ width:174px; }/* 20150908_수정 */
+
+	.subCenterWrap ul.subBottom{ margin:7% auto 0 auto; }
+	
+	.submainCont h3{ font-size:1.6em; }
+	.submainCont p{ font-size:1.4em; }
+
+	table.table_type1 th{ font-size:1.2em; }
+	table.table_type1 td{ font-size:1.2em; }
+
+	table.table_type2 th{ font-size:1.2em; }
+	table.table_type2 td{ font-size:1.2em; }
+
+	.submainContbottom ul li a{ font-size:1.4em; }
+	.submainContbottom ul li a.on{ font-size:1.6em; }
+	.submainContbottom .tabWrap p{ font-size:1.4em; }
+
+	.layerPop{ margin-left:-144px; }
+	.layerPop h2{ font-size:2.2em; padding:5% 0 5% 5%; position:relative; }
+	.layerPop h2 a{ width:8%; display:block; position:absolute; right:5%; top:30%; }
+	.layerPop p{ font-size:1.2em; }
+	.layerPop .layerCon{ height:334px; }
+	.layerPop .layerCon ul li a{ font-size:1.2em; }
+
+	.subHConWrap .subHCon>img{ height:115px; }
+	.subHConWrap .subHCon .subHConInner{ margin-left:-144px; bottom:15%; }
+
+	/* 20150722_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName p{ font-size:2.2em; bottom:15px; }
+
+	.subHConWrap .subHCon .subHConInner .countrySel a{ font-size:1.2em; right:1.5%; bottom:20px; }
+
+	/* 20150728_추가 */
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-144px; bottom:22%; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:2.2em; bottom:2px; }
+				
+	.tab_type1 li{  }/* 20150721_수정 */
+	.tab_type1 li a span{ font-size:1.4em; bottom:9px; }/* 20150731_수정 */
+
+	.tab_type11 li{  }/* 20150731_추가 */
+	.tab_type11 li a span{ font-size:1.4em; bottom:9px; }/* 20150731_추가 */
+
+	.tab_type2 li{  }/* 20150722_수정 */
+	.tab_type2 li a span{ font-size:1.4em; bottom:9px; }/* 20150731_수정 */
+
+	.tab_type3{ height:3.3em; }
+	.tab_type3 li a span{ font-size:1.4em; bottom:9px; }/* 20150731_수정 */
+
+	.rotator_btn a{ width:10px; height:24px; top:16px; margin-top:-12px; }/* 20150731_수정 */
+	.rotator_btn a.rotator_prev{ background-size:10px 24px; }/* 20150723_추가 */
+	.rotator_btn a.rotator_prev:hover{ background-size:10px 24px; }/* 20150723_추가 */
+	.rotator_btn a.rotator_next{ background-size:10px 24px; }/* 20150723_추가 */
+	.rotator_btn a.rotator_next:hover{ background-size:10px 24px; }/* 20150723_추가 */
+
+	.selectWrap ul li span{ background-size:3px 3px; font-size:1.2em; padding-left:1.5%; }
+	.selectWrap ul li select{ font-size:1.2em; } 
+	.selectWrap ul li input[type="radio"]+label{ font-size:1.2em; padding-right:2%; }
+	.selectWrap ul li input[type="text"]{ font-size:1.2em; }
+	.selectWrap ul li a.searchBtn{ width:15%; top:15%; }
+
+	.tabContent .countInfoTxt{ font-size:1.2em; background-size:3px 3px; padding:3% 0 3% 1.5%; }
+	.tabContent .countInfoTxt span.subTxt{ font-size:0.55em; }
+	.tabContent .button01{ right:22%; top:12%; }/* 20150722_수정 */
+	.tabContent .button01 a{ width:25px; height:22px; background-size:25px 22px; }
+	.tabContent .button01 a.on{ background-size:25px 22px; }
+	.tabContent .button02{ right:13%; top:12%; }
+	.tabContent .button02 a{ width:25px; height:22px; background-size:25px 22px; }/* 20150722_수정 */
+	.tabContent .button02 a.on{ background-size:25px 22px; }
+	.tabContent .button03{ right:1%; }
+	.tabContent .button03 a{ width:33px; height:25px; background-size:33px 25px; }/* 20150722_수정 *//* 20150722_수정 */
+	.tabContent .button03 a.on{ background-size:33px 25px; }/* 20150722_수정 */
+
+	table.table_subType1 th{ font-size:1.2em; }
+	table.table_subType1 td{ font-size:1.2em; }
+
+	.countMore a{ font-size:1.2em; }
+
+	.tableWrap p.info{ font-size:1em; background-size:3px 3px; padding:1% 0 1% 1.5%; } /* 20150731_수정 */
+
+	.numMorePop h2{ font-size:2.2em; padding:5% 0 5% 5%; position:relative; }
+	.numMorePop h2 a{ width:8%; display:block; position:absolute; right:5%; top:30%; }
+	.numMorePop .numMoreInner p{ font-size:1.2em; }/* 20150722_수정 */
+
+	/* 20150720_추가 */
+	table.table_subType1 td.downCell{ padding-top:2.5%; }
+	table.table_subType1 td .downCellInner{ padding-top:26%; }
+	table.table_subType1 td .downCellInnerBottom{ padding-top:24%; }
+
+	.pagging{  }/* 20150724_삭제 */
+
+	/* 20150721_추가 */
+	.subHConWrap .subHCon .subHConInner .countrySel select option{ font-size:1em; }
+
+	/* 20150724_추가 */
+	ul.boardList li a span.boardTitle{ font-size:1.4em; }
+	ul.boardList li a span.date{ font-size:1em; }
+
+	.boardViewTitle h3{ font-size:1.6em; }
+	.boardViewTitle p.date{ font-size:1.3em; }
+
+	.boardViewContent{ min-height:348px; }
+	.boardViewContent p{ font-size:1.3em; }
+
+	.boardViewfile p.file{ font-size:1.3em; }
+	.boardViewfile p.file a{ font-size:1em; }
+
+	.errorWrap{ margin:16% auto; }
+	.errorTitle{ font-size:1.4em; }
+	.errorConText{ font-size:1.2em; }
+
+	/* 검색팝업 */ /* 20150728_추가 */
+	.searchTitle h3{ font-size:2.2em; }
+	.searchContent{ min-height:350px; }
+	.searchCon select{ width:74%; }
+
+	.tab_type4 li a span{ font-size:1.4em; bottom:7px; }
+
+	.tab_type5 li a span{ font-size:1.4em; bottom:7px; }
+
+	/* 20150730_추가 */
+	.subHConWrap .subHCon .subHConInner01 .guideName p{ font-size:2em; bottom:2px; margin-left:-118px; }
+
+	/* 20150731_추가 */
+	.visualMap .mapPoint span{ font-size:1.2em; }
+
+	/* 20150801_추가 */
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:27%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:19%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:15%; }
+
+	/* 20150804_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:29%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; bottom:2px; margin-left:-89px; }
+
+	/* 20150811_추가 */
+	.subHConWrap .subHCon .subHConInner01 .useInfoName p{ left:10%; }
+}
+
+/* 375_아이폰6사이즈 */ /* 20150729_추가 */
+@media screen and (min-width:375px){
+
+	.visualMap .mapPoint{ height:171px; }
+	.visualMap .mapPoint a.mp01{ top:28px; left:3%; }
+	.visualMap .mapPoint a.mp02{ top:50px; left:17%; }
+	.visualMap .mapPoint a.mp03{ bottom:40px; left:4%; } 
+	.visualMap .mapPoint a.mp04{ top:10px; left:23%; } 
+	.visualMap .mapPoint a.mp05{ top:41px; left:38.5%; }
+	.visualMap .mapPoint a.mp06{ bottom:28px; left:31%; }
+	.visualMap .mapPoint a.mp07{ top:25px; right:10%; }
+	.visualMap .mapPoint a.mp08{ bottom:39px; right:-2%; }
+
+	.rightMenu .tab_list .rightContentWrap .rightContent{ width:208px; }/* 20150908_수정 */
+
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-173px; bottom:22%; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:2.2em; bottom:4px; }
+	
+	.searchTitle h3{ font-size:2.2em; }
+	.searchContent{ min-height:513px; }
+	.searchCon select{ width:77%; }
+
+	/* 20150731_추가 */
+	.subCenterWrap{ margin-left:-188px; }
+	.tab_type1 li a span{ bottom:12px; }
+	.tab_type11 li a span{ bottom:12px; }
+
+	/* 20150801_추가 */
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:31%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:24%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:20%; }
+	
+	/* 20150804_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:33%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; bottom:5px; margin-left:-92px; }
+
+	/* 20150807_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName p{ font-size:2.2em; bottom:19px; }
+	.subHConWrap .subHCon .subHConInner .countrySel a{ bottom:24px; }
+}
+
+/* 384_사이즈 */ /* 20150727_추가 */
+@media screen and (min-width:384px){
+
+	.visualMap .mapPoint{ height:176px; }
+	.visualMap .mapPoint a.mp01{ top:28px; left:3%; }
+	.visualMap .mapPoint a.mp02{ top:50px; left:17%; }
+	.visualMap .mapPoint a.mp03{ bottom:40px; left:4%; } 
+	.visualMap .mapPoint a.mp04{ top:10px; left:23%; } 
+	.visualMap .mapPoint a.mp05{ top:41px; left:38.5%; }
+	.visualMap .mapPoint a.mp06{ bottom:28px; left:31%; }
+	.visualMap .mapPoint a.mp07{ top:25px; right:10%; }
+	.visualMap .mapPoint a.mp08{ bottom:39px; right:-2%; }
+
+	/* 20150728_추가 */
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-173px; bottom:22%; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:2.2em; bottom:4px; }
+
+	/* 검색팝업 */ /* 20150728_추가 */
+	.searchTitle h3{ font-size:2.2em; }
+	.searchContent{ min-height:513px; }
+	.searchCon select{ width:77%; }
+
+	/* 20150731_추가 */
+	.subCenterWrap{ margin-left:-192px; }
+
+	/* 20150801_추가 */
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:32%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:24%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:21%; }
+	
+	/* 20150804_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:33%; }
+
+	.layerPop{ margin-left:-173px; }/* 20150806_수정 */
+
+	/* 20150807_수정 */
+	.subHConWrap .subHCon .subHConInner .countryName p{ bottom:20px; }
+}
+
+/* 400_NOTE1 사이즈 */ /* 20150727_추가 */
+@media screen and (min-width:400px){
+
+	.visualMap .mapPoint{ height:176px; }
+	.visualMap .mapPoint a.mp01{ top:33px; left:3%; }
+	.visualMap .mapPoint a.mp02{ top:55px; left:17%; }
+	.visualMap .mapPoint a.mp03{ bottom:40px; left:4%; } 
+	.visualMap .mapPoint a.mp04{ top:15px; left:23%; } 
+	.visualMap .mapPoint a.mp05{ top:46px; left:38.5%; }
+	.visualMap .mapPoint a.mp06{ bottom:21px; left:31%; }
+	.visualMap .mapPoint a.mp07{ top:35px; right:10%; }
+	.visualMap .mapPoint a.mp08{ bottom:29px; right:-2%; }
+
+	/* 20150728_추가 */
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-180px; bottom:15%; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:2.2em; bottom:4px; }
+
+	/* 검색팝업 */ /* 20150728_추가 */
+	.searchTitle h3{ font-size:2.2em; }
+	.searchContent{ min-height:511px; }
+	.searchCon select{ width:78%; }
+
+	.rightMenu .tab_list .rightContentWrap{ width:238px; }/* 20150908_수정 */
+	.rightMenu .tab_list .rightContentWrap .rightContent{ width:222px; }/* 20150908_수정 */
+
+	/* 20150731_추가 */
+	.subHConWrap .subHCon .subHConInner{ margin-left:-179px; }
+	.subCenterWrap{ margin-left:-200px; }
+
+	/* 20150801_추가 */
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:32%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:24%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:21%; }
+
+	/* 20150804_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:33%; }
+
+	/* 20150807_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName p{ bottom:21px; }
+	.subHConWrap .subHCon .subHConInner .countrySel a{ bottom:26px; }
+
+	/* 20150811_추가 */
+	.subHConWrap .subHCon .subHConInner01 .useInfoName p{ left:19%; }
+	.useInfoTitle li a{ font-size:1.6em; }
+
+	.useInfo h4{ font-size:1.6em; }
+	.useInfo h4.num01{ background:url('../img/sub/sub/useInfo_num01.png') left 0 no-repeat; background-size:15px 15px; }
+	.useInfo h4.num02{ background:url('../img/sub/sub/useInfo_num02.png') left 0 no-repeat; background-size:15px 15px; }
+	.useInfo h4.num03{ background:url('../img/sub/sub/useInfo_num03.png') left 0 no-repeat; background-size:15px 15px; }
+	.useInfo h4.num04{ background:url('../img/sub/sub/useInfo_num04.png') left 0 no-repeat; background-size:15px 15px; }
+	.useInfo h4.num05{ background:url('../img/sub/sub/useInfo_num05.png') left 0 no-repeat; background-size:15px 15px; }
+
+	.useInfo .summary{ font-size:1.6em; }
+	.tab_type3{ height:4.1em; } 
+}
+
+/* 414_아이폰6플러스 사이즈 */
+@media screen and (min-width:414px){
+	.footerWrap ul li{ font-size:1.125em; }
+
+	.visualMap .mapPoint{ height:193px; }
+	.visualMap .mapPoint a.mp01{ top:34px; left:3%; }
+	.visualMap .mapPoint a.mp02{ top:58px; left:17%; }
+	.visualMap .mapPoint a.mp03{ bottom:50px; left:3.5%; }
+	.visualMap .mapPoint a.mp04{ top:15px; left:23%; }
+	.visualMap .mapPoint a.mp05{ top:50px; left:39%; }
+	.visualMap .mapPoint a.mp06{ bottom:31px; left:32%; }
+	.visualMap .mapPoint a.mp07{ top:30px; right:10%; }
+	.visualMap .mapPoint a.mp08{ bottom:39px; right:-1%; }
+
+	.rightMenu .tab_list{ height:736px; }
+	.rightMenu .tab_list dl dd .rightloginWrap{ width:235px; }
+	.rightMenu .tab_list .rightContentWrap .rightContent{ width:235px; }/* 20150908_수정 */
+
+	.submainCont h3{ font-size:2em; }
+	.submainCont p{ font-size:1.5em; }
+
+	table.table_type1 th{ font-size:1.5em; }
+	table.table_type1 td{ font-size:1.5em; }
+
+	table.table_type2 th{ font-size:1.5em; }
+	table.table_type2 td{ font-size:1.5em; }
+
+	.submainContbottom ul li a{ font-size:1.6em; }
+	.submainContbottom ul li a.on{ font-size:2em; }
+	.submainContbottom .tabWrap p{ font-size:1.5em; }
+
+	.layerPop{ margin-left:-186px; }
+	.layerPop h2{ font-size:2.2em; }
+
+	.subHConWrap .subHCon>img{ height:146px; }
+	.subHConWrap .subHCon .subHConInner{ margin-left:-186px; }
+
+	/* 20150722_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName p{ font-size:3em; bottom:20px; left:35%; }/* 20150807_수정 */
+
+	.subHConWrap .subHCon .subHConInner .countrySel a{ font-size:1.6em; right:1%; bottom:26px; }
+
+	/* 20150728_추가 */
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-186px; bottom:22%; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:3em; bottom:3px; left:18%; }
+	.subHConWrap .subHCon .subHConInner01 .worldName p{ font-size:3em; bottom:3px; left:45%; } /* 20150729_수정 */
+	.subHConWrap .subHCon .subHConInner01 .analysisName p{ font-size:3em; bottom:3px; left:41%; } /* 20150729_수정 */
+
+	.tab_type1 li{ height:42px; }/* 20150721_수정 */
+	.tab_type1 li a span{ font-size:1.6em; bottom:13px; }/* 20150731_수정 */
+
+	.tab_type11 li{ height:42px; }/* 20150731_추가 */
+	.tab_type11 li a span{ font-size:1.6em; bottom:13px; }/* 20150731_추가 */
+
+	.tab_type2 li{ height:42px; }/* 20150721_수정 */
+	.tab_type2 li a span{ font-size:1.6em; bottom:13px; }/* 20150731_수정 */
+
+	.tab_type3{ height:4.2em; }/* 20150811_수정 */
+	.tab_type3 li a span{ font-size:1.6em; bottom:13px; }/* 20150731_수정 */
+
+	.tab_type4 li{ height:42px; }
+	.tab_type4 li a span{ font-size:1.6em; bottom:13px; }/* 20150731_수정 */
+
+	.selectWrap ul li span{ background-size:5px 5px; font-size:1.6em; padding-left:2%; }
+	.selectWrap ul li select{ font-size:1.6em; } 
+	.selectWrap ul li input[type="radio"]+label{ font-size:1.6em; padding-right:3%; }
+	.selectWrap ul li input[type="text"]{ font-size:1.6em; }
+	.selectWrap ul li a.searchBtn{ width:15%; top:14%; }
+
+	.tabContent .countInfoTxt{ font-size:1.6em; background-size:5px 5px; padding:3% 0 3% 2%; }
+	.tabContent .countInfoTxt span.subTxt{ font-size:1em; }
+	.tabContent .button01{ right:20%; top:12%; }
+	.tabContent .button02{ right:11.5%; top:12%; }
+	.tabContent .button03{ right:1%; }
+	.tabContent .button03 a{ width:42px; height:32px; background-size:42px 32px; }/* 20150722_수정 */
+	.tabContent .button03 a.on{ background-size:42px 32px; }/* 20150722_수정 */
+
+	table.table_subType1 th{ font-size:1.5em; }
+	table.table_subType1 td{ font-size:1.5em; }/* 20150806_수정 */
+
+	.countMore a{ font-size:1.5em; }
+
+	.tableWrap p.info{ font-size:1.4em; background-size:5px 5px; padding:1% 0 1% 2%; } /* 20150731_수정 */
+
+	.numMorePop h2{ font-size:2.2em; }
+	.numMorePop .numMoreInner p{ font-size:1.8em; }/* 20150722_수정 */
+
+	/* 20150720_추가 */
+	table.table_subType1 td.downCellTop{ height:40px; }
+	table.table_subType1 td.downCell{ height:40px; }
+	table.table_subType1 td a.downCellSlideBtn{ width:15px; height:15px; top:20px; background-size:15px 15px; }
+	table.table_subType1 td a.downCellSlideBtn.on{ width:15px; height:15px; top:20px; background-size:15px 15px; }
+
+	.pagging a{ font-size:1.6em; }
+
+	.subHConWrap .subHCon .subHConInner .countrySel select{ top:-44px; }
+	.subHConWrap .subHCon .subHConInner .countrySel select option{ font-size:1.4em; }
+
+	/* 20150724_추가 */
+	ul.boardList li a span.boardTitle{ font-size:2em; }
+	ul.boardList li a span.date{ font-size:1.6em; }
+
+	.boardViewTitle h3{ font-size:2em; }
+	.boardViewTitle p.date{ font-size:1.6em; }
+
+	.boardViewContent{ min-height:490px; }
+	.boardViewContent p{ font-size:1.6em; }
+
+	.boardViewfile p.file{ font-size:1.6em; }
+	.boardViewfile p.file a{ font-size:1em; }
+
+	.errorWrap{ margin:21% auto; }
+	.errorTitle{ font-size:1.8em; }
+	.errorConText{ font-size:1.6em; }
+
+	/* 검색팝업 */ /* 20150728_추가 */
+	.searchTitle h3{ font-size:2.6em; }
+	.searchContent{ min-height:511px; }
+	.searchConInner span.subTitle{ font-size:1.6em; }
+	.topBtn{ top:-15px; } /* 20150804_추가 */
+	.searchCon select{ width:76%; }
+
+	.tab_type4 li{ height:42px; }
+	.tab_type4 li a span{ font-size:1.6em; bottom:12px; }
+
+	.tab_type5 li{ height:42px; }
+	.tab_type5 li a span{ font-size:1.6em; bottom:10px; }
+
+	/* 20150730_추가 */
+	.subHConWrap .subHCon .subHConInner01 .exchangeName p{ margin-left:-18px; }
+	.subHConWrap .subHCon .subHConInner01 .guideName p{ font-size:2.7em; bottom:5px; margin-left:-36px; }
+
+	/* 201500731_추가 */
+	.rotator_btn a{ top:21px; }
+	.subCenterWrap{ margin-left:-207px; }
+
+	/* 20150801_추가 */
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:27%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:18%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:15%; }
+
+	/* 20150804_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:28%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; bottom:2px; margin-left:-122px; }
+	
+	/* 20150805_추가 */
+	.selectWrap ul li span.subTitle{ font-size:1.6em; }
+	.selectWrap ul li input[type="radio"]+label{ font-size:1.6em; }/* 20150806_추가 */
+
+	/* 20150811_추가 */
+	.subHConWrap .subHCon .subHConInner01 .useInfoName p{ left:8%; }
+	.useInfoTitle li a{ font-size:2.2em; }
+
+	.useInfo h4{ font-size:2.2em; }
+	.useInfo h4.num01{ background:url('../img/sub/sub/useInfo_num01.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num02{ background:url('../img/sub/sub/useInfo_num02.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num03{ background:url('../img/sub/sub/useInfo_num03.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num04{ background:url('../img/sub/sub/useInfo_num04.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num05{ background:url('../img/sub/sub/useInfo_num05.png') left 0 no-repeat; background-size:20px 20px; }
+
+	.useInfo .summary{ font-size:2.2em; }
+}
+
+/* 480_아이폰4 가로 사이즈 */
+@media screen and (min-width:480px){
+	/* 20150729_추가 */
+	.mm-menu{ width:40%; }
+	html.mm-opened.mm-opening .mm-page, html.mm-opened.mm-opening #mm-blocker, html.mm-opened.mm-opening .mm-fixed-top, html.mm-opened.mm-opening .mm-fixed-bottom{ left:40%; }
+
+	.visualMap .mapPoint{ height:225px; }
+	.visualMap .mapPoint a.mp01{ top:58px; left:4%; }
+	.visualMap .mapPoint a.mp02{ top:85px; left:19%; }
+	.visualMap .mapPoint a.mp03{ bottom:50px; left:5%; }
+	.visualMap .mapPoint a.mp04{ top:45px; left:23%; }
+	.visualMap .mapPoint a.mp05{ top:73px; left:39%; }
+	.visualMap .mapPoint a.mp06{ bottom:31px; left:34%; }
+	.visualMap .mapPoint a.mp07{ top:60px; right:13%; }
+	.visualMap .mapPoint a.mp08{ bottom:39px; right:0%; }
+
+	/* 20150728_추가 */
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-216px; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:3em; bottom:5px; left:21%; }
+
+	/* 검색팝업 */ /* 20150728_추가 */
+	.searchTitle h3{ font-size:2.6em; }
+	.searchContent{ min-height:511px; }
+	.searchConInner span.subTitle{ font-size:2.5em; }/* 20150804_수정 */
+	.searchConInner select{ font-size:2.5em; }/* 20150804_추가 */
+	.topBtn{ top:-20px; }/* 20150804_추가 */
+	.searchCon select{ width:79%; }
+
+	/* 20150729_추가 */
+	.subHConWrap .subHCon .subHConInner{ margin-left:-216px; }
+	.subHConWrap .subHCon .subHConInner01 .worldName p{ font-size:3em; bottom:5px; left:45%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName p{ font-size:3em; bottom:5px; left:42%; }
+	.subHConWrap .subHCon .subHConInner .countryName p{ bottom:24px; }
+	.subHConWrap .subHCon .subHConInner .countrySel a{ bottom:31px; right:3%; }
+	.tab_type1 li{ height:49px; }
+	.tab_type1 li a span{ bottom:17px; } /* 20150731_수정 */
+
+	.tab_type11 li{ height:49px; } /* 20150731_추가 */
+	.tab_type11 li a span{ bottom:17px; } /* 20150731_추가 */
+	
+	.tab_type2 li{ height:49px; }
+	.tab_type2 li a span{ bottom:17px; } /* 20150731_수정 */
+
+	.tab_type3 li a span{ bottom:17px; } /* 20150731_수정 */
+
+	.tab_type4 li{ height:49px; }
+	.tab_type4 li a span{ bottom:17px; } /* 20150731_수정 */
+
+	.layerPop{ margin-left:-216px; }
+	.layerPop h2 a{ width:5%; }
+
+	.numMorePop h2 a{ width:5%; }
+
+	.subHConWrap .subHCon .subHConInner01{ bottom:17%; }
+	.rightMenu .tab_list .rightContentWrap .rightContent{ width:300px; }/* 20150908_수정 */
+
+	.subHConWrap .subHCon>img{ height:156px; }
+
+	/* 20150730_추가 */
+	.subHConWrap .subHCon .subHConInner01 .exchangeName p{ margin-left:-15px; }
+	.subHConWrap .subHCon .subHConInner01 .guideName p{ font-size:3em; bottom:5px; margin-left:-48px; }
+
+	/* 201500731_추가 */
+	.rotator_btn a{ top:24px; }/* 201500811_수정 */
+	.subCenterWrap{ margin-left:-240px; }
+
+	/* 20150801_추가 */
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:30%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:22%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:19%; }
+	
+	/* 20150804_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:31%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; bottom:5px; margin-left:-127px; }
+
+	/* 20150805_추가 */
+	.selectWrap ul li span.subTitle{ font-size:2.5em; }/* 20150804_수정 */
+
+	/* 20150806_추가 */
+	.selectWrap ul li a.checkBtn{ width:8%; }
+	table.table_subType1 th{ font-size:1.8em; }
+	table.table_subType1 td{ font-size:1.8em; }
+	.selectWrap ul li input[type="radio"]+label{ font-size:2.5em; }
+	.subHeader p{ font-size:3em; }
+
+	/* 20150807_추가 */
+	a.rightClose img{ width:20px; height:20px; }
+
+	/* 20150811_추가 */
+	.subHConWrap .subHCon .subHConInner01 .useInfoName p{ left:15%; }
+	.useInfoTitle li a{ font-size:2em; }
+
+	.useInfo h4{ font-size:2em; }
+	.useInfo h4.num01{ background:url('../img/sub/sub/useInfo_num01.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num02{ background:url('../img/sub/sub/useInfo_num02.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num03{ background:url('../img/sub/sub/useInfo_num03.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num04{ background:url('../img/sub/sub/useInfo_num04.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num05{ background:url('../img/sub/sub/useInfo_num05.png') left 0 no-repeat; background-size:20px 20px; }
+
+	.useInfo .summary{ font-size:2em; }
+}
+
+/* 512_아이폰4 가로 사이즈 *//* 20150805_추가 */
+@media screen and (min-width:512px){
+	
+	.mm-menu{ width:40%; }
+	html.mm-opened.mm-opening .mm-page, html.mm-opened.mm-opening #mm-blocker, html.mm-opened.mm-opening .mm-fixed-top, html.mm-opened.mm-opening .mm-fixed-bottom{ left:40%; }
+
+	.visualMap .mapPoint{ height:240px; }
+	.visualMap .mapPoint a.mp01{ top:66px; left:4%; }
+	.visualMap .mapPoint a.mp02{ top:95px; left:19%; }
+	.visualMap .mapPoint a.mp03{ bottom:50px; left:6%; }
+	.visualMap .mapPoint a.mp04{ top:45px; left:23%; }
+	.visualMap .mapPoint a.mp05{ top:83px; left:39.5%; }
+	.visualMap .mapPoint a.mp06{ bottom:31px; left:34%; }
+	.visualMap .mapPoint a.mp07{ top:70px; right:13%; }
+	.visualMap .mapPoint a.mp08{ bottom:39px; right:0%; }
+
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-230px; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:3em; bottom:5px; left:21%; }
+	.selectWrap ul li a.searchBtn{ bottom:8%; }
+
+	/* 검색팝업 */
+	.searchTitle h3{ font-size:2.6em; }
+	.searchContent{ min-height:511px; }
+	.searchConInner span.subTitle{ font-size:2.5em; }
+	.searchConInner select{ font-size:2.5em; }
+	.topBtn{ top:-20px; }
+	.searchCon select{ width:79%; }
+
+	.subHConWrap .subHCon .subHConInner{ margin-left:-230px; }
+	.subHConWrap .subHCon .subHConInner01 .worldName p{ font-size:3em; bottom:5px; left:45%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName p{ font-size:3em; bottom:5px; left:42%; }
+	.subHConWrap .subHCon .subHConInner .countryName p{ bottom:28px; }
+	.subHConWrap .subHCon .subHConInner .countrySel a{ bottom:35px; right:3%; }
+	.tab_type1 li{ height:52px; }
+	.tab_type1 li a span{ bottom:17px; }
+
+	.tab_type11 li{ height:52px; }
+	.tab_type11 li a span{ bottom:17px; }
+	
+	.tab_type2 li{ height:52px; }
+	.tab_type2 li a span{ bottom:17px; }
+
+	.tab_type3{ height:5.2em; }
+	.tab_type3 li a span{ bottom:17px; }
+
+	.tab_type4 li{ height:52px; }
+	.tab_type4 li a span{ bottom:17px; } 
+
+	.layerPop{ margin-left:-230px; }/* 20150806_수정 */
+	.layerPop h2 a{ width:5%; }
+
+	.numMorePop h2 a{ width:5%; }
+
+	.subHConWrap .subHCon .subHConInner01{ bottom:17%; }
+	.rightMenu .tab_list .rightContentWrap .rightContent{ width:310px; }/* 20150908_수정 */
+
+	.subHConWrap .subHCon>img{ height:174px; }
+
+	.subHConWrap .subHCon .subHConInner01 .exchangeName p{ margin-left:-2px; }/* 20150812_수정 */
+	.subHConWrap .subHCon .subHConInner01 .guideName p{ font-size:3em; bottom:5px; margin-left:-48px; }
+
+	.rotator_btn a{ top:21px; }
+	.subCenterWrap{ margin-left:-240px; }
+
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:30%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:22%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:19%; }
+	
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:31%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; bottom:5px; margin-left:-127px; }
+
+	.selectWrap ul li span.subTitle{ font-size:2.5em; }/* 20150804_수정 */
+	.selectWrap ul li input[type="radio"]+label{ font-size:2.5em; }/* 20150806_추가 */
+	.subHeader p{ font-size:4em; }/* 20150806_추가 */
+
+	/* 20150811_추가 */
+	.subHConWrap .subHCon .subHConInner01 .useInfoName p{ left:16%; }
+	.useInfoTitle li a{ font-size:1.8em; }
+
+	.useInfo h4{ font-size:1.8em; }
+	.useInfo h4.num01{ background:url('../img/sub/sub/useInfo_num01.png') left 0 no-repeat; background-size:15px 15px; }
+	.useInfo h4.num02{ background:url('../img/sub/sub/useInfo_num02.png') left 0 no-repeat; background-size:15px 15px; }
+	.useInfo h4.num03{ background:url('../img/sub/sub/useInfo_num03.png') left 0 no-repeat; background-size:15px 15px; }
+	.useInfo h4.num04{ background:url('../img/sub/sub/useInfo_num04.png') left 0 no-repeat; background-size:15px 15px; }
+	.useInfo h4.num05{ background:url('../img/sub/sub/useInfo_num05.png') left 0 no-repeat; background-size:15px 15px; }
+
+	.useInfo .summary{ font-size:1.8em; }
+}
+
+/* 533_아이폰4 가로 사이즈 *//* 20150805_추가 */
+@media screen and (min-width:533px){
+	
+	.mm-menu{ width:40%; }
+	html.mm-opened.mm-opening .mm-page, html.mm-opened.mm-opening #mm-blocker, html.mm-opened.mm-opening .mm-fixed-top, html.mm-opened.mm-opening .mm-fixed-bottom{ left:40%; }
+
+	.visualMap .mapPoint{ height:240px; }
+	.visualMap .mapPoint a.mp01{ top:72px; left:4%; }
+	.visualMap .mapPoint a.mp02{ top:102px; left:19%; }
+	.visualMap .mapPoint a.mp03{ bottom:50px; left:6%; }
+	.visualMap .mapPoint a.mp04{ top:45px; left:23%; }
+	.visualMap .mapPoint a.mp05{ top:90px; left:39.5%; }
+	.visualMap .mapPoint a.mp06{ bottom:20px; left:34%; }
+	.visualMap .mapPoint a.mp07{ top:80px; right:13%; }
+	.visualMap .mapPoint a.mp08{ bottom:29px; right:1%; }
+
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-240px; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:3em; bottom:7px; left:23%; }
+
+	/* 검색팝업 *//
+	.searchTitle h3{ font-size:2.6em; }
+	.searchContent{ min-height:511px; }
+	.searchConInner span.subTitle{ font-size:2.5em; }
+	.searchConInner select{ font-size:2.5em; }
+	.topBtn{ top:-20px; }
+	.searchCon select{ width:79%; }
+
+	.subHConWrap .subHCon .subHConInner{ margin-left:-240px; }
+	.subHConWrap .subHCon .subHConInner01 .worldName p{ font-size:3em; bottom:7px; left:45%; }/* 20150811_수정 */
+	.subHConWrap .subHCon .subHConInner01 .analysisName p{ font-size:3em; bottom:7px; left:42%; }
+	.subHConWrap .subHCon .subHConInner .countryName p{ font-size:3em; bottom:28px; }/* 20150807_수정 */
+	.subHConWrap .subHCon .subHConInner .countrySel a{ bottom:35px; right:3%; }
+	.tab_type1 li{ height:54px; }
+	.tab_type1 li a span{ bottom:20px; }
+
+	.tab_type11 li{ height:54px; }
+	.tab_type11 li a span{ bottom:20px; }
+	
+	.tab_type2 li{ height:54px; }
+	.tab_type2 li a span{ bottom:20px; }
+
+	.tab_type3{ height:5.4em; }
+	.tab_type3 li a span{ bottom:20px; }
+
+	.tab_type4 li{ height:54px; }
+	.tab_type4 li a span{ bottom:20px; } 
+
+	.layerPop{ margin-left:-240px; }
+	.layerPop h2 a{ width:5%; }
+
+	.numMorePop h2 a{ width:5%; }
+
+	.subHConWrap .subHCon .subHConInner01{ bottom:17%; }
+	.rightMenu .tab_list .rightContentWrap .rightContent{ width:330px; }/* 20150908_수정 */
+
+	.subHConWrap .subHCon>img{ height:174px; }
+
+	.subHConWrap .subHCon .subHConInner01 .exchangeName p{ margin-left:-15px; }
+	.subHConWrap .subHCon .subHConInner01 .guideName p{ font-size:3em; bottom:7px; margin-left:-48px; }/* 20150811_수정 */
+
+	.rotator_btn a{ top:26px; }
+	.subCenterWrap{ margin-left:-240px; }
+
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:30%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:22%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:19%; }
+	
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:31%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; bottom:7px; margin-left:-127px; }
+
+	.selectWrap ul li span.subTitle{ font-size:2.5em; }/* 20150804_수정 */
+	.selectWrap ul li input[type="radio"]+label{ font-size:2.5em; }/* 20150806_추가 */
+	
+	.rightMenu .tab_list dl dd .rightloginWrap a.login{ width:28%; }/* 20150806_수정 */
+	.subHeader p{ font-size:4em; }/* 20150806_추가 */
+
+	/* 20150811_추가 */
+	.subHConWrap .subHCon .subHConInner01 .useInfoName p{ left:19%; }
+	.useInfoTitle li a{ font-size:1.8em; }
+
+	.useInfo h4{ font-size:1.8em; }
+	.useInfo h4.num01{ background:url('../img/sub/sub/useInfo_num01.png') left 0 no-repeat; background-size:15px 15px; }
+	.useInfo h4.num02{ background:url('../img/sub/sub/useInfo_num02.png') left 0 no-repeat; background-size:15px 15px; }
+	.useInfo h4.num03{ background:url('../img/sub/sub/useInfo_num03.png') left 0 no-repeat; background-size:15px 15px; }
+	.useInfo h4.num04{ background:url('../img/sub/sub/useInfo_num04.png') left 0 no-repeat; background-size:15px 15px; }
+	.useInfo h4.num05{ background:url('../img/sub/sub/useInfo_num05.png') left 0 no-repeat; background-size:15px 15px; }
+
+	.useInfo .summary{ font-size:1.8em; }
+}
+
+/* 568_아이폰5 가로 사이즈 *//* 20150729_추가 */
+@media screen and (min-width:568px){
+	/* 20150729_추가 */
+	.mm-menu{ width:40%; }
+	html.mm-opened.mm-opening .mm-page, html.mm-opened.mm-opening #mm-blocker, html.mm-opened.mm-opening .mm-fixed-top, html.mm-opened.mm-opening .mm-fixed-bottom{ left:40%; }
+
+	.visualMap .mapPoint{ height:268px; }
+	.visualMap .mapPoint a.mp01{ top:83px; left:5%; }
+	.visualMap .mapPoint a.mp02{ top:115px; left:19%; }
+	.visualMap .mapPoint a.mp03{ bottom:50px; left:7%; }
+	.visualMap .mapPoint a.mp04{ top:65px; left:23%; }
+	.visualMap .mapPoint a.mp05{ top:103px; left:40%; }
+	.visualMap .mapPoint a.mp06{ bottom:31px; left:35%; }
+	.visualMap .mapPoint a.mp07{ top:90px; right:13%; }
+	.visualMap .mapPoint a.mp08{ bottom:39px; right:1%; }
+
+	.rightMenu .tab_list .rightContentWrap .rightContent{ width:340px; }/* 20150908_수정 */
+
+	.subHConWrap .subHCon>img{ height:186px; }
+
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-254px; }
+
+	.searchTitle h3{ font-size:2.6em; }
+	.searchContent{ min-height:511px; }
+	.searchConInner span.subTitle{ font-size:1.6em; }/* 20150804_수정 */
+	.searchConInner select{ font-size:2.5em; }/* 20150804_추가 */
+	.topBtn{ top:-20px; }/* 20150804_추가 */
+	.searchCon select{ width:79%; }
+
+	.subHConWrap .subHCon .subHConInner{ margin-left:-255px; }
+	
+	.subHConWrap .subHCon .subHConInner01{ bottom:22%; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:3em; bottom:9px; left:25%; }/**/
+	.subHConWrap .subHCon .subHConInner01 .worldName p{ font-size:3em; bottom:9px; left:46%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName p{ font-size:3em; bottom:9px; left:44%; }
+	.subHConWrap .subHCon .subHConInner .countryName p{ bottom:27px; font-size:4em }/* 20150811_수정 */
+	.subHConWrap .subHCon .subHConInner .countrySel a{ bottom:39px; right:3%; }
+
+	table.table_subType1 td a.downCellSlideBtn{ left:11px; }
+	table.table_subType1 td a.downCellSlideBtn.on{ left:11px; }
+	table.table_subType1 td{ padding:1% 0; }
+
+	.subHeader p{ font-size:4em; }
+
+	.tab_type1 li{ height:58px; }
+	.tab_type1 li a span{ bottom:22px; } /* 20150731_수정 */
+
+	.tab_type11 li{ height:58px; } /* 20150731_추가 */
+	.tab_type11 li a span{ bottom:22px; } /* 20150731_추가 */
+
+	.tab_type2 li{ height:58px; }
+	.tab_type2 li a span{ bottom:22px; } /* 20150731_수정 */
+
+	.tab_type3{ height:5.8em; }
+	.tab_type3 li a span{ bottom:22px; } /* 20150731_수정 */
+
+	.tab_type4 li{ height:58px; }
+	.tab_type4 li a span{ bottom:22px; } /* 20150731_수정 */
+
+	.layerPop{ margin-left:-256px; }
+	.layerPop h2 a{ width:5%; }
+
+	.numMorePop h2 a{ width:5%; }
+
+	/* 20150730_추가 */
+	.subHConWrap .subHCon .subHConInner01 .exchangeName p{ margin-left:-10px; }
+
+	/* 201500731_추가 */
+	.rotator_btn a{ top:29px; }
+	.subCenterWrap{ margin-left:-284px; }
+
+	/* 20150801_추가 */
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:34%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:26%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:24%; }
+
+	/* 20150804_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:28%; bottom:26px; }/* 20150811_수정*/
+	.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; bottom:9px; margin-left:-125px; }
+
+	/* 20150805_추가 */
+	.selectWrap ul li span.subTitle{ font-size:1.6em; }
+	.selectWrap ul li input[type="radio"]+label{ font-size:1.6em; }/* 20150806_추가 */
+
+	/* 20150806_추가 */
+	.selectWrap ul li a.checkBtn{ width:7%; }
+
+	/* 20150807_추가 */
+	a.rightClose img{ width:25px; height:25px; }
+
+	/* 20150811_추가 */
+	.subHConWrap .subHCon .subHConInner01 .useInfoName p{ left:22%; }
+	.useInfoTitle li a{ font-size:2em; }
+
+	.useInfo h4{ font-size:2em; }
+	.useInfo h4.num01{ background:url('../img/sub/sub/useInfo_num01.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num02{ background:url('../img/sub/sub/useInfo_num02.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num03{ background:url('../img/sub/sub/useInfo_num03.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num04{ background:url('../img/sub/sub/useInfo_num04.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num05{ background:url('../img/sub/sub/useInfo_num05.png') left 0 no-repeat; background-size:20px 20px; }
+
+	.useInfo .summary{ font-size:2em; }
+}
+
+/* 600_G Pad 사이즈 */ /* 20150717_추가 */
+@media screen and (min-width:600px){
+	.footerWrap .footerLogo img{ width:150px; height:49px; }
+	.footerWrap ul li{ font-size:1.4em; }
+
+	.visualMap .mapPoint{ height:295px; }
+	.visualMap .mapPoint span{ font-size:2em; }
+	.visualMap .mapPoint img{ width:32px; height:41px; }
+	.visualMap .mapPoint a.mp01{ top:70px; left:4%; }
+	.visualMap .mapPoint a.mp02{ top:104px; left:19%; }
+	.visualMap .mapPoint a.mp03{ bottom:68px; left:6%; }
+	.visualMap .mapPoint a.mp04{ top:35px; left:25%; }
+	.visualMap .mapPoint a.mp05{ top:89px; left:39%; }
+	.visualMap .mapPoint a.mp06{ bottom:40px; left:33%; }
+	.visualMap .mapPoint a.mp07{ top:70px; right:12%; }
+	.visualMap .mapPoint a.mp08{ bottom:39px; right:0; }
+
+	.boardWrap h2{ font-size:3em; }
+	.boardWrap ul li a{ font-size:2.5em; }
+
+	.rightMenu .tab_list{ height:736px; }
+	.rightMenu .tab_list dl{ width:123px; }/* 20150908_수정 */
+	.rightMenu .tab_list dl.menuLeft{ top:88px; }/* 20150908_수정 */
+	.rightMenu .tab_list dl dd .rightloginWrap{ width:235px; }
+	.rightMenu .tab_list .rightContentWrap .rightContent{ width:235px; }/* 20150908_수정 */
+	.rightMenu .tab_list .rightContentWrap{ margin-left:123px; width:318px; margin-top:87px; }/* 20150908_수정 */
+
+	.rightMenu .tab_list{ width:124px; height:100%; min-height:1006px; }
+	.rightMenu .tab_list dl dd .rightloginWrap{ width:318px; position:absolute; left:124px; top:0; }
+	.rightMenu .tab_list .rightContentWrap .rightContent{ width:308px; }/* 20150908_수정 */
+	.rightMenu .tab_list dl dd.m1>a{ width:124px; height:113px; background:url('../img/common/rightMenu01.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m1>a.on{ background:url('../img/common/rightMenu01_on.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m2>a{ width:124px; height:113px; background:url('../img/common/rightMenu02.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m2>a.on{ background:url('../img/common/rightMenu02_on.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m3>a{ width:124px; height:113px; background:url('../img/common/rightMenu03.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m3>a.on{ background:url('../img/common/rightMenu03_on.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m4>a{ width:124px; height:113px; background:url('../img/common/rightMenu04.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m4>a.on{ background:url('../img/common/rightMenu04_on.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m5>a{ width:124px; height:113px; background:url('../img/common/rightMenu05.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m5>a.on{ background:url('../img/common/rightMenu05_on.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m6>a{ width:124px; height:113px; background:url('../img/common/rightMenu06.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m6>a.on{ background:url('../img/common/rightMenu06_on.png') left top no-repeat; background-size:124px 113px; }
+
+	.rightMenu .tab_list .rightConM2 ul li a{ padding-left:7%; }/* 20150908_수정 */
+
+	.rightMenu .tab_list .rightContentWrap p{ font-size:2.6em; }/* 20150908_수정 */
+	.rightMenu .tab_list .rightContentWrap p a span{ width:27px; height:16px; background-size:27px 16px; right:5%; }/* 20150908_수정 */
+	.rightMenu .tab_list .rightContentWrap p a.on span{ background-size:27px 16px; }/* 20150908_수정 */
+	.rightMenu .tab_list dl dd .rightloginWrap a.login{ width:28%; }/* 20150806_수정 */
+	.rightMenu .tab_list .rightContentWrap ul li a{ font-size:2.6em; background-size:12px 12px !important; }/* 20150908_수정 */
+	.rightMenu .tab_list .rightContentWrap ul li a img{  width:47px; height:31px; }/* 20150908_수정 */
+
+	a.bx-prev{ width:22px; height:43px; background-size:23px 43px; }
+	a.bx-next{ width:22px; height:43px; background-size:23px 43px; }
+
+	.subHeader p{ font-size:5em; }
+
+	.subCenterWrap ul.subBottom{  margin:7% auto 0 auto; }
+	
+	.submainCont h3{ font-size:2em; }
+	.submainCont p{ font-size:1.8em; }/* 20150806_수정 */
+
+	table.table_type1 th{ font-size:1.6em; }
+	table.table_type1 td{ font-size:1.6em; }
+
+	table.table_type2 th{ font-size:1.6em; }
+	table.table_type2 td{ font-size:1.6em; }
+
+	.submainContbottom ul li a{ font-size:1.8em; }/* 20150811_수정 */
+	.submainContbottom ul li a.on{ font-size:2em; }
+	.submainContbottom .tabWrap p{ font-size:1.8em; }/* 20150811_수정 */
+
+	.layerPop{ margin-left:-270px; }
+	.layerPop h2{ font-size:4em; }
+	.layerPop h2 a{ width:8%; top:27%; }
+	.layerPop p{ font-size:3em; }
+	.layerPop .layerCon { height:722px; }
+	.layerPop .layerCon ul li a{ font-size:3em; background-size:12px 12px !important; }
+	.layerPop .layerCon ul li a img{  width:47px; height:31px; }
+
+	.subHConWrap .subHCon>img{ height:202px; }
+	.subHConWrap .subHCon .subHConInner{ margin-left:-265px; }
+
+	/* 20150722_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName p{ font-size:4.5em; bottom:27px; left:35%; }/* 20150807_수정 */
+	.subHConWrap .subHCon .subHConInner .countrySel select{ top:-78px; height:50px; }
+	.subHConWrap .subHCon .subHConInner .countrySel a{ font-size:2.2em; right:2%; bottom:38px; }
+
+	/* 20150728_추가 */
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-265px; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:4.5em; bottom:3px; left:16%; }
+	.subHConWrap .subHCon .subHConInner01 .worldName p{ font-size:4.5em; bottom:3px; left:40%; }/* 20150729_추가 */
+	.subHConWrap .subHCon .subHConInner01 .analysisName p{ font-size:4.5em; bottom:3px; left:33%; }/* 20150729_추가 */
+
+	.tab_type1 li{ height:61px; }/* 20150721_수정 */
+	.tab_type1 li a span{ font-size:2.2em; bottom:17px; }/* 20150721_수정 */
+
+	.tab_type11 li{ height:61px; }/* 20150731_추가 */
+	.tab_type11 li a span{ font-size:2.2em; bottom:17px; }/* 20150731_추가 */
+
+	.tab_type2 li{ height:61px; }/* 20150721_수정 */
+	.tab_type2 li a span{ font-size:2.2em; bottom:17px; }/* 20150721_수정 */
+
+	.tab_type3{ height:6.1em; }
+	.tab_type3 li a span{ font-size:2.2em; bottom:18px; }/* 20150722_추가 */
+
+	.rotator_btn a{ width:15px; height:29px; position:absolute; top:30px; margin-top:-15px; }/* 20150731_수정 */
+	.rotator_btn a.rotator_prev{ background-size:15px 29px; }/* 20150723_추가 */
+	.rotator_btn a.rotator_prev:hover{ background-size:15px 29px; }/* 20150723_추가 */
+	.rotator_btn a.rotator_next{ background-size:15px 29px; }/* 20150723_추가 */
+	.rotator_btn a.rotator_next:hover{ background-size:15px 29px; }/* 20150723_추가 */
+
+	.selectWrap ul li span{ background-size:5px 5px; font-size:2.4em; padding-left:2%; }
+	.selectWrap ul li select{ font-size:2.4em; } 
+	.selectWrap ul li input[type="radio"]+label{ font-size:2.4em; padding-right:3%; }
+	.selectWrap ul li input[type="text"]{ font-size:2.4em; }
+	.selectWrap ul li a.searchBtn{ width:15%; top:10%; }
+
+	.tabContent .countInfoTxt{ font-size:2.2em; background-size:5px 5px; padding:3% 0 3% 2%; }
+	.tabContent .countInfoTxt span.subTxt{ font-size:0.8em; }
+	.tabContent .button01{ right:26%; top:9%; }
+	.tabContent .button01 a{ width:60px; height:49px; background-size:60px 49px; }
+	.tabContent .button01 a.on{ background-size:60px 49px; }
+	.tabContent .button02{ right:15%; top:9%; }
+	.tabContent .button02 a{ width:60px; height:49px; background-size:60px 49px; }
+	.tabContent .button02 a.on{ background-size:60px 49px; }
+	.tabContent .button03 a{ width:76px; height:53px; background-size:76px 53px; }
+	.tabContent .button03 a.on{ background-size:76px 53px; }
+
+	table.table_subType1 th{ font-size:2em; }
+	table.table_subType1 td{ font-size:2em; }
+	table.table_subType1 td a img{ width:20px; height:20px; }
+
+	.countMore a{ font-size:2em; }
+
+	.tableWrap p.info{ font-size:2.2em; background-size:5px 5px; padding:1% 0 1% 2%; } /* 20150731_수정 */
+
+	.numMorePop h2{ font-size:4em; }
+	.numMorePop h2 a{ width:8%; top:27%; }
+	.numMorePop .numMoreInner p{ font-size:3em; }
+
+	/* 20150720_추가 */
+	table.table_subType1 td.downCellTop{ height:34px; background-size:10px 31px; }
+	table.table_subType1 td.downCell{ height:25px; background-size:10px 48px; }
+	table.table_subType1 td.downCellBottom{ background-size:10px 35px; }
+	table.table_subType1 td a.downCellSlideBtn{ width:15px; height:15px; top:19px; left:14px; background-size:15px 15px; }
+	table.table_subType1 td a.downCellSlideBtn.on{ width:15px; height:15px; top:19px; left:14px; background-size:15px 15px; }
+	table.table_subType1 td.downCell2{ background-size:10px 72px; }
+	table.table_subType1 td .downCellInner{ background-size:10px 77px; }
+	table.table_subType1 td .downCellInnerBottom{ background-size:10px 47px; }
+
+	.pagging a{ font-size:2.2em; padding:0 2.4%; }
+	.pagging a.paggingButton{ width:30px; height:35px; }
+	.pagging a.prev{ background-size:30px 35px; }
+	.pagging a.prev:hover{ background-size:30px 35px; }
+	.pagging a.next{ background-size:30px 35px; }
+	.pagging a.next:hover{ background-size:30px 35px; }
+
+	/* 20150724_추가 */
+	ul.boardList li a span.boardTitle{ font-size:2.6em; }
+	ul.boardList li a span.date{ font-size:2.2em; }
+
+	.boardViewTitle h3{ font-size:2.6em; }
+	.boardViewTitle p.date{ font-size:2.2em; }
+
+	.boardViewContent{ min-height:611px; }
+	.boardViewContent p{ font-size:2.2em; }
+
+	.boardViewfile p.file{ font-size:2.2em; }
+	.boardViewfile p.file a{ font-size:1em; }
+
+	.errorWrap{ margin:15% auto; }
+	.errorTitle{ font-size:2.4em; }
+	.errorConText{ font-size:2.2em; }
+
+	/* 검색팝업 */ /* 20150728_추가 */
+	.searchTitle h3{ font-size:3em; }
+	.searchContent{ min-height:778px; }
+	.searchConInner span.subTitle{ font-size:1.6em; }
+	.searchCon select{ width:82%; }
+
+	.tab_type4 li{ height:61px; }
+	.tab_type4 li a span{ font-size:2.2em; bottom:17px; }
+
+	.tab_type5 li{ height:61px; }/* 20150721_수정 */
+	.tab_type5 li a span{ font-size:2.2em; bottom:17px; }
+
+	/* 20150730_추가 */
+	.subHConWrap .subHCon .subHConInner01 .exchangeName p{ margin-left:-18px; }
+
+	/* 20150731_추가 */
+	.subCenterWrap{ margin-left:-300px; }
+
+	/* 20150801_추가 */
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:25%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:18%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:13%; }
+
+	/* 20150804_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:27%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; bottom:2px; margin-left:-182px; }
+	.subHConWrap .subHCon .subHConInner01 .guideName p{ left:41%; bottom:5px; margin-left:-182px; font-size:4em; }
+	
+	/* 20150805_추가 */
+	.selectWrap ul li span.subTitle{ font-size:1.6em; }
+	.selectWrap ul li input[type="radio"]+label{ font-size:1.6em; }/* 20150806_추가 */
+
+	/* 20150806_추가 */
+	.selectWrap ul li a.checkBtn{ width:10%; }
+
+	/* 20150811_추가 */
+	.subHConWrap .subHCon .subHConInner01 .useInfoName p{ left:6%; }
+	.useInfoTitle li a{ font-size:2em; }
+
+	.useInfo h4{ font-size:2em; }
+	.useInfo h4.num01{ background:url('../img/sub/sub/useInfo_num01.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num02{ background:url('../img/sub/sub/useInfo_num02.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num03{ background:url('../img/sub/sub/useInfo_num03.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num04{ background:url('../img/sub/sub/useInfo_num04.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num05{ background:url('../img/sub/sub/useInfo_num05.png') left 0 no-repeat; background-size:20px 20px; }
+
+	.useInfo .summary{ font-size:2em; }
+}
+
+/* 640_노트4 가로 사이즈 */ /* 20150717_추가 */
+@media screen and (min-width:640px){
+	/* 20150729_추가 */
+	.mm-menu{ width:40%; }
+	html.mm-opened.mm-opening .mm-page, html.mm-opened.mm-opening #mm-blocker, html.mm-opened.mm-opening .mm-fixed-top, html.mm-opened.mm-opening .mm-fixed-bottom{ left:40%; }
+
+	.visualMap .mapPoint{ height:315px; }
+	.visualMap .mapPoint a.mp01{ top:82px; left:4%; }
+	.visualMap .mapPoint a.mp02{ top:119px; left:19%; }
+	.visualMap .mapPoint a.mp03{ bottom:68px; left:6%; }
+	.visualMap .mapPoint a.mp04{ top:55px; left:25%; }
+	.visualMap .mapPoint a.mp05{ top:103px; left:39.5%; }
+	.visualMap .mapPoint a.mp06{ bottom:40px; left:35%; }
+	.visualMap .mapPoint a.mp07{ top:90px; right:12%; }
+	.visualMap .mapPoint a.mp08{ bottom:39px; right:1%; }
+
+	.subHConWrap .subHCon .subHConInner{ margin-left:-287px; }
+	.subHConWrap .subHCon .subHConInner .countrySel select{ top:-78px; height:50px; }
+
+	/* 20150728_추가 */
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-287px; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:4.5em; bottom:3px; left:16%; }
+
+	.tab_type3{ height:6.5em; }
+
+	/* 검색팝업 */ /* 20150728_추가 */
+	.searchTitle h3{ font-size:3em; }
+	.searchContent{ min-height:778px; }
+	.searchConInner span.subTitle{ font-size:3em; }/* 20150804_수정 */
+	.searchConInner select{ font-size:3em; }/* 20150804_추가 */
+	.topBtn{ top:-20px; }/* 20150804_추가 */
+	.searchCon select{ width:83%; }
+
+	/* 20150729_추가 */
+	.layerPop{ margin-left:-287px; }
+	.layerPop h2{ font-size:3em; }
+	.layerPop h2 a{ width:5%; top:32%; }
+	.layerPop .layerCon ul li a{ font-size:2.6em; }
+
+	.numMorePop h2{ font-size:3em; }
+	.numMorePop h2 a{ width:5%; top:32%; }
+
+	.subHConWrap .subHCon .subHConInner01 .worldName p{ font-size:4.5em; bottom:4px; left:41%; }/* 20150805_수정 */
+	.subHConWrap .subHCon .subHConInner01 .analysisName p{ font-size:4.5em; bottom:4px; left:33%; }/* 20150805_수정 */
+	.subHConWrap .subHCon .subHConInner01 .guideName p{ font-size:4em; bottom:6px; left:41%; }/* 20150811_수정 */
+	.subHConWrap .subHCon .subHConInner01 .exchangeName p{ left:18%; }/* 20150812_추가 */
+
+	/* 201500731_추가 */
+	.rotator_btn a{ top:32px; }
+	.subCenterWrap{ margin-left:-320px; }
+	.tab_type1 li a span{ bottom:20px; }
+	.tab_type11 li a span{ bottom:20px; }
+
+	/* 20150801_추가 */
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:27%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:19%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:15%; }
+
+	/* 20150804_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:29%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; margin-left:-177px; }
+
+	/* 20150805_추가 */
+	.selectWrap ul li span.subTitle{ font-size:3em; }
+	.selectWrap ul li input[type="radio"]+label{ font-size:3em; }/* 20150806_추가 */
+
+	/* 20150806_추가 */
+	.subHConWrap .subHCon .subHConInner01 .countrySel select{ height:45px; top:-45px; }
+	.selectWrap ul li a.checkBtn{ width:9%; }
+
+	/* 20150807_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName p{ bottom:29px; }
+	a.rightClose img{ width:30px; height:30px; }
+
+	/* 20150811_추가 */
+	.subHConWrap .subHCon .subHConInner01 .useInfoName p{ left:10%; }
+	.useInfoTitle li a{ font-size:2.2em; }
+
+	.useInfo h4{ font-size:2.2em; }
+	.useInfo h4.num01{ background:url('../img/sub/sub/useInfo_num01.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num02{ background:url('../img/sub/sub/useInfo_num02.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num03{ background:url('../img/sub/sub/useInfo_num03.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num04{ background:url('../img/sub/sub/useInfo_num04.png') left 0 no-repeat; background-size:20px 20px; }
+	.useInfo h4.num05{ background:url('../img/sub/sub/useInfo_num05.png') left 0 no-repeat; background-size:20px 20px; }
+
+	.useInfo .summary{ font-size:2em; }
+
+	/* 20150908_수정 */
+	.rightMenu .tab_list dl{ width:124px; }
+	.rightMenu .tab_list dl.menuLeft{ top:89px; height:25%; }
+	.rightMenu .tab_list .rightContentWrap{ margin-left:124px; width:318px; margin-top:88px; height:248px; }
+}
+
+/* 667_아이폰6사이즈 */ /* 20150729_추가 */
+@media screen and (min-width:667px){
+	/* 20150729_추가 */
+	.mm-menu{ width:40%; }
+	html.mm-opened.mm-opening .mm-page, html.mm-opened.mm-opening #mm-blocker, html.mm-opened.mm-opening .mm-fixed-top, html.mm-opened.mm-opening .mm-fixed-bottom{ left:40%; }
+
+	.visualMap .mapPoint{ height:337px; }
+	.visualMap .mapPoint a.mp01{ top:91px; left:5%; }
+	.visualMap .mapPoint a.mp02{ top:129px; left:19%; }
+	.visualMap .mapPoint a.mp03{ bottom:78px; left:6%; }
+	.visualMap .mapPoint a.mp04{ top:65px; left:25%; }
+	.visualMap .mapPoint a.mp05{ top:113px; left:39.5%; }
+	.visualMap .mapPoint a.mp06{ bottom:50px; left:35%; }
+	.visualMap .mapPoint a.mp07{ top:100px; right:12%; }
+	.visualMap .mapPoint a.mp08{ bottom:49px; right:1%; }
+
+	.subHConWrap .subHCon .subHConInner{ margin-left:-287px; }
+	.subHConWrap .subHCon .subHConInner .countrySel select{ top:-78px; height:50px; }
+
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-304px; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:4.5em; bottom:3px; left:16%; }
+	.subHConWrap .subHCon .subHConInner01 .worldName p{ font-size:4.5em; bottom:5px; left:43%; }/* 20150811_수정 */
+	.subHConWrap .subHCon .subHConInner01 .analysisName p{ font-size:4.5em; bottom:3px; left:33%; }
+
+	.tab_type1 li{ height:68px; }
+	.tab_type1 li a span{ bottom:22px; }
+
+	.tab_type2 li{ height:68px; }
+	.tab_type2 li a span{ bottom:22px; }
+
+	.tab_type3{ height:6.8em; }
+	.tab_type3 li a span{ bottom:22px; }
+
+	.tab_type4 li{ height:68px; }
+	.tab_type4 li a span{ bottom:22px; }
+
+	.searchTitle h3{ font-size:3em; }
+	.searchContent{ min-height:778px; }
+	.searchConInner span.subTitle{ font-size:3em; }
+	.searchCon select{ width:83%; }
+
+	/* 20150729_추가 */
+	.layerPop{ margin-left:-300px; }
+	.layerPop h2{ font-size:3em; }
+	.layerPop h2 a{ width:5%; top:32%; }
+	.layerPop .layerCon ul li a{ font-size:2.6em; }
+
+	.numMorePop h2{ font-size:3em; }
+	.numMorePop h2 a{ width:5%; top:32%; }
+
+	/* 20150730_추가 */
+	.subHConWrap .subHCon .subHConInner01 .exchangeName p{ margin-left:0; }
+	.subHConWrap .subHCon .subHConInner01 .guideName p{ font-size:4em; bottom:8px; margin-left:-28px; }
+
+	/* 201500731_추가 */
+	.rotator_btn a{ top:33px; }
+	.subCenterWrap{ margin-left:-334px; }
+
+	/* 20150801_추가 */
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:27%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:21%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:17%; }
+	
+	/* 20150804_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:30%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; bottom:5px; margin-left:-172px; }
+	
+	/* 20150805_추가 */
+	.selectWrap ul li span.subTitle{ font-size:3em; }
+	.selectWrap ul li input[type="radio"]+label{ font-size:3em; }/* 20150806_추가 */
+
+	/* 20150807_수정 */
+	.subHConWrap .subHCon .subHConInner .countryName p{ bottom:32px; }
+	.subHConWrap .subHCon .subHConInner .countrySel a{ right:2%; bottom:44px; }
+
+	/* 20150807_추가 */
+	a.rightClose img{ width:30px; height:30px; }
+
+	/* 20150811_추가 */
+	.subHConWrap .subHCon .subHConInner01 .useInfoName p{ font-size:4.5em; bottom:3px; left:12%; }
+	.useInfoTitle li a{ font-size:3em; }
+
+	.useInfo h4{ font-size:3em; }
+	.useInfo h4.num01{ background:url('../img/sub/sub/useInfo_num01.png') left 0 no-repeat; background-size:25px 25px; }
+	.useInfo h4.num02{ background:url('../img/sub/sub/useInfo_num02.png') left 0 no-repeat; background-size:25px 25px; }
+	.useInfo h4.num03{ background:url('../img/sub/sub/useInfo_num03.png') left 0 no-repeat; background-size:25px 25px; }
+	.useInfo h4.num04{ background:url('../img/sub/sub/useInfo_num04.png') left 0 no-repeat; background-size:25px 25px; }
+	.useInfo h4.num05{ background:url('../img/sub/sub/useInfo_num05.png') left 0 no-repeat; background-size:25px 25px; }
+
+	.useInfo .summary{ font-size:3em; }
+}
+
+/* 736_아이폰6+ 가로 사이즈 */ /* 20150729_추가 */
+@media screen and (min-width:736px){
+	/* 20150729_추가 */
+	.mm-menu{ width:40%; }
+	html.mm-opened.mm-opening .mm-page, html.mm-opened.mm-opening #mm-blocker, html.mm-opened.mm-opening .mm-fixed-top, html.mm-opened.mm-opening .mm-fixed-bottom{ left:40%; }
+
+	.visualMap .mapPoint{ height:370px; }
+	.visualMap .mapPoint a.mp01{ top:110px; left:5%; }
+	.visualMap .mapPoint a.mp02{ top:152px; left:20%; }
+	.visualMap .mapPoint a.mp03{ bottom:90px; left:7%; }
+	.visualMap .mapPoint a.mp04{ top:85px; left:23%; }
+	.visualMap .mapPoint a.mp05{ top:135px; left:40%; }
+	.visualMap .mapPoint a.mp06{ bottom:50px; left:35%; }
+	.visualMap .mapPoint a.mp07{ top:110px; right:13%; }
+	.visualMap .mapPoint a.mp08{ bottom:70px; right:1%; }
+
+	.subHConWrap .subHCon>img{ height:222px; }
+	.subHConWrap .subHCon .subHConInner{ margin-left:-332px; }
+	.subHConWrap .subHCon .subHConInner .countryName p{ bottom:38px; }/* 20150807_수정 */
+
+	.subHConWrap .subHCon .subHConInner .countrySel a{ right:3%; bottom:48px; }
+
+	.tab_type1 li{ height:75px; }
+	.tab_type1 li a span{ bottom:26px; }
+
+	.tab_type2 li{ height:75px; }
+	.tab_type2 li a span{ bottom:26px; }
+
+	.tab_type3{ height:7.5em; }
+	.tab_type3 li a span{ bottom:26px; }
+
+	.tab_type4 li{ height:75px; }
+	.tab_type4 li a span{ bottom:26px; }
+
+	.subHConWrap .subHCon .subHConInner .countrySel select{ top:-88px; height:55px; }
+
+	/* 20150728_추가 */
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-333px; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:4.5em; bottom:8px; left:22%; }
+	.subHConWrap .subHCon .subHConInner01 .worldName p{ font-size:4.5em; bottom:8px; left:42%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName p{ font-size:4.5em; bottom:8px; left:37%; }
+
+	/* 검색팝업 */ /* 20150728_추가 */
+	.searchTitle h3{ font-size:3em; }
+	.searchContent{ min-height:778px; }
+	.searchConInner span.subTitle{ font-size:3em; }/* 20150804_수정 */
+	.topBtn{ top:-30px; }/* 20150804_추가 */
+	.searchCon select{ width:84%; }
+	.searchConInner a{ width:12%; }
+
+	/* 20150729_추가 */
+	.layerPop{ margin-left:-330px; }
+	.layerPop h2{ font-size:3em; }
+	.layerPop h2 a{ width:5%; top:32%; }
+	.layerPop .layerCon ul li a{ font-size:2.6em; }
+
+	.numMorePop h2{ font-size:3em; }
+	.numMorePop h2 a{ width:5%; top:32%; }
+
+	/* 20150730_추가 */
+	.subHConWrap .subHCon .subHConInner01 .exchangeName p{ margin-left:-7px; }
+	.subHConWrap .subHCon .subHConInner01 .guideName p{ font-size:4.5em; bottom:9px; margin-left:-66px; }
+	.submainCont h3{ font-size:3em; }
+	.guide h4{ font-size:2.5em; background-size:18px 18px;  }
+	.guide .guideText{ font-size:2em; }
+	.guide .guideList li{ font-size:2em; background-size:8px 8px; background-position:left 11px; }
+	.guide .guideCaution{ font-size:2em; background-size:18px 18px; background-position:3% 21px }
+
+	/* 201500731_추가 */
+	.rotator_btn a{ top:36px; }
+	.subCenterWrap{ margin-left:-368px; }
+
+	/* 20150801_추가 */
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:31%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:23%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:20%; }
+
+	/* 20150804_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:31%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; bottom:8px; margin-left:-172px; }
+
+	/* 20150805_추가 */
+	.selectWrap ul li span.subTitle{ font-size:3em; }
+	.selectWrap ul li input[type="radio"]+label{ font-size:3em; }/* 20150806_추가 */
+
+	/* 20150806_추가 */
+	.selectWrap ul li a.checkBtn{ width:8%; }
+	
+	/* 20150811_수정 */
+	.submainContbottom ul li a{ font-size:1.8em; }
+	.submainContbottom ul li a.on{ font-size:3em; }
+	.submainContbottom .tabWrap p{ font-size:1.8em; top:35px; }
+	
+	/* 20150811_추가 */
+	.subHConWrap .subHCon .subHConInner01 .useInfoName p{ font-size:4.5em; bottom:3px; left:15%; }
+	.useInfoTitle li a{ font-size:3em; }
+
+	.useInfo h4{ font-size:3em; }
+	.useInfo h4.num01{ background:url('../img/sub/sub/useInfo_num01.png') left 0 no-repeat; background-size:25px 25px; }
+	.useInfo h4.num02{ background:url('../img/sub/sub/useInfo_num02.png') left 0 no-repeat; background-size:25px 25px; }
+	.useInfo h4.num03{ background:url('../img/sub/sub/useInfo_num03.png') left 0 no-repeat; background-size:25px 25px; }
+	.useInfo h4.num04{ background:url('../img/sub/sub/useInfo_num04.png') left 0 no-repeat; background-size:25px 25px; }
+	.useInfo h4.num05{ background:url('../img/sub/sub/useInfo_num05.png') left 0 no-repeat; background-size:25px 25px; }
+
+	.useInfo .summary{ font-size:3em; }
+}
+
+/* 768_아이패드 사이즈 */
+@media screen and (min-width:768px){
+
+	.footerWrap .footerLogo img{ width:170px; height:59px; }
+	.footerWrap ul li{ font-size:2.2em; }
+
+	.boardWrap h2{ font-size:4em; padding-bottom:4px; }
+	.boardWrap ul li a{ font-size:2.5em; }
+	ul li.famTitle img{ width:177px; height:66px; }
+	ul li.famTitle a{ top:-10px; }
+	ul li.famTitle a img{ width:34px; height:34px; }
+	a.rightClose img{ width:34px; height:34px; }
+
+	.visualMap{background: url("../img/main/mainMapBg.png") no-repeat scroll center top / 360px 222px transparent;}
+	.visualMap p{ text-align:center; font-size:4em; padding:13px 0 0 0; position:absolute; top:0; left:50%; margin-left:-196px; }
+	.visualMap .mapPointWrap{ top:85px; }
+	.visualMap .mapPoint{ height:370px; }
+	.visualMap .mapPoint span{ font-size:2em; color:#231916; }
+	.visualMap .mapPoint img{ width:37px; height:51px; }
+	.visualMap .mapPoint a.mp01{ top:67px; left:6%; }
+	.visualMap .mapPoint a.mp02{ top:114px; left:20%; }
+	.visualMap .mapPoint a.mp03{ bottom:108px; left:8%; }
+	.visualMap .mapPoint a.mp04{ top:40px; left:25%; }
+	.visualMap .mapPoint a.mp05{ top:95px; left:40%; }
+	.visualMap .mapPoint a.mp06{ bottom:73px; left:36%; }
+	.visualMap .mapPoint a.mp07{ top:68px; right:15%; }
+	.visualMap .mapPoint a.mp08{ bottom:93px; right:2%; }
+
+	.rightMenu .tab_list{ width:124px; height:100%; min-height:1006px; }
+	.rightMenu .tab_list dl dd .rightloginWrap{ width:305px; position:absolute; left:124px; top:0; }
+	.rightMenu .tab_list .rightContentWrap .rightContent{ width:315px; }/* 20150908_수정 */
+	.rightMenu .tab_list dl dd.m1>a{ width:124px; height:113px; background:url('../img/common/rightMenu01.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m1>a.on{ background:url('../img/common/rightMenu01_on.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m2>a{ width:124px; height:113px; background:url('../img/common/rightMenu02.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m2>a.on{ background:url('../img/common/rightMenu02_on.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m3>a{ width:124px; height:113px; background:url('../img/common/rightMenu03.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m3>a.on{ background:url('../img/common/rightMenu03_on.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m4>a{ width:124px; height:113px; background:url('../img/common/rightMenu04.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m4>a.on{ background:url('../img/common/rightMenu04_on.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m5>a{ width:124px; height:113px; background:url('../img/common/rightMenu05.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m5>a.on{ background:url('../img/common/rightMenu05_on.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m6>a{ width:124px; height:113px; background:url('../img/common/rightMenu06.png') left top no-repeat; background-size:124px 113px; }
+	.rightMenu .tab_list dl dd.m6>a.on{ background:url('../img/common/rightMenu06_on.png') left top no-repeat; background-size:124px 113px; }
+
+	.rightMenu .tab_list .rightConM2 ul li a{ padding-left:7%; }/* 20150908_수정 */
+
+	.rightMenu .tab_list .rightContentWrap p{ font-size:3em; }/* 20150908_수정 */
+	.rightMenu .tab_list .rightContentWrap p a span{ width:27px; height:16px; background-size:27px 16px; right:5%; }/* 20150908_수정 */
+	.rightMenu .tab_list .rightContentWrap p a.on span{ background-size:27px 16px; }/* 20150908_수정 */
+	.rightMenu .tab_list .rightloginWrap a.login{ width:28%; }/* 20150806_수정 */
+	.rightMenu .tab_list .rightContentWrap ul li{ background-size:12px 12px !important; }/* 20150908_수정 */
+	.rightMenu .tab_list .rightContentWrap ul li a{ font-size:3em; }/* 20150908_수정 */
+	.rightMenu .tab_list .rightContentWrap ul li a img{  width:47px; height:31px; }/* 20150908_수정 */
+
+	a.bx-prev{ width:22px; height:43px; background-size:23px 43px; }
+	a.bx-next{ width:22px; height:43px; background-size:23px 43px; }
+
+	.subHeader p{ font-size:7em; }/* 20150806_수정 */
+
+	.subCenterWrap ul.subBottom{  margin:7% auto 0 auto; }
+	
+	.submainCont h3{ font-size:3em; }/* 20150811_수정 */
+	.submainCont p{ font-size:1.8em; }/* 20150811_수정 */
+
+	table.table_type1 th{ font-size:1.6em; }
+	table.table_type1 td{ font-size:1.6em; }
+
+	table.table_type2 th{ font-size:1.6em; }
+	table.table_type2 td{ font-size:1.6em; }
+
+	/* 20150811_수정 */
+	.submainContbottom ul li a{ font-size:1.8em; }
+	.submainContbottom ul li a.on{ font-size:3em; }
+	.submainContbottom .tabWrap p{ font-size:1.8em; top:45px; }
+
+	.layerPop{ margin-left:-346px; }
+	.layerPop h2{ font-size:4em; }
+	.layerPop h2 a{ width:8%; top:27%; }
+	.layerPop p{ font-size:3em; }
+	.layerPop .layerCon { height:722px; }
+	.layerPop .layerCon ul li a{ font-size:3em; background-size:12px 12px !important; }
+	.layerPop .layerCon ul li a img{  width:87px; height:55px; vertical-align:middle; }/* 20150806_수정 */
+
+	.subHConWrap .subHCon>img{ height:272px; }
+	.subHConWrap .subHCon .subHConInner{ margin-left:-345px; }
+
+	/* 20150722_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName p{ font-size:6em; bottom:32px; left:35%; }/* 20150811_수정 */
+	
+	.subHConWrap .subHCon .subHConInner .countrySel a{ font-size:3em; right:2%; bottom:47px; }
+
+	/* 20150728_추가 */
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-345px; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:6em; bottom:5px; left:14%; }
+	.subHConWrap .subHCon .subHConInner01 .worldName p{ font-size:6em; bottom:2px; left:40%; }/* 20150811_수정 */
+	.subHConWrap .subHCon .subHConInner01 .analysisName p{ font-size:6em; bottom:0; left:25%; }/* 20150811_수정 */
+
+	.tab_type1 li{ height:77px; }/* 20150721_수정 */
+	.tab_type1 li a span{ font-size:2.6em; bottom:29px; }/* 20150731_수정 */
+
+	.tab_type2 li{ height:77px; }/* 20150721_수정 */
+	.tab_type2 li a span{ font-size:2.6em; bottom:29px; }/* 20150731_수정 */
+
+	.tab_type3{ height:7.7em; }/* 20150723_추가 */
+	.tab_type3 li a span{ font-size:2.6em; bottom:29px; }/* 20150731_수정 */
+
+	.rotator_btn a{ width:15px; height:29px; position:absolute; top:4.5%; margin-top:-15px; }/* 20150723_추가 */
+	.rotator_btn a.rotator_prev{ background-size:15px 29px; }/* 20150723_추가 */
+	.rotator_btn a.rotator_prev:hover{ background-size:15px 29px; }/* 20150723_추가 */
+	.rotator_btn a.rotator_next{ background-size:15px 29px; }/* 20150723_추가 */
+	.rotator_btn a.rotator_next:hover{ background-size:15px 29px; }/* 20150723_추가 */
+
+	.selectWrap ul li span{ background-size:5px 5px; font-size:2.4em; padding-left:2%; }
+	.selectWrap ul li select{ font-size:2.4em; } 
+	.selectWrap ul li input[type="radio"]+label{ font-size:2.4em; padding-right:3%; }
+	.selectWrap ul li input[type="text"]{ font-size:2.4em; }
+	.selectWrap ul li a.searchBtn{ width:15%; top:10%; }
+
+	.subHConWrap .subHCon .subHConInner .countrySel select{ top:-91px; height:55px; }
+
+	.tabContent .countInfoTxt{ font-size:2.4em; background-size:5px 5px; padding:3% 0 3% 2%; }
+	.tabContent .countInfoTxt span.subTxt{ font-size:1em; }
+	.tabContent .button01{ right:22%; top:9%; }
+	.tabContent .button01 a{ width:64px; height:53px; background-size:64px 53px; }
+	.tabContent .button01 a.on{ background-size:64px 53px; }
+	.tabContent .button02{ right:13%; top:9%; }
+	.tabContent .button02 a{ width:64px; height:53px; background-size:64px 53px; }
+	.tabContent .button02 a.on{ background-size:64px 53px; }
+	.tabContent .button03 a{ width:84px; height:62px; background-size:84px 62px; }
+	.tabContent .button03 a.on{ background-size:84px 62px; }
+
+	table.table_subType1 th{ font-size:2.5em; }
+	table.table_subType1 td{ font-size:2.5em; }
+	table.table_subType1 td a img{ width:27px; height:27px; }
+
+	.countMore a{ font-size:2em; }
+
+	.tableWrap p.info{ font-size:2.2em; background-size:5px 5px; padding:1% 0 1% 2%; } /* 20150731_수정 */
+
+	.numMorePop h2{ font-size:4em; }
+	.numMorePop h2 a{ width:8%; top:27%; }
+	.numMorePop .numMoreInner p{ font-size:3em; }
+
+	/* 20150720_추가 */
+	table.table_subType1 td.downCellTop{ height:24px; background-size:15px 30px; }
+	table.table_subType1 td.downCell{ height:25px; background-size:15px 56px; }
+	table.table_subType1 td.downCellBottom{ background-size:15px 38px; }
+	table.table_subType1 td a.downCellSlideBtn{ width:20px; height:20px; top:17px; left:15px; background-size:20px 20px; }
+	table.table_subType1 td a.downCellSlideBtn.on{ width:20px; height:20px; top:17px; left:15px; background-size:20px 20px; }
+	table.table_subType1 td.downCell2{ background-size:15px 72px; }
+	table.table_subType1 td .downCellInner{ background-size:15px 90px; }
+	table.table_subType1 td .downCellInnerBottom{ background-size:15px 47px; }
+
+	.pagging a{ font-size:2.4em; padding:0 2.7%; }
+	.pagging a.paggingButton{ width:40px; height:45px; }
+	.pagging a.prev{ background-size:40px 45px; }
+	.pagging a.prev:hover{ background-size:40px 45px; }
+	.pagging a.next{ background-size:40px 45px; }
+	.pagging a.next:hover{ background-size:40px 45px; }
+
+	/* 20150724_추가 */
+	ul.boardList li a span.boardTitle{ font-size:3em; }
+	ul.boardList li a span.date{ font-size:2.8em; }
+
+	.boardViewTitle h3{ font-size:3em; }
+	.boardViewTitle p.date{ font-size:2.8em; }
+
+	.boardViewContent{ min-height:611px; }
+	.boardViewContent p{ font-size:2.8em; }
+
+	.boardViewfile p.file{ font-size:2.6em; }
+	.boardViewfile p.file a{ font-size:1em; }
+
+	.errorWrap{ margin:4% auto; }
+	.errorTitle{ font-size:2.8em; }
+	.errorConText{ font-size:2.6em; }
+
+	/* 검색팝업 */ /* 20150728_추가 */
+	.searchTitle h3{ font-size:4em; }
+	.searchContent{ min-height:802px; }
+	.searchConInner{ margin-bottom:4%; }
+	.searchConInner span.subTitle{ font-size:2.6em; }
+	.searchConInner select{ font-size:2.6em; }
+	.searchCon{ line-height:60px; }
+	.searchCon select{ width:79%; font-size:2.6em; }
+	.searchConInner a{ width:12%; }
+
+	.tab_type4 li{ height:77px; }
+	.tab_type4 li a span{ font-size:2.6em; bottom:25px; }
+
+	.tab_type5 li{ height:77px; }
+	.tab_type5 li a span{ font-size:2.6em; bottom:25px; }
+
+	/* 201500731_추가 */
+	.rotator_btn a{ top:40px; }
+	.subCenterWrap{ margin-left:-384px; }
+
+	/* 20150801_추가 */
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:25%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:18%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:12%; }
+
+	/* 20150804_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:25%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; bottom:0; margin-left:-237px; }
+
+	/* 20150805_추가 */
+	.selectWrap ul li span.subTitle{ font-size:2.6em; }
+	.selectWrap ul li input[type="radio"]+label{ font-size:2.6em; }/* 20150806_추가 */
+
+	/* 20150806_추가 */
+	.selectWrap ul li a.checkBtn{ width:7.5%; }
+
+	/* 20150811_추가 */
+	.subHConWrap .subHCon .subHConInner01 .useInfoName p{ font-size:5em; left:13%; }
+	.subHConWrap .subHCon .subHConInner01 .guideName p{ font-size:5em; left:18%; }
+	.useInfoTitle li a{ font-size:3em; }
+
+	.useInfo h4{ font-size:3em; }
+	.useInfo h4.num01{ background:url('../img/sub/sub/useInfo_num01.png') left 0 no-repeat; background-size:30px 30px; }
+	.useInfo h4.num02{ background:url('../img/sub/sub/useInfo_num02.png') left 0 no-repeat; background-size:30px 30px; }
+	.useInfo h4.num03{ background:url('../img/sub/sub/useInfo_num03.png') left 0 no-repeat; background-size:30px 30px; }
+	.useInfo h4.num04{ background:url('../img/sub/sub/useInfo_num04.png') left 0 no-repeat; background-size:30px 30px; }
+	.useInfo h4.num05{ background:url('../img/sub/sub/useInfo_num05.png') left 0 no-repeat; background-size:30px 30px; }
+
+	.useInfo .summary{ font-size:3em; }
+}
+
+/* 800_사이즈 */ /* 20150727_추가 */
+@media screen and (min-width:800px){
+
+	.visualMap .mapPoint a.mp01{ top:77px; left:6%; }
+	.visualMap .mapPoint a.mp02{ top:119px; left:20%; }
+	.visualMap .mapPoint a.mp05{ top:105px; left:40%; }
+	.visualMap .mapPoint a.mp06{ bottom:60px; left:36%; }
+
+	.tab_type3{ height:8.1em; }
+	.tab_type3 li a span{ font-size:2.6em; bottom:25px; }
+
+	.subHConWrap .subHCon .subHConInner .countrySel select{ top:-94px; height:55px; }
+
+	/* 20150728_추가 */
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-360px; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:6em; bottom:3px; left:27%; }
+
+	/* 검색팝업 */ /* 20150728_추가 */
+	.searchTitle h3{ font-size:4em; }
+	.searchContent{ min-height:1054px; }
+	.searchConInner{ margin-bottom:4%; }
+	.searchConInner span.subTitle{ font-size:2.6em; }
+	.searchConInner select{ font-size:2.6em; }
+	.searchCon{ line-height:60px; }
+	.searchCon select{ width:79%; font-size:2.6em; }
+	.searchConInner a{ width:12%; }
+
+	/* 20150729_추가 */
+	.layerPop{ margin-left:-360px; }
+	.layerPop h2{ font-size:3em; }
+	.layerPop h2 a{ width:5%; top:32%; }
+	.layerPop .layerCon ul li a{ font-size:2.6em; }
+
+	.numMorePop h2{ font-size:3em; }
+	.numMorePop h2 a{ width:5%; top:32%; }
+
+	/* 20150730_추가 */
+	.subHConWrap .subHCon .subHConInner01 .exchangeName p{ margin-left:-108px; }/* 20150811_수정 */
+
+	/* 201500731_추가 */
+	.rotator_btn a{ top:40px; }
+	.subCenterWrap{ margin-left:-400px; }
+	.tab_type1 li a span{ bottom:28px; }
+
+	/* 20150801_추가 */
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:27%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:19%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:13%; }
+	
+	/* 20150804_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:26%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; bottom:4px; margin-left:-232px; }
+
+	/* 20150805_추가 */
+	.selectWrap ul li span.subTitle{ font-size:2.6em; }
+
+	/* 20150806_추가 */
+	.subHConWrap .subHCon .subHConInner01 .guideName p{ font-size:5em; bottom:8px; left:20%; }/* 20150811_수정 */
+	table.table_type1 th{ font-size:2em; }
+	table.table_type1 td{ font-size:2em; }
+
+	table.table_type2 th{ font-size:2em; }
+	table.table_type2 td{ font-size:2em; }
+	.selectWrap ul li input[type="radio"]+label{ font-size:2.6em; }/* 20150806_추가 */
+
+	/* 20150807_수정 */
+	.subHConWrap .subHCon .subHConInner .countryName p{ bottom:35px; }
+
+	/* 20150811_추가 */
+	.subHConWrap .subHCon .subHConInner01 .useInfoName p{ font-size:5em; left:13%; bottom:8px; }
+	.useInfoTitle li a{ font-size:3em; }
+
+	.useInfo h4{ font-size:3em; }
+	.useInfo h4.num01{ background:url('../img/sub/sub/useInfo_num01.png') left 3px no-repeat; background-size:25px 25px; }
+	.useInfo h4.num02{ background:url('../img/sub/sub/useInfo_num02.png') left 3px no-repeat; background-size:25px 25px; }
+	.useInfo h4.num03{ background:url('../img/sub/sub/useInfo_num03.png') left 3px no-repeat; background-size:25px 25px; }
+	.useInfo h4.num04{ background:url('../img/sub/sub/useInfo_num04.png') left 3px no-repeat; background-size:25px 25px; }
+	.useInfo h4.num05{ background:url('../img/sub/sub/useInfo_num05.png') left 3px no-repeat; background-size:25px 25px; }
+
+	.useInfo .summary{ font-size:3em; }
+	.subHConWrap .subHCon .subHConInner01 .worldName p{ font-size:6em; bottom:5px; left:14%; }
+}
+
+/* 912_가로 사이즈 */ /* 20150727_추가 */
+@media screen and (min-width:912px){
+	/* 20150729_추가 */
+	.mm-menu{ width:40%; }
+	html.mm-opened.mm-opening .mm-page, html.mm-opened.mm-opening #mm-blocker, html.mm-opened.mm-opening .mm-fixed-top, html.mm-opened.mm-opening .mm-fixed-bottom{ left:40%; }
+	.rightMenu .tab_list{ min-height:1287px; }
+	
+	.submainCont h3{ line-height:31px; }
+	.submainContbottom ul li{ line-height:31px; }
+
+	.visualMap .mapPoint{ height:470px; }
+	.visualMap .mapPoint a.mp01{ top:110px; left:6%; }/* 20150805_수정 */
+	.visualMap .mapPoint a.mp02{ top:160px; left:20%; }/* 20150805_수정 */
+	.visualMap .mapPoint a.mp03{ bottom:158px; left:9%; }/* 20150805_수정 */
+	.visualMap .mapPoint a.mp04{ top:90px; left:25%; }
+	.visualMap .mapPoint a.mp05{ top:142px; left:40.5%; }/* 20150805_수정 */
+	.visualMap .mapPoint a.mp06{ bottom:103px; left:38%; }/* 20150805_수정 */
+	.visualMap .mapPoint a.mp07{ top:138px; right:15%; }/* 20150805_수정 */
+	.visualMap .mapPoint a.mp08{ bottom:93px; right:4%; }/* 20150805_수정 */
+
+	.subHConWrap .subHCon>img{ height:290px; }
+	.subHConWrap .subHCon .subHConInner{ margin-left:-430px; }
+	.subHConWrap .subHCon .subHConInner .countryName p{ bottom:44px; }
+	.subHConWrap .subHCon .subHConInner .countrySel a{ bottom:65px; right:3%; }
+
+	.selectWrap ul li a.searchBtn{ top:5%; }
+
+	.tab_type1 li{ height:93px; }/* 20150805_수정 */
+	.tab_type1 li a span{ bottom:37px; }
+
+	.tab_type2 li{ height:93px; }/* 20150805_수정 */
+	.tab_type2 li a span{ bottom:37px; }
+
+	.tab_type3{ height:9.3em; }/* 20150805_수정 */
+	.tab_type3 li a span{ bottom:37px; }
+	
+	.subHConWrap .subHCon .subHConInner .countrySel select{ top:-117px; height:69px; }
+
+	/* 20150728_추가 */
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-430px; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:6em; bottom:10px; left:20%; }
+	.subHConWrap .subHCon .subHConInner01 .worldName p{ font-size:6em; bottom:10px; left:40%; }/* 20150729_추가 */
+	.subHConWrap .subHCon .subHConInner01 .analysisName p{ font-size:6em; bottom:7px; left:30%; }/* 20150811_수정 */
+	.subHConWrap .subHCon .subHConInner01 .guideName p{ font-size:6em; bottom:10px; left:16%; }/* 20150806_추가 */
+
+	/* 검색팝업 */ /* 20150728_추가 */
+	.searchTitle h3{ font-size:4em; }
+	.searchContent{ min-height:1054px; }
+	.searchConInner{ margin-bottom:4%; }
+	.searchConInner span.subTitle{ font-size:3.5em; }/* 20150804_수정 */
+	.searchConInner select{ font-size:3.5em; }/* 20150804_수정 */
+	.topBtn{ top:-45px; }/* 20150804_추가 */
+	.searchCon{ line-height:60px; }
+	.searchCon select{ width:79%; font-size:2.6em; }
+	.searchConInner a{ width:12%; }
+
+	.tab_type4 li{ height:93px; }/* 20150811_수정 */
+	.tab_type4 li a span{ bottom:37px; }
+
+	.tab_type5 li{ height:93px; }/* 20150811_수정 */
+	.tab_type5 li a span{ bottom:37px; }
+
+	/* 20150729_추가 */
+	.layerPop{ margin-left:-410px; }
+	.layerPop h2{ font-size:3em; }
+	.layerPop h2 a{ width:5%; top:32%; }
+	.layerPop .layerCon ul li a{ font-size:2.6em; }
+
+	.numMorePop h2{ font-size:3em; }
+	.numMorePop h2 a{ width:5%; top:32%; }
+
+	/* 20150730_추가 */
+	.submainCont h3{ font-size:3em; }
+	.guide h4{ font-size:2.5em; background-size:18px 18px;  }
+	.guide .guideText{ font-size:2em; }
+	.guide .guideList li{ font-size:2em; background-size:8px 8px; background-position:left 11px; }
+	.guide .guideCaution{ font-size:2em; background-size:18px 18px; background-position:3% 21px }
+
+	/* 201500731_추가 */
+	.rotator_btn a{ top:50px; }
+	.subCenterWrap{ margin-left:-480px; }
+
+	/* 20150801_추가 */
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:27%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:22%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:19%; }
+
+	/* 20150804_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:31%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; bottom:6px; margin-left:-224px; }/* 20150811_수정 */
+
+	/* 20150805_추가 */
+	.selectWrap ul li span.subTitle{ font-size:3.5em; }
+
+	/* 20150806_추가 */
+	.selectWrap ul li a.checkBtn{ width:6.5%; }
+	.selectWrap ul li input[type="radio"]+label{ font-size:3.5em; }/* 20150806_추가 */
+	.subHeader p{ font-size:7em; }
+
+	/* 20150811_추가 */
+	.subHConWrap .subHCon .subHConInner01 .useInfoName p{ font-size:5em; left:18%; bottom:13px; }
+	.useInfoTitle li a{ font-size:3em; }
+
+	.useInfo h4{ font-size:3em; }
+	.useInfo h4.num01{ background:url('../img/sub/sub/useInfo_num01.png') left 3px no-repeat; background-size:25px 25px; }
+	.useInfo h4.num02{ background:url('../img/sub/sub/useInfo_num02.png') left 3px no-repeat; background-size:25px 25px; }
+	.useInfo h4.num03{ background:url('../img/sub/sub/useInfo_num03.png') left 3px no-repeat; background-size:25px 25px; }
+	.useInfo h4.num04{ background:url('../img/sub/sub/useInfo_num04.png') left 3px no-repeat; background-size:25px 25px; }
+	.useInfo h4.num05{ background:url('../img/sub/sub/useInfo_num05.png') left 3px no-repeat; background-size:25px 25px; }
+
+	.useInfo .summary{ font-size:3em; }
+
+	/* 20150812_수정 */
+	.subHConWrap .subHCon .subHConInner01 .exchangeName p{ left:30%; }
+}
+
+/* iPad_가로 사이즈 */ /* 20150727_추가 */
+@media screen and (min-width:1024px){
+	/* 20150729_추가 */
+	.mm-menu{ width:40%; }
+	html.mm-opened.mm-opening .mm-page, html.mm-opened.mm-opening #mm-blocker, html.mm-opened.mm-opening .mm-fixed-top, html.mm-opened.mm-opening .mm-fixed-bottom{ left:40%; }
+
+	.submainCont h3{ line-height:31px; }
+	.submainContbottom ul li{ line-height:31px; }
+
+	.visualMap .mapPoint{ height:470px; }
+	.visualMap .mapPoint a.mp01{ top:145px; left:7%; }
+	.visualMap .mapPoint a.mp02{ top:202px; left:20%; }
+	.visualMap .mapPoint a.mp03{ bottom:108px; left:9%; }
+	.visualMap .mapPoint a.mp04{ top:110px; left:25%; }
+	.visualMap .mapPoint a.mp05{ top:178px; left:40.5%; }
+	.visualMap .mapPoint a.mp06{ bottom:53px; left:38%; }
+	.visualMap .mapPoint a.mp07{ top:158px; right:15%; }
+	.visualMap .mapPoint a.mp08{ bottom:73px; right:4%; }
+
+	.subHConWrap .subHCon>img{ height:310px; }
+	.subHConWrap .subHCon .subHConInner{ margin-left:-460px; }
+	.subHConWrap .subHCon .subHConInner .countryName p{ bottom:52px; }/* 20150811_수정 */
+	.subHConWrap .subHCon .subHConInner .countrySel a{ bottom:65px; }
+
+	.tab_type1 li{ height:104px; }
+	.tab_type1 li a span{ bottom:37px; }
+
+	.tab_type2 li{ height:104px; }
+	.tab_type2 li a span{ bottom:37px; }
+
+	.tab_type3{ height:10.4em; }
+	.tab_type3 li a span{ bottom:37px; }
+
+	.subHConWrap .subHCon .subHConInner .countrySel select{ top:-117px; height:69px; }
+
+	/* 20150728_추가 */
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-460px; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:6em; bottom:12px; left:22%; }
+	.subHConWrap .subHCon .subHConInner01 .worldName p{ font-size:6em; bottom:12px; left:40%; }/* 20150729_추가 */
+	.subHConWrap .subHCon .subHConInner01 .analysisName p{ font-size:6em; bottom:12px; left:34%; }/* 20150729_추가 */
+
+	.tab_type4 li{ height:104px; }
+	.tab_type4 li a span{ bottom:37px; }
+
+	.tab_type5 li{ height:104px; }
+	.tab_type5 li a span{ bottom:37px; }
+
+	/* 20150729_추가 */
+	.layerPop{ margin-left:-460px; }
+	.layerPop h2{ font-size:3em; }
+	.layerPop h2 a{ width:5%; top:32%; }
+	.layerPop .layerCon ul li a{ font-size:4em; }/* 20150806_수정 */
+
+	.numMorePop h2{ font-size:3em; }
+	.numMorePop h2 a{ width:5%; top:32%; }
+
+	/* 201500731_추가 */
+	.rotator_btn a{ top:55px; }
+	.subCenterWrap{ margin-left:-512px; }
+
+	/* 20150801_추가 */
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:31%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:25%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:21%; }
+
+	/* 20150804_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:33%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; bottom:10px; margin-left:-237px; }
+
+	/* 20150805_추가 */
+	table.table_type1 th{ font-size:2.5em; }
+	table.table_type1 td{ font-size:2.5em; }
+
+	table.table_type2 th{ font-size:2.5em; }
+	table.table_type2 td{ font-size:2.5em; }
+
+	/* 20150806_추가 */
+	.selectWrap ul li a.checkBtn{ width:6%; }
+
+	/* 20150811_수정 */
+	.submainContbottom ul li a{ font-size:1.8em; }
+	.submainContbottom ul li a.on{ font-size:3em; }
+	.submainContbottom .tabWrap p{ font-size:1.8em; top:48px; }
+
+	/* 20150811_추가 */
+	.subHConWrap .subHCon .subHConInner01 .useInfoName p{ font-size:5em; left:20%; bottom:19px; }
+	.useInfoTitle li a{ font-size:3em; }
+
+	.useInfo h4{ font-size:3em; }
+	.useInfo h4.num01{ background:url('../img/sub/sub/useInfo_num01.png') left 3px no-repeat; background-size:25px 25px; }
+	.useInfo h4.num02{ background:url('../img/sub/sub/useInfo_num02.png') left 3px no-repeat; background-size:25px 25px; }
+	.useInfo h4.num03{ background:url('../img/sub/sub/useInfo_num03.png') left 3px no-repeat; background-size:25px 25px; }
+	.useInfo h4.num04{ background:url('../img/sub/sub/useInfo_num04.png') left 3px no-repeat; background-size:25px 25px; }
+	.useInfo h4.num05{ background:url('../img/sub/sub/useInfo_num05.png') left 3px no-repeat; background-size:25px 25px; }
+
+	.useInfo .summary{ font-size:3em; }
+
+	/* 20150812_추가 */
+	.subHConWrap .subHCon .subHConInner01 .exchangeName p{ left:32%; }
+}
+
+/* 갤럭시탭_가로 사이즈 */ /* 20150805_추가 */
+@media screen and (min-width:1280px){
+	.mm-menu{ width:40%; }
+	html.mm-opened.mm-opening .mm-page, html.mm-opened.mm-opening #mm-blocker, html.mm-opened.mm-opening .mm-fixed-top, html.mm-opened.mm-opening .mm-fixed-bottom{ left:40%; }
+
+	.submainCont h3{ line-height:42px; }/* 20150807_수정 */
+	.submainCont p{ font-size:2.8em; }/* 20150807_수정 */
+	.submainContbottom .tabWrap p{ font-size:2.8em; top:73px; }/* 20150807_수정 */
+	.submainContbottom ul li{ line-height:42px; }/* 20150807_수정 */
+	.submainContbottom ul li a.on{ font-size:3em; }/* 20150807_수정 */
+	.submainContbottom ul li a{ font-size:2.8em; }/* 20150807_수정 */
+
+	.visualMap .mapPoint{ height:600px; }
+	.visualMap .mapPoint a.mp01{ top:219px; left:7%; }
+	.visualMap .mapPoint a.mp02{ top:290px; left:21%; }
+	.visualMap .mapPoint a.mp03{ bottom:128px; left:9%; }
+	.visualMap .mapPoint a.mp04{ top:180px; left:25%; }
+	.visualMap .mapPoint a.mp05{ top:262px; left:41%; }
+	.visualMap .mapPoint a.mp06{ bottom:53px; left:38%; }
+	.visualMap .mapPoint a.mp07{ top:231px; right:17%; }
+	.visualMap .mapPoint a.mp08{ bottom:73px; right:5%; }
+
+	.boardWrap h2 span.more{ width:10%; }
+	.topBtn{ top:-65px; }
+
+	.subHConWrap .subHCon>img{ height:390px; }
+	.subHConWrap .subHCon .subHConInner{ margin-left:-570px; }
+	.subHConWrap .subHCon .subHConInner .countryName p{ bottom:71px; left:38%; font-size:7em; }/* 20150807_수정 */
+	.subHConWrap .subHCon .subHConInner .countrySel a{ bottom:91px; right:3%; font-size:4em; }/* 20150807_수정 */
+
+	.tab_type1 li{ height:130px; }
+	.tab_type1 li a span{ bottom:52px; }
+
+	.tab_type2 li{ height:130px; }
+	.tab_type2 li a span{ bottom:52px; }
+
+	.tab_type3{ height:13em; }
+	.tab_type3 li a span{ bottom:52px; }
+
+	.tab_type11{ height:13em; }
+	.tab_type11 li a span{ bottom:52px; }
+
+	.selectWrap ul li a.searchBtn{ width:14%; }
+	.searchTitle h3 a{ width:6%; }
+
+	.subHConWrap .subHCon .subHConInner .countrySel select{ top:-117px; height:69px; }
+
+	.subHConWrap .subHCon .subHConInner01{ margin-left:-575px; }
+	.subHConWrap .subHCon .subHConInner01 .countryName p{ font-size:6em; bottom:24px; left:43%; }/* 20150811_수정 */
+	.subHConWrap .subHCon .subHConInner01 .exchangeName p{ font-size:6em; bottom:24px; left:36%; }/* 20150812_수정 */
+	.subHConWrap .subHCon .subHConInner01 .worldName p{ font-size:6em; bottom:24px; left:40%; }/* 20150729_추가 */
+	.subHConWrap .subHCon .subHConInner01 .analysisName p{ font-size:6em; bottom:24px; left:34%; }/* 20150729_추가 */
+
+	.tab_type4 li{ height:130px; }
+	.tab_type4 li a span{ bottom:54px; }
+
+	.tab_type5 li{ height:130px; }
+	.tab_type5 li a span{ bottom:54px; }
+
+	/* 20150729_추가 */
+	.layerPop{ margin-left:-570px; }
+	.layerPop h2{ font-size:3em; }
+	.layerPop h2 a{ width:5%; top:32%; }
+	.layerPop .layerCon ul li a{ font-size:4em; }/* 20150806_수정 */
+
+	.numMorePop h2{ font-size:3em; }
+	.numMorePop h2 a{ width:5%; top:32%; }
+
+	/* 201500731_추가 */
+	.rotator_btn a{ top:55px; }
+	.subCenterWrap{ margin-left:-512px; }
+
+	/* 20150801_추가 */
+	.subHConWrap .subHCon .subHConInner01 .koreaPop11 p{ left:31%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop06 p{ left:25%; }
+	.subHConWrap .subHCon .subHConInner01 .koreaPop04 p{ left:21%; }
+
+	/* 20150804_추가 */
+	.subHConWrap .subHCon .subHConInner .countryName01 p{ left:33%; }
+	.subHConWrap .subHCon .subHConInner01 .analysisName01 p{ left:50%; bottom:22px; margin-left:-237px; }
+
+	/* 20150806_추가 */
+	table.table_subType1 th{ font-size:3em; }
+	table.table_subType1 td{ font-size:3em; }
+	.subHeader p{ font-size:8em; }
+
+	/* 20150811_추가 */
+	.subHConWrap .subHCon .subHConInner01 .useInfoName p{ font-size:6em; left:24%; bottom:22px; }
+	.useInfoTitle li a{ font-size:4em; }
+
+	.useInfo h4{ font-size:4em; padding-left:4%; }
+	.useInfo h4.num01{ background:url('../img/sub/sub/useInfo_num01.png') left 3px no-repeat; background-size:30px 30px; }
+	.useInfo h4.num02{ background:url('../img/sub/sub/useInfo_num02.png') left 3px no-repeat; background-size:30px 30px; }
+	.useInfo h4.num03{ background:url('../img/sub/sub/useInfo_num03.png') left 3px no-repeat; background-size:30px 30px; }
+	.useInfo h4.num04{ background:url('../img/sub/sub/useInfo_num04.png') left 3px no-repeat; background-size:30px 30px; }
+	.useInfo h4.num05{ background:url('../img/sub/sub/useInfo_num05.png') left 3px no-repeat; background-size:30px 30px; }
+
+	.useInfo .summary{ font-size:4em; }
+
+	/* 20150812_추가 */
+	.subHConWrap .subHCon .subHConInner01 .guideName p{ left:26%; }
+}
