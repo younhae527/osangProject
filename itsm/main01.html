@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<link rel="shortcut icon" type="image/x-icon" href="" />
+		<link href="css/base.css" rel="stylesheet" type="text/css"/>
+		<link href="css/common.css" rel="stylesheet" type="text/css"/>
+		<link href="css/main01/main.css" rel="stylesheet" type="text/css"/>
+		<link href="css/sub.css" rel="stylesheet" type="text/css"/>
+		<link href="css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css"/>
+		<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+		<script src="js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+		<script src="js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+		<script src="js/jquery.ui.datepicker-ko.js" type="text/javascript"></script>
+		<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+		<script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
+		<script src="js/common.js" type="text/javascript"></script>
+		<title>osang ITSM mainA</title>
+	</head>
+	<body>
+		<div id="header">
+			<div class="headerWrap">
+				<div class="leftTmenu">
+					<a href="javascript:;" class="openRnb"><img src="img/main01/common/Tmenu01.gif" alt="menu" /></a><a href="javascript:;"><img src="img/main01/common/Tmenu02.gif" alt="home" /></a>
+				</div><!--leftTmenu_end-->
+				<h1><a href="main01.html"><img src="img/main01/common/logo.gif" alt="osangITSM" /></a></h1>
+				<div class="rightTmenu">
+					<a href="javascript:;"><img src="img/main01/common/Tmenu03.gif" alt="login" /></a><a href="sub/knowledge01.html"><img src="img/main01/common/Tmenu04.gif" alt="notice" /></a>
+				</div><!--rightTmenu_end--> 
+			</div><!--headerWrap_end-->
+		</div><!--header_end-->
+		<div class="rnb" style="left: -400px;">
+			<dl>
+				<dt><a href="sub/request01.html">요청관리</a></dt>
+				<dd>
+					<ul>
+						<li class="clB"><a href="sub/request01.html">&middot; 접수/처리</a></li>
+						<li class="clB"><a href="sub/request02.html" class="pt_13">&middot; 완료현황</a></li>
+					</ul>
+				</dd>
+				<dt><a href="sub/property01.html">자산관리</a></dt>
+				<dd>
+					<ul>
+						<li><a href="sub/property01.html">&middot; 전산장비관리</a></li>
+						<li class="pl_78"><a href="sub/property02.html">&middot; 소모품관리</a></li>
+						<li class="pt_13"><a href="sub/property03.html">&middot; 신규Excel등록</a></li>
+					</ul>
+				</dd>
+				<dt><a href="sub/knowledge01.html">지식관리</a></dt>
+				<dd>
+					<ul>
+						<li><a href="sub/knowledge01.html">&middot; 공지사항</a></li>
+						<li class="pl_115"><a href="sub/knowledge02.html">&middot; 자료실</a></li>
+						<li class="pt_13 clB"><a href="sub/knowledge03.html">&middot; 메뉴얼</a></li>
+					</ul>
+				</dd>
+				<dt><a href="sub/statistics01.html">통계관리</a></dt>
+				<dd>
+					<ul>
+						<li><a href="sub/statistics01.html">&middot; 기간별 장애처리현황</a></li>
+						<li class="pl_35"><a href="sub/statistics02.html">&middot; 자산현황</a></li>
+						<li class="pt_13"><a href="sub/statistics03.html">&middot; 항목별 장애처리현황</a></li>
+						<li class="pt_13 pl_35"><a href="sub/statistics04.html">&middot; 고객만족도현황</a></li>
+						<li class="pt_13"><a href="sub/statistics05.html">&middot; 처리율현황</a></li>
+					</ul>
+				</dd>
+				<dt><a href="sub/system01.html">시스템관리</a></dt>
+				<dd>
+					<ul>
+						<li><a href="sub/system01.html">&middot; 공통코드관리</a></li>
+						<li class="pl_78"><a href="sub/system02.html">&middot; 사용자관리</a></li>
+						<li class="pt_13"><a href="sub/system03.html">&middot; 장애코드관리</a></li>
+						<li class="pt_13 pl_78"><a href="sub/system04.html">&middot; 사용자권한관리</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<a href="javascript:;" class="rnbClose" title="메뉴닫기"><img src="img/main01/common/sideClose.png" alt=""></a>
+		</div>
+		<div id="container">
+			<div class="containerWrap">
+				<div class="containerInner">
+					<div class="menuWrap">
+						<div class="menuInner">
+							<div class="loginInfo">
+								<div class="loginInfoImg">
+									<img src="img/main01/main/loginInfoIcon.gif" alt="" />
+								</div><!--loginInfoImg_end-->
+								<p><strong>관리자</strong>님 환영합니다.</p>
+								<p>2015.04.23(목)</p>
+								<div class="loginInfoBtn">
+									<a href="javascript:;"><img src="img/main01/main/logoutBtn.gif" alt="로그아웃" /></a>
+									<a href="sub/knowledge01.html"><img src="img/main01/main/noticeBtn.gif" alt="공지사항" /></a>
+								</div><!--loginInfoBtn_end-->
+							</div><!--loginInfo_end-->
+							<ul class="menuList">
+								<li tabindex="0" class="menu01 ml_0">
+									<img src="img/main01/main/menu01.gif" alt="요청관리" />
+									<div class="textBg">
+										<p class="title">요청관리</p>
+										<ul>
+											<li><a href="sub/request01.html">접수/처리</a></li>
+											<li><a href="sub/request02.html">완료현황</a></li>
+										</ul>
+									</div><!--menuInner_end-->
+								</li>
+								<li tabindex="0" class="menu02">
+									<img src="img/main01/main/menu02.gif" alt="자산관리" />
+									<div class="textBg">
+										<p class="title">자산관리</p>
+										<ul>
+											<li><a href="sub/property01.html">전산장비관리</a></li>
+											<li><a href="sub/property02.html">신규Excel등록</a></li>
+											<li><a href="sub/property03.html">소모품관리</a></li>
+										</ul>
+									</div><!--menuInner_end-->
+								</li>
+							</ul>
+							<ul class="menuList mt_10">
+								<li tabindex="0" class="menu03 ml_0">
+									<img src="img/main01/main/menu03.gif" alt="지식관리" />
+									<div class="textBg">
+										<p class="title">지식관리</p>
+										<ul>
+											<li><a href="sub/knowledge01.html">공지사항</a></li>
+											<li><a href="sub/knowledge02.html">자료실</a></li>
+											<li><a href="sub/knowledge03.html">메뉴얼</a></li>
+										</ul>
+									</div><!--menuInner_end-->
+								</li>
+								<li tabindex="0" class="menu04">
+									<img src="img/main01/main/menu04.gif" alt="통계관리" />
+									<div class="textBg">
+										<p class="title">통계관리</p>
+										<ul>
+											<li><a href="sub/statistics01.html">기간별 장애처리현황</a></li>
+											<li><a href="sub/statistics02.html">항목별 장애처리현황</a></li>
+											<li><a href="sub/statistics03.html">처리율현황</a></li>
+											<li><a href="sub/statistics04.html">자산현황</a></li>
+											<li><a href="sub/statistics05.html">고객만족도현황</a></li>
+										</ul>
+									</div><!--menuInner_end-->
+								</li>
+								<li tabindex="0" class="menu05">
+									<img src="img/main01/main/menu05.gif" alt="시스템관리" />
+									<div class="textBg">
+										<p class="title">시스템관리</p>
+										<ul>
+											<li><a href="sub/system01.html">공통코드관리</a></li>
+											<li><a href="sub/system02.html">장애코드관리</a></li>
+											<li><a href="sub/system03.html">사용자관리</a></li>
+											<li><a href="sub/system04.html">사용자권한관리</a></li>
+										</ul>
+									</div><!--menuInner_end-->
+								</li>
+							</ul>
+						</div><!--menuInner_end-->
+						<div class="menoListWrap">
+							<h2><span><img src="img/main01/main/memoIcon.gif" alt="" /></span>메모</h2>
+							<div class="searchBox">
+								<input type="text" value="" id="search" placeholder="Search" />
+								<a href="javascript:;"><img src="img/main01/main/searchBtn.gif" alt="" /></a>
+							</div><!--searchBox_end-->
+							<ul class="memoList">
+								<li><a href="javascript:;">오류 사항을 메모에 기입해 주세요</a></li>
+								<li><a href="javascript:;">오류 사항입니다.</a></li>
+								<li><a href="javascript:;">메모를 작성할 수 있습니다. 메모</a></li>
+								<li><a href="javascript:;">오류 사항을 메모에 기입해 주세요</a></li>
+								<li><a href="javascript:;">오류 사항입니다.</a></li>
+								<li><a href="javascript:;">메모를 작성할 수 있습니다. 메모</a></li>
+								<li><a href="javascript:;">오류 사항입니다.</a></li>
+							</ul>
+							<div class="pagging">
+								<a href="javascript:;" class="bgNone"><img src="img/main01/common/beforeBtn.gif" alt="prev" /></a>
+								<a href="javascript:;" class="on">1</a>
+								<a href="javascript:;">2</a>
+								<a href="javascript:;">3</a>
+								<a href="javascript:;">4</a>
+								<a href="javascript:;" class="bgNone">5</a>
+								<a href="javascript:;" class="bgNone"><img src="img/main01/common/afterBtn.gif" alt="next" /></a>
+							</div><!--pagging_end-->
+							<div class="memoBtn">
+								<a href="javascript:;"><img src="img/main01/main/memoWrite.gif" alt="메모작성" /></a>
+							</div><!--memoBtn_end-->
+						</div><!--menoListWrap_end-->
+					</div><!--menuWrap_end-->
+					<div class="boardWrap">
+						<div class="noticeWrap">
+							<h2>공지사항</h2>
+							<ul class="noticeList">
+								<li><a href="javascript:;">ITSM 리뉴얼 중입니다. 새로운 버전의 ITSM을 오픈</a><span class="noticeDate">2015.04.24 11:37:35</span></li>
+								<li><a href="javascript:;">오상테크놀로지 공지사항 입니다.</a><span class="noticeDate">2015.04.24 11:37:35</span></li>
+								<li><a href="javascript:;">ITSM 사용법이 궁금하시면, 메뉴얼을 참고하세요.</a><span class="noticeDate">2015.04.24 11:37:35</span></li>
+								<li><a href="javascript:;">ITSM 리뉴얼 중입니다. 새로운 버전의 ITSM을 오픈</a><span class="noticeDate">2015.04.24 11:37:35</span></li>
+								<li><a href="javascript:;">오상테크놀로지 공지사항 입니다.</a><span class="noticeDate">2015.04.24 11:37:35</span></li>
+							</ul>
+						</div><!--noticeWrap_end-->
+						<div class="graphWrap">
+							<h2>장애처리현황</h2>
+							<div class="graph">
+								<img src="img/main01/main/sampleGrph.gif" alt="" />
+							</div><!--graph_end-->
+						</div><!--graphWrap_end-->
+					</div><!--boardWrap_end-->
+				</div><!--containerInner_end-->
+			</div><!--containerWrap_end-->
+		</div><!--container_end-->
+		<div id="footer">
+			<div class="footerWrap">
+				<p class="copyright">COPYRIGHT 2015 OSNAGTECH. ALL RIGHTS RESERVED.</p>
+			</div><!--footerWrap_end-->
+		</div><!--footer_end-->
+	</body>
+</html>

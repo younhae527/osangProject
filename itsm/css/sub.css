@@ -1,0 +1,45 @@
+/* 서브공통영역 */
+.table02{ width:100%; margin-top:15px; }
+.table02 th{ background:#f3f3f3; font-weight:bold; border-bottom:1px solid #dedede; padding:13px 0 15px 0; }
+.table02 td{ position:relative; border-bottom:1px solid #dedede; text-align:left; padding-left:11px; font-size:13px; color:#333; }
+.table02 td input[type="text"]{ height:25px; }
+
+.addbord th{ border-top:2px solid #666; border-right:1px solid #dedede; }
+.addbord td{ border-right:1px solid #dedede; text-align:center; padding:14px 0 17px 0; }
+
+.addtxt td{ text-align:center; padding:14px 0 17px 0; }
+
+.tbord_666{ border-top:2px solid #666; }
+.rbord_dedede{ border-right:1px solid #dedede; }
+.iTbutton{ float:right; }
+
+input[type="text"].wid_198{ width:198px !important; height:23px; border:1px solid #dedede; }
+input[type="text"].wid_148{ width:148px !important; height:23px; border:1px solid #dedede; }
+input[type="text"].wid_110{ width:110px !important; height:23px; border:1px solid #dedede; }
+input[type="text"].wid_600{ width:600px !important; height:23px; border:1px solid #dedede; }
+input[type="text"].wid_800{ width:800px !important; height:23px; border:1px solid #dedede; }
+input[type="radio"]+label{ vertical-align:top; padding-right:10px; }
+input[type="checkbox"]{ vertical-align:middle; padding-right:10px; }
+input[type="file"]{ height:25px; font-size:13px; color:#333; }
+input[type="file"].wid_500{ width:500px; }
+select{ height:25px; border:1px solid #dedede; }
+textarea{ margin:13px 0 10px; }
+textarea.wid_520{ width:520px; height:60px; }
+
+.titleBox{ margin-top:30px; }
+.titleBox:after{ content:''; display:block; clear:both; }
+.titleBox h3{ float:left; }
+.titleBox .subSearchBox{ float:right; }
+
+p.totalNM{ font-size:13px; }
+p.txt{ font-size:13px; color:#333; }
+
+.pagging{ text-align:center; padding:11px 0; }
+.pagging a{ color:#777; padding:0 10px; vertical-align:middle; font-weight:bold; font-size:12px; display:inline-block; background:url('../../img/main01/common/bar.gif') right center no-repeat;  }
+.pagging a.on{ color:#50c7c9; }
+
+/* 통계관리 */
+.graphWrap:after{ content:''; display:block; clear:both; }
+.graphL{ width:525px; float:left; }
+.graphR{ width:525px; float:left; margin-left:50px; }
+.graphBox{ text-align:center; margin-top:30px; }

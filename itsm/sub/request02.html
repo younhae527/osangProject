@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<link rel="shortcut icon" type="image/x-icon" href="" />
+		<link href="../css/base.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/common.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/main02/main.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/sub.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css"/>
+		<script src="../js/jquery-1.10.2.min.js" type="text/javascript"></script>
+		<script src="../js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+		<script src="../js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+		<script src="../js/jquery.ui.datepicker-ko.js" type="text/javascript"></script>
+		<script src="../js/jquery.easing.1.3.js" type="text/javascript"></script>
+		<script src="../js/jquery.bxslider.min.js" type="text/javascript"></script>
+		<script src="../js/common.js" type="text/javascript"></script>
+		<title>osang ITSM mainB</title>
+	</head>
+	<body>
+		<div id="header">
+			<div class="headerWrap">
+				<div class="topInfo">
+					<span class="date">2015-04-21(화)</span>
+					<span class="tbar"><img src="../img/main02/common/tBar.gif" alt="" /></span>
+					<span class="info">관리자님 환영합니다</span>
+				</div><!--topInfo_end-->
+				<div class="topButton">
+					<a href="javascript:;" class="pr_5"><img src="../img/main02/common/tNoticeBtn.gif" alt="공지사항" /></a>
+					<a href="javascript:;"><img src="../img/main02/common/tlogoutBtn.gif" alt="로그아웃" /></a>
+				</div><!--topButton_end-->
+			</div><!--headerWrap_end-->
+		</div><!--header_end-->
+		<div id="container">
+			<div class="containerWrap">
+				<div class="containerInner">
+					<div class="conTopArea">
+						<h1><a href="../main02.html"><img src="../img/main02/common/logo.gif" alt="오상테크놀로지" /></a></h1>
+						<ul class="menuList">
+							<li tabindex="0" class="menu01 ml_0">
+								<img src="../img/main02/main/menu01.gif" alt="요청관리" />
+								<div class="textBg">
+									<p class="title">요청관리</p>
+									<ul>
+										<li class="bgNone"><a href="request01.html">접수/처리</a></li>
+										<li><a href="request02.html">완료현황</a></li>
+									</ul>
+								</div><!--menuInner_end-->
+							</li>
+							<li tabindex="0" class="menu02">
+								<img src="../img/main02/main/menu02.gif" alt="자산관리" />
+								<div class="textBg">
+									<p class="title">자산관리</p>
+									<ul>
+										<li class="bgNone"><a href="property01.html">전산장비관리</a></li>
+										<li><a href="property02.html">신규Excel등록</a></li>
+										<li><a href="property03.html">소모품관리</a></li>
+									</ul>
+								</div><!--menuInner_end-->
+							</li>
+							<li tabindex="0" class="menu03">
+								<img src="../img/main02/main/menu03.gif" alt="지식관리" />
+								<div class="textBg">
+									<p class="title">지식관리</p>
+									<ul>
+										<li class="bgNone"><a href="knowledge01.html">공지사항</a></li>
+										<li><a href="knowledge02.html">자료실</a></li>
+										<li><a href="knowledge03.html">메뉴얼</a></li>
+									</ul>
+								</div><!--menuInner_end-->
+							</li>
+							<li tabindex="0" class="menu04">
+								<img src="../img/main02/main/menu04.gif" alt="통계관리" />
+								<div class="textBg">
+									<p class="title">통계관리</p>
+									<ul>
+										<li class="bgNone"><a href="statistics01.html">기간별 장애처리현황</a></li>
+										<li><a href="statistics02.html">항목별 장애처리현황</a></li>
+										<li><a href="statistics03.html">처리율현황</a></li>
+										<li><a href="statistics04.html">자산현황</a></li>
+										<li><a href="statistics05.html">고객만족도현황</a></li>
+									</ul>
+								</div><!--menuInner_end-->
+							</li>
+							<li tabindex="0" class="menu05">
+								<img src="../img/main02/main/menu05.gif" alt="시스템관리" />
+								<div class="textBg">
+									<p class="title">시스템관리</p>
+									<ul>
+										<li class="bgNone"><a href="system01.html">공통코드관리</a></li>
+										<li><a href="system02.html">장애코드관리</a></li>
+										<li><a href="system03.html">사용자관리</a></li>
+										<li><a href="system04.html">사용자권한관리</a></li>
+									</ul>
+								</div><!--menuInner_end-->
+							</li>
+						</ul>
+					</div><!--conTopArea_end-->
+					<div class="subMenuBg"></div>
+					<div class="contentWrap pb_45">
+						<!-- 컨텐츠 시작 -->
+						<h3 class="title01">완료현황</h3>
+						<table cellpadding="0" cellspacing="0" class="table02">
+							<caption class="blind">완료현황</caption>
+							<colgroup>
+								<col width="10%" />
+								<col width="23.3%" />
+								<col width="10%" />
+								<col width="22.3%" />
+								<col width="10%" />
+								<col width="24.3%" />
+							</colgroup>
+							<tr>
+								<th class="tbord_666">접수번호</th>
+								<td class="tbord_666">
+									<input type="text" class="wid_198" />
+								</td>
+								<th class="tbord_666">성명</th>
+								<td class="tbord_666">
+									<input type="text" class="wid_198" />
+								</td>
+								<th class="tbord_666">관리번호</th>
+								<td class="tbord_666">
+									<input type="text" class="wid_198" />
+								</td>
+							</tr>
+							<tr>
+								<th>유형</th>
+								<td colspan="5">
+									<select>
+										<option>선택</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<th>접수일</th>
+								<td colspan="3">
+									<input type="text" class="wid_148" /> ~ <input type="text" class="wid_148" />
+								</td>
+								<th>상태</th>
+								<td>
+									<select>
+										<option>선택</option>
+									</select>
+									<div class="iTbutton">
+										<a href="javascript:;"><img src="../img/sub/common/searchBtn.gif" alt="검색" /></a>
+										<a href="javascript:;"><img src="../img/sub/common/excelBtn.gif" alt="Excel 출력" /></a>
+									</div>
+								</td>
+							</tr>
+						</table>
+						<table cellpadding="0" cellspacing="0" class="table02 addbord">
+							<caption class="blind">완료현황</caption>
+							<colgroup>
+								<col width="7%" />
+								<col width="13%" />
+								<col width="8%" />
+								<col width="16%" />
+								<col width="12%" />
+								<col width="12%" />
+								<col width="5%" />
+								<col width="7%" />
+								<col width="5%" />
+								<col width="5%" />
+								<col width="10%" />
+							</colgroup>
+							<thead>
+								<tr>
+									<th>접수번호</th>
+									<th>접수자(사번)</th>
+									<th>관리번호</th>
+									<th>분류</th>
+									<th>접수일</th>
+									<th>처리일</th>
+									<th>담당자</th>
+									<th>상태</th>
+									<th>승인</th>
+									<th>반려</th>
+									<th class="brNone">메일</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>2972</td>
+									<td>정승신(20050038)</td>
+									<td>12DT10097</td>
+									<td>QA &gt; H/W &gt; Print</td>
+									<td>2015-04-14 13:15</td>
+									<td>2015-04-14 13:15</td>
+									<td>박지호</td>
+									<td class="cr459cce">1차완료</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td class="brNone"><a href="javascript:;"><img src="../img/sub/common/researchBtn.gif" alt="설문보내기" /></a></td>
+								</tr>
+								<tr>
+									<td>2971</td>
+									<td>장미향(19910002)</td>
+									<td>12DT10340</td>
+									<td>OA &gt; GroupWare &gt; T-disk</td>
+									<td>2015-04-14 11:27</td>
+									<td>2015-04-14 11:27</td>
+									<td>유승엽</td>
+									<td class="cr459cce">1차완료</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td class="brNone"><a href="javascript:;"><img src="../img/sub/common/researchBtn.gif" alt="설문보내기" /></a></td>
+								</tr>
+								<tr>
+									<td>2970</td>
+									<td>서연희(20157042)</td>
+									<td>11111</td>
+									<td>OA &gt; H/W &gt; Print</td>
+									<td>2015-04-14 11:26</td>
+									<td>2015-04-14 11:26</td>
+									<td>유승엽</td>
+									<td class="cr459cce">1차완료</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td class="brNone"><a href="javascript:;"><img src="../img/sub/common/researchBtn.gif" alt="설문보내기" /></a></td>
+								</tr>
+								<tr>
+									<td>2969</td>
+									<td>함경준(19870017)</td>
+									<td>11111</td>
+									<td>OA &gt; GroupWare &gt; VPN</td>
+									<td>2015-04-14 11:11</td>
+									<td>2015-04-14 11:11</td>
+									<td>박지호</td>
+									<td class="cr459cce">1차완료</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td class="brNone"><a href="javascript:;"><img src="../img/sub/common/researchBtn.gif" alt="설문보내기" /></a></td>
+								</tr>
+								<tr>
+									<td>2968</td>
+									<td>김정희(19890098)</td>
+									<td>12DT30134</td>
+									<td>OA &gt; S/W &gt; Internet Explorer</td>
+									<td>2015-04-11 10:54</td>
+									<td>2015-04-11 10:54</td>
+									<td>박지호</td>
+									<td class="cr459cce">1차완료</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td class="brNone"><a href="javascript:;"><img src="../img/sub/common/researchBtn.gif" alt="설문보내기" /></a></td>
+								</tr>
+								<tr>
+									<td>2967</td>
+									<td>이법린(19890234)</td>
+									<td>14dt10007</td>
+									<td>OA &gt; H/W &gt; PC</td>
+									<td>2015-04-13 10:00</td>
+									<td>2015-04-13 10:00</td>
+									<td>박지호</td>
+									<td class="crff1818">2차완료</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td class="brNone"><a href="javascript:;"><img src="../img/sub/common/researchBtn.gif" alt="설문보내기" /></a></td>
+								</tr>
+								<tr>
+									<td>2966</td>
+									<td>현두옥(19890293)</td>
+									<td>12DT10435</td>
+									<td>OA &gt; H/W &gt; Print</td>
+									<td>2015-04-13 10:00</td>
+									<td>2015-04-13 10:00</td>
+									<td>박지호</td>
+									<td class="cr459cce">1차완료</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td class="brNone"><a href="javascript:;"><img src="../img/sub/common/researchBtn.gif" alt="설문보내기" /></a></td>
+								</tr>
+								<tr>
+									<td>2965</td>
+									<td>조현조(20050034)</td>
+									<td>12DT10394</td>
+									<td>OA &gt; GroupWare &gt; VPN</td>
+									<td>2015-04-13 10:00</td>
+									<td>2015-04-13 10:00</td>
+									<td>박지호</td>
+									<td class="cr459cce">1차완료</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td class="brNone"><a href="javascript:;"><img src="../img/sub/common/researchBtn.gif" alt="설문보내기" /></a></td>
+								</tr>
+								<tr>
+									<td>2964</td>
+									<td>조흥준(19900121)</td>
+									<td>11111</td>
+									<td>OA &gt; GroupWare &gt; VPN</td>
+									<td>2015-04-13 10:00</td>
+									<td>2015-04-13 10:00</td>
+									<td>박지호</td>
+									<td class="cr459cce">1차완료</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td class="brNone"><a href="javascript:;"><img src="../img/sub/common/researchBtn.gif" alt="설문보내기" /></a></td>
+								</tr>
+								<tr>
+									<td>2963</td>
+									<td>김태식(19870009)</td>
+									<td>12DT10133</td>
+									<td>OA &gt; GroupWare &gt; VPN</td>
+									<td>2015-04-13 10:00</td>
+									<td>2015-04-13 10:00</td>
+									<td>박지호</td>
+									<td class="cr459cce">1차완료</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td class="brNone"><a href="javascript:;"><img src="../img/sub/common/researchBtn.gif" alt="설문보내기" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="pagging">
+							<a href="javascript:;" class="bgNone"><img src="../img/sub/common/beforeBtn.gif" alt="prev" /></a>
+							<a href="javascript:;" class="on">1</a>
+							<a href="javascript:;">2</a>
+							<a href="javascript:;">3</a>
+							<a href="javascript:;">4</a>
+							<a href="javascript:;">5</a>
+							<a href="javascript:;">6</a>
+							<a href="javascript:;">7</a>
+							<a href="javascript:;">8</a>
+							<a href="javascript:;">9</a>
+							<a href="javascript:;" class="bgNone">10</a>
+							<a href="javascript:;" class="bgNone"><img src="../img/sub/common/afterBtn.gif" alt="next" /></a>
+						</div><!--pagging_end-->
+						<!-- 컨텐츠 끝 -->
+					</div><!--contentWrap_end-->
+				</div><!--containerInner_end-->
+				<div class="memoArea">
+					<h2>메모</h2>
+					<div class="searchBox">
+						<input type="text" value="" />
+						<a href="javascript:;"><img src="../img/main02/main/searchBtn.gif" alt="검색버튼" /></a>
+					</div><!--searchBox_end-->
+					<div class="memoList">
+						<ul>
+							<li>
+								<a href="javascript:;" class="menuTxt">오류 사항을 메모에 기입해주세요.</a>
+								<span class="write"><a href="javascript:;"><img src="../img/main02/main/writeBtn.gif" alt="쓰기" /></a></span>
+								<span class="del"><a href="javascript:;"><img src="../img/main02/main/delBtn.gif" alt="지우기" /></a></span>
+							</li>
+							<li>
+								<a href="javascript:;" class="menuTxt">오류 사항을 메모에 기입해주세요.</a>
+								<span class="write"><a href="javascript:;"><img src="../img/main02/main/writeBtn.gif" alt="쓰기" /></a></span>
+								<span class="del"><a href="javascript:;"><img src="../img/main02/main/delBtn.gif" alt="지우기" /></a></span>
+							</li>
+							<li>
+								<a href="javascript:;" class="menuTxt">오류 사항을 메모에 기입해주세요.</a>
+								<span class="write"><a href="javascript:;"><img src="../img/main02/main/writeBtn.gif" alt="쓰기" /></a></span>
+								<span class="del"><a href="javascript:;"><img src="../img/main02/main/delBtn.gif" alt="지우기" /></a></span>
+							</li>
+							<li class="brdNone">
+								<a href="javascript:;" class="menuTxt">오류 사항을 메모에 기입해주세요.</a>
+								<span class="write"><a href="javascript:;"><img src="../img/main02/main/writeBtn.gif" alt="쓰기" /></a></span>
+								<span class="del"><a href="javascript:;"><img src="../img/main02/main/delBtn.gif" alt="지우기" /></a></span>
+							</li>
+						</ul>
+					</div><!--menuListWrap_end-->
+					<div class="memoButtom">
+						<a href="javascript:;"><img src="../img/main02/main/memoWrite.gif" alt="메모작성" /></a>
+					</div><!--memoButtom_end-->
+				</div><!--memoArea_end-->
+			</div><!--containerWrap_end-->
+		</div><!--container_end-->
+		<div id="footer">
+			<div class="footerWrap">
+				<div class="footLogo">
+					<img src="../img/main02/common/bLogo.gif" alt="" />
+				</div><!--footLogo_end-->
+			</div><!--footerWrap_end-->
+		</div><!--footer_end-->
+	</body>
+</html>
