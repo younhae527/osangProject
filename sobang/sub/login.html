@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="title" content="">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<meta name="copyright" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/jquery-ui-1.10.3.custom.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/main.css" />
+		<link rel="stylesheet" type="text/css" href="../css/ms.css" />
+		<link rel="stylesheet" type="text/css" href="../css/sub.css" />
+		<link rel="stylesheet" type="text/css" href="../css/login.css" />
+		<script type="text/javascript" src="../js/jquery-1.10.2.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="../js/jquery.ui.datepicker-ko.js" charset="utf-8"></script>
+		<script type="text/javascript" src="../js/jquery-ui-1.10.3.custom.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="../js/gnb.js" charset="utf-8"></script> 
+		<script type="text/javascript" src="../js/common.js" charset="utf-8"></script> 	
+		<script src="js/script3.js" ></script>
+		<script src="js/menus.js" ></script>
+		<title>소방방재청 안전신문고</title>
+		<script>
+			$(function(){
+			$(".tabTitle li").eq(0).find("a").addClass("on");
+			$(".tabConAll .tab").eq(0).show();
+			$(".tabTitle li").click(function(){
+				var _tab = $(this).find("a").attr("href");
+			$(".tabConAll .tab" + _tab).show().siblings().hide();
+			$(this).find("a").addClass("on");
+			$(this).siblings().find("a").removeClass("on");
+				});
+			});
+		</script><!-- 메인 탭 스크립트 -->
+
+	</head>
+	<body>
+
+        <!-- 주소찾기 -->
+		<div class="layerPopup addressPop">
+		   <div class="layerSection">	
+			<table>
+				<tr>
+					<th>주소찾기 <a href="javascript:;" class="popclose"><img src="../img/common/pop_close.png"  alt=""/></a></th>
+				</tr>
+				<tr>
+					<td>
+						<p class="versionT">시도</p>
+						<select style="width:99%" class="selectType">
+							<option>선택안함</option>
+						</select>																								
+					</td>			
+				</tr>
+				<tr>
+					<td>
+						<p class="versionT">시군구</p>
+						<select style="width:99%" class="selectType">
+							<option>선택안함</option>
+						</select>																								
+					</td>			
+				</tr>
+				<tr>
+					<td>
+						<p class="versionT">검색구분</p>
+						<select style="width:99%" class="selectType">
+							<option>~로, ~길</option>
+						</select>																								
+					</td>			
+				</tr>
+				<tr>
+					<td>
+						<p class="versionT">도로명</p>
+						<input style="width:99%" class="inputType" placeholder="도로명을 입력하세요" type="text" />			
+					</td>			
+				</tr>
+				<tr>
+					<td>
+						<p class="versionT">지번</p>
+						<input style="width:45%" class="inputType" placeholder="" type="text" /> - <input style="width:45%" class="inputType" placeholder="" type="text" />			
+					</td>			
+				</tr>
+				<tr>
+					<td class="align_c">
+						<a class="address_search" href="javascript:;">검 색</a>
+					</td>			
+				</tr>					
+
+			</table>
+
+			<!-- 주소검색 완료시 -->
+			<table class="addressResult">
+			<tr>
+				<th>주소찾기 <a href="javascript:;" class="popclose"><img src="../img/common/pop_close.png"  alt=""/></a></th>
+			</tr>
+			<tr>
+				<td>
+					<p class="versionT">주소검색</p>				
+				</td>			
+			</tr>
+			<tr>
+				<td>
+					<ul class="addressList">
+						<li><a href="javascript:;">110-122 서울특별시 종로구 종로 77 (종로3가)</a></li>
+						<li><a href="javascript:;">110-122 서울특별시 종로구 종로 77 (종로3가)</a></li>
+						<li><a href="javascript:;">110-122 서울특별시 종로구 종로 77 (종로3가)</a></li>
+						<li><a href="javascript:;">110-122 서울특별시 종로구 종로 77 (종로3가)</a></li>
+						<li><a href="javascript:;">110-122 서울특별시 종로구 종로 77 (종로3가)</a></li>
+						<li><a href="javascript:;">110-122 서울특별시 종로구 종로 77 (종로3가)</a></li>
+						<li><a href="javascript:;">110-122 서울특별시 종로구 종로 77 (종로3가)</a></li>
+						<li><a href="javascript:;">110-122 서울특별시 종로구 종로 77 (종로3가)</a></li>
+						<li><a href="javascript:;">110-122 서울특별시 종로구 종로 77 (종로3가)</a></li>
+						<li><a href="javascript:;">110-122 서울특별시 종로구 종로 77 (종로3가)</a></li>
+						<li><a href="javascript:;">110-122 서울특별시 종로구 종로 77 (종로3가)</a></li>
+						<li><a href="javascript:;">110-122 서울특별시 종로구 종로 77 (종로3가)</a></li>
+						<li><a href="javascript:;">110-122 서울특별시 종로구 종로 77 (종로3가)</a></li>
+						<li><a href="javascript:;">110-122 서울특별시 종로구 종로 77 (종로3가)</a></li>
+						<li><a href="javascript:;">110-122 서울특별시 종로구 종로 77 (종로3가)</a></li>
+					</ul>				
+				</td>			
+			</tr>								
+		</table>			
+		  </div>	
+		</div>
+
+        <!-- 본인인증 -->
+		<div class="layerPopup icheckPop">
+		   <div class="layerSection">	
+			<table>
+				<tr>
+					<th>본인인증 방법을 선택해주세요. <a href="javascript:;" class="popclose"><img src="../img/common/pop_close.png"  alt=""/></a></th>
+				</tr>
+				<tr>
+					<td><a href="javascript:;">G-PIN</a></td>			
+				</tr>
+				<tr>
+					<td><a href="javascript:;">휴대폰 인증</a></td>					
+				</tr>				
+			</table>
+		  </div>	
+		</div>
+
+		<div id="wrap">
+			<div id="headerWrap">
+				<div class="header">
+					<div class="headerInner">
+						<h1><a href="../index.html"><img src="../img/common/h_logo.gif" alt="안전신문고 로고" /></a></h1>
+						<div class="topMenu">
+							<a href="javascript:;"><img src="../img/common/h_menu.gif" alt="메뉴" /></a>
+						</div><!-- topMenu End -->
+						<div class="myReport">
+							<a href="myReport.html"><img src="../img/common/h_myReport.gif" alt="나의신고" /></a>
+						</div><!-- myReport End -->
+						<div class="topSearch">
+							<a href="topSearch.html"><img src="../img/common/h_search.gif" alt="검색" /></a>
+						</div><!-- topSearch End -->
+					</div><!-- headerInner End -->
+				</div><!-- header End -->
+			</div><!-- headerWrap End -->
+			<div class="lnb">
+				<p><img src="../img/common/gnb_tit.png" alt="안전신문고" /></p>
+				<ul>
+					<li><a href="javascript:;"><img src="../img/common/gnb_01.png" alt="" />로그인</a></li>
+					<li><a href="javascript:;"><img src="../img/common/gnb_02.png" alt="" />안전신고</a></li>	
+					<li><a href="javascript:;"><img src="../img/common/gnb_03.png" alt="" />해양안전신고</a></li>
+					<li><a href="javascript:;"><img src="../img/common/gnb_04.png" alt="" />안전제안</a></li>
+					<li><a href="javascript:;"><img src="../img/common/gnb_05.png" alt="" />공개제안</a></li>
+					<li><a href="javascript:;"><img src="../img/common/gnb_06.png" alt="" />교육자료실</a></li>
+					<li><a href="javascript:;"><img src="../img/common/gnb_07.png" alt="" />신고현황</a></li>
+					<li><a href="javascript:;"><img src="../img/common/gnb_08.png" alt="" />공지사항</a></li>		
+					<li><a href="javascript:;"><img src="../img/common/gnb_09.png" alt="" />안전뉴스</a></li>
+					<li><a href="javascript:;"><img src="../img/common/gnb_10.png" alt="" />주요처리사례</a></li>
+					<li><a href="javascript:;"><img src="../img/common/gnb_11.png" alt="" />검색</a></li>
+					<li><a href="javascript:;"><img src="../img/common/gnb_12.png" alt="" />나의신고</a></li>	
+					<li><a href="javascript:;"><img src="../img/common/gnb_13.png" alt="" />이용안내</a></li>
+					<li><a href="javascript:;"><img src="../img/common/gnb_14.png" alt="" />자주하는 질문</a></li>
+					<li><a href="javascript:;"><img src="../img/common/gnb_15.png" alt="" />설정</a></li>
+					<li><a href="javascript:;"><img src="../img/common/gnb_16.png" alt="" />관심메뉴 추가하기</a></li>									
+				</ul>			
+				<div class="clear"></div>			
+				<a class="close" href="javascript:;"><img src="../img/common/lnb_close.gif" alt="" /></a>						
+			</div><!-- lnb End -->
+			<div id="containerWrap">
+				<div class="container">
+					<div class="titleWrap">
+						<div class="title">
+							<span class="bfBtn"><a href="javascript:;"><img src="../img/common/bfBtn.png" alt="이전으로" /></a></span>
+							<h1>로그인</h1>
+						</div><!-- title End -->
+					</div><!-- titleWrap End -->
+					<div class="contentWrap">
+						<div class="radioBox"><input type="radio" name="login" value="member" /><label>회원 로그인</label></div><!-- radioBox End -->
+						<div class="textWrap">
+							<div class="textchx textchx01"><label>아 이 디</label><input type="text" value="" /></div><!-- textchx01 End -->
+							<div class="textchx textchx02"><label>비밀번호</label><input type="password" value="" /></div><!-- textchx02 End -->
+						</div><!-- textWrap End -->
+						<div class="radioBox"><input type="radio" name="login" value="nonmember" /><label>비회원 로그인</label></div><!-- radioBox End -->
+						<div class="textWrap">
+							<div class="textchx name">
+								<label>이&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 름</label><input type="text" value="" />
+							</div><!-- name End -->
+							<div class="textchx phone">
+								<label>휴대전화</label><input type="text" value="" /><a class="icheck" href="javascript:;">본인인증</a>
+							</div><!-- phone End -->
+							<div class="textchx email">
+								<label>이&nbsp;&nbsp;메&nbsp;일</label><input type="text" value="" />
+							</div><!-- email End -->
+							<div class="textchx address">
+								<label>주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</label>
+								<input type="text" value="" class="zip" /> <span>-</span> <input type="text" value="" class="zip" />
+								<a class="address" href="javascript:;">주소찾기</a>
+								<input type="text" value="" class="address01" />
+								<input type="text" value="" class="address01" />
+							</div><!-- address End -->
+						</div><!-- textWrap End -->
+						<div class="conButton"><a href="#">확인</a></div><!-- conButton End -->
+						<div class="caution">
+							<p>민원사무처리에 관한 법률 시행령 제2조 제1항에 의거, 분명하지 않은 민원인 정보를 입력할 경우 민원 처리가 되지 않을 수 있습니다.</p>
+						</div><!-- caution End -->
+					</div><!-- contentWrap End -->
+				</div><!-- container End -->
+			</div><!-- containerWrap End -->
+			<div id="footerWrap">
+				<div class="footer">
+					<ul class="fMenu">
+						<li><a href="index.html"><img src="../img/common/fMenu01.gif" alt="홈" /></a></li>
+						<li><a href="#"><img src="../img/common/fMenu02.gif" alt="안전신고" /></a></li>
+						<li><a href="#"><img src="../img/common/fMenu03.gif" alt="해양안전신고" /></a></li>
+						<li><a href="#"><img src="../img/common/fMenu04.gif" alt="안전제안" /></a></li>
+						<li><a href="#"><img src="../img/common/fMenu05.gif" alt="설정" /></a></li>
+					</ul>
+				</div><!-- footer End -->
+			</div><!-- footerWrap End -->
+		</div><!-- wrap End -->		
+	</body>
+</html>

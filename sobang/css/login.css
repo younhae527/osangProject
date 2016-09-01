@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Login */
+.radioBox{ font-size:38px; font-weight:bold; vertical-align:middle; padding-left:18px; }
+.radioBox input[type="radio"]{ vertical-align:middle; }
+.radioBox label{ padding-left:17px; }
+.textWrap{ background:#f9f9f9; border:1px solid #e1e1e1; margin:25px 0; padding:37px 0 56px 75px; }
+.textWrap .textchx{}
+.textWrap .textchx01{ padding-left:12px; }
+.textWrap .textchx label{ font-size:34px; font-weight:bold; padding:0 30px 0 0; vertical-align:middle; }
+.textWrap .textchx input[type="text"]{ background:#f5f5f5; width:78%; font-size:34px; height:73px; margin-top:15px; border:1px solid #e1e1e1; }
+.textWrap .textchx01 input[type="text"]{ width:79%; vertical-align:middle;margin-top:-2px; }
+.textWrap .textchx input[type="password"]{ background:#f5f5f5; width:78%; font-size:25px; height:60px; margin-top:15px; border:1px solid #e1e1e1; }
+.textWrap .textchx02 input[type="password"]{ width:75%; vertical-align:middle;margin-top:15px; }
+.textWrap .name input[type="text"]{ width:78%; }
+.textWrap .phone input[type="text"]{ width:56%; margin-left:2px; }
+.textWrap .phone a{ 
+	display:inline-block; background:#6bbdb9; border-radius:15px; color:#fff; font-size:25px; padding:17px 35px; margin:15px 0 0 23px; 
+	vertical-align:middle; 
+}
+.textWrap .email input[type="text"]{ width:78%; margin-left:5px; }
+.textWrap .address span{ font-size:39px; color:#b6b6b6; vertical-align:middle; }
+.textWrap .address input[type="text"].zip{ width:25.5%; margin-left:8px; }
+.textWrap .address input[type="text"].address01{ margin-left:158px; }
+.textWrap .address a{ 
+	display:inline-block; background:#ffbc00; border-radius:15px; color:#fff; font-size:25px; padding:17px 35px; margin:15px 0 0 23px; 
+	vertical-align:middle; 
+}
+.conButton{ width:40%; margin:0 auto; background:#68bab6; border:1px solid #41a4a0; margin-bottom:15px; }
+.conButton a{ display:block; color:#fff; font-size:37px; text-align:center; padding:34px 0; }
+.caution{ border-top:1px solid #c6c6c6; }
+.caution p{ text-align:left; padding-top:20px; font-size:29px; color:#8c8c8c; }
+
+
+	/* 해상도 800 이하에서 먹는 css */
+	@media screen and (max-width:800px){
+		.radioBox{ font-size:30px; padding-left:14px; }
+		.radioBox label{ padding-left:13px; }
+		.textWrap{ padding:37px 0 56px 61px; }
+		.textWrap .textchx01{ padding-left:10px; }
+		.textWrap .textchx label{ font-size:25px; }
+		.textWrap .textchx input[type="text"]{ width:74.7%; font-size:25px; height:58px; margin-top:10px; }
+		.textWrap .textchx01 input[type="text"]{ width:76%; }
+		.textWrap .name input[type="text"]{ width:74%; }
+		.textWrap .phone input[type="text"]{ width:49.5%; }
+		.textWrap .phone a{ 
+			font-size:25px; padding:13px 28px; margin:15px 0 0 23px; 
+			vertical-align:middle; 
+		}
+		.textWrap .email input[type="text"]{ width:74%; }
+		.textWrap .address span{ font-size:25px; color:#b6b6b6; vertical-align:middle; }
+		.textWrap .address input[type="text"].zip{ width:22%; margin-left:4px; }
+		.textWrap .address input[type="text"].address01{ margin-left:125px; }
+		.textWrap .address a{ 
+			font-size:25px; padding:13px 28px; margin:15px 0 0 23px; 
+			vertical-align:middle; 
+		}
+	}
+
+	/* 해상도 640 이하에서 먹는 css */
+	@media screen and (max-width:640px){
+		.radioBox{ font-size:25px; padding-left:11px; }
+		.radioBox label{ padding-left:10px; }
+		.textWrap{ margin:15px 0; }
+		.textWrap{ padding:37px 0 56px 48px; }
+		.textWrap .textchx01{ padding-left:8px; }
+		.textWrap .textchx label{ font-size:20px; }
+		.textWrap .textchx input[type="text"]{ width:74.7%; font-size:20px; height:46px; margin-top:5px; }
+		.textWrap .textchx input[type="password"]{ width:78%; font-size:20px; height:46px; margin-top:5px; }
+		.textWrap .textchx01 input[type="text"]{ width:76%; }
+		.textWrap .name input[type="text"]{ width:74%; }
+		.textWrap .phone input[type="text"]{ width:49.5%; }
+		.textWrap .phone a{ 
+			font-size:20px; padding:10px 22px; margin:5px 0 0 14px; 
+			vertical-align:middle; 
+		}
+		.textWrap .email input[type="text"]{ width:74%; }
+		.textWrap .address span{ font-size:20px; color:#b6b6b6; vertical-align:middle; }
+		.textWrap .address input[type="text"].zip{ width:22%; margin-left:4px; }
+		.textWrap .address input[type="text"].address01{ margin-left:110px; }
+		.textWrap .address a{ 
+			font-size:20px; padding:10px 22px; margin:5px 0 0 14px; 
+			vertical-align:middle; 
+		}
+		.conButton{ width:35%; margin-bottom:10px; }
+		.conButton a{ padding:22px 0; font-size:30px; }
+		.caution{ padding-top:15px; }
+		.caution p{ font-size:20px; padding:5px 1%; line-height:27px; }
+	}
+	/* 해상도 400 이하에서 먹는 css */
+	@media screen and (max-width:414px){
+		.radioBox{ font-size:20px; padding-left:6px; }
+		.radioBox label{ padding-left:5px; }	
+		.textWrap{ margin:10px 0; }
+		.textWrap{ padding:21px 0 18px 26px; }
+		.textWrap .textchx01{ padding-left:7px; }
+		.textWrap .textchx label{ font-size:20px; padding:0 10px 0 0; }
+		.textWrap .textchx input[type="text"]{ width:60%; font-size:20px; height:26px; margin-top:5px; }
+		.textWrap .textchx input[type="password"]{ width:60%; font-size:20px; height:26px; margin-top:5px; }
+		.textWrap .textchx01 input[type="text"]{ width:62%; }
+		.textWrap .name input[type="text"]{ width:60%; }
+		.textWrap .phone input[type="text"]{ width:36%; }
+		.textWrap .phone a{ 
+			font-size:15px; padding:5px 13px; margin:3px 0 0 7px; 
+			vertical-align:middle; 
+		}
+		.textWrap .email input[type="text"]{ width:59%; }
+		.textWrap .address span{ font-size:20px; color:#b6b6b6; vertical-align:middle; }
+		.textWrap .address input[type="text"].zip{ width:13%; margin-left:4px; }
+		.textWrap .address input[type="text"].address01{ margin-left:88px; }
+		.textWrap .address a{ 
+			font-size:15px; padding:5px 13px; margin:3px 0 0 7px; 
+			vertical-align:middle; 
+		}
+		.conButton{ width:30%; margin-bottom:10px; }
+		.conButton a{ display:block; padding:11px 0; font-size:20px; }
+		.caution{ padding-top:10px; }
+		.caution p{ font-size:13px; line-height:22px; padding:5px 1%; }
+	}
+	/* 해상도 360 이하에서 먹는 css */
+	@media screen and (max-width:360px){
+		.radioBox{ font-size:20px; padding-left:6px; }
+		.radioBox label{ padding-left:5px; }	
+		.textWrap{ margin:10px 0; }
+		.textWrap{ padding:21px 0 18px 26px; }
+		.textWrap .textchx01{ padding-left:7px; }
+		.textWrap .textchx label{ font-size:20px; padding:0 10px 0 0; }
+		.textWrap .textchx input[type="text"]{ width:60%; font-size:20px; height:26px; margin-top:5px; }
+		.textWrap .textchx input[type="password"]{ width:60%; font-size:20px; height:26px; margin-top:5px; }
+		.textWrap .textchx01 input[type="text"]{ width:62%; }
+		.textWrap .name input[type="text"]{ width:60%; }
+		.textWrap .phone input[type="text"]{ width:36%; }
+		.textWrap .phone a{ 
+			font-size:15px; padding:5px 13px; margin:3px 0 0 7px; 
+			vertical-align:middle; 
+		}
+		.textWrap .email input[type="text"]{ width:59%; }
+		.textWrap .address span{ font-size:20px; color:#b6b6b6; vertical-align:middle; }
+		.textWrap .address input[type="text"].zip{ width:13%; margin-left:4px; }
+		.textWrap .address input[type="text"].address01{ margin-left:88px; }
+		.textWrap .address a{ 
+			font-size:15px; padding:5px 13px; margin:3px 0 0 7px; 
+			vertical-align:middle; 
+		}
+		.conButton{ width:30%; margin-bottom:10px; }
+		.conButton a{ display:block; padding:11px 0; font-size:20px; }
+		.caution{ padding-top:10px; }
+		.caution p{ font-size:13px; line-height:22px; padding:5px 1%; }
+	}

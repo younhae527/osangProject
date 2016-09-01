@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+.contentWrap{ width:95%; margin:37px auto 0 auto; }
+
+	/* 메인컨텐츠_TOP_버튼 */
+	.conTop{ width:100%; }
+	.conTop ul{ padding-bottom:41px; }
+	.conTop ul:after{ content:''; display:block; clear:both; }
+	.conTop ul li{ width:32.65%; padding-right:1%; float:left; }
+	.conTop ul li:last-child{ padding-right:0; }
+	.conTop ul li a{ display:block; }
+	.conTop ul li a img{ width:100%; }
+
+
+/* LNB */
+.lnb{position:fixed;top:0;left:-101%;z-index:100;width:95%;height:100%;background:#555;padding-bottom:50px;}
+.lnb p{text-align:center;}
+.lnb p img{height:auto;width:30%;padding:9px 0;}
+.lnb ul{width:100%;height:100%;background:#fcfaf8;}
+.lnb ul li{width:47.5%;background:#fcfaf8;float:left;padding:1%;border-left:1px solid #b5b4b3;border-bottom:1px solid #7d7d7d;}
+.lnb ul li a{font-size:35px;color:#444444;letter-spacing:-1px;display:block;}
+.lnb ul li a img{margin-right:5px;height:auto;width:20%;}
+.lnb .close{display:block;position:absolute;top:23px;right:10px;}
+.lnb .close img{height:50px;}
+
+.lnb ul li.lastMenu{ width:98.5%; }
+.lnb ul li.lastMenu img{ width:100%; }
+
+.login_btn{font-size: 25px;border: 1px solid rgb(225, 225, 225);background: none repeat scroll 0% 0% rgb(247, 247, 247);text-align: center;display: block;padding: 25% 0px;}
+
+
+	/* 메인컨텐츠_CENTER_게시판 */
+	.conCenter{ width:100%; }
+	.conCenter .conBoard{ width:99%;border:2px solid #bdbdbd; border-radius:15px; }
+		/* TABTITLE부분 */
+		.conCenter .conBoard ul.tabTitle{ border-bottom:1px solid #d1e2ba; }
+		.conCenter .conBoard ul.tabTitle:after{ content:''; display:block; clear:both; }
+		.conCenter .conBoard ul.tabTitle li{ float:left; text-align:center; width:33.5%; }
+		.conCenter .conBoard ul.tabTitle li + li{width:33%;}
+		.conCenter .conBoard ul.tabTitle li + li + li{width:33.5%;}
+		
+
+		
+		.conCenter .conBoard ul.tabTitle li a{ 
+			display:block; font-size:45px; font-weight:bold; line-height:32px; padding:20px 0; color:#555;  border-right:1px solid #bdbdbd;
+			 position:relative;
+		}
+		.conCenter .conBoard ul.tabTitle li a span{ width:37px; height:15px; }
+		.conCenter .conBoard ul.tabTitle li.tab03 a{ border-right:none;}
+		
+		.conCenter .conBoard ul.tabTitle li.tab01 a:hover span{ 
+			background:url('../img/main/tab01_bg.gif') left top no-repeat; background-size:37px 15px; position:absolute; left:50%; bottom:-15px; 
+			margin-left:-18px;
+		}
+		.conCenter .conBoard ul.tabTitle li.tab01 a.on span{ 
+			background:url('../img/main/tab01_bg.gif') left top no-repeat; background-size:37px 15px; position:absolute; left:50%; bottom:-15px; 
+			margin-left:-18px; 
+		}
+
+		.conCenter .conBoard ul.tabTitle li.tab02 a:hover span{ 
+			background:url('../img/main/tab02_bg.gif') left top no-repeat; background-size:37px 15px; position:absolute; left:50%; bottom:-15px; 
+			margin-left:-18px;
+		}
+		.conCenter .conBoard ul.tabTitle li.tab02 a.on span{ 
+			background:url('../img/main/tab02_bg.gif') left top no-repeat; background-size:37px 15px; position:absolute; left:50%; bottom:-15px; 
+			margin-left:-18px; 
+		}
+
+		.conCenter .conBoard ul.tabTitle li.tab03 a:hover span{ 
+			background:url('../img/main/tab03_bg.gif') left top no-repeat; background-size:37px 15px; position:absolute; left:50%; bottom:-15px; 
+			margin-left:-18px;
+		}
+		.conCenter .conBoard ul.tabTitle li.tab03 a.on span{ 
+			background:url('../img/main/tab03_bg.gif') left top no-repeat; background-size:37px 15px; position:absolute; left:50%; bottom:-15px; 
+			margin-left:-18px; 
+		}
+
+		.conCenter .conBoard ul.tabTitle li.tab01 a:hover{ background:#67a01a; border-radius:13px 0 0 0; color:#fff; }
+		.conCenter .conBoard ul.tabTitle li.tab01 a.on{ background:#67a01a; border-radius:13px 0 0 0; color:#fff; }
+		.conCenter .conBoard ul.tabTitle li.tab02 a:hover{ background:#49a7e0; color:#fff; }
+		.conCenter .conBoard ul.tabTitle li.tab02 a.on{ background:#49a7e0; color:#fff; }
+		.conCenter .conBoard ul.tabTitle li.tab03 a:hover{ background:#f2b10c; border-radius:0 13px 0 0; color:#fff; }
+		.conCenter .conBoard ul.tabTitle li.tab03 a.on{ background:#f2b10c; border-radius:0 13px 0 0; color:#fff; }
+
+		/* TABCONTENT */
+		.conCenter .conBoard .tabConAll{ padding:10px 15px; }
+		.conCenter .conBoard .tabConAll .tab{ display:none; }
+		.conCenter .conBoard .tabConAll .tab ul{ }
+		.conCenter .conBoard .tabConAll .tab ul:after{ content:''; display:block; clear:both; }
+		.conCenter .conBoard .tabConAll .tab ul li{ padding:18px 0 20px 0; border-bottom:1px solid #d2d2d2; vertical-align:middle; }
+		.conCenter .conBoard .tabConAll .tab ul li a{ display:block; }
+		.conCenter .conBoard .tabConAll .tab ul li a span{ font-size:30px; color:#666; }
+		.conCenter .conBoard .tabConAll .tab ul li a span.noTitle{ 
+			max-width:65%; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; display:inline-block; 
+		}
+		.conCenter .conBoard .tabConAll .tab ul li a span.new{ color:#333; vertical-align:middle; }
+		.conCenter .conBoard .tabConAll .tab ul li a img{ width:2.5%; padding-left:10px; }
+		.conCenter .conBoard .tabConAll .tab ul li a span.date{ width:29%; font-weight:normal; text-align:right; float:right; color:#999; }
+		.mainTabMore{ padding:2% 0; text-align:center; }
+		.mainTabMore img{width:100%;}
+
+		/* 메인컨텐츠_bottom_버튼 */
+	.conBottom{ width:100%; }
+	.conBottom .conBot{ width:95%; margin:40px auto 0 auto; }
+	.conBottom .conBot ul{ padding-bottom:40px; }
+	.conBottom .conBot ul:after{ content:''; display:block; clear:both; }
+	.conBottom .conBot ul li{ width:19.2%; float:left; padding:0 31px; }
+	.conBottom .conBot ul li:first-child{ padding-left:0; }
+	.conBottom .conBot ul li:last-child{ padding-right:0; }
+	.conBottom .conBot ul li a{ display:block; }
+	.conBottom .conBot ul li a img{ width:100%; }
+	.conBottom .conBot ul li a span{ display:block; text-align:center; font-size:30px; font-weight:bold; color:#293652; padding-top:10px; }
+
+		/* 해상도 800 이하에서 먹는 css */
+		@media screen and (max-width:800px){
+			.conCenter .conBoard ul.tabTitle li a{ font-size:37px; }
+			.lnb .close{display:block;position:absolute;top:20px;right:10px;}
+			.lnb .close img{height:50px;}
+
+			.conBottom .conBot ul li{ width:19%; padding:0 24px; }
+			.conBottom .conBot ul li a span{ font-size:24px; }
+
+		}
+		
+		/* 해상도 640 이하에서 먹는 css */
+		@media screen and (max-width:640px){
+			.contentWrap{ margin:12px auto 20px auto; }
+			.conTop ul{ padding-bottom:13px; }
+			.conCenter .conBoard ul.tabTitle li a{ font-size:25px; padding:10px 0; }
+			
+			.conCenter .conBoard ul.tabTitle li.tab01 a:hover span{ background-size:25px 10px; margin-left:-12px; }
+			.conCenter .conBoard ul.tabTitle li.tab01 a.on span{ background-size:25px 10px; margin-left:-12px; }
+
+			.conCenter .conBoard ul.tabTitle li.tab02 a:hover span{ background-size:25px 10px; margin-left:-12px; }
+			.conCenter .conBoard ul.tabTitle li.tab02 a.on span{ background-size:25px 10px; margin-left:-12px; }
+
+			.conCenter .conBoard ul.tabTitle li.tab03 a:hover span{ background-size:25px 10px; margin-left:-12px; }
+			.conCenter .conBoard ul.tabTitle li.tab03 a.on span{ background-size:25px 10px; margin-left:-12px; }
+			.lnb .close{display:block;position:absolute;top:15px;right:10px;}
+			.lnb .close img{height:50px;}
+			.login_btn{font-size: 20px;padding: 25% 0px;}	
+
+			.conCenter .conBoard .tabConAll{ padding:4px 10px 6px 10px; }
+			.conCenter .conBoard .tabConAll .tab ul li{ padding:14px 0 12px 0; }
+			.conCenter .conBoard .tabConAll .tab ul li a{ display:block; }
+			.conCenter .conBoard .tabConAll .tab ul li a span{ font-size:20px; }
+			.conCenter .conBoard .tabConAll .tab ul li a span.noTitle{ width:65%; }
+			.conCenter .conBoard .tabConAll .tab ul li a img{ width:5%;  }
+				.lnb ul li a{font-size:25px;}
+				.pt16b14{ padding:16px 0 12px 0; }	
+
+			.conBottom .conBot ul li{ width:22%; padding:0 7px; }
+			.conBottom .conBot ul li a span{ font-size:20px; }	
+
+			.headerInner .myReport{ width:11%; position:absolute; top:20%; right:3%; }/*20150119 수정*/
+			.headerInner .topSearch{ width:11%; position:absolute; top:20%; right:15%; }/*20150119 수정*/
+
+						
+		}
+		/* 해상도 400 이하에서 먹는 css */
+		@media screen and (max-width:414px){
+			.contentWrap{ margin:20px auto 0 auto; }
+			.conTop ul{ padding-bottom:13px; }
+			.conCenter .conBoard ul.tabTitle li a{ font-size:15px; padding:10px 0; }
+			
+			.conCenter .conBoard ul.tabTitle li.tab01 a:hover span{ background-size:25px 10px; margin-left:-12px; }
+			.conCenter .conBoard ul.tabTitle li.tab01 a.on span{ background-size:25px 10px; margin-left:-12px; }
+
+			.conCenter .conBoard ul.tabTitle li.tab02 a:hover span{ background-size:25px 10px; margin-left:-12px; }
+			.conCenter .conBoard ul.tabTitle li.tab02 a.on span{ background-size:25px 10px; margin-left:-12px; }
+
+			.conCenter .conBoard ul.tabTitle li.tab03 a:hover span{ background-size:25px 10px; margin-left:-12px; }
+			.conCenter .conBoard ul.tabTitle li.tab03 a.on span{ background-size:25px 10px; margin-left:-12px; }
+			.lnb .close{display:block;position:absolute;top:10px;right:10px;}
+			.lnb .close img{height:25px;}
+			.login_btn{font-size: 15px;padding: 25% 0px;}
+
+			.conCenter .conBoard .tabConAll{ padding:4px 10px 6px 10px; }
+			.conCenter .conBoard .tabConAll .tab ul li{ padding:14px 0 12px 0; }
+			.conCenter .conBoard .tabConAll .tab ul li a{ display:block; }
+			.conCenter .conBoard .tabConAll .tab ul li a span{ font-size:13px; }
+			.conCenter .conBoard .tabConAll .tab ul li a span.noTitle{ width:64%; }
+			.conCenter .conBoard .tabConAll .tab ul li a img{ width:5%;  }
+			.pt16b14{ padding:16px 0 12px 0; }
+			.lnb ul li a{font-size:16px;color:#444444;letter-spacing:-1px;display:block;}
+			
+			.conBottom .conBot{ margin:20px auto 0 auto; }
+			.conBottom .conBot ul li{ width:23.4%; padding:0 3px; }
+			.conBottom .conBot ul li a span{ font-size:12px; }
+		}
+		
+		/* 해상도 360 이하에서 먹는 css */
+		@media screen and (max-width:360px){
+			.contentWrap{ margin:20px auto 0 auto; }
+			.conTop ul{ padding-bottom:13px; }
+			.conCenter .conBoard ul.tabTitle li a{ font-size:15px; padding:10px 0; }
+			
+			.conCenter .conBoard ul.tabTitle li.tab01 a:hover span{ background-size:25px 10px; margin-left:-12px; }
+			.conCenter .conBoard ul.tabTitle li.tab01 a.on span{ background-size:25px 10px; margin-left:-12px; }
+
+			.conCenter .conBoard ul.tabTitle li.tab02 a:hover span{ background-size:25px 10px; margin-left:-12px; }
+			.conCenter .conBoard ul.tabTitle li.tab02 a.on span{ background-size:25px 10px; margin-left:-12px; }
+
+			.conCenter .conBoard ul.tabTitle li.tab03 a:hover span{ background-size:25px 10px; margin-left:-12px; }
+			.conCenter .conBoard ul.tabTitle li.tab03 a.on span{ background-size:25px 10px; margin-left:-12px; }
+			.lnb .close{display:block;position:absolute;top:10px;right:10px;}
+			.lnb .close img{height:25px;}
+			.login_btn{font-size: 15px;padding: 25% 0px;}
+
+			.conCenter .conBoard .tabConAll{ padding:4px 10px 6px 10px; }
+			.conCenter .conBoard .tabConAll .tab ul li{ padding:14px 0 12px 0; }
+			.conCenter .conBoard .tabConAll .tab ul li a{ display:block; }
+			.conCenter .conBoard .tabConAll .tab ul li a span{ font-size:13px; }
+			.conCenter .conBoard .tabConAll .tab ul li a span.noTitle{ width:64%; }
+			.conCenter .conBoard .tabConAll .tab ul li a img{ width:5%;  }
+			.pt16b14{ padding:16px 0 12px 0; }
+			.lnb ul li a{font-size:16px;color:#444444;letter-spacing:-1px;display:block;}
+			
+			.conBottom .conBot{ margin:20px auto 0 auto; }
+			.conBottom .conBot ul li{ width:23.4%; padding:0 3px; }
+			.conBottom .conBot ul li a span{ font-size:12px; }
+		}
+
+		/* 해상도 320 이하에서 먹는 css */
+		@media screen and (max-width:320px){
+
+			.lnb ul li a{font-size:15px;}
+			.lnb .close{display:block;position:absolute;top:10px;right:10px;}
+			.lnb .close img{height:25px;}			
+		}
+
+
+		 @media screen and (-webkit-min-device-pixel-ratio:0) { 
+		    
+		    /* Safari 5+ ONLY */
+		    ::i-block-chrome, .conCenter .conBoard ul.tabTitle li + li + li {
+		     width:33.7%;
+		    }
+		}/* 20150119추가 */

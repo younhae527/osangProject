@@ -1,0 +1,381 @@
+@import url("ms.css");
+/* CSS Document */
+
+/* Å¸ÀÌÆ² °øÅë */
+.titleWrap{ width:100%; }
+.title{ background:url('../img/common/title_bg.png')left top repeat-x; border-bottom:2px solid #b2b2b2; }
+.title:after{ content:''; display:block; clear:both; }
+.title span{ width:10.3%; float:left; padding:21px 0 26px 32px; }
+.title span a{ display:block; }
+.title span img{ width:100%;margin-top:5px; }
+.title h1{ vertical-align:middle; text-align:center; line-height:44px; padding:44px 135px 51px 0; font-size:58px; color:#555; }
+
+/* ¾Ë¸²ÆÇ */
+.noticeB{ background:#eee; }
+.nbList{ background:#fff; border:1px solid #b2b2b2; margin-bottom:30px; }
+.nbList:after{ content:''; display:block; clear:both; }
+.nbList .movie{ width:40%; float:left; padding:44px 0 44px 4%; }
+.nbList .movie a{ display:block; }
+.nbList .movie a img{ width:100%; }
+.nbList .movieTitle{ width:55%; float:left; vertical-align:middle; }
+.nbList .movieTitle p{ 
+	background:url('../img/sub/symbol.png') 15px 95% no-repeat; background-size:30px 30px; 
+	font-weight:bold; font-size:37px; color:#424242; padding:29% 0 0 12%; text-align:left;
+}
+.nbList .nbTxtWrap{ width:50%; float:left; vertical-align:middle; padding-right:5%; }
+.nbList .nbTxtWrap p.nbImgTitle{ 
+	background:url('../img/sub/symbol.png') 15px 59% no-repeat; background-size:30px 30px; font-size:35px; font-weight:bold; 
+	color:#424242; padding:9% 0 8% 13%; text-align:left;
+}
+.nbList .nbTxtWrap p.nbImgText{ font-size:25px; padding-left:8.5%; }
+.nbList .nbTxtWrap .button{ width:40%; margin:8% 0 0 7%; padding:10px 0; background:#ffbc00; border-radius:30px; font-size:23px; font-weight:bold; }
+.nbList .nbTxtWrap .button a{ display:block; color:#fff; text-align:center;  }
+
+/* ÁÖ¿äÃ³¸®»ç·Ê */
+
+.textBlock .tBtitle{ width:20%; background:#67bab6; color:#fff; text-align:center; padding:10px 0; display:block; margin:20px 0; }
+
+.reportImg:after{ content:''; display:block; clear:both; }
+.reportImg .report{ width:48%; float:left; padding:0 1%; }
+.reportImg .report span{ display:block; padding:5px 0; }
+.reportImg .report span img{ width:100%; }
+
+/* ½Å°íÇöÈ² */
+
+.tabTitle20:after{ content:''; display:block; clear:both; }
+.tabTitle20 li{ width:48%; margin:0 1%; float:left; text-align:center; }
+.tabTitle20 li a{ display:block; background:#919191; padding:6% 0; color:#fff; font-size:42px; }
+.tabTitle20 li a.on{ background:#ffbc00; }
+
+.tabConAll20 .tab20{ padding:5% 1%; }
+.tabConAll20 .tab22{ display:none; }
+.tabConAll20 .tab20 p{ font-size:42px; background:url('../img/sub/symbol.png') left center no-repeat; background-size:30px 30px; padding-left:5%; text-align:left; }
+.tabConAll20 .tab20 p.tabTitle span{font-size:35px !important;}
+.tabConAll20 .tab20 table{ width:100%; border:1px solid #b2b2b2; border-top:none; margin:3% 0; }
+.tabConAll20 .tab20 table tr{}
+.tabConAll20 .tab20 table td{ 
+	text-align:left; padding:1% 0 1% 1%; vertical-align:middle; border-bottom:1px solid #ddd; border-right:1px solid #ddd; font-size:34px; 
+	color:#979797; border-top:1px solid #ddd;
+}
+.tabConAll .tab table td.tableT{ text-align:center;background:#9f9f9f; color:#fff; }
+
+/* °ø°³Á¦¾È */
+.textBlock .tBtitle01{ width:25%; background:#67bab6; color:#fff; text-align:center; padding:10px 0; display:block; margin:20px 0; }
+
+.faqArea span.icon{ 
+	width:20%; padding:2% 0; text-align:left; position:relative; left:0; top:49px; 
+}
+.faqArea span.ongoing{ 
+	background:#67bab6 url('../img/sub/ongoingIcon.png') 18% center no-repeat; color:#fff; text-align:center; 
+	padding-left:6%; border:1px solid #48a09c; background-size:34px 62px;  
+}
+.faqArea span.complete{ 
+	background:#7c7c7c url('../img/sub/completeIcon.png') 18% center no-repeat; color:#fff; text-align:center; 
+	padding-left:6%; border:1px solid #5a5a5a; background-size:45px 45px; 
+}
+.faqArea span.icon img{ width:100%; }
+
+/*¹öÀüÁ¤º¸*/
+p.versionT{ 
+	font-size:40px; background:url('../img/sub/symbol.png') left center no-repeat; background-size:30px 30px; 
+	padding-left:5%; text-align:left; 
+}
+.presentVer{ border:1px solid #c1c1c1; border-radius:15px; margin-top:3%; }
+.presentVer:after{ content:''; display:block; clear:both; }
+.verT{ float:left; background:#67bab6; text-align:center; color:#fff; border-radius:15px 0 0 15px; font-size:40px; padding:3%;  }
+.verC{ float:left; color:#67bab6; text-align:left; padding:3%; font-size:40px;}
+
+/* ³ªÀÇ¾ÈÀü½Å°í */
+.tabTitle01{}
+.tabTitle01:after{ content:''; display:block; clear:both; }
+.tabTitle01 li{ width:31.3%; margin:0 1%; float:left; text-align:center; }
+.tabTitle01 li a{ display:block; background:#919191; padding:6% 0; color:#fff; font-size:42px; }
+.tabTitle01 li a.on{ background:#ffbc00; }
+.tabTitle01 li.tab11 a{ padding:14.5% 0; }
+.tabTitle01 li.tab13 a{ padding:14.5% 0; }
+.tabConAll01{}
+.tabConAll01 .tab10{ padding:5% 1%; }
+.tabConAll01 .tab12{ display:none; }
+.tabConAll01 .tab13{ display:none; }
+p.viewTitle{ font-size:42px; background:url('../img/sub/symbol.png') left center no-repeat; background-size:30px 30px; padding-left:5%; text-align:left; }
+
+table.viewTable{ width:100%; border:1px solid #b2b2b2; border-top:none; margin:3% 0; }
+table.viewTable tr{}
+table.viewTable td{ 
+	text-align:left; padding:1% 2%; vertical-align:middle; border-bottom:1px solid #d8d8d8; font-size:34px; 
+	color:#979797; border-top:1px solid #ddd;
+}
+table.viewTable td.tableT{ background:#67bab6; color:#fff; text-align:center; }
+table.viewTable td.tableT01{ background:#67bab6; color:#fff; text-align:center; }
+table.viewTable td.file{ background:url('../img/common/fileicon.gif') 3% center no-repeat; background-size:42px 52px; padding:2% 0px 2% 8%; }
+.viewButton{ text-align:center; margin:15px auto; }
+.viewButton a{ display:inline-block; width:20%; padding:2%; color:#fff; font-size:37px; }
+.viewButton a.button01{ background:#f0ba24; border:1px solid #dfa400; }
+.viewButton a.button02{ background:#b2b2b2; border:1px solid #bfbfbf; }
+
+/* ¼³Á¤ */
+.settingWrap{ }
+.setting{ border:1px solid #c1c1c1; border-radius:15px; margin-top:3%; padding:3%; position:relative; background-size:112px 112px; }
+.setLogin{ background:url('../img/sub/settingBg01.gif') 4% center no-repeat; }
+.setAddMenu{ background:url('../img/sub/settingBg02.gif') 4% center no-repeat; }
+.setGPS{ background:url('../img/sub/settingBg03.gif') 4% center no-repeat; }
+.setVer{ background:url('../img/sub/settingBg04.gif') 4% center no-repeat; }
+.setting a{ display:block; }
+.setting a span{ display:block; text-align:left; font-size:46px; padding-left:17%; color:#bababa; }
+.setting a span.arrow{ position:absolute; right:3%; bottom:60px; }
+.setting a span.agree{ 
+	width:20%; background:#ffbc00; border-radius:15px; text-align:center; color:#fff; padding:0 2%; margin:5px 0 0 17%; 
+	font-size:40px;
+}
+.setting a span.arrow img{ width:100%; }
+
+/* ÀÌ¿ë¾È³» */
+.userApp{ background:url('../img/sub/userInfoBg01.gif') 4% center no-repeat; }
+.userEnroll{ background:url('../img/sub/userInfoBg02.gif') 4% center no-repeat; }
+.userHandle{ background:url('../img/sub/userInfoBg03.gif') 4% center no-repeat; }
+.userQA{ background:url('../img/sub/userInfoBg04.gif') 4% center no-repeat; }
+
+/* °ü½É¸Þ´º */
+.interestWrap{}
+.interestWrap a.allChk{ 
+	width:15%; display:block; background:#ffbc00; border-radius:15px; color:#fff; text-align:center; font-size:25px; 
+	padding:1%;
+}
+
+.interest{ border:1px solid #e6e6e6; background:#f9f9f9; margin:2% 0; padding:2%; }
+.interest ul{}
+.interest ul:after{ content:''; display:block; clear:both; }
+.interest ul li{ width:45%; font-size:34px; float:left; vertical-align:middle; padding:2% 0 2% 5%; }
+.interest ul li input[type="checkbox"]{ vertical-align:middle; }
+.interest ul li label{ padding-left:2%; }
+.viewButton a.button03{ background:#67bab6; border:1px solid #68b4b0; }
+
+/* °øÁö»çÇ×, ÀÚÁÖÇÏ´ÂÁú¹®, ÁÖ¿äÃ³¸®»ç·Ê °øÅë °Ë»ö */
+.totalsearchBar { width:100%;margin-bottom:10px; }
+.totalsearchBar td{ width:20%; }
+.totalsearchBar td + td{ width:60%;text-align:center; }
+.totalsearchBar td + td + td{ width:20%; }
+.totalsearchBar td a.search_btn{ display:inline;width:100%;border-radius:15px;border:1px solid #ffbc00;text-align:center;background:#ffbc00;color:#fff;padding:3% 18%;font-size:28px; }
+
+
+
+/* 150121 추가 테이블 */
+.noSearch table thead{border-top:1px solid #e1e1e1;}
+.noSearch table tbody{border-bottom:1px solid #e1e1e1;}
+.noSearch table td{text-align:center;background:#f9f9f9;border-left:1px solid #e1e1e1;border-right:1px solid #e1e1e1;}
+.noSearch table tbody td{padding:0 5px 20px 5px;}
+.noSearch table tbody td.noTitle{font-size:30px;font-weight:bold;}
+.noSearch table tbody td p{font-size:20px;color:#bfbfbf;}
+.noSearch table td img{padding-bottom:2%;}
+
+
+
+
+
+
+	
+	/* ÇØ»óµµ 800 ÀÌÇÏ¿¡¼­ ¸Ô´Â css */
+	@media screen and (max-width:800px){
+		.title span{ padding:17px 0 21px 32px; }
+		.title h1{ padding:35px 120px 40px 0; }
+		
+		.nbList{ margin-bottom:25px; }
+		.nbList .movieTitle p{ font-size:32px; padding:29% 0 0 14%; }
+		.nbList .nbTxtWrap p.nbImgTitle{ padding:7% 0 4% 13%; font-size:30px; }
+		.nbList .nbTxtWrap .button{ margin:3% 0 0 7%;}
+
+		.faqArea span.icon{ top:40px; }
+		.faqArea span.ongoing{ padding-left:7%; background-size:30px 53px; }
+		.faqArea span.complete{ padding-left:7%; background-size:38px 38px; }
+		
+		.tabTitle01 li a{ font-size:38px; }
+		.tabTitle01 li.tab11 a{ padding:14.7% 0; }
+		.tabTitle01 li.tab13 a{ padding:14.7% 0; }
+
+		p.viewTitle{ font-size:35px; background-size:28px 28px; }
+		table.viewTable td{ font-size:27px; }
+		table.viewTable td.file{ background-size:38px 48px; }
+		.viewButton a{ width:20%; font-size:35px; }
+
+		.setting{ background-size:90px 90px; }
+		.setting a span{ font-size:40px; }
+		.setting a span.arrow{ bottom:50px; }
+		.setting a span.agree{ font-size:30px; }
+
+		.tabConAll20 .tab20 p.tabTitle span{font-size:30px !important;}
+	}
+
+	/* ÇØ»óµµ 640 ÀÌÇÏ¿¡¼­ ¸Ô´Â css */
+	@media screen and (max-width:640px){
+		.title span{ padding:12px 0 15px 20px; }
+		.title h1{ padding:27px 90px 32px 0; font-size:50px; }
+		
+		.nbList{ margin-bottom:20px; }
+		.nbList .movie{ width:40%; float:left; padding:27px 0 27px 4%; }
+		.nbList .movieTitle p{ background:url('../img/sub/symbol.png') 10px 98% no-repeat; font-size:20px; padding:26% 0 0 14%; background-size:20px 20px; }
+		.nbList .nbTxtWrap{ }
+		.nbList .nbTxtWrap p.nbImgTitle{ 
+		background:url('../img/sub/symbol.png') 10px 59% no-repeat; font-size:19px; background-size:20px 20px; padding:10% 0 8% 13%;  }
+		.nbList .nbTxtWrap p.nbImgText{ font-size:15px; }
+		.nbList .nbTxtWrap .button{ font-size:15px; }
+
+		.textBlock .tBtitle{ width:30%; }
+		
+		.tabTitle20 li a{ font-size:35px; }
+		.tabConAll20 .tab20 p{ font-size:30px; padding-left:6%; background-size:25px 25px; }
+		.tabConAll20 .tab20 table td{ font-size:28px; }
+
+		.faqArea span.icon{ width:18%; top:34px; }
+		.faqArea span.ongoing{ padding-left:8%; background-size:25px 42px; }
+		.faqArea span.complete{ padding-left:8%; background-size:32px 32px; }
+
+		p.versionT{ font-size:28px; padding-left:6%; background-size:25px 25px; }
+		.verT{ font-size:30px; }
+		.verC{ font-size:30px; }
+
+		.tabTitle01 li a{ font-size:30px; }
+		.tabTitle01 li.tab11 a{ padding:14.7% 0; }
+		.tabTitle01 li.tab13 a{ padding:14.7% 0; }
+
+		p.viewTitle{ font-size:30px; background-size:20px 20px; }
+		table.viewTable td{ font-size:23px; }
+		table.viewTable td.file{ background-size:30px 40px; }
+		.viewButton a{ width:20%; font-size:30px; }
+
+		.setting{ background-size:65px 65px; }
+		.setting a span{ font-size:20px; }
+		.setting a span.arrow{ width:5%; bottom:20px; }
+		.setting a span.agree{ font-size:20px; }
+
+		.interestWrap a.allChk{ width:20%; font-size:20px; }
+		.interest ul li{ font-size:22px; }
+
+		.totalsearchBar td a.search_btn{padding:3% 17%;font-size:25px;}
+		.tabConAll20 .tab20 p.tabTitle span{font-size:20px !important;}
+
+
+
+	}
+	/* ÇØ»óµµ 400 ÀÌÇÏ¿¡¼­ ¸Ô´Â css */
+	@media screen and (max-width:414px){
+		.title span{ padding:6px 0 7px 11px; }
+		.title h1{ padding:15px 50px 17px 0; font-size:30px; line-height:22px; }
+
+		.nbList{ margin-bottom:10px; }
+		.nbList .movie{ width:40%; float:left; padding:14px 0 14px 4%; }
+		.nbList .movieTitle p{ background:url('../img/sub/symbol.png') 5px top no-repeat; font-size:15px; padding:0 0 0 15%; background-size:15px 15px;margin-top:40px; }
+		.nbList .nbTxtWrap p.nbImgTitle{ background:url('../img/sub/symbol.png') 5px top no-repeat;margin-top:15px; font-size:14px; background-size:15px 15px; padding:0 0 5% 15%; }
+		.nbList .nbTxtWrap p.nbImgText{ font-size:13px; }
+		.nbList .nbTxtWrap .button{ font-size:11px; margin-bottom:5px; }
+
+		.tabTitle20 li a{ font-size:23px; }
+		.tabConAll20 .tab20 p{ font-size:25px; padding-left:9%; background-size:20px 20px;  }
+		.tabConAll20 .tab20 table td{ font-size:20px; }
+
+		.textBlock .tBtitle01{ width:35%; }
+
+		.faqArea span.icon{ width:18%; top:27px; }
+		.faqArea span.ongoing{ padding-left:8%; background-size:15px 25px; }
+		.faqArea span.complete{ padding-left:8%; background-size:19px 19px; }
+
+		p.versionT{ font-size:18px; padding-left:9%; background-size:20px 20px; }
+		.verT{ font-size:25px; }
+		.verC{ font-size:25px; }
+
+		.tabTitle01 li a{ font-size:16px; }
+		.tabTitle01 li.tab11 a{ padding:15.7% 0; }
+		.tabTitle01 li.tab13 a{ padding:15.7% 0; }
+
+		p.viewTitle{ font-size:25px; background-size:15px 15px; }
+		table.viewTable td{ font-size:17px; }
+		table.viewTable td.file{ background-size:20px 25px; padding-left:10%; }
+		.viewButton a{ width:20%; font-size:25px; }
+
+		.setting{ background-size:43px 43px; }
+		.setting a span{ font-size:15px; }
+		.setting a span.arrow{ width:5%; bottom:17px; }
+		.setting a span.agree{ font-size:15px; }
+		.setGPS a span.arrow{ bottom:20px; }
+
+		.interestWrap a.allChk{ width:25%; font-size:17px; }
+		.interest ul li{ font-size:14px; }
+
+		.totalsearchBar td a.search_btn{padding:3% 14%;font-size:16px;}
+		.tabConAll20 .tab20 p.tabTitle span{font-size:20px !important;}		
+
+
+		.noSearch table tbody td.noTitle{font-size:20px;font-weight:bold;}
+		.noSearch table tbody td p{font-size:15px;color:#bfbfbf;}		
+	
+	}
+	/* ÇØ»óµµ 360 ÀÌÇÏ¿¡¼­ ¸Ô´Â css */
+	@media screen and (max-width:360px){
+		.title span{ padding:6px 0 7px 11px; }
+		.title h1{ padding:15px 50px 17px 0; font-size:30px; line-height:22px; }
+
+		.nbList{ margin-bottom:10px; }
+		.nbList .movie{ width:40%; float:left; padding:14px 0 14px 4%; }
+		.nbList .movieTitle p{ background:url('../img/sub/symbol.png') 5px top no-repeat; font-size:15px; padding:0 0 0 15%; background-size:15px 15px;margin-top:40px; }
+		.nbList .nbTxtWrap p.nbImgTitle{ background:url('../img/sub/symbol.png') 5px top no-repeat;margin-top:15px; font-size:14px; background-size:15px 15px; padding:0 0 5% 15%; }
+		.nbList .nbTxtWrap p.nbImgText{ font-size:13px; }
+		.nbList .nbTxtWrap .button{ font-size:11px; margin-bottom:5px; }
+
+		.tabTitle20 li a{ font-size:23px; }
+		.tabConAll20 .tab20 p{ font-size:25px; padding-left:9%; background-size:20px 20px;  }
+		.tabConAll20 .tab20 table td{ font-size:20px; }
+
+		.textBlock .tBtitle01{ width:35%; }
+
+		.faqArea span.icon{ width:18%; top:27px; }
+		.faqArea span.ongoing{ padding-left:8%; background-size:15px 25px; }
+		.faqArea span.complete{ padding-left:8%; background-size:19px 19px; }
+
+		p.versionT{ font-size:18px; padding-left:9%; background-size:20px 20px; }
+		.verT{ font-size:25px; }
+		.verC{ font-size:25px; }
+
+		.tabTitle01 li a{ font-size:16px; }
+		.tabTitle01 li.tab11 a{ padding:15.7% 0; }
+		.tabTitle01 li.tab13 a{ padding:15.7% 0; }
+
+		p.viewTitle{ font-size:25px; background-size:15px 15px; }
+		table.viewTable td{ font-size:17px; }
+		table.viewTable td.file{ background-size:20px 25px; padding-left:10%; }
+		.viewButton a{ width:20%; font-size:25px; }
+
+		.setting{ background-size:43px 43px; }
+		.setting a span{ font-size:15px; }
+		.setting a span.arrow{ width:5%; bottom:17px; }
+		.setting a span.agree{ font-size:15px; }
+		.setGPS a span.arrow{ bottom:20px; }
+
+		.interestWrap a.allChk{ width:25%; font-size:17px; }
+		.interest ul li{ font-size:14px; }
+
+		.totalsearchBar td a.search_btn{padding:3% 14%;font-size:16px;}
+		.tabConAll20 .tab20 p.tabTitle span{font-size:20px !important;}		
+
+
+
+
+		.mm-list > li > a,
+		.mm-list > li > span {font-size:15px;padding: 10px 0 10px 5px;}
+		#menu-gnb .mm-header .mm-title {height:60px;}
+		.mm-header { height:60px;}
+		.mm-menu.mm-hasheader.mm-ismenu > .mm-panel {padding-top: 60px; }
+
+
+
+	
+	}
+
+	/* ÇØ»óµµ 360 ÀÌÇÏ¿¡¼­ ¸Ô´Â css */
+	@media screen and (max-width:320px){
+		.noSearch table tbody td.noTitle{font-size:15px;font-weight:bold;}
+		.noSearch table tbody td p{font-size:12px;color:#bfbfbf;}	
+		.noSearch table tbody td{padding:0 5px 10px 5px;}
+
+	}
+
+
+
