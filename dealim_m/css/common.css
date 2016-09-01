@@ -1,0 +1,48 @@
+/* header */
+#headerWrap{ width:100%; }
+.header{ min-width:320px; height:49px; border-bottom:1px solid #1bafde; position:relative; }
+.header ul.topMenu{ }
+.header ul.topMenu li{ position:absolute; top:5px; }
+.header ul.topMenu li.top01{ width:38px; left:5px; }
+.header ul.topMenu li.top02{ width:38px; left:43px; }
+.header ul.topMenu li.top03{ width:96px; top:0; left:50%; margin-left:-48px; }
+.header ul.topMenu li.top04{ width:38px; right:5px; }
+.header ul.topMenu li a{ display:block; }
+
+/* footer */
+#footerWrap{ border-top:2px solid #555; }
+.footMenuWrap{ border-top:1px solid #5b5b5b; }
+ul.footMenu{ background:url('../img/common/footList_bg.gif') left top repeat-x; }
+ul.footMenu:after{ display:block; clear:both; content:"."; visibility:hidden; height:0; }
+ul.footMenu li{ float:left; width:33%; border-right:1px solid #eee; border-bottom:1px solid #eee; padding:12px 0; }
+ul.footMenu li.facebook{ background:url('../img/common/fbIcon.gif') 17% center no-repeat; background-size:15px 17px; }
+ul.footMenu li.twitter{ background:url('../img/common/twIcon.gif') 17% center no-repeat; background-size:15px 17px; }
+ul.footMenu li.blog{ background:url('../img/common/blIcon.gif') 17% center no-repeat; background-size:15px 17px; }
+ul.footMenu li a{ display:block; font-size:11px; font-weight:bold; color:#555; text-align:center; padding-left:5px; }
+
+.footer{ background:#555; border-left:1px solid #606060; border-right:1px solid #606060; }
+.footer:after{ display:block; clear:both; content:"."; visibility:hidden; height:0; }
+.copyright{ padding:16px 0 49px 19px; color:#909090; font-size:10px; font-weight:bold; float:left; }
+.pcVersion{ float:right; width:73px; padding:15px 10px 0 0; }
+.pcVersion a{ display:block; }
+.pcVersion a img{ width:100%; }
+
+.brnone{ border-right:none !important; }
+.bbnone{ border-bottom:none !important; }
+.bgnone{ background:none !important; }
+
+.bb2px{ border-bottom:2px solid #ededed !important; }
+.bt1px{ border-top:1px solid #ededed !important; }
+.bb1px{ border-bottom:1px solid #dedede !important; }
+
+.mrnone{ margin-right:none !important; }
+.mb10{ margin-bottom:10px !important; }
+.mb40{ margin-bottom:40px !important; }
+.mb225{ margin-bottom:225px !important; }
+
+.pb0{ padding-bottom:0 !important; }
+
+.pr5{ padding-right:5px !important; }
+.pr50{ padding-right:50px !important; }
+
+.pl0{ padding-left:0 !important; }

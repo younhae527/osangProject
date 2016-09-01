@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<title>::: 대림대학교(모바일) :::</title>
+	<link rel="stylesheet" type="text/css" href="../css/sub.css" />
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/reveal.css">
+	<script type="text/javascript" src="../js/jquery-1.10.1.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('dt').click(function(){
+				if($(this).siblings('dd').css('display') == 'block'){
+					$('dt').siblings('dd').hide();
+				}else{
+					$('dd').hide();
+					$(this).siblings('dd').show();
+					$('dt').children('a').removeClass('on');
+					$(this).children('a').addClass('on');
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="headerWrap">
+		<div class="header">
+			<ul class="topMenu">
+				<li class="top01"><a href="menu01.html" title="메뉴로 이동"><img src="../img/common/menu.gif" alt="메뉴로 이동" /></a></li>
+				<li class="top02"><a href="totalSearch.html" title="검색"><img src="../img/common/search.gif" alt="검색" /></a></li>
+				<li class="top03"><img src="../img/common/logo.gif" alt="대림대학교" /></li>
+				<li class="top04"><a href="../ipsi_main.html" title="홈으로 이동"><img src="../img/common/home.gif" alt="홈으로 이동" /></a></li>
+			</ul>
+		</div><!-- header End -->
+	</div><!-- headerWrap End -->
+	<div id="menuContainer">
+		<div class="tabWrap">
+			<ul class="tabBtn">
+				<li><a href="menu01.html"><img src="../img/menu/tab01_off.png" alt="대학메뉴" /></a></li>
+				<li><a href="menu02.html"><img src="../img/menu/tab02_on.png" alt="입시메뉴" /></a></li>
+			</ul>
+			<div class="tabContent">
+				<div class="tab02">
+					<dl class="menu">
+						<dt><a href="#" class="on">모집요강</a></dt>
+						<dd><a href="http://ibook.daelim.ac.kr/Viewer/E37QEVR9V7UH" target="_blank">- 수시</a></dd>
+						<dd><a href="#">- 정시</a></dd>
+						<dd><a href="#">- 산업체</a></dd>
+						<dd><a href="#">- 학사학위</a></dd>
+					</dl>
+					<dl class="menu">
+						<dt><a href="../ipsiSub01/admsGuideList.html">입학안내</a></dt>
+					</dl>
+					<dl class="menu">
+						<dt><a href="../ipsiSub01/ipsiQnaList.html">입시 Q&amp;A</a></dt>
+					</dl>
+					<dl class="menu04">
+						<dt><a href="../ipsiSub01/appliList.html">지원자현황</a></dt>
+					</dl>
+					<dl class="menu">
+						<dt><a href="#">대학소개</a></dt>
+						<dd><a href="info01.html">- 총장인사말</a></dd>
+						<dd><a href="info02.html">- 정신과 비전</a></dd>
+						<dd><a href="info03.html">- 대학학훈</a></dd>
+					</dl>
+					<dl class="menu">
+						<dt><a href="#">학과안내</a></dt>
+						<dd><a href="../sub02/major01.html">- 전문학사</a></dd>
+						<dd><a href="../sub02/major02.html">- 학사학위</a></dd>
+					</dl>
+				</div><!--tab01 End-->
+			</div><!--tabContent End-->
+		</div><!--tabWrap End-->
+	</div><!-- menuContainer End -->
+</body>
+</html>

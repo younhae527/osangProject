@@ -1,0 +1,71 @@
+/* 대학메인 */
+#container{ width:100%; padding-bottom:31px; border-bottom:1px solid #5c5c5c; }
+.mainVisual{ width:100%; border-top:2px solid #00a6da; margin-bottom:4px; }
+.mainVisual a{ display:block; }
+
+ul.mainMenu{ width:100%; padding-bottom:4px;}
+ul.mainMenu:after{ display:block; clear:both; content:"."; visibility:hidden; height:0; }
+ul.mainMenu li{ width:32.6%; float:left; padding-right:1%; }
+ul.mainMenu li:last-child{ padding-right:0; }
+ul.mainMenu li a{ display:block; }
+
+.mainNotice{ }
+.mainNotice h1{ 
+	color:#333; font-size:18px; font-weight:bold; background:#eff5f9 url('../img/main/notice_bg.gif') 15px 10px no-repeat; background-size:11px 21px; 
+	padding:10px 0 10px 38px; line-height:20px;
+	}
+.mainNotice h1:after{ display:block; clear:both; content:"."; visibility:hidden; height:0; }
+.mainNotice h1 span{ width:10%; float:right; padding-right:8px;}
+.mainNotice h1 span a{display:inline-block; vertical-align:middle;}
+.mainNotice h1 span img{width:100%;}
+.mainNotice ul.noList{ border:1px solid #eff5f9; border-top:none; }
+.mainNotice ul.noList li{ background:url('../img/common/bulImg.gif') 24px center no-repeat; padding:12px 0 11px 35px; border-bottom:1px solid #ededed; }
+.mainNotice ul.noList li:last-child{ border-bottom:none; }
+.mainNotice ul.noList li a{ font-size:11px; color:#333; }
+
+/* 입시메인 */
+.ipsiContainer{ width:100%; border-top:2px solid #00a6da; }
+.ipsiTop{ margin-top:4px; }
+.ipsiTop:after{ display:block; clear:both; content:"."; visibility:hidden; height:0; }
+	.ipsiTop .ipsiTLeft{ width:56%; float:left; padding-right:1%; }
+	.ipsiTop .ipsiTLeft h2{ 
+		background:#006db7; color:#fff; font-size:15px; font-weight:bold; text-align:center; 
+		padding:14px 0; position:relative; z-index:2;
+	}
+	.ipsiTop .ipsiTLeft h2 span{ 
+		display:block; position:absolute; right:5%; bottom:-8px; width:16px; height:8px;
+		background:url('../img/main/applicationGuide.png') 0 0 no-repeat; background-size:100%;
+	}
+	.ipsiTop .ipsiTLeft ul{ position:relative; }
+	.ipsiTop .ipsiTLeft ul:after{ display:block; clear:both; content:"."; visibility:hidden; height:0; }
+	.ipsiTop .ipsiTLeft ul li{ width:50%; float:left; }
+	.ipsiTop .ipsiTLeft ul li a{ display:block; border-left:2px solid #ededed; border-right:1px solid #ededed; }
+	.ipsiTop .ipsiTLeft ul li.brdiff a{ border-left:none; border-right:2px solid #ededed; }
+	
+	.ipsiTop .ipsiTRight{ width:43%; float:left; background:red; }
+	.ipsiTop .ipsiTRight a{ display:block; }
+
+.ipsiCenter{ margin-top:4px; }
+	.ipsiCenter ul{}
+	.ipsiCenter ul:after{ display:block; clear:both; content:"."; visibility:hidden; height:0; }
+	.ipsiCenter ul li.admsGuide{ width:32.7%; float:left; padding-right:1%; }
+	.ipsiCenter ul li.ipsiQna{ width:66.3%; float:left; }
+	.ipsiCenter ul li img{ width:100%; }
+	.ipsiCenter ul li a{ display:block; }
+
+.ipsiBottom{ margin-top:4px; }
+	.ipsiBottom ul{}
+	.ipsiBottom ul:after{ display:block; clear:both; content:"."; visibility:hidden; height:0; }
+	.ipsiBottom ul li.majorInfo{ width:66.3%; float:left; padding-right:1%; }
+	.ipsiBottom ul li.collageInfo{ width:32.7%; float:left; }
+	.ipsiBottom ul li a{ display:block; }
+
+.ipsiAsk{ margin-top:4px; background:#f4f8fb; position:relative; }
+.ipsiAsk:after{ display:block; clear:both; content:"."; visibility:hidden; height:0; }
+	.iaTitle{ 
+		float:left; font-size:15px; font-weight:bold; color:#333; padding:20px 20px 21px 10px; background:url('../img/main/ipsiAsk_bg.gif') right top no-repeat; 
+		background-size:10px 60px; 
+	}
+	.iaphone{ float:left; padding:14px 0 11px 10px; font-size:14px; font-weight:bold; color:#20577c; }
+	.iaCall{ width:23%; position:absolute; right:9px; top:13px; }
+	.iaCall img{ width:100%; }
