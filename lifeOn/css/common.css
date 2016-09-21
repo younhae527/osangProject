@@ -30,6 +30,13 @@
 
 .fwBold{ font-weight:bold !important; }
 
+/* color_공통 */
+.clr0d4d94{ color:#0d4d94 !important; }
+.clrfade7d{ color:#fade7d !important; }
+.clrb4ef67{ color:#b4ef67 !important; }
+.clr00968a{ color:#00968a !important; }
+.clr139da9{ color:#139da9 !important; }
+.clrfec02c{ color:#fec02c !important; }
 
 /* padding_공통 */
 .pt_0{padding-top:0 !important;}
