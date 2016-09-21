@@ -23,11 +23,11 @@
 				.headerMenuArea ul li.headerMenu03{ background:url('../img/main/img_headerMenu03.png') left top no-repeat; }
 				.headerMenuArea ul li.headerMenu04{ background:url('../img/main/img_headerMenu04.png') left top no-repeat; }
 				.headerMenuArea ul li.headerMenu05{ background:url('../img/main/img_headerMenu05.png') left top no-repeat; }
-				.headerMenuArea ul li.headerMenu01:hover{ box-shadow:0 0 0 15px rgba(0,67,147,1) inset, 0 0 0 150px rgba(0,67,147,0) inset; }
-				.headerMenuArea ul li.headerMenu02:hover{ box-shadow:0 0 0 15px rgba(147,11,0,1) inset, 0 0 0 150px rgba(147,11,0,0) inset; }
-				.headerMenuArea ul li.headerMenu03:hover{ box-shadow:0 0 0 15px rgba(152,94,0,1) inset, 0 0 0 150px rgba(152,94,0,0) inset; }
-				.headerMenuArea ul li.headerMenu04:hover{ box-shadow:0 0 0 15px rgba(0,100,109,1) inset, 0 0 0 150px rgba(0,100,109,0) inset; }
-				.headerMenuArea ul li.headerMenu05:hover{ box-shadow:0 0 0 15px rgba(0,99,30,1) inset, 0 0 0 150px rgba(0,99,30,0) inset; }
+				.headerMenuArea ul li.headerMenu01:hover{ background:url('../img/main/img_headerMenu01_hover.png') left top no-repeat; }
+				.headerMenuArea ul li.headerMenu02:hover{ background:url('../img/main/img_headerMenu02_hover.png') left top no-repeat; }
+				.headerMenuArea ul li.headerMenu03:hover{ background:url('../img/main/img_headerMenu03_hover.png') left top no-repeat; }
+				.headerMenuArea ul li.headerMenu04:hover{ background:url('../img/main/img_headerMenu04_hover.png') left top no-repeat; }
+				.headerMenuArea ul li.headerMenu05:hover{ background:url('../img/main/img_headerMenu05_hover.png') left top no-repeat; }
 				.headerMenuArea ul li a{ width:210px; height:210px; display:block; }
 				.headerMenuArea ul li a img{ width:100%; }
 
