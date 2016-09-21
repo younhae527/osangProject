@@ -1,4 +1,4 @@
-/* Main Header Script : Visual */
+/* Main Header Script : Visual
 $(function(){
     $('.visual').bxSlider({
         auto: true,
@@ -8,7 +8,7 @@ $(function(){
         pause:3000
     });
 });
-
+*/
 /* Main Header Script : Banner */
 $(function(){
     $('.headerBanner').bxSlider({
