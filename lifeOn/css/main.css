@@ -57,16 +57,16 @@
 	/* 늘곁애는 늘 신뢰를 할 수 있습니다 */
 	.neulneulWrap{ width:100%; background:#5bb1d2; }
 		.neulneulInner{ width:1100px; margin:0 auto; padding:83px 0 126px 0; }
-			.neulneulTitleWrap{ width:830px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
-				.neulneulBtitle{ font-size:60px; color:#fff; font-weight:bold; position:absolute; left:-300px; top:-70px; }
-				.neulneulTitle{ font-size:60px; color:#fff; position:absolute; right:-490px; bottom:-70px; }
+			.neulneulTitleWrap{ width:722px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
+			    .neulneulTitleWrap .textWrap{ display:inline-block; font-size:48px; color:#fff; padding:10px 0 0 12px; }
+			        .neulneulTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; }
 			.neulneulInner p{ text-align:center; font-size:28px; color:#fff; }
 
 			.neulneulContentWrap{ margin-top:80px; }
 				.neulneulContentWrap ul:after{ content:''; display:block; clear:both; }
 					.neulneulContentWrap ul li{ width:210px; float:left; margin-left:86px; }
-						.neulneulIcon a{ display:block; font-size:30px; color:#fff; text-align:center; padding-top:237px; }
-							.neulneulIcon a span{ font-size:18px; display:block; }
+						.neulneulIcon a{ display:block; font-size:30px; color:#0d4d94; text-align:center; padding-top:237px; font-weight:bold; }
+							.neulneulIcon a span{ font-size:18px; display:block; color:#fff; font-weight:normal; }
 
 						.neulneulIcon01{ background:url('../img/main/ico_neulneul01.png') left top no-repeat; }
 						.neulneulIcon02{ background:url('../img/main/ico_neulneul02.png') left top no-repeat; }
@@ -76,9 +76,9 @@
 	/* 늘곁애소개 */
 	.infoWrap{ width:100%; background:#3d79c1; }
 		.infoInner{ width:1100px; margin:0 auto; padding:106px 0 145px 0; }
-			.infoTitleWrap{ width:320px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
-				.infoBtitle{ font-size:60px; color:#fff; font-weight:bold; position:absolute; left:-170px; top:-70px; }
-				.infoTitle{ font-size:60px; color:#fff; position:absolute; right:-120px; bottom:-70px; }
+			.infoTitleWrap{ width:297px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
+                .infoTitleWrap .textWrap{ display:inline-block; font-size:50px; color:#fff; padding:5px 0 0 12px; }
+                    .infoTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; }
 
 			.infoContentWrap{ margin-top:80px; }
 
@@ -111,9 +111,9 @@
 	/* 늘곁애상품안내 */
 	.productWrap{ width:100%; background:#efefef; }
 		.productInner{ width:1100px; margin:0 auto; padding:109px 0 150px 0; }
-			.productTitleWrap{ width:430px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
-				.productBtitle{ font-size:60px; color:#333; font-weight:bold; position:absolute; left:-170px; top:-70px; }
-				.productTitle{ font-size:60px; color:#333; position:absolute; right:-230px; bottom:-70px; }
+			.productTitleWrap{ width:410px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
+				.productTitleWrap .textWrap{ display:inline-block; font-size:50px; color:#333; padding:5px 0 0 12px; }
+                    .productTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; }
 				.bg_gTop{ width:19px; height:17px; background:url('../img/common/ico_gMainTitle.png') left top no-repeat; display:block; position:absolute; left:0; top:0; }
 				.bg_gBot{ width:19px; height:17px; background:url('../img/common/ico_gMainTitle.png') left top no-repeat; display:block; position:absolute; right:0; bottom:0; }
 	
@@ -139,9 +139,9 @@
 	/* 홍보채널 */
 	.promotionWrap{ width:100%; background:#feae2c; }
 		.promotionInner{ width:1100px; margin:0 auto; padding:114px 0 147px 0; }
-			.promotionTitleWrap{ width:260px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
-				.promotionBtitle{ font-size:60px; color:#fff; font-weight:bold; position:absolute; left:-120px; top:-70px; }
-				.promotionTitle{ font-size:60px; color:#fff; position:absolute; right:-120px; bottom:-70px; }
+			.promotionTitleWrap{ width:250px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
+				.promotionTitleWrap .textWrap{ display:inline-block; font-size:48px; color:#fff; padding:10px 0 0 15px; }
+                        .promotionTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; }
 
 			.promotionContentWrap{ margin-top:80px; }
 			.promotionContentWrap:after{ content:''; display:block; clear:both; }
@@ -181,8 +181,8 @@
 	.customerWrap{ width:100%; background:#3d9aa2; }
 		.customerInner{ width:1100px; margin:0 auto; padding:114px 0 147px 0; }
 			.customerTitleWrap{ width:260px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
-				.customerBtitle{ font-size:60px; color:#fff; font-weight:bold; position:absolute; left:-120px; top:-70px; }
-				.customerTitle{ font-size:60px; color:#fff; position:absolute; right:-120px; bottom:-70px; }
+				.customerTitleWrap .textWrap{ display:inline-block; font-size:48px; color:#fff; padding:10px 0 0 15px; }
+                    .customerTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; }
 			
 			.customerContentWrap{ margin-top:80px; }
 			.customerContentWrap:after{ content:''; display:block; clear:both; }

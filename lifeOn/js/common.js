@@ -19,7 +19,7 @@ $(function(){
     });
 });
 
-/* Main Title Script : MY늘곁애 */
+/* Main Title Script : MY늘곁애
 $(function(){
 	$('.neulneulTitleWrap').bind('mouseenter focusin',function ()  { 
         $('.neulneulBtitle').animate({ left: '16px', top:'9px' }, 1000);
@@ -47,7 +47,7 @@ $(function(){
     });
 });
 
-/* navi event */
+/* navi event
 $(document).ready(function () {
     $(window).scroll(function() {
         var sclTop = $(this).scrollTop();
@@ -128,7 +128,7 @@ $(document).ready(function () {
   
     });
 });
-
+*/
 /* section Event */
 
 $(function(){
