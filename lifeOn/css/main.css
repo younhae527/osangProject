@@ -141,7 +141,7 @@
 		.promotionInner{ width:1100px; margin:0 auto; padding:114px 0 147px 0; }
 			.promotionTitleWrap{ width:250px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
 				.promotionTitleWrap .textWrap{ display:inline-block; font-size:48px; color:#fff; padding:10px 0 0 15px; }
-                        .promotionTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; }
+                    .promotionTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; }
 
 			.promotionContentWrap{ margin-top:80px; }
 			.promotionContentWrap:after{ content:''; display:block; clear:both; }
@@ -220,11 +220,11 @@
 	/* MY늘곁애 */
 	.myneulWrap{ width:100%; background:#57b273; }
 		.myneulInner{ width:1100px; margin:0 auto; padding:114px 0 147px 0; }
-			.myneulTitleWrap{ width:300px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
-				.myneulBtitle{ font-size:60px; color:#fff; font-weight:bold; position:absolute; left:-90px; top:-60px; }
-				.myneulTitle{ font-size:60px; color:#fff; position:absolute; right:-170px; bottom:-70px; }
-				.bg_top{ width:19px; height:17px; background:url('../img/common/ico_mainTitle.png') left top no-repeat; display:block; position:absolute; left:0; top:0; }
-				.bg_bot{ width:19px; height:17px; background:url('../img/common/ico_mainTitle.png') left top no-repeat; display:block; position:absolute; right:0; bottom:0; }
+			.myneulTitleWrap{ width:280px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
+				.myneulTitleWrap .textWrap{ display:inline-block; font-size:48px; color:#fff; padding:10px 0 0 15px; }
+                    .myneulTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; }
+                    .bg_top{ width:19px; height:17px; background:url('../img/common/ico_mainTitle.png') left top no-repeat; display:block; position:absolute; left:0; top:0; }
+                    .bg_bot{ width:19px; height:17px; background:url('../img/common/ico_mainTitle.png') left top no-repeat; display:block; position:absolute; right:0; bottom:0; }
 			
 			.myneulContentWrap{ margin-top:80px; }
 			.myneulContentWrap:after{ content:''; display:block; clear:both; }
