@@ -59,9 +59,9 @@
 		.neulneulInner{ width:1100px; margin:0 auto; padding:83px 0 126px 0; }
 			.neulneulTitleWrap{ width:722px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
 			    .neulneulTitleWrap .textWrap{ display:inline-block; font-size:48px; color:#fff; padding:10px 0 0 12px; }
-			        .neulneulTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; position:absolute; left:0; top:0; }
-			            .neulneulTitleWrap span.textWrapTitleBold.clr0d4d94{  }
-			            .neulneulTitleWrap span.textWrapTitleBold.clrfade7d{  }
+			        .neulneulTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; /*position:absolute; left:0; top:0;*/ }
+			            .neulneulTitleWrap span.textWrapTitleBold.clr0d4d94{ visibility:hidden; }
+			            .neulneulTitleWrap span.textWrapTitleBold.clrfade7d{ visibility:hidden; }
 			.neulneulInner p{ text-align:center; font-size:28px; color:#fff; }
 
 			.neulneulContentWrap{ margin-top:80px; }
@@ -81,7 +81,7 @@
 			.infoTitleWrap{ width:297px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
                 .infoTitleWrap .textWrap{ display:inline-block; font-size:50px; color:#fff; padding:5px 0 0 12px; }
                     .infoTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; }
-
+                        .infoTitleWrap span.textWrapTitleBold.clrb4ef67{ visibility:hidden; }
 			.infoContentWrap{ margin-top:80px; }
 
 				.infoMenu{ position:relative; }
@@ -116,6 +116,8 @@
 			.productTitleWrap{ width:410px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
 				.productTitleWrap .textWrap{ display:inline-block; font-size:50px; color:#333; padding:5px 0 0 12px; }
                     .productTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; }
+                        .productTitleWrap span.textWrapTitleBold.clr00968a{ visibility:hidden; }
+
 				.bg_gTop{ width:19px; height:17px; background:url('../img/common/ico_gMainTitle.png') left top no-repeat; display:block; position:absolute; left:0; top:0; }
 				.bg_gBot{ width:19px; height:17px; background:url('../img/common/ico_gMainTitle.png') left top no-repeat; display:block; position:absolute; right:0; bottom:0; }
 	
@@ -144,6 +146,7 @@
 			.promotionTitleWrap{ width:250px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
 				.promotionTitleWrap .textWrap{ display:inline-block; font-size:48px; color:#fff; padding:10px 0 0 15px; }
                     .promotionTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; }
+                        .promotionTitleWrap span.textWrapTitleBold.clr139da9{ visibility:hidden; }
 
 			.promotionContentWrap{ margin-top:80px; }
 			.promotionContentWrap:after{ content:''; display:block; clear:both; }
@@ -185,6 +188,7 @@
 			.customerTitleWrap{ width:260px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
 				.customerTitleWrap .textWrap{ display:inline-block; font-size:48px; color:#fff; padding:10px 0 0 15px; }
                     .customerTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; }
+                        .customerTitleWrap span.textWrapTitleBold.clrfec02c{ visibility:hidden; }
 			
 			.customerContentWrap{ margin-top:80px; }
 			.customerContentWrap:after{ content:''; display:block; clear:both; }
@@ -220,6 +224,8 @@
 			.myneulTitleWrap{ width:270px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
 				.myneulTitleWrap .textWrap{ display:inline-block; font-size:48px; color:#fff; padding:10px 0 0 15px; }
                     .myneulTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; }
+                        .myneulTitleWrap span.textWrapTitleBold.clrffe065{ visibility:hidden; }
+
                     .bg_top{ width:19px; height:17px; background:url('../img/common/ico_mainTitle.png') left top no-repeat; display:block; position:absolute; left:0; top:0; }
                     .bg_bot{ width:19px; height:17px; background:url('../img/common/ico_mainTitle.png') left top no-repeat; display:block; position:absolute; right:0; bottom:0; }
 			

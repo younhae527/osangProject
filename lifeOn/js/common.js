@@ -19,35 +19,33 @@ $(function(){
     });
 });
 
-/* Main Title Script : MY늘곁애
+/* Main Title Script : MY늘곁애*/
 $(function(){
 	$('.neulneulTitleWrap').bind('mouseenter focusin',function ()  { 
-        $('.neulneulBtitle').animate({ left: '16px', top:'9px' }, 1000);
-        $('.neulneulTitle').animate({ right: '16px', bottom:'12px' }, 1000);
+        $('.textWrapTitleBold.clr0d4d94').css('visibility', 'visible');
+        $('.textWrapTitleBold.clrfade7d').css('visibility', 'visible');
     });
 	$('.infoTitleWrap').bind('mouseenter focusin',function ()  { 
-        $('.infoBtitle').animate({ left: '16px', top:'7px' }, 1000);
-        $('.infoTitle').animate({ right: '16px', bottom:'14px' }, 1000);
+        $('.textWrapTitleBold.clrb4ef67').css('visibility', 'visible');
     });
 	$('.productTitleWrap').bind('mouseenter focusin',function ()  { 
-        $('.productBtitle').animate({ left: '16px', top:'9px' }, 1000);
-        $('.productTitle').animate({ right: '16px', bottom:'12px' }, 1000);
+        $('.textWrapTitleBold.clr00968a').css('visibility', 'visible');
     });
 	$('.promotionTitleWrap').bind('mouseenter focusin',function ()  { 
-        $('.promotionBtitle').animate({ left: '16px', top:'7px' }, 1000);
-        $('.promotionTitle').animate({ right: '16px', bottom:'14px' }, 1000);
+        $('.promotionBtitle').css('visibility', 'visible');
+        $('.promotionTitle').css('visibility', 'visible');
     });
     $('.customerTitleWrap').bind('mouseenter focusin',function ()  { 
-        $('.customerBtitle').animate({ left: '16px', top:'7px' }, 1000);
-        $('.customerTitle').animate({ right: '16px', bottom:'14px' }, 1000);
+        $('.customerBtitle').css('visibility', 'visible');
+        $('.customerTitle').css('visibility', 'visible');
     });
     $('.myneulTitleWrap').bind('mouseenter focusin',function ()  { 
-        $('.myneulBtitle').animate({ left: '18px', top:'7px' }, 1000);
-        $('.myneulTitle').animate({ right: '17px', bottom:'14px' }, 1000);
+        $('.myneulBtitle').css('visibility', 'visible');
+        $('.myneulTitle').css('visibility', 'visible');
     });
 });
-*/
-/* navi event
+
+/* navi event */
 $(document).ready(function () {
     $(window).scroll(function() {
         var sclTop = $(this).scrollTop();
@@ -61,8 +59,8 @@ $(document).ready(function () {
         }
         if (sclTop > 600)
         { 
-	       $('.neulneulBtitle').animate({ left: '16px', top:'9px' }, 1000);
-	       $('.neulneulTitle').animate({ right: '16px', bottom:'12px' }, 1000);
+	       $('.textWrapTitleBold.clr0d4d94').css('visibility', 'visible');
+           $('.textWrapTitleBold.clrfade7d').css('visibility', 'visible');
 
 	       $('#navi ul').removeClass('coloR');
 	       $('.gnbArea').css('display','block');
@@ -72,8 +70,7 @@ $(document).ready(function () {
         }
         if (sclTop > 1230)
         { 
-			$('.infoBtitle').animate({ left: '16px', top:'7px' }, 1000);
-			$('.infoTitle').animate({ right: '16px', bottom:'14px' }, 1000);
+			$('.textWrapTitleBold.clrb4ef67').css('visibility', 'visible');
 
 			$('#navi ul').removeClass('coloR');
 			$('.gnbArea').css('display','block');
@@ -83,8 +80,7 @@ $(document).ready(function () {
         }
         if (sclTop > 2000)
         { 
-			$('.productBtitle').animate({ left: '16px', top:'9px' }, 1000);
-			$('.productTitle').animate({ right: '16px', bottom:'12px' }, 1000);
+			$('.textWrapTitleBold.clr00968a').css('visibility', 'visible');
 
 			$('#navi ul').addClass('coloR');
 			$('.gnbArea').css('display','none');
@@ -93,9 +89,8 @@ $(document).ready(function () {
 			$('#navi ul li.n4 a').addClass('on');        
         }
         if (sclTop > 3100)
-        { 
-			$('.promotionBtitle').animate({ left: '16px', top:'7px' }, 1000);
-			$('.promotionTitle').animate({ right: '16px', bottom:'14px' }, 1000);
+        {
+			$('.textWrapTitleBold.clr139da9').css('visibility', 'visible');
 			
 			$('#navi ul').removeClass('coloR');
 			$('.gnbArea').css('display','block');
@@ -105,8 +100,7 @@ $(document).ready(function () {
         }
         if (sclTop > 3900)
         { 
-			$('.customerBtitle').animate({ left: '16px', top:'7px' }, 1000);
-			$('.customerTitle').animate({ right: '16px', bottom:'14px' }, 1000);
+			$('.textWrapTitleBold.clrfec02c').css('visibility', 'visible');
 			
 			$('#navi ul').removeClass('coloR');
 			$('.gnbArea').css('display','block');
@@ -116,8 +110,7 @@ $(document).ready(function () {
         }
         if (sclTop > 4700)
         { 
-			$('.myneulBtitle').animate({ left: '18px', top:'7px' }, 1000);
-			$('.myneulTitle').animate({ right: '17px', bottom:'14px' }, 1000);
+			$('.textWrapTitleBold.clrffe065').css('visibility', 'visible');
 			
 			$('#navi ul').removeClass('coloR');
 			$('.gnbArea').css('display','block');
@@ -128,7 +121,7 @@ $(document).ready(function () {
   
     });
 });
-*/
+
 /* section Event */
 
 $(function(){
