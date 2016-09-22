@@ -33,20 +33,20 @@
 
 		.headerInfoWrap{ margin-top:10px; }
 		.headerInfoWrap:after{ content:''; display:block; clear:both; }
-			.headerCounsel{ width:654px; height:254px; float:left; background:url('../img/main/bg_headerCounsel.png') left top no-repeat; }
-				.headerCounselField{ width:340px; margin:47px 0 0 274px; }
+			.headerCounsel{ width:431px; height:242px; float:left; background:url('../img/main/bg_headerCounsel.png') left top no-repeat; }
+				.headerCounselField{ width:340px; margin:114px 0 0 64px; }
 					.headerCounselFieldInner:after{ content:''; display:block; clear:both; }
 						.headerCounselFieldInner .inputWrap{ float:left; }
-							.headerCounselFieldInner .inputWrap .inputName{ width:224px; height:48px; background:url('../img/main/bg_headerCounselName.jpg') left top no-repeat; }
-								.headerCounselFieldInner .inputWrap .inputName input[type="text"]{ height:48px; margin-left:40px; border:none; font-size:14px; color:#666; }
-							.headerCounselFieldInner .inputWrap .inputPhone{ width:224px; height:48px; background:url('../img/main/bg_headerCounselphone.jpg') left top no-repeat; margin-top:10px; }
-								.headerCounselFieldInner .inputWrap .inputPhone input[type="text"]{ height:48px; margin-left:40px; border:none; font-size:14px; color:#666; }
+							.headerCounselFieldInner .inputWrap .inputName{ width:200px; height:35px; background:url('../img/main/bg_headerCounselName.jpg') left top no-repeat; }
+								.headerCounselFieldInner .inputWrap .inputName input[type="text"]{ width:155px; height:35px; margin-left:35px; border:none; font-size:14px; color:#666; }
+							.headerCounselFieldInner .inputWrap .inputPhone{ width:200px; height:35px; background:url('../img/main/bg_headerCounselphone.jpg') left top no-repeat; margin-top:5px; }
+								.headerCounselFieldInner .inputWrap .inputPhone input[type="text"]{ width:155px; height:35px; margin-left:35px; border:none; font-size:14px; color:#666; }
 						.headerCounselFieldInner .fieldButton{ float:left; margin-left:10px; }
 							.headerCounselFieldInner .fieldButton a{ display:block; }
-					.headerCounselField .infoAgree{ margin-top:10px; font-size:14px; color:#666; }
-						.headerCounselField .infoAgree a{ display:inline-block; }
+					.headerCounselField .infoAgree{ margin-top:10px; font-size:14px; color:#1c1e1e; font-weight:bold; }
+						.headerCounselField .infoAgree a{ display:inline-block; margin-left:10px; }
 
-			.headerBannerWrap{ width:432px; height:254px; float:left; margin-left:12px; position:relative; }
+			.headerBannerWrap{ width:654px; height:242px; float:left; margin-left:12px; position:relative; }
 				.bx-controls{ position:absolute; left:40px; bottom:45px; }
 					.bx-pager-item{ width:14px; height:14px; display:inline-block; margin-right:5px; }
 					a.bx-pager-link{ width:14px; height:14px; display:inline-block; background:url('../img/main/ico_bannerOff.png') left top no-repeat; font-size:0; }
@@ -59,7 +59,9 @@
 		.neulneulInner{ width:1100px; margin:0 auto; padding:83px 0 126px 0; }
 			.neulneulTitleWrap{ width:722px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
 			    .neulneulTitleWrap .textWrap{ display:inline-block; font-size:48px; color:#fff; padding:10px 0 0 12px; }
-			        .neulneulTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; }
+			        .neulneulTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; position:absolute; left:0; top:0; }
+			            .neulneulTitleWrap span.textWrapTitleBold.clr0d4d94{  }
+			            .neulneulTitleWrap span.textWrapTitleBold.clrfade7d{  }
 			.neulneulInner p{ text-align:center; font-size:28px; color:#fff; }
 
 			.neulneulContentWrap{ margin-top:80px; }
@@ -215,7 +217,7 @@
 	/* MY늘곁애 */
 	.myneulWrap{ width:100%; background:#5bc27b; }
 		.myneulInner{ width:1100px; margin:0 auto; padding:114px 0 147px 0; }
-			.myneulTitleWrap{ width:280px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
+			.myneulTitleWrap{ width:270px; height:90px; margin:0 auto; position:relative; overflow:hidden; }
 				.myneulTitleWrap .textWrap{ display:inline-block; font-size:48px; color:#fff; padding:10px 0 0 15px; }
                     .myneulTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; }
                     .bg_top{ width:19px; height:17px; background:url('../img/common/ico_mainTitle.png') left top no-repeat; display:block; position:absolute; left:0; top:0; }
