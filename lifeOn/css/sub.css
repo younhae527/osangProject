@@ -1,0 +1,42 @@
+.subVisual{ height:186px; background:url('../img/sub/introduce/bg_introduce.jpg') center top no-repeat; font-size:70px; font-weight:bold; color:#fff; text-align:center; padding-top:133px; }
+    .subVisual p{ font-size:18px; color:#fff; font-weight:normal; }
+        .subVisual p span{ color:#00eff8; }
+
+.subMenuGnbWrap{ height:75px; background:#014495; }
+    .subMenuGnb{ width:1100px; margin:0 auto; }
+        .subMenuGnb ul{ padding:27px 0 28px 260px; }
+        .subMenuGnb ul:after{ content:''; display:block; clear:both; }
+            .subMenuGnb ul li.subMenuList{ float:left; background:url('../img/sub/common/ico_subMenuSlash.gif') left center no-repeat; padding:0 35px; }
+            .subMenuGnb ul li.subMenuList01{ background:none; }
+                .subMenuGnb ul li.subMenuList a{ display:block; font-size:17px; color:#fff; }
+
+/* INTRODUCE_소개 */
+.subIntroduceWrap01{ background:#f5f6f6; padding:98px 0; }
+    .subIntroduceWrap01_Inner{ width:1100px; margin:0 auto; }
+        .subIntroduceWrap01_Inner h2{ font-size:45px; color:#000; font-weight:bold; text-align:center; }
+         .subIntroduceWrap01_Inner .subIntroduceContent{ margin:72px 250px 0 250px; }
+            .subIntroduceWrap01_Inner .subIntroduceContent ul:after{ content:''; display:block; clear:both; }
+                .subIntroduceWrap01_Inner .subIntroduceContent ul li{ float:left; background:url('../img/sub/common/ico_slash.png') left center no-repeat; padding:0 36px 0 53px; }
+                .subIntroduceWrap01_Inner .subIntroduceContent ul li.first{ background:none; }
+                    .subIntroduceWrap01_Inner .subIntroduceContent ul li a{ display:block; width:206px;text-align:center; font-size:24px; font-weight:bold; color:#000; padding-top:232px; }
+                    .subIntroduceWrap01_Inner .subIntroduceContent ul li.subIntroduceCont01 a{ background:url('../img/sub/introduce/bg_subIntroduceWrap01_Content01.png') left top no-repeat; }
+                    .subIntroduceWrap01_Inner .subIntroduceContent ul li.subIntroduceCont02 a{ background:url('../img/sub/introduce/bg_subIntroduceWrap01_Content02.png') left top no-repeat; }
+                        .subIntroduceWrap01_Inner .subIntroduceContent ul li a span{ color:#24b9ff; }
+
+/* INTRODUCE_조직도 */
+.subIntroduceWrap02{ background:#fff; padding:98px 0; }
+    .subIntroduceWrap02_Inner{ width:1100px; margin:0 auto; }
+        .subIntroduceWrap02_Inner h2{ font-size:45px; color:#000; font-weight:bold; text-align:center; }
+         .subIntroduceWrap02_Inner .subIntroduceContent{ margin-top:74px; text-align:center; }
+
+/* bannerCenter01 */
+.subIntroduce_bannerCenter01{ background:#ccedec; text-align:center; padding:17px 0; }
+
+/* INTRODUCE_연혁 */
+.subIntroduceWrap03{ background:#fff; padding:98px 0; }
+    .subIntroduceWrap03_Inner{ width:1100px; margin:0 auto; }
+        .subIntroduceWrap03_Inner h2{ font-size:45px; color:#000; font-weight:bold; text-align:center; }
+         .subIntroduceWrap03_Inner .subIntroduceContent{ margin-top:97px; background:url('../img/sub/introduce/bg_subIntroduceWrap03_Content.png') left 11px no-repeat; padding-left:260px; }
+            .subIntroduceWrap03_Inner .subIntroduceContent ul{ border-bottom:1px solid #dedede; margin-bottom:50px; }
+                .subIntroduceWrap03_Inner .subIntroduceContent ul li{ font-size:19px; color:#333; font-weight:bold; border-top:1px solid #dedede; padding:16px 0; }
+                    .subIntroduceWrap03_Inner .subIntroduceContent ul li span{ font-weight:normal; padding-right:79px; }
