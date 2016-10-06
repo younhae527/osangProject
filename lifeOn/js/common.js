@@ -148,3 +148,15 @@ $(function(){
     $('#section_07').bind('mouseenter focusin',function ()  {       
     });                          
 });
+
+/* 전체메뉴 레이어 팝업 */
+$(function(){
+    $('.gnbArea > a').click(function(){
+        $('#dim').css('display', 'block');
+        $('#allMenu').css('display', 'block');
+    });
+    $('.btn_allMenu').click(function(){
+        $('#dim').css('display', 'none');
+        $('#allMenu').css('display', 'none');
+    });
+});
