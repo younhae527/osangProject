@@ -155,7 +155,7 @@ $(function(){
         $('#dim').css('display', 'block');
         $('#allMenu').css('display', 'block');
     });
-    $('.btn_allMenu').click(function(){
+    $('.allMenu__menuWrap__btn-allMenu').click(function(){
         $('#dim').css('display', 'none');
         $('#allMenu').css('display', 'none');
     });

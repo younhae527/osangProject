@@ -262,16 +262,16 @@
 			.counsel{ padding:65px 0; }
 
 /* footer */
-.footMenuWrap{ width:100%; border-bottom:1px solid #e4e4e4; }
-	.footMenuInner{ width:1100px; margin:0 auto; }
-		ul.footMenu:after{ content:''; display:block; clear:both; }
-			ul.footMenu li{ float:left; line-height:59px; background:url('../img/common/ico_fBar.png') right center no-repeat; padding-right:10px; padding-left:10px; }
-				ul.footMenu li.first{ padding-left:0; }
-				ul.footMenu li.last{ padding-right:0; background:none; }
-				ul.footMenu li a{ color:#878787; font-size:14px; }
+.footer__footMenuWrap{ width:100%; border-bottom:1px solid #e4e4e4; }
+.footer__footMenuWrap__footMenuInner{ width:1100px; margin:0 auto; }
+ul.footer__footMenuWrap__footMenuInner__footMenu:after{ content:''; display:block; clear:both; }
+ul.footer__footMenuWrap__footMenuInner__footMenu li{ float:left; line-height:59px; background:url('../img/common/ico_fBar.png') right center no-repeat; padding-right:10px; padding-left:10px; }
+ul.footer__footMenuWrap__footMenuInner__footMenu li.footer__footMenuWrap__footMenuInner__footMenu__first{ padding-left:0; }
+ul.footer__footMenuWrap__footMenuInner__footMenu li.footer__footMenuWrap__footMenuInner__footMenu__last{ padding-right:0; background:none; }
+ul.footer__footMenuWrap__footMenuInner__footMenu li a{ color:#878787; font-size:14px; }
 
-.footContent{ width:1100px; margin:0 auto 50px auto; }
-.footContent:after{ content:''; display:block; clear:both; }
-	.fLogo{ width:132px; float:left; margin-top:35px; }
-	.copyRightWrap{ float:left; margin:33px 0 0 40px; }
-		.copyRightWrap div{ font-size:13px; color:#a0a1a1; display:block; margin-top:3px; }
+.footer__footContent{ width:1100px; margin:0 auto 50px auto; }
+.footer__footContent:after{ content:''; display:block; clear:both; }
+.footer__footContent__fLogo{ width:132px; float:left; margin-top:35px; }
+.footer__footContent__copyRightWrap{ float:left; margin:33px 0 0 40px; }
+.footer__footContent__copyRightWrap div{ font-size:13px; color:#a0a1a1; display:block; margin-top:3px; }

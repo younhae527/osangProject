@@ -8,16 +8,16 @@
 #allMenu{ width:1112px; background:#f7f7f7; padding:59px 0 34px 0; position:absolute; left:50%; top:120px; margin-left:-556px; display:none; z-index:15; }
 
 /* 전체메뉴 */
-.menuWrap{ position:relative; }
-.menuWrap:after{ content:''; display:block; clear:both; }
-    a.btn_allMenu{ width:30px; height:31px; position:absolute; top:-40px; right:25px; display:block; }
-    .menuListWrap{ width:224px; margin:20px 27px 0 27px; float:left; }
-        h3.menuListTitle{ margin-bottom:9px; }
-        h3.menuListTitle a{ background:#014495; color:#fff; font-size:18px; text-align:center; display:block; padding:23px 0; }
-        .menuList{ margin-bottom:5px; background:#fff; border:1px solid #dbdbdb; }
-            .menuList > a{ display:block; text-align:left; padding:17px 0 16px 17px; color:#3b3b3b; font-size:14px; }
-            .menuList ul{ padding:7px 0 20px 27px; }
-                .menuList ul li a{ display:block; font-size:13px; color:#777676; padding-bottom:8px; }
+.allMenu__menuWrap{ position:relative; }
+.allMenu__menuWrap:after{ content:''; display:block; clear:both; }
+.allMenu__menuWrap__btn-allMenu{ width:30px; height:31px; position:absolute; top:-40px; right:25px; display:block; }
+.allMenu__menuWrap__menuListWrap{ width:224px; margin:20px 27px 0 27px; float:left; }
+h3.allMenu__menuWrap__menuListTitle{ margin-bottom:9px; }
+h3.allMenu__menuWrap__menuListTitle a{ background:#014495; color:#fff; font-size:18px; text-align:center; display:block; padding:23px 0; }
+.allMenu__menuWrap__menuList{ margin-bottom:5px; background:#fff; border:1px solid #dbdbdb; }
+.allMenu__menuWrap__menuList > a{ display:block; text-align:left; padding:17px 0 16px 17px; color:#3b3b3b; font-size:14px; }
+.allMenu__menuWrap__menuList ul{ padding:7px 0 20px 27px; }
+.allMenu__menuWrap__menuList ul li a{ display:block; font-size:13px; color:#777676; padding-bottom:8px; }
 
 /* navigation */
 .naviGation{ width:100%; position:fixed; z-index:200; left:0; top:0; }
@@ -27,8 +27,7 @@
 #navi ul li a{ display:block; width:18px; height:16px; background:url('../img/common/ico_navHome.png') no-repeat 0 0 ; }
 #navi ul li + li a{ display:block; width:18px; height:12px; background:url('../img/common/ico_navi_off.png') no-repeat 0 0; }
 #navi ul li + li a:hover{ width:18px; height:12px; background:url('../img/common/ico_navi_on.png') no-repeat 0 0; }
-#navi ul li + li a.on{ width:18px; height:12px; background:url('../img/common/ico_navi_on.png') no-repeat 0 0; } 
-
+#navi ul li + li a.on{ width:18px; height:12px; background:url('../img/common/ico_navi_on.png') no-repeat 0 0; }
 #navi ul.coloR li a{ display:block; width:18px; height:16px; background:url('../img/common/ico_navHomeOn.png') no-repeat 0 0 ; }
 #navi ul.coloR li + li a{ display:block; width:18px; height:12px; background:url('../img/common/ico_navi02_off.png') no-repeat 0 0; }
 #navi ul.coloR li + li a:hover{ width:18px; height:12px; background:url('../img/common/ico_navi02_on.png') no-repeat 0 0; }
