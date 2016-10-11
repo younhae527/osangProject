@@ -52,6 +52,7 @@ span.ico_new{ display:inline-block; vertical-align:middle; padding-left:10px; wi
 
 /* button_공통 */
 .btnLeftWrap{ text-align:left; }
+.btnCenterWrap{ text-align:center; }
 
 /* color_공통 */
 .clr0d4d94{ color:#0d4d94 !important; }
@@ -73,10 +74,22 @@ span.ico_new{ display:inline-block; vertical-align:middle; padding-left:10px; wi
 .clr00468a{ color:#00468a !important; }
 .clr3e3e3e{ color:#3e3e3e !important; }
 .clr5abfca{ color:#5abfca !important; }
+.clr40d8ee{ color:#40d8ee !important; }
+.clr636363{ color:#636363 !important; }
+.clr0e1220{ color:#0e1220 !important; }
+.clr34bfff{ color:#34bfff !important; }
+.clrff8484{ color:#ff8484 !important; }
+.clr00bed4{ color:#00bed4 !important; }
+.clr818181{ color:#818181 !important; }
+.clr292929{ color:#292929 !important; }
+.clr014495{ color:#014495 !important; }
+.clr313131{ color:#313131 !important; }
 
 /* font-size_공통 */
+.fsize18{ font-size:18px !important; }
 .fsize24{ font-size:24px !important; }
 .fsize28{ font-size:28px !important; }
+.fsize30{ font-size:30px !important; }
 .fsize36{ font-size:36px !important; }
 .fsize40{ font-size:40px !important; }
 .fsize45{ font-size:45px !important; }
