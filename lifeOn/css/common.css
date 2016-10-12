@@ -45,7 +45,7 @@ h3.allMenu__menuWrap__menuListTitle a{ background:#014495; color:#fff; font-size
 .fwBold{ font-weight:bold !important; }
 
 /* font-highlight */
-.highlight{ background:url('../img/sub/product/subProductWrap05-Inner__subProductWrap05-Text__p__highlight.png') center bottom no-repeat !important; }
+.highlight{ background:url('../img/sub/product/subProductWrap05-Inner__subProductWrap05-Text__p__highlight.png') center bottom repeat-x !important; }
 
 /* ico_공통 */
 span.ico_new{ display:inline-block; vertical-align:middle; padding-left:10px; width:25px; height:25px; background:url('../img/sub/common/ico_new.png') right center no-repeat; }
