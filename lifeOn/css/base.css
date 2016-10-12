@@ -23,7 +23,7 @@ a:link,a:visited,a:active,a:focus{text-decoration:none;}
 a:hover{text-decoration:none;}
 .blind {display:block;overflow:hidden;top:-1000em;position:absolute;}
 
-h1,h2,h3,h4,h5,h6{ font-family: "BMD", sans-serif; }
+h1,h2{ font-family: "BMD", sans-serif; }
 
 /*공통부분*/
 input[type=text], input[type=password] {background:#fff;border:1px solid #c9c9c9;height:20px;padding:0 5px 0 5px;line-height:22px}

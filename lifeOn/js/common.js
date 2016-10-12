@@ -176,3 +176,31 @@ $(function(){
 		$(this).addClass('on');
     });
 });
+
+/* BAR탭 */
+$(function(){
+	$(".tabTableWrap-EA2__tabTitle li").eq(0).find("a").addClass("on");
+	$(".tabTableWrap-EA2__tabTitle-tabConAll .tabTableWrap-EA2__tabTitle-tab").eq(0).show();
+	$(".tabTableWrap-EA2__tabTitle li").click(function(){
+		var _tab = $(this).find("a").attr("href");
+		$(".tabTableWrap-EA2__tabTitle-tabConAll .tabTableWrap-EA2__tabTitle-tab" + _tab).show().siblings().hide();
+		$(this).find("a").addClass("on");
+		$(this).siblings().find("a").removeClass("on");
+	});
+});
+
+/* CUSTOMER_자주하는질문 */
+$(function(){
+    $('.q_tr td a').click(function() {
+        $(this).toggleClass('on');
+        $(this).parent().parent().next('tr').children('td').slideToggle(300);
+    });
+});
+
+/* MYNEUL_내정보_회원정보수정 */
+$(function(){
+	$(".myneulInnerWrap__passwordCheck > .btnRightWrap > a").click(function(){
+	    $(".myneulInnerWrap__passwordCheck").css("display","none");
+	    $(".myneulInnerWrap__memberInformation-entry").css("display","block");
+	});
+});

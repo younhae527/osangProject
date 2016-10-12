@@ -86,13 +86,191 @@
 			</div>
 			<!-- customer_counsel -->
 			<div class="myneulInnerWrap">
-
+				<div class="tabTableWrap-EA2">
+					<ul class="tabTableWrap-EA2__tabTitle">
+						<li class="tabTableWrap-EA2__tabTitle-tab01"><a href="#tabTableWrap-EA2__tabTitle-tab01" onclick="return false;" class="on">회원정보 수정</a></li>
+						<li class="tabTableWrap-EA2__tabTitle-tab02"><a href="#tabTableWrap-EA2__tabTitle-tab02" onclick="return false;">비밀번호 변경</a></li>
+					</ul>
+					<div class="tabTableWrap-EA2__tabTitle-tabConAll">
+						<div id="tabTableWrap-EA2__tabTitle-tab01" class="tabTableWrap-EA2__tabTitle-tab tabTableWrap-EA2__tabTitle-tab01">
+							<div class="myneulInnerWrap__passwordCheck">
+								<h4>비밀번호 확인</h4>
+								<p>개인정보 보호를 위해 회원님의 비밀번호를 확인합니다.비밀번호가 타인에게 노출되지 않도록 주의해 주세요.</p>
+								<table class="myneulInnerWrap__passwordCheck__table">
+									<colgroup>
+										<col width="20%" />
+										<col width="80%" />
+									</colgroup>
+									<tbody>
+										<tr>
+											<th>아이디</th>
+											<td>
+												<input type="text" value="" />
+											</td>
+										</tr>
+										<tr>
+											<th>비밀번호</th>
+											<td>
+												<input type="password" value="" />
+												<span>※ 회원님의 비밀번호를 입력해주세요.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="btnRightWrap">
+									<a href="javascript:;">확인</a>
+								</div>
+								<!-- //btnRightWrap -->
+							</div>
+							<!-- //myneulInnerWrap__passwordCheck -->
+							<div class="myneulInnerWrap__memberInformation-entry">
+								<h4>회원정보입력</h4>
+								<p>회원님의 홈페이지 회원가입 개인정보를 수정하실 수 있습니다.</p>
+								<table class="myneulInnerWrap__memberInformation-entry__table">
+									<colgroup>
+										<col width="20%" />
+										<col width="80%" />
+									</colgroup>
+									<tbody>
+										<tr>
+											<th>이름 <span class="star">*</span></th>
+											<td>홍길동</td>
+										</tr>
+										<tr>
+											<th>아이디 <span class="star">*</span></th>
+											<td>abcdef123</td>
+										</tr>
+										<tr>
+											<th>나이</th>
+											<td>
+												<input type="text" value="" style="width:34px;" /> 세
+											</td>
+										</tr>
+										<tr>
+											<th>이메일주소 <span class="star">*</span></th>
+											<td>
+												<input type="text" value="" style="width:106px;" /> @ <input type="text" value="" style="width:106px;" />
+												<select style="width:106px;">
+													<option>직접입력</option>
+												</select>
+											</td>
+										</tr>
+										<tr>
+											<th>연락처</th>
+											<td>
+												<select style="width:60px;">
+													<option>02</option>
+												</select>
+												- <input type="text" value="" style="width:46px;" /> - <input type="text" value="" style="width:46px;" />
+											</td>
+										</tr>
+										<tr>
+											<th>휴대폰번호 <span class="star">*</span></th>
+											<td>
+												<select style="width:60px;">
+													<option>010</option>
+												</select>
+												- <input type="text" value="" style="width:46px;" /> - <input type="text" value="" style="width:46px;" />
+											</td>
+										</tr>
+										<tr>
+											<th>주소 <span class="star">*</span></th>
+											<td>
+												<input type="text" value="" style="width:64px;" /><a href="javascript:;">우편번호 검색</a><br />
+												<span>지번주소 :</span> <input type="text" value="" style="width:80%;" /><br />
+												<span>도로명주소 :</span> <input type="text" value="" style="width:80%;" /><br />
+												<span>상세주소 :</span> <input type="text" value="" style="width:80%;" />
+											</td>
+										</tr>
+										<tr>
+											<th>직장주소</th>
+											<td>
+												<input type="text" value="" /><a href="javascript:;">우편번호 검색</a><br />
+												<span>지번주소 :</span> <input type="text" value="" style="width:80%;" /><br />
+												<span>도로명주소 :</span> <input type="text" value="" style="width:80%;" /><br />
+												<span>상세주소 :</span> <input type="text" value="" style="width:80%;" />
+											</td>
+										</tr>
+										<tr>
+											<th>직업</th>
+											<td>
+												<input type="text" value="" />
+											</td>
+										</tr>
+										<tr>
+											<th>추천인</th>
+											<td>
+												<input type="text" value="" />
+											</td>
+										</tr>
+										<tr>
+											<th>우편물 수령지</th>
+											<td>
+												<input type="radio" name="postAccept_place" value="home" /> 자택
+												<input type="radio" name="postAccept_place" value="office" class="ml_15" /> 직장
+											</td>
+										</tr>
+										<tr>
+											<th>라이프온 메일링 서비스</th>
+											<td>
+												<input type="checkbox" value="" /> 받음
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="btnCenterWrap">
+									<a href="javascript:;">신청/변경</a>
+								</div>
+								<!-- //btnCenterWrap -->
+							</div>
+							<!-- //myneulInnerWrap__memberInformation-entry -->
+						</div>
+						<!-- //tabTableWrap-EA2__tabTitle-tab01 -->
+						<div id="tabTableWrap-EA2__tabTitle-tab02" class="tabTableWrap-EA2__tabTitle-tab tabTableWrap-EA2__tabTitle-tab02">
+							<div class="myneulInnerWrap__passwordChange">
+								<h4>비밀번호 변경</h4>
+								<table class="myneulInnerWrap__passwordChange__table">
+									<colgroup>
+										<col width="20%" />
+										<col width="80%" />
+									</colgroup>
+									<tbody>
+										<tr>
+											<th>현재 비밀번호</th>
+											<td>
+												<input type="password" value="" />
+											</td>
+										</tr>
+										<tr>
+											<th>새 비밀번호</th>
+											<td>
+												<input type="password" value="" />
+											</td>
+										</tr>
+										<tr>
+											<th>새 비밀번호 확인</th>
+											<td>
+												<input type="password" value="" />
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="btnRightWrap">
+									<a href="javascript:;">확인</a>
+								</div>
+								<!-- //btnRightWrap -->
+							</div>
+							<!-- //myneulInnerWrap__passwordChange -->
+						</div>
+						<!-- //tabTableWrap-EA2__tabTitle-tab02 -->
+					</div>
+					<!-- //tabTableWrap-EA2__tabTitle-tabConAll -->
+				</div>
+				<!-- //tabTableWrap-EA2 -->
 			</div>
 			<!-- //myneulInnerWrap -->
 		</div>
-		<!-- //commonWrap -->
-	</div>
-	<!-- //container -->
+		<!-- //customer_counsel -->
 	</div>
 	<!-- //container -->
 	<div id="footer">

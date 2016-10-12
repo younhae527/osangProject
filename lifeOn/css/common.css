@@ -73,6 +73,7 @@ span.ico_new{ display:inline-block; vertical-align:middle; padding-left:10px; wi
 /* button_공통 */
 .btnLeftWrap{ text-align:left; }
 .btnCenterWrap{ text-align:center; }
+.btnRightWrap{ text-align:right; }
 .btnType01{ display:block; text-align:center; background:#014495; color:#fff; font-weight:600; font-size:13px; border-radius:3px; padding:10px; line-height:13px; }
 
 /* color_공통 */
