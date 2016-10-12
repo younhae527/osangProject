@@ -168,3 +168,11 @@ $(function(){
         $('#allMenu').css('display', 'none');
     });
 });
+
+/* 이미지탭 */
+$(function(){
+    $('.centerTab li a ').click(function(){
+        $('.centerTab li a ').removeClass('on');
+		$(this).addClass('on');
+    });
+});
