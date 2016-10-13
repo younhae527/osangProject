@@ -159,7 +159,7 @@ $(function(){
 
 /* 전체메뉴 레이어 팝업 */
 $(function(){
-    $('.gnbArea > a').click(function(){
+    $('.gnbArea > a,.subGnbArea > a').click(function(){
         $('#dim').css('display', 'block');
         $('#allMenu').css('display', 'block');
     });
