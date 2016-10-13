@@ -177,13 +177,25 @@ $(function(){
     });
 });
 
-/* BAR탭 */
+/* BAR_2개짜리 탭 */
 $(function(){
 	$(".tabTableWrap-EA2__tabTitle li").eq(0).find("a").addClass("on");
 	$(".tabTableWrap-EA2__tabTitle-tabConAll .tabTableWrap-EA2__tabTitle-tab").eq(0).show();
 	$(".tabTableWrap-EA2__tabTitle li").click(function(){
 		var _tab = $(this).find("a").attr("href");
 		$(".tabTableWrap-EA2__tabTitle-tabConAll .tabTableWrap-EA2__tabTitle-tab" + _tab).show().siblings().hide();
+		$(this).find("a").addClass("on");
+		$(this).siblings().find("a").removeClass("on");
+	});
+});
+
+/* 이미지_4개짜리 탭 */
+$(function(){
+	$(".tabTableWrap-EA4-Img__tabTitle li").eq(0).find("a").addClass("on");
+	$(".tabTableWrap-EA4-Img__tabTitle-tabConAll .tabTableWrap-EA4-Img__tabTitle-tab").eq(0).show();
+	$(".tabTableWrap-EA4-Img__tabTitle li").click(function(){
+		var _tab = $(this).find("a").attr("href");
+		$(".tabTableWrap-EA4-Img__tabTitle-tabConAll .tabTableWrap-EA4-Img__tabTitle-tab" + _tab).show().siblings().hide();
 		$(this).find("a").addClass("on");
 		$(this).siblings().find("a").removeClass("on");
 	});

@@ -69,6 +69,7 @@ table{ table-layout:fixed; }
 
 /* ico_공통 */
 span.ico_new{ display:inline-block; vertical-align:middle; padding-left:10px; width:25px; height:25px; background:url('../img/sub/common/ico_new.png') right center no-repeat; }
+.star{ color:#014495; }
 
 /* button_공통 */
 .btnLeftWrap{ text-align:left; }
