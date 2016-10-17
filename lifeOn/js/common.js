@@ -216,3 +216,32 @@ $(function(){
 	    $(".myneulInnerWrap__memberInformation-entry").css("display","block");
 	});
 });
+
+/* 지점안내 */
+/*$(function(){
+    $('#mapZone').bind('mouseenter focusin',function ()  {   
+        $(this).addClass("active");         
+    });     
+    $('#mapZone').bind('mouseleave focusout',function ()  {   
+        $(this).removeClass("active");        
+    });                               
+});
+*/
+$(function(){ 
+    $('.bxslider_01').bxSlider({
+  
+      pagerCustom: '#bx-pager'
+    });
+});
+
+$(function(){ 
+    $('.bxslider_02').bxSlider({
+      pagerCustom: '#bx-pager2'
+    });  
+});
+
+$(function(){ 
+    $('.bxslider_03').bxSlider({
+      pagerCustom: '#bx-pager3'
+    });  
+});
