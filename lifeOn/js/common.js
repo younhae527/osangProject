@@ -217,16 +217,6 @@ $(function(){
 	});
 });
 
-/* 지점안내 */
-/*$(function(){
-    $('#mapZone').bind('mouseenter focusin',function ()  {   
-        $(this).addClass("active");         
-    });     
-    $('#mapZone').bind('mouseleave focusout',function ()  {   
-        $(this).removeClass("active");        
-    });                               
-});
-*/
 $(function(){ 
     $('.bxslider_01').bxSlider({
   
