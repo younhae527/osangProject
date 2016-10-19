@@ -40,7 +40,7 @@ table{ table-layout:fixed; }
 .float_l{ float:left !important; }
 
 /* paging */
-.paginate{ width:560px; margin:0 auto; margin-bottom:150px; }
+.paginate{ width:560px; margin:0 auto; margin-bottom:65px; }
 .paginate .list span a:hover{ background:#ffd200; color:#423400; }
 .paging_wrap{ clear:both; display:inline-block; overflow:hidden; width:100%; margin-bottom:30px; }
 .paginate span.list{ display:inline-block; vertical-align:middle; }
@@ -70,13 +70,19 @@ table{ table-layout:fixed; }
 /* ico_공통 */
 span.ico_new{ display:inline-block; vertical-align:middle; padding-left:10px; width:25px; height:25px; background:url('../img/sub/common/ico_new.png') right center no-repeat; }
 .star{ color:#014495; }
-.ico_Bluearrow{ background:url('../img/sub/common/ico_Bluearrow.png') left center no-repeat; padding-left:10px; }
+.ico_Bluearrow{ background:url('../img/sub/common/ico_Bluearrow.png') left 7px no-repeat; padding-left:10px; }
+.ico_Bulit{ background:url('../img/sub/common/ico_grayBulit.png') left 7px no-repeat; padding-left:10px; }
+.ico_bottomArrow{ height:9px; background:url('../img/sub/common/ico_bottomArrow.gif') 50% bottom no-repeat; }
 
 /* button_공통 */
 .btnLeftWrap{ text-align:left; }
 .btnCenterWrap{ text-align:center; }
 .btnRightWrap{ text-align:right; }
 .btnType01{ display:block; text-align:center; background:#014495; color:#fff; font-weight:600; font-size:13px; border-radius:3px; padding:10px; line-height:13px; }
+
+/* border */
+.brTopNone{ border-top:none !important; }
+.brBopNone{ border-bottom:none !important; }
 
 /* color_공통 */
 .clr0d4d94{ color:#0d4d94 !important; }
@@ -179,6 +185,7 @@ span.ico_new{ display:inline-block; vertical-align:middle; padding-left:10px; wi
 .mt_40{margin-top:40px !important;}
 .mt_45{margin-top:45px !important;}
 .mt_50{margin-top:50px !important;}
+.mt_70{margin-top:70px !important;}
 
 .mb_0{margin-bottom:0 !important;}
 .mb_5{margin-bottom:5px !important;}

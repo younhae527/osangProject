@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<meta name="viewport" content="user-scalable=yes, width=1100, target-densitydpi=medium-dpi" />
+	<link rel="shortcut icon" type="image/x-icon" href="" />
+	<link href="../../css/base.css" rel="stylesheet" type="text/css"/>
+	<link href="../../css/common.css" rel="stylesheet" type="text/css"/>
+	<link href="../../css/main.css" rel="stylesheet" type="text/css"/>
+	<link href="../../css/sub.css" rel="stylesheet" type="text/css"/>
+	<link href="../../css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css"/>
+	<script src="../../js/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script src="../../js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+	<script src="../../js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+	<script src="../../js/jquery.ui.datepicker-ko.js" type="text/javascript"></script>
+	<script src="../../js/jquery.easing.1.3.js" type="text/javascript"></script>
+	<script src="../../js/jquery.bxslider.min.js" type="text/javascript"></script>
+	<script src="../../js/common.js" type="text/javascript"></script>
+	<!--[if lt IE 9]>
+	<script src="../../js/html5.js"></script>
+	<![endif]-->
+	<title>늘곁애</title>
+</head>
+<body>
+<div id="wrap">
+	<div id="header">
+		<div class="headerwrap">
+			<div class="topAreaWrap">
+				<div class="topArea">
+					<h1 class="logo"><a href="javascript:;"><img src="../../img/sub/common/sub_ico_logo.png" alt="늘곁애" /></a></h1>
+					<div class="gnbArea">
+						<a href="javascript:;">
+							<img src="../../img/common/ico_gnbMenu.png" alt="gnbMenu" />
+							<span>MENU</span>
+						</a>
+					</div>
+					<div class="gnbGrayArea subGnbArea">
+						<a href="javascript:;">
+							<img src="../../img/common/ico_gnbMenuGray.png" alt="gnbMenu" />
+							<span>MENU</span>
+						</a>
+					</div>
+				</div>
+				<!-- //topArea -->
+			</div>
+			<!-- //topAreaWrap -->
+			<div class="subPromotion-subVisual">
+				PR CENTER
+				<p>늘곁애 <span>라이프온</span>의 다양한 정보들을 만나보실 수 있습니다.</p>
+			</div>
+		</div>
+		<!-- //headerwrap -->
+	</div>
+	<!-- //header -->
+	<div id="container">
+		<div class="subMenuGnbWrap">
+			<div class="subMenuGnbWrap__promotionSubMenuGnb">
+				<ul>
+					<li class="subMenuGnbWrap__promotionSubMenuGnb__subMenuList01"><a href="#subProductWrap01">미디어</a></li>
+					<li class="subMenuGnbWrap__promotionSubMenuGnb__subMenuList02"><a href="#subProductWrap02">공지사항</a></li>
+					<li class="subMenuGnbWrap__promotionSubMenuGnb__subMenuList03"><a href="#subProductWrap03">제휴혜택</a></li>
+					<li class="subMenuGnbWrap__promotionSubMenuGnb__subMenuList04"><a href="#subProductWrap04">행사후기</a></li>
+					<li class="subMenuGnbWrap__promotionSubMenuGnb__subMenuList05"><a href="#subProductWrap05">장례정보</a></li>
+				</ul>
+			</div>
+			<!-- //subMenuGnb -->
+		</div>
+		<!-- //subMenuGnbWrap -->
+		<div id="commonWrap" class="customer_counsel">
+			<div class="lineMapWrap">
+				<ul class="lineMap">
+					<li><a href="javascript:;"><img src="../../img/common/lineMapHome.gif" alt="" /></a></li>
+					<li>&gt;</li>
+					<li>홍보채널</li>
+					<li>&gt;</li>
+					<li class="nowMap">장례정보</li>
+				</ul>
+				<!-- //lineMap -->
+			</div>
+			<!-- //lineMapWrap -->
+			<div class="customer_counsel">
+				<h3 class="subTit">장례정보</h3>
+			</div>
+			<!-- customer_counsel -->
+			<div class="prCenterInnerWrap">
+				<div class="prCenterInner__funeralInformationWrap">
+					<div class="tabTableWrap-EA5">
+						<ul class="tabTableWrap-EA5__tabTitle">
+							<li class="tabTableWrap-EA5__tabTitle-tab01"><a href="javascript:;" onclick="return false;">가정장례절차</a></li>
+							<li class="tabTableWrap-EA5__tabTitle-tab02"><a href="javascript:;" onclick="return false;">종교별장례절차</a></li>
+							<li class="tabTableWrap-EA5__tabTitle-tab03"><a href="javascript:;" onclick="return false;" class="on">전통식장례절차</a></li>
+							<li class="tabTableWrap-EA5__tabTitle-tab04"><a href="javascript:;" onclick="return false;">상복제도</a></li>
+							<li class="tabTableWrap-EA5__tabTitle-tab05"><a href="javascript:;" onclick="return false;">제례정보</a></li>
+						</ul>
+						<div class="tabTableWrap-EA5__tabTitle-tabConAll">
+							<div class="tabTableWrap-EA5__tabTitle-tab tabTableWrap-EA5__tabTitle-tab02">
+								<div class="funeralInformationContainer">
+									<div class="funeralInfo-grayBox">
+										전통적인 상장례 절차는 상당히 복잡한 절차로 구성되어 있다. 특히 각 절차들이 대 절차와 소절차로 구분되어 있어 자칫하면 혼란을 일으킬 수도 있다. 또한 순차적으로 진행되기보다는
+										병렬적으로 진행되는 절차도 많다. 유교식 상장례의 절차는 신주(神主)를 모시느냐 모시지 않느냐에 따라 상당한 차이를 보인다. 신주를 모시는 경우에는 초종(初終), 습(襲), 소렴(小斂),
+										대렴(大斂), 성복(成服), 조(弔), 문상(聞喪), 치장(治葬), 천구(遷柩), 발인(發靷), 급묘(及墓), 반곡(反哭), 우제(虞祭), 졸곡(卒哭), 부제(符祭), 소상(小祥), 대상(大祥), 담제(禫祭),
+										길제(吉祭)의 19개 절차로 진행된다. 신주를 모시지 않는 경우 신주와 관련된 절차가 생략되고 상황에 따라 절차를 생략하거나 통합하여 11-12개 정도로 실행되고 있다.
+									</div>
+									<!-- //funeralInfo-grayBox -->
+									<div class="funeralInfo-Img">
+										<img src="../../img/sub/promotion/funeralInfo03_Img01.gif" alt="" />
+									</div>
+									<h4>초종(初終) : 1일째</h4>
+									<p class="funeralInfo-Txt">
+										초종은 ‘돌아가시다’라는 의미로 죽음을 맞이하는 절차이다. 다음과 같은 소절차가 있다. 위독하면 평소 거처하던 방으로 옮기는 천거정침(薦居正寢)을 한다. 주변을 조용히 하고 숨이
+										끊어지면 곡을 어지러이 하는 기절내곡(氣絶乃哭)을 하여 운명한 고인에 대해 슬픔을 표한다. 지금까지 이 절차에 대해 흔히 ‘임종’(臨終)이라는 단어를 사용하여 하여 ‘죽음을 맞이하는
+										절차’, ‘고인이 운명하는 것을 옆에서 지키는 일’ 정도로 이해해 왔다. 저승으로 떠나가는 영혼을 부르는 초혼(招魂)인 복(復)을 한다. 예서에는 없지만, 집안에 따라서는 복을 마치면
+										사잣밥을 차려 대문 앞에 내어 놓기도 한다. 설치철족(楔齒綴足)은 『家禮(가례)』에는 없으나, 『사례편람(四禮便覽)』에서 『상례비요(喪禮備要)』에 의거하여 보입(補入)한 절차로서
+										당시 조선 사회의 상황에 맞게 수정하여 적용하기 위한 것으로 보인다. 이 설치철족은 시신을 처리하는 최초 단계로서 일반적으로는 수시(收屍)라고 한다. 입상주(立喪主)라는 소절차는
+										상중에 담당해야 하는 역할을 분담하는 절차이다. 상주, 호상(護喪), 사서(司書), 사화(司貨) 등이 그 역할이다. 역복불식(易服不食)은 옷을 바꾸어 입고 음식을 먹지 않는다는 의미로
+										모든 복인이 관과 겉옷을 벗고 머리를 풀고 신발을 벗는 절차이다. 설전(設奠)은 고인의 영혼이 의지할 수 있도록 전을 차려 제사를 올리고, 혼을 위한 간단한 음식을 차려놓는 절차이다.
+										이를 시사전(始死奠)이라고 한다. 부고(訃告)는 초상을 여러 사람에게 알리는 절차이다.
+									</p>
+									<h4>습(襲) : 1일째</h4>
+									<p class="funeralInfo-Txt">
+										습이란 시신을 목욕시키고 수의를 입히며, 반함하는 절차로서 시신을 정화하는 절차이다. 습구(濕球)를 버릴 구덩이를 파는 굴감(掘坎), 고인에게 입힐 수의를 진설하는
+										진습의(陳襲衣), 향탕(香湯)으로 시신을 깨끗이 정화하는 목욕을 하고, 얼음 위에 놓는 설빙을 한다. 이 설빙 절차는 『가례(家禮)』에서는 보이지 않는다. 습(襲)은 수의(壽衣)를 입히는
+										절차로서 이 때 습전(襲奠)을 차린다. 복인들이 자리를 정하는데, 이를 위위(僞位)라고 한다. 반함은 시신의 입에 쌀과 엽전 혹은 구슬을 물려 입안을 채우는 일이다. 반함을 하는 이유는
+										차마 입이 비어 있게 하지 못하기 때문에 맛있고 깨끗한 물건으로 채우는 것이라고 한다.
+									</p>
+									<h4>소렴(小斂) : 2일째</h4>
+									<p class="funeralInfo-Txt">
+										운명 한 후 이틀째(운명 다음날)에 하는 일로서 시신을 베로 싸서 묶어 관에 넣을 수 있도록 준비하는 절차이다. 소렴에는 다음과 같은 절차들이 진행된다. 소렴할 옷과 이불을 진설하여
+										소렴을 준비하는 진소렴의금(陳小斂衣衾)의 절차에서 기물과 옷 등을 준비한다. 준비가 되면 소렴을 하는데, 빈곳을 모두 채워 시신이 전체적으로 직사각형이 되게 하여 염포로 싸서
+										묶는다. 상주들이 시신에 기대어 가슴을 두드리며 곡을 한다. 참최복을 입는 남자는 단(袒)을 하고, 초종에서 풀었던 머리를 삼끈으로 묶는다. 자최복 이하와 5세를 같이 하는
+										사람(10촌)까지는 한쪽 어깨를 드러내지만(袒) 괄발이 아니라 면(免)을 한다. 여자 상주들은 북머리를 한다. 그리고 나서 전을 차린다.
+									</p>
+									<h4>대렴(大斂) : 3일째</h4>
+									<p class="funeralInfo-Txt">
+										소렴에서 염포로 싸서 묶은 시신을 관에 넣는 절차이다. 3일째에 염을 하는 것은 혹시 살아나기를 기다리는 효성 때문이라고 한다. 시신을 관에 넣고, 조발랑을 관의 구석에 넣고
+										보공(補空)한다. 보공을 하면 관 뚜껑을 닫고 관보로 싸고, 명정을 세운다. 집안에 따라 외빈(外殯)을 하기도 한다. 그러나 면담조사에 의하면 상당히 오래 전부터 습과 염을 동시에
+										진행하여 하루에 마치는 일이 많았다고 한다.
+									</p>
+									<h4>성복(成服) : 4일째 오복의 제도에 맞추어 상주들이 복을 입는 절차이다.</h4>
+									<p class="funeralInfo-Txt">
+										오복을 입을 사람들이 각기 해당되는 복을 들고 영좌에 나아가 아침 곡을 하고 서로 문상한다. 관행에서는 성복을 한 후에 조전과 상식을 올리기 때문에 이것을 성복제(成服祭)라고도
+										하지만, 이는 조전임이 명백하다. 오복제도(五服制度)는 참쇠(斬衰), 제쇠(齊衰), 대공(大功), 소공(小功), 시마(媤麻)가 있다. 여기에 관계를 맺게 된 내용과 근거에 따라 각각 그 경중이
+										다른 4종류의 복이 있는데, 정복(正服)&middot;가복(加服)&middot;의복(義服)&middot;강복(降服)이 그것이다. 또한 친등관계(親等關係)에 따라 3년&middot;1년&middot;9월&middot;5월&middot;3월의 상복기간이 정해져 있다.
+										뿐만 아니라 자최 중에서도 지팡이의 유무에 따라 장기(杖朞)&middot;부장기(不杖朞)로 구분될 정도로 복잡하다.
+									</p>
+									<h4>조(弔)</h4>
+									<p class="funeralInfo-Txt">
+										조(弔)란 상주를 위로하고 고인의 명복을 비는 일을 말한다. 따라서 이에는 영전에 드리는 전(奠)과 부의(賻儀), 그리고 문상 방법에 대한 설명이 주를 이룬다. 문상을 할 때는 모두 흰옷을
+										입는다. 조는 절차로서의 의미가 없으나, 성복을 한 후에야 문상을 할 수 있기 때문에 성복 다음에 하나의 절차로 위치시킨 것으로 보인다. 조문은 일제 강점기 이후 일반화 된 용어이다.
+										일상적인 용어는 “상주 물으러 간다.”는 말이 있듯이 ‘문상(問喪)’이라는 용어가 더 자연스러울 수 있다.
+									</p>
+									<h4>문상(聞喪)</h4>
+									<p class="funeralInfo-Txt">
+										상주가 멀리서 부고를 들었을 때 하는 행위와 해야 하는 일, 성복하는 일시 등에 관한 절차이다. 절차로서의 의미가 없고 단지 행해야 하는 일에 대한 설명이 주를 이룬다. 부고를 듣고
+										집으로 달려가는 것을 분상(奔喪)이라고 한다. 집에 도착하면 관 앞에서 재배하고, 다시 옷을 갈아입고 곡을 한다. 4일이 지나서 성복을 한다. 만약 집이 멀어 갈 수 없을 경우에는 별도의
+										전을 차려 올리는데, 절은 하지 않는다.
+									</p>
+									<h4>치장(治葬)</h4>
+									<p class="funeralInfo-Txt">
+										장사할 시간과 장소를 정하고 필요한 도구를 제작하는 절차이다. 이 역시 순차적 절차로서의 의미는 약하나 성복을 한 후 문상을 받게 될 정도로 장사할 준비를 마쳤으므로 본격적으로
+										장사 지낼 일을 준비하기 때문에 여기에 위치시킨 것으로 보인다. 다음과 같은 절차가 진행된다. 상기(喪期)는 천자는 7월, 제후는 5월, 대부와 선비는 3월로 규정되어 있다.
+										그러나 대부분이 3개월 만에 장사를 지내기 때문에 이 기간 내에 장사 지낼 땅을 잡아야 한다. 터가 정해지면 조전이나 석전을 올릴 때 고유를 한다. 고유를 하면 묘역을 정리하고 토지신에게
+										고한 후에 광중(壙中)을 파고, 회격을 한다. 지석은 고인의 공덕을 기록한 표지물로서, 돌이나 도자기로 굽기도 한다. 묘를 분실하였을 때 지석(誌石)이 묘의 주인을 찾아내는 결정적
+										역할을 한다. 내용은 고인의 직위, 생년월일, 자식관계, 처가관계, 살아있을 때의 공적 등을 쓴다.
+									</p>
+									<h4>천구(遷柩)</h4>
+									<p class="funeralInfo-Txt">
+										장사 하루 전에 발인을 하기 위해 빈을 하였던 영구를 옮겨 조상에게 인사하는 절차이다. 먼저 영구를 모시고 사당에 모신 조상에게 인사를 하고 청사로 옮긴다. 친척과 손님이 술을 올리고
+										부의(賻儀)한다. 그리고 발인에 필요한 방상씨(方相氏)&middot;명정(銘旌)&middot;영차(靈車)&middot;대여(大轝)&middot;삽선(翣扇) 등을 순서에 따라 진열해 둔다. 오후 3-5시(일포시:日哺時) 사이에
+										조전(祖奠)을 올린다. 발인하는 날이 되면 영구를 상여에 싣고 행상(行喪)할 준비를 한다. 영구를 상여에 실으면 견전(遣奠)을 올린다. 축관이 상여에 올라가 분향한다. 부인 등 여자 상주와
+										집에 있어야 할 사람들은 곡을 하고 재배하여 하직인사를 한다. 이때 존장은 절을 하지 않는다. 예서의 규정과는 달리 관행에서는 견전을 발인제라고 하고, 발인의 첫 번째 절차로 인식한다.
+									</p>
+									<h4>발인(發靷)</h4>
+									<p class="funeralInfo-Txt">
+										영구를 상여에 싣고 장지로 운반하는 절차이다. 현장에서는 방에서 영구를 내올 때 생기가 맞지 않으면 중상(重喪)이라는 양밥을 행한다. 행상의 순서는 방상씨(方相氏) - 명정(銘旌) -
+										령여(銘旌) - 만장(輓章) - 功布(공포) - 운불삽(雲黻翣) - 상여(喪轝) - 상주(喪主) - 복인(服人) - 존장(尊長) - 무복친(無服親) - 조객(弔客)의 순서이다. 친척과 빈객이 길가에 장막을
+										치고 전을 올리는데, 이를 노제(路祭)라고 한다.
+									</p>
+									<h4>급묘(及墓)</h4>
+									<p class="funeralInfo-Txt">
+										영구가 장지에 도착하여 하는 일로써 장사(葬事)를 지내는 일이다. 먼저 영악(靈幄)과 친빈차(親賓次), 부인차(婦人次)를 마련한다. 방상이 장지에 도착하면 창으로 광중의 4 모서리를
+										찔러 악귀를 물리친다. 영여가 도착하면 축관이 혼백을 악좌(幄座)에 모시고 신주 상자를 혼백 뒤에 안치한다. 영구를 광중에 내리는 절차를 내폄(乃窆)이라고 하는데, 흔히 하관(下棺)
+										이라고 한다. 하관하면 구의(柩衣)와 명정을 덮는다. 주인이 현훈(검은색 6장과 붉은 색 4장, 각장 8자)을 받들어 관 동쪽에 넣는다. 이어 회격(灰隔)을 하고 성분을 한다. 횡판(橫板)을 놓아
+										회가 직접 관에 닿지 않도록 한다. 흙을 채울 때는 한 자 정도 채우면 다지고 이를 반복한다. 예서에서는 규정하지 않았지만 이를 회다지 혹은 달공이라고 한다. 이 때 부르는 노래를
+										회다지노래라고 하는데, 앞소리꾼의 선창에 맞추어 후창을 하면서 회다지를 한다. 그리고 다지기를 하는 층수는 홀수로 하며 많이 할수록 좋은 것으로 인식하고 있다. 성분이 되면
+										후토신에게 제사한다. 지석을 묻는다. 성분이 되어가는 동안 악좌에서는 신주에 글씨를 쓰는 제주(題主)를 한다. 제주를 마치면 제주전(題主奠)을 올린다. 이때 “00께서는 형체는 이미
+										광중으로 돌아가셨으나 혼은 집으로 돌아가십시오. 신주가 완성되어 모시겠으니 신께서는 옛것을 버리시고 새로운 것에 기대고 의지하소서”라는 내용의 축문을 읽는다. 『가례(家禮)』
+										에서는 축문이 없는 것으로 되어 있으나 『사례편람(四禮便覽)』에서는 축문을 제시하고 있어 차이가 있다. 제주전을 마치면 축관이 신주를 받들어 영좌에 모시고 혼백은 상자 안에 넣어
+										신주 뒤에 놓는다. 주인이 재배하고 곡을 한다. 집사자가 영좌를 거두어 떠나는데, 자식 중 한 사람이 남아 봉분을 완성할 때까지 지켜보게 한다.
+									</p>
+									<h4>반곡(反哭)</h4>
+									<p class="funeralInfo-Txt">
+										영여에 제주한 신주를 모시고 장지에서 집으로 돌아오는 절차이다. 집에 도착하면 부인들이 이들을 맞이한다. 축관이 신주를 영좌에 안치하는데, 혼백상자는 신주 뒤에 둔다.
+										기년과 구월 복을 입는 사람은 술을 마시고 고기를 먹을 수 있으나 잔치를 즐기지는 못한다.
+									</p>
+									<h4>우제(虞祭)</h4>
+									<p class="funeralInfo-Txt">
+										우(虞)는 편안하다는 뜻으로, 우제는 부모의 장사를 지내고 영혼을 맞이하여 편안하게 위안하기 위해 지내는 제사로 세 번 지낸다. 처음으로 지내는 제사로 오례(五禮)에서는 흉제(凶祭)
+										에 속한다. 반드시 장사 당일 지내야 하기 때문에 길이 멀 경우 도중에 여관에서 지내기도 한다. 『가례(家禮)』에는 우제의 종류에 초우제와 재우제(再虞祭), 삼우제(三虞祭)가 있다는
+										정도로 기록하고 있다. 그러나 『사례편람(四禮便覽))』에서는 초우제(初虞祭), 재우제(再虞祭), 삼우제(三虞祭)를 소절차로 제시하고 있어 차이가 있다. 예서와는 달리 일반적으로는
+										이를 반혼제(反魂祭)라고도 한다. 우제부터 전(奠)에서 분리되어 제사(祭祀)로 전이되기 때문에 우제는 매우 중요한 제사이다. 제사를 지내는 절차는 사시제와 동일하고, 이때부터는
+										축관이 아니라 상주가 주인이 되어 제사를 삼헌으로 행한다. 축문을 읽을 때 축관이 서향하여 읽는데 이는 아직까지 우제가 흉례이기 때문이다.
+									</p>
+									<h4>졸곡(卒哭)</h4>
+									<p class="funeralInfo-Txt">
+										곡을 그치는 의례이다. 삼우제를 지낸 후 강일을 택하여 지낸다. 졸곡제를 지내는 시기에 대해서는 다양한 의견이 있는데, 유월장을 할 경우에는 삼우제 다음날에 지내지만, 유월장을 하지
+										않았을 경우에는 3개월 후에 지낸다. 졸곡을 지낸 후부터는 조석곡만 하고 무시 곡은 하지 않는다. 졸곡은 곡을 그친다는 의미, 흉제를 길제로 바꾸어 가는 것이기 때문에 우제까지 사용하지
+										않았던 현주를 사용한다. 이때부터는 아침저녁의 조석곡만 하고 그 사이에는 곡을 하지 않는다. 완전히 제사로 전이되었기 때문에 축문을 읽을 때 축관이 주인의 왼쪽에서 동향하여 읽는다.
+										주인과 형제는 거친 밥에 물을 마시되 나물과 과일은 먹지 못한다. 자리를 깔고 나무를 베고 잔다. 이 때 민간에서는 자리걷이, 혹은 씻김굿, 오구굿 등을 한다. 이즈음에서 문상 온 손님들에게
+										편지로 보답한다.
+									</p>
+									<h4>부제(祭)</h4>
+									<p class="funeralInfo-Txt">
+										고인의 신주를 조상의 곁에 합사(合祀)하도록 하는 절차이다. 『가례(家禮)』에서는 언급하지 않았으나 『사례편람(四禮便覽)』에서는 사우례의 규정에 따라 목욕하고 빗질하고 손톱을 깎고
+										수염을 깎는 조항을 삽입하여 일처리를 쉽게 하고 있다. 부제(祔祭)한다는 것은 함께 모신다는 뜻으로 새로운 신주를 사당에 모시게 되었다는 것을 의미한다. 사당에는 4대의 신주를
+										모시도록 규정되어 있다. 따라서 새로운 신주를 사당에 모시기 위해서는 반드시 부제를 지내 새로운 신주를 사당에 모시게 되었다는 것을 고해야 한다. 이것이 바로 부제이다. 신주를 모시지
+										않는 집안에서는 부제의 절차는 의미가 없어진다. 따라서 신주가 없는 집안에서는 부제, 담제, 길제의 절차는 생략되는 것이 보통이다.
+									</p>
+									<h4>소상(小祥)</h4>
+									<p class="funeralInfo-Txt">
+										기년을 맞아 고인을 추모하는 제사로 사망 후 13개월이 되는 날이다. 소상 때에는 연복으로 변복한다. 남자들은 수질을 떼어내고, 여자들은 요질을 떼어 낸다. 이는 남자는 머리가 중요하고,
+										여자는 허리가 중요하기 때문이라고 한다. 기년복을 입는 사람은 길복을 입으나 울긋불긋한 옷은 입을 수 없다. 변복의 내용은『가례(家禮)』와 차이가 있다.
+									</p>
+									<h4>대상(大祥)</h4>
+									<p class="funeralInfo-Txt">
+										죽은 후 두 돌 만에 지내는 제사이다. 초상으로부터 대상까지 윤달을 계산하지 않으면 25개월이 된다. 대상을 지내면 젓갈이나 간장, 포를 먹어도 된다. 상복을 벗기 위해 준비하는 옷은
+										백립&middot;망건&middot;직령대&middot;백화&middot;비녀&middot;의상&middot;신발 등 평복에 가까운 옷이다. 제사를 마치면 축관이 신주를 모셔 사당에 안치한다. 영좌를 철거하고 지팡이는 부러뜨려 구석진 곳에 버린다.
+										이른바 탈상(脫喪)이다.
+									</p>
+									<h4>담제(禫祭)</h4>
+									<p class="funeralInfo-Txt">
+										평상의 상태로 돌아가기를 기원하는 제사이다. 날짜를 따지면 27개월째에 해당한다. 담제에서 입는 옷은黲布笠(참포립)ㆍ網巾(망건)ㆍ黲袍衫(참포삼)ㆍ白布帶(백포대)ㆍ早靴(조화)ㆍ
+										淡黃피(담황피)ㆍ白大衣(백대의), 그리고 신발을 준비한다. 날이 밝으면 담제를 지내는데, 축문의 내용은 ‘엄급대상’을 ‘엄급담제(奄及禫祭)’로 고치고, ‘애천상사’를 ‘애천담사(哀薦禫祀)’
+										로 바꾼다. 『家禮(가례)』에서는 담제로서 상례의 모든 절차를 마치기 때문에 우리나라의 상례와는 차이가 있다.
+									</p>
+									<h4>길제(吉祭)</h4>
+									<p class="funeralInfo-Txt">
+										신주의 代를 바꾸고 집의 계승할 종손이 바뀌었음을 공포하는 제사이다. 첫날에는 신주의 분면을 고쳐 쓰는 개제고사(改題告祀)를 지내고, 다음날이면 길제를 지낸다. 주인은 일상의
+										제복인 吉服(길복)으로, 주부는 원삼 족두리를 한다. 길제는 고인의 사후 27개월 혹은 28개월째에 지내는 상례의 마지막 절차로서 매우 다양한 기능을 하는 의례로 규정되고 있다. 첫째
+										망자와 연관된 상례의 최종절차, 둘째 사당에 모신 신주의 대수를 소목계서(昭穆繼序)하는 절차, 셋째 친진(親盡)한 조상신을 성대히 모셔 보내는 의례, 넷째 종손의 지위변화, 즉 새 종손의
+										탄생의례, 다섯째 상중의 기간에서 일상생활로 복귀하는 통과의례의 의미를 가지고 있다. 이렇게 볼 때 길제는 상례의 마지막 절차로서의 의미는 물론, 한 집안의 새로운 재출발을 의미하는
+										의례로 자리매김 되는 것 같다. 따라서 길제는 한 家門(가문)의 지도자를 세우는 의례임과 동시에 지역사회에서 이해관계를 같이 하는 하나의 씨족집단으로서 지위를 인정받기 위한
+										의례로 규정된다.
+									</p>
+								</div>
+								<!-- //funeralInformationContainer -->
+							</div>
+						</div>
+						<!-- //tabTableWrap-EA5__tabTitle-tabConAll -->
+					</div>
+					<!-- //tabTableWrap-EA5 -->
+				</div>
+				<!-- //prCenterInner__funeralInformationWrap -->
+			</div>
+			<!-- //prCenterInnerWrap -->
+		</div>
+		<!-- //customer_counsel -->
+	</div>
+	<!-- //container -->
+	<div id="footer">
+		<div class="footer__footMenuWrap">
+			<div class="footer__footMenuWrap__footMenuInner">
+				<ul class="footer__footMenuWrap__footMenuInner__footMenu">
+					<li class="footer__footMenuWrap__footMenuInner__footMenu__first"><a href="javascript:;">개인정보취급방침</a></li>
+					<li><a href="javascript:;">이용약관</a></li>
+					<li><a href="javascript:;">이메일모단수집거부</a></li>
+					<li><a href="javascript:;">AP검색</a></li>
+					<li><a href="javascript:;">인재채용</a></li>
+					<li class="footer__footMenuWrap__footMenuInner__footMenu__last"><a href="javascript:;">중요정보고시사항</a></li>
+				</ul>
+			</div>
+			<!-- //footMenuInner -->
+		</div>
+		<!-- //footMenuWrap -->
+		<div class="footer__footContent">
+			<div class="footer__footContent__fLogo">
+				<img src="../../img/common/fLogo.png" alt="" />
+			</div>
+			<!-- //logo -->
+			<div class="footer__footContent__copyRightWrap">
+				<div>
+					서울시 강남구 테헤란로7길 8(역삼동), 부산광역시 연제구 중앙대로 1066(연산동)
+					<span class="pl_15">대표이사 : 조중래</span>
+					<span class="pl_15">TEL : 1577-6250</span>
+					<span class="pl_15">FAX : 03030-462-6250</span>
+				</div>
+				<div>
+					사업자등록번호 : 604-81-04641
+					<span class="pl_15">방문판매업 : 제 2009-부산연제 28호</span>
+					<span class="pl_15">통신판매업 : 제 2009-부산연제 111호</span>
+				</div>
+				<div>
+					선불식 할부거래업 등록번호 : 부산-2010-3호
+					<span class="pl_15">COPYRIGHT &copy; 2016 YOURSIDE.KR.ALL RIGHT RESERVED.</span>
+				</div>
+			</div>
+			<!-- //copyRightWrap -->
+			<div class="ico_Foot">
+				<img src="../../img/common/ico_Foot.gif" alt="공정거래위원회 표준약관 시행업체" />
+			</div>
+		</div>
+		<!-- //footContent -->
+	</div>
+	<!-- //footer -->
+	<div id="dim"></div>
+	<div id="allMenu">
+		<div class="allMenu__menuWrap">
+			<a href="javascript:;" class="allMenu__menuWrap__btn-allMenu" ><img src="../../img/common/btn_allMenu.gif" alt="닫기" /></a>
+			<div class="allMenu__menuWrap__menuListWrap">
+				<h3 class="allMenu__menuWrap__menuListTitle">
+					<a href="javascript:;">늘곁애소개</a>
+				</h3>
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">CEO 인사말</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">회사소개</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">연혁</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">기업이념</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">조직도</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">재무제표</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">계열사</a>
+					<ul>
+						<li><a href="javascript:;">드림의전서비스</a></li>
+						<li><a href="javascript:;">라이프온웨딩투어</a></li>
+						<li><a href="javascript:;">울산영락원</a></li>
+						<li><a href="javascript:;">MH연세병원장례식장</a></li>
+						<li><a href="javascript:;">장례식장아시아드</a></li>
+					</ul>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">지점안내</a>
+				</div>
+				<!-- //menuList -->
+			</div>
+			<!-- //menuListWrap -->
+			<div class="allMenu__menuWrap__menuListWrap">
+				<h3 class="allMenu__menuWrap__menuListTitle">
+					<a href="javascript:;">상품안내</a>
+				</h3>
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">늘곁애 서비스 장점</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">장례상품</a>
+					<ul>
+						<li><a href="javascript:;">늘곁애 240 I</a></li>
+						<li><a href="javascript:;">늘곁애 240 II</a></li>
+						<li><a href="javascript:;">늘곁애 360</a></li>
+						<li><a href="javascript:;">늘곁애 480</a></li>
+						<li><a href="javascript:;">단체(법인)상품</a></li>
+					</ul>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">웨딩상품</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">여행상품</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">어학연수</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">결혼정보업체</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">약관대출안내</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">나에게 맞는 상품찾기</a>
+				</div>
+				<!-- //menuList -->
+			</div>
+			<!-- //menuListWrap -->
+			<div class="allMenu__menuWrap__menuListWrap">
+				<h3 class="allMenu__menuWrap__menuListTitle">
+					<a href="javascript:;">미디어</a>
+				</h3>
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">공지사항</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">제휴혜택</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">행사후기</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">장례정보</a>
+				</div>
+				<!-- //menuList -->
+			</div>
+			<!-- //menuListWrap -->
+			<div class="allMenu__menuWrap__menuListWrap">
+				<h3 class="allMenu__menuWrap__menuListTitle">
+					<a href="javascript:;">고객센터</a>
+				</h3>
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">전화상담신청</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">자주묻는질문</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">AP검색</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">1:1상담센터</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">사이버추모관</a>
+				</div>
+				<!-- //menuList -->
+			</div>
+			<!-- //menuListWrap -->
+			<div class="clear"></div>
+			<div class="allMenu__menuWrap__menuListWrap">
+				<h3 class="allMenu__menuWrap__menuListTitle">
+					<a href="javascript:;">MY늘곁애</a>
+				</h3>
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">늘곁애상품가입</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">상품가입현황</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">내정보</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">1:1상담내역</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">본인인증</a>
+				</div>
+				<!-- //menuList -->
+			</div>
+			<!-- //menuListWrap -->
+			<div class="allMenu__menuWrap__menuListWrap">
+				<h3 class="allMenu__menuWrap__menuListTitle">
+					<a href="javascript:;">회원</a>
+				</h3>
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">로그인</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">회원가입</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">ID/PW 찾기</a>
+				</div>
+				<!-- //menuList -->
+			</div>
+			<!-- //menuListWrap -->
+			<div class="allMenu__menuWrap__menuListWrap">
+				<h3 class="allMenu__menuWrap__menuListTitle">
+					<a href="javascript:;">인재채용</a>
+				</h3>
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">채용안내</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">입사지원</a>
+				</div>
+				<!-- //menuList -->
+			</div>
+			<!-- //menuListWrap -->
+			<div class="allMenu__menuWrap__menuListWrap">
+				<h3 class="allMenu__menuWrap__menuListTitle">
+					<a href="javascript:;">이용안내</a>
+				</h3>
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">사이트맵</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">개인정보취급방침</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">이용약관</a>
+				</div>
+				<!-- //menuList -->
+				<div class="allMenu__menuWrap__menuList">
+					<a href="javascript:;">중요정보고시사항</a>
+				</div>
+				<!-- //menuList -->
+			</div>
+			<!-- //menuListWrap -->
+		</div>
+		<!-- //menuWrap -->
+	</div>
+	<!-- //allMenu -->
+</div>
+<!-- //wrap -->
+</body>
+</html>

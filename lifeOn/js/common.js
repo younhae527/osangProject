@@ -9,6 +9,8 @@ $(function(){
     });
 });
 */
+
+
 /* Main Header Script : Banner */
 $(function(){
     $('.headerBanner').bxSlider({
@@ -234,4 +236,11 @@ $(function(){
     $('.bxslider_03').bxSlider({
       pagerCustom: '#bx-pager3'
     });  
+});
+
+/* PRCENTER_행사후기 */
+$(function(){
+    $('.eventReview_more').click(function(){
+        $(this).parent().siblings('.eventReviewWrap__eventReview-Inner__txt-Inner').css('height','auto');
+    });
 });
