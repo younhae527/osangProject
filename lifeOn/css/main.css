@@ -346,6 +346,7 @@ ul.footer__footMenuWrap__footMenuInner__footMenu li a{ color:#878787; font-size:
     .ico_Foot{ display:none; }
 
     .gnbArea{ width:6%; }
+    .gnbGrayArea{ width:6%; }
 
     .counselWrap{ height:200px; }
     .counsel{ width:710px; margin:0 auto; padding:54px 0; }
@@ -401,4 +402,7 @@ ul.footer__footMenuWrap__footMenuInner__footMenu li a{ color:#878787; font-size:
     .footer__footContent__copyRightWrap div{ margin-top:0; }
     .footer__footContent__copyRightWrap div span{ display:inline-block; padding-left:0; }
     .ico_Foot{ display:none; }
+
+    .gnbArea{ width:10%; }
+    .gnbGrayArea{ width:10%; }
 }

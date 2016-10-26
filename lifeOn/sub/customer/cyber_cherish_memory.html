@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Script-Type" content="text/javascript" />
 		<meta http-equiv="Content-Style-Type" content="text/css" />
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-		<meta name="viewport" content="user-scalable=yes, width=1100, target-densitydpi=medium-dpi" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
 		<link rel="shortcut icon" type="image/x-icon" href="" />
 		<link href="../../css/base.css" rel="stylesheet" type="text/css"/>
 		<link href="../../css/common.css" rel="stylesheet" type="text/css"/>
@@ -55,15 +55,15 @@
 				<!-- //headerwrap -->
 			</div>
 			<!-- //header -->
-			<div id="container"> 
+			<div id="container">
 				<div class="subMenuGnbWrap">
-					<div class="subMenuGnbWrap__customerserviceSubMenuGnb">
+					<div class="subMenuGnbWrap__customerSubMenuGnb">
 						<ul>
-							<li class="subMenuGnbWrap__customerserviceSubMenuGnb__subMenuList01"><a href="#subIntroduceWrap01">전화상담신청</a></li>
-							<li class="subMenuGnbWrap__customerserviceSubMenuGnb__subMenuList02"><a href="#subIntroduceWrap02">자주묻는질문</a></li>
-							<li class="subMenuGnbWrap__customerserviceSubMenuGnb__subMenuList03"><a href="#subIntroduceWrap03">AP검색</a></li>
-							<li class="subMenuGnbWrap__customerserviceSubMenuGnb__subMenuList04"><a href="#subIntroduceWrap04">1:1상담센터</a></li>
-							<li class="subMenuGnbWrap__customerserviceSubMenuGnb__subMenuList05"><a href="#subIntroduceWrap05">사이버추모관</a></li>  
+							<li class="subMenuGnbWrap__customerSubMenuGnb__subMenuList01"><a href="#subCustomerWrap01">전화상담신청</a></li>
+							<li class="subMenuGnbWrap__customerSubMenuGnb__subMenuList02"><a href="#subCustomerWrap02">자주묻는질문</a></li>
+							<li class="subMenuGnbWrap__customerSubMenuGnb__subMenuList03"><a href="#subCustomerWrap03">AP검색</a></li>
+							<li class="subMenuGnbWrap__customerSubMenuGnb__subMenuList04"><a href="#subCustomerWrap04">1:1상담센터</a></li>
+							<li class="subMenuGnbWrap__customerSubMenuGnb__subMenuList05"><a href="#subCustomerWrap05">사이버추모관</a></li>
 						</ul>
 					</div>
 					<!-- //subMenuGnb -->
@@ -90,7 +90,7 @@
 							<table>
 								<colgroup>
 									<col width="14%" />
-									<col width="80%" />
+									<col width="76%" />
 									<col width="" />
 								</colgroup>
 								<tr>
@@ -107,39 +107,43 @@
 
 						<table class="tableStyle02 mb_50">
 							<colgroup>
-								<col width="10%" />
-								<col width="13%" />
-								<col width="13%" />
-								<col width="13%" />
-								<col width="" />
-								<col width="10%" />
+								<col width="14%" />
+								<col width="14%" />
+								<col width="14%" />
+								<col width="14%" />
+								<col width="14%" />
+								<col width="14%" />
+								<col width="14%" />
 							</colgroup>
 							<thead>
 								<tr>
 									<th scope="col">번호</th>
-									<th scope="col">이름</th>
-									<th scope="col">직급</th>
-									<th scope="col">출생년</th> 
-									<th scope="col">주소</th>
-									<th scope="col">연락처</th>
+									<th scope="col">고인성명</th>
+									<th scope="col">상주성명</th>
+									<th scope="col">별세일시</th>
+									<th scope="col">발인일시</th>
+									<th scope="col">장례식장</th>
+									<th scope="col">바로가기</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
 									<td>1</td>
-									<td>서순남</td>
-									<td>AP</td>
-									<td>51년</td>
-									<td>경남 창원시 중앙동</td>
-									<td>1577-6250</td>
+									<td>예시</td>
+									<td>예시</td>
+									<td>2014-01-01</td>
+									<td>2014-01-03</td>
+									<td>OO장례식장</td>
+									<td><a href="javascript:;"><img src="../../img/sub/common/btn_link.gif" /></a></td>
 								</tr> 
 								<tr>
 									<td>1</td>
-									<td>서순남</td>
-									<td>AP</td>
-									<td>51년</td>
-									<td>경남 창원시 중앙동</td>
-									<td>1577-6250</td>
+									<td>예시</td>
+									<td>예시</td>
+									<td>2014-01-01</td>
+									<td>2014-01-03</td>
+									<td>OO장례식장</td>
+									<td><a href="javascript:;"><img src="../../img/sub/common/btn_link.gif" /></a></td>
 								</tr>									
 							</tbody>
 						</table>
@@ -183,7 +187,7 @@
 						<ul class="footer__footMenuWrap__footMenuInner__footMenu">
 							<li class="footer__footMenuWrap__footMenuInner__footMenu__first"><a href="javascript:;">개인정보취급방침</a></li>
 							<li><a href="javascript:;">이용약관</a></li>
-							<li><a href="javascript:;">이메일모단수집거부</a></li>
+							<li><a href="javascript:;">이메일무단수집거부</a></li>
 							<li><a href="javascript:;">AP검색</a></li>
 							<li><a href="javascript:;">인재채용</a></li>
 							<li class="footer__footMenuWrap__footMenuInner__footMenu__last"><a href="javascript:;">중요정보고시사항</a></li>
@@ -200,18 +204,18 @@
 					<div class="footer__footContent__copyRightWrap">
 						<div>
 							서울시 강남구 테헤란로7길 8(역삼동), 부산광역시 연제구 중앙대로 1066(연산동)
-							<span class="pl_15">대표이사 : 조중래</span>
-							<span class="pl_15">TEL : 1577-6250</span>
-							<span class="pl_15">FAX : 03030-462-6250</span>
+							<span>대표이사 : 조중래</span>
+							<span">TEL : 1577-6250</span>
+							<span>FAX : 03030-462-6250</span>
 						</div>
 						<div>
 							사업자등록번호 : 604-81-04641
-							<span class="pl_15">방문판매업 : 제 2009-부산연제 28호</span>
-							<span class="pl_15">통신판매업 : 제 2009-부산연제 111호</span>
+							<span>방문판매업 : 제 2009-부산연제 28호</span>
+							<span>통신판매업 : 제 2009-부산연제 111호</span>
 						</div>
 						<div>
 							선불식 할부거래업 등록번호 : 부산-2010-3호
-							<span class="pl_15">COPYRIGHT &copy; 2016 YOURSIDE.KR.ALL RIGHT RESERVED.</span>
+							<span>COPYRIGHT &copy; 2016 YOURSIDE.KR.ALL RIGHT RESERVED.</span>
 						</div>
 					</div>
 					<!-- //copyRightWrap -->
