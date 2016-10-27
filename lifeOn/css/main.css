@@ -190,26 +190,26 @@
 							.promotionMenuTitle span{ font-size:13px; line-height:18px; color:#8b8b8b; display:block; padding-top:10px; }
 
 						.promotionMenu01_01{ width:214px; height:194px; float:left; background:url('../img/main/bg_promotion01.png') left top no-repeat; }
-							.promotionMenu01_01 a{ display:block; height:129px; padding:40px 35px 25px 40px; }
-						
+							.promotionMenu01_01 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
 						.promotionMenu01_02{ width:214px; height:194px; float:left; background:url('../img/main/bg_promotion02.png') left top no-repeat; margin-left:7px; }
-							.promotionMenu01_02 a{ display:block; height:129px; padding:40px 35px 25px 40px; }
-						
+							.promotionMenu01_02 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
 						.promotionMenu01_03{ width:214px; height:194px; float:left; background:url('../img/main/bg_promotion03.png') left top no-repeat; margin-left:7px; }
-							.promotionMenu01_03 a{ display:block; height:129px; padding:40px 35px 25px 40px; }
-						
+							.promotionMenu01_03 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
 					.promotionMenu02{ margin-top:9px; }
 					.promotionMenu02:after{ content:''; display:block; clear:both; }
 
 						.promotionMenu02_01{ width:325px; height:194px; float:left; background:url('../img/main/bg_promotion04.png') left top no-repeat; }
-							.promotionMenu02_01 a{ display:block; height:129px; padding:40px 35px 25px 40px; }
+							.promotionMenu02_01 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
 
 						.promotionMenu02_02{ width:325px; height:194px; float:left; background:url('../img/main/bg_promotion05.png') left top no-repeat; margin-left:6px; }
-							.promotionMenu02_02 a{ display:block; height:129px; padding:40px 35px 25px 40px; }
+							.promotionMenu02_02 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
 
 				.promotionVideo{ width:436px; height:396px; margin-left:6px; float:left; position:relative; }
 					.promotionVideo iframe{ position:absolute; width:100%; height:100%; }
-			
+
 	/* 고객센터 */
 	.customerWrap{ width:100%; background:#3d9aa2; }
 		.customerInner{ width:1100px; margin:0 auto; padding:114px 0 147px 0; }
@@ -217,7 +217,7 @@
 				.customerTitleWrap .textWrap{ display:inline-block; font-size:48px; color:#fff; padding:10px 0 0 15px; }
                     .customerTitleWrap span.textWrapTitleBold{ font-size:60px; color:#fff; font-weight:bold; }
                         .customerTitleWrap span.textWrapTitleBold.clrfec02c{ visibility:hidden; }
-			
+
 			.customerContentWrap{ margin-top:80px; }
 			.customerContentWrap:after{ content:''; display:block; clear:both; }
 
@@ -256,7 +256,7 @@
 
                     .bg_top{ width:19px; height:17px; background:url('../img/common/ico_mainTitle.png') left top no-repeat; display:block; position:absolute; left:0; top:0; }
                     .bg_bot{ width:19px; height:17px; background:url('../img/common/ico_mainTitle.png') left top no-repeat; display:block; position:absolute; right:0; bottom:0; }
-			
+
 			.myneulContentWrap{ margin-top:80px; }
 			.myneulContentWrap:after{ content:''; display:block; clear:both; }
 
@@ -269,17 +269,17 @@
 
 						.myneulMenuTitle{ font-size:24px; color:#333; font-weight:bold; }
 							.myneulMenuTitle span{ font-size:13px; line-height:18px; color:#8b8b8b; display:block; padding-top:10px; }
-						
+
 					.myneulMenu02{ height:195px; background:url('../img/main/bg_myneul02.png') left top no-repeat; margin-top:7px; }
 						.myneulMenu02 a{ display:block; height:130px; padding:40px 35px 25px 40px; }
 
 				.myneulContent02{ width:325px; height:397px; float:left; background:url('../img/main/bg_myneul03.png') left top no-repeat; margin-left:8px; }
 					.myneulContent02 a{ display:block; height:332px; padding:40px 35px 25px 40px; }
-				
+
 				.myneulContent03{ width:325px; float:left; margin-left:7px; }
 					.myneulMenu03{ height:195px; background:url('../img/main/bg_myneul04.png') left top no-repeat; }
 						.myneulMenu03 a{ display:block; height:130px; padding:40px 35px 25px 40px; }
-					
+
 					.myneulMenu04{ height:195px; background:url('../img/main/bg_myneul05.png') left top no-repeat; margin-top:7px; }
 						.myneulMenu04 a{ display:block; height:130px; padding:40px 35px 25px 40px; }
 
@@ -313,15 +313,18 @@ ul.footer__footMenuWrap__footMenuInner__footMenu li a{ color:#878787; font-size:
 @media screen and (min-width: 768px) and (max-width: 1024px){
     #wrap{ min-width:768px; }
     #header{ min-width:768px; }
-    .topAreaWrap{ top:10px; }
+    .topAreaWrap{ top:0;}
+    .topAreaWrap:after{ content:''; display:block; clear:both; }
     .visual{ width:100%; }
-    .visual li{ width:100%; height:465px; }
-    .visual li img{ width:100%; height:465px; }
-    .topArea{ width:530px; }
-    .topArea h1{ width:13%; }
+    .visual li{ width:100%; height:944px; background-size:100% !important;background:url('../img/main/img_visual01_t.jpg') no-repeat 0 0;}
+    .visual li img{display:none;}
+
+    .topArea{ width:100%;padding:11px 0; text-align:center;border-bottom:1px solid #a7c2ce;background:url('../img/main/tabletTopBG.png') repeat 0 0;}
+    .topArea h1{ width:14%;float:none;margin:0 auto; }
+    .topArea h1.logo {padding-top: 0;}
     .topArea img{ width:100%; }
-    .headerInnerWrap{ width:768px; margin-left:-384px; margin-top:0; }
-    .headerMenuTitle{ width:380px; margin:0 auto -10px; auto; }
+    .headerInnerWrap{ width:768px; margin-left:-384px; margin-top:0;top:105px; }
+    .headerMenuTitle{display: none; width:380px; margin:0 auto -10px;}
     .headerMenuTitle img{ width:100%; }
 
     #container{ min-width:768px; }
@@ -345,31 +348,289 @@ ul.footer__footMenuWrap__footMenuInner__footMenu li a{ color:#878787; font-size:
     .footer__footContent__copyRightWrap div span{ display:inline-block; padding-left:5px; }
     .ico_Foot{ display:none; }
 
-    .gnbArea{ width:6%; }
-    .gnbGrayArea{ width:6%; }
-
+    .gnbArea{ width:6%;float:none;top:10px;right:20px;left:inherit; }
+    .gnbArea a img {width:70% !important;}
+    .gnbGrayArea{ width:6%;float:none;top:10px;right:20px;left:inherit; }
+    .gnbGrayArea a{ display:block; }
+    .gnbGrayArea a img {width:70% !important;}
+    .gnbGrayArea a span{ display:block; color:#747474; padding-top:5px; font-size:14px; font-weight:bold; text-align:center; }
+    .gnbArea a span {font-size:14px;}
     .counselWrap{ height:200px; }
-    .counsel{ width:710px; margin:0 auto; padding:54px 0; }
+    .counsel{ width:80%; margin:0 auto; padding:54px 0; }
     .counsel img{ width:100%; }
+    .headerMenuArea {padding:0 10%;}
+    .headerMenuArea ul {width:100%;}
+	.headerMenuArea ul li{ margin-bottom:10px;background-size:100% 100% !important;width:32%; height:185px; float:left; margin-left:1%;transition:all 0.8s, color 0.3s 0.3s; }
+	.headerMenuArea ul li + li + li + li {margin-left:0;}
+	.headerMenuArea ul li + li + li + li + li {margin-left:1%;}
+	.headerMenuArea ul li.headerMenu01{ margin-left:0; background:url('../img/main/img_headerMenu01.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu02{ background:url('../img/main/img_headerMenu02.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu03{ background:url('../img/main/img_headerMenu03.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu04{ background:url('../img/main/img_headerMenu04.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu05{ background:url('../img/main/img_headerMenu05.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu01:hover{ background:url('../img/main/img_headerMenu01_hover.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu02:hover{ background:url('../img/main/img_headerMenu02_hover.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu03:hover{ background:url('../img/main/img_headerMenu03_hover.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu04:hover{ background:url('../img/main/img_headerMenu04_hover.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu05:hover{ background:url('../img/main/img_headerMenu05_hover.png') left top no-repeat; }
+	.headerMenuArea ul li a{ width:30%; height:170px; display:block; }
+	.headerMenuArea ul li a img{ width:100%; }
+	.headerInfoWrap{ padding:0 10%;margin-top:0;}
+
+	.headerCounsel{ width:94%; height:110px;padding:30px 3%; float:left; background:url('../img/main/tablet_selBG.png') 0 0 repeat; }
+		.headerCounselField{ width:100%; margin:0 0 0 0; }
+			.headerCounselFieldInner {padding-left:200px;background:url('../img/main/t_ver_callnum.png') 25px 15px no-repeat;}
+			.headerCounselFieldInner:after{ content:''; display:block; clear:both; }
+				.headerCounselFieldInner .inputWrap{ float:left; }
+					.headerCounselFieldInner .inputWrap .inputName{ width:200px; height:35px; background:url('../img/main/bg_headerCounselName.jpg') left top no-repeat; }
+						.headerCounselFieldInner .inputWrap .inputName input[type="text"]{ width:155px; height:35px; margin-left:35px; border:none; font-size:14px; color:#666; }
+					.headerCounselFieldInner .inputWrap .inputPhone{ width:200px; height:35px; background:url('../img/main/bg_headerCounselphone.jpg') left top no-repeat; margin-top:5px; }
+						.headerCounselFieldInner .inputWrap .inputPhone input[type="text"]{ width:155px; height:35px; margin-left:35px; border:none; font-size:14px; color:#666; }
+				.headerCounselFieldInner .fieldButton{ float:left; margin-left:10px; }
+					.headerCounselFieldInner .fieldButton a{ display:block; }
+			.headerCounselField .infoAgree{ margin-top:10px;padding-left:200px; font-size:14px; color:#1c1e1e; font-weight:bold; }
+				.headerCounselField .infoAgree a{ display:inline-block; margin-left:10px; }
+.headerBannerWrap{ display:none;width:654px; height:242px; float:left; margin-left:12px; position:relative; }
+
+
+
+
+/* container */
+	/* 늘곁애는 늘 신뢰를 할 수 있습니다 */
+	.neulneulWrap{ width:100%; background:#5bb1d2; }
+		.neulneulInner{ width:80%;padding:60px 10% 60px 10%; margin:0 auto; }
+			.neulneulTitleWrap{ width:435px; height:75px; margin:0 auto; position:relative; overflow:hidden; }
+			    .neulneulTitleWrap .textWrap{ display:inline-block; font-size:24px; color:#fff; padding:10px 0 0 12px; }
+			        .neulneulTitleWrap span.textWrapTitleBold{ font-size:40px; color:#fff; font-weight:bold; /*position:absolute; left:0; top:0;*/ }
+			            .neulneulTitleWrap span.textWrapTitleBold.clr0d4d94{ visibility:hidden; }
+			            .neulneulTitleWrap span.textWrapTitleBold.clrfade7d{ visibility:hidden; }
+			.neulneulInner > p{ display:none;text-align:center; font-size:14px; color:#fff; }
+
+			.neulneulContentWrap{ margin-top:40px; }
+				.neulneulContentWrap ul:after{ content:''; display:block; clear:both; }
+					.neulneulContentWrap ul li{ width:50%; float:left; margin-left:0; }
+						.neulneulIcon{ font-size:28px; color:#0d4d94; text-align:center; padding-top:237px; font-weight:bold; }
+							.neulneulIcon span{ font-size:16px; display:block; color:#fff; font-weight:normal; }
+
+						.neulneulIcon01{ background:url('../img/main/ico_neulneul01.png') center 10px no-repeat; }
+						.neulneulIcon02{ background:url('../img/main/ico_neulneul02.png') center 10px no-repeat; }
+						.neulneulIcon03{ background:url('../img/main/ico_neulneul03.png') center 10px no-repeat; }
+						.neulneulIcon04{ background:url('../img/main/ico_neulneul04.png') center 10px no-repeat; }
+
+
+	/* 늘곁애소개 */
+	.infoWrap{ width:100%; background:#3d79c1; }
+		.infoInner{ width:80%;padding:60px 10% 60px 10%; margin:0 auto; }
+			.infoTitleWrap{ width:180px; height:75px; margin:0 auto; position:relative; overflow:hidden; }
+                .infoTitleWrap .textWrap{ display:inline-block; font-size:24px; color:#fff; padding:5px 0 0 12px; }
+                    .infoTitleWrap span.textWrapTitleBold{ font-size:40px; color:#fff; font-weight:bold; }
+                        .infoTitleWrap span.textWrapTitleBold.clrb4ef67{ visibility:hidden; }
+			.infoContentWrap{ margin-top:80px; }
+
+				.infoMenu{ position:relative; }
+					.ico_infoMenu{ position:absolute; right:15px; bottom:20px; }
+
+				.infoContent01:after{ content:''; display:block; clear:both; }
+
+					.infoMenuTitle{ font-size:24px; color:#333; }
+						.infoMenuTitle span{ font-size:13px; line-height:18px; color:#8b8b8b; display:block; padding-top:10px; }
+
+					.infoMenu01{ text-align:center;width:33%; height:195px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_info01.png') left top no-repeat; }
+						.infoMenu01 a{ display:block; height:130px; padding:40px 35px 25px 40px; }
+					.infoMenu01	.ico_customerMenu{ position:inherit; }
+					.infoMenu02{ text-align:center;width:32.5%; height:195px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_info02.png') left top no-repeat; margin-left:1%; }
+						.infoMenu02 a{ display:block; height:130px; padding:40px 35px 25px 40px; }
+					.infoMenu02	.ico_customerMenu{ position:inherit; }
+					.infoMenu03{ text-align:center;width:32.5%; height:195px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_info03.png') left top no-repeat; margin-left:1%; }
+						.infoMenu03 a{ display:block; height:130px; padding:40px 35px 25px 40px; }
+					.infoMenu03	.ico_customerMenu{ position:inherit; }
+				.infoContent02{ margin-top:7px; }
+				.infoContent02:after{ content:''; display:block; clear:both; }
+
+					.infoMenu04{ text-align:center;width:33%; height:195px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_info04.png') left top no-repeat; }
+						.infoMenu04 a{ display:block; height:130px; padding:40px 35px 25px 40px; }
+						.infoMenu04	.ico_customerMenu{ position:inherit; }
+					.infoMenu05{ width:66%; height:195px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_info05.png') left top no-repeat; margin-left:1%; }
+						.infoMenu05 a{ display:block; height:130px; padding:40px 35px 25px 40px; }
+
+	/* 늘곁애상품안내 */
+	.productWrap{ width:100%; background:#efefef; }
+		.productInner{ width:80%;padding:60px 10% 60px 10%; margin:0 auto; }
+			.productTitleWrap{ width:265px; height:70px; margin:0 auto; position:relative; overflow:hidden; }
+				.productTitleWrap .textWrap{ display:inline-block; font-size:24px; color:#333; padding:5px 0 0 12px; }
+                    .productTitleWrap span.textWrapTitleBold{ font-size:40px; color:#fff; font-weight:bold; }
+                        .productTitleWrap span.textWrapTitleBold.clr00968a{ visibility:hidden; }
+
+				.bg_gTop{ width:19px; height:17px; background:url('../img/common/ico_gMainTitle.png') left top no-repeat; display:block; position:absolute; left:0; top:0; }
+				.bg_gBot{ width:19px; height:17px; background:url('../img/common/ico_gMainTitle.png') left top no-repeat; display:block; position:absolute; right:0; bottom:0; }
+
+		.productContentWrap{ margin-top:80px; }
+			.productContentWrap ul:after{ content:''; display:block; clear:both; }
+				.productContentWrap ul li{ width:49%; height:263px; margin-left:0; margin-bottom:1%; float:left; background:url('../img/main/bg_product.png') left top no-repeat; }
+				.productContentWrap ul li:nth-child(2n) {margin-left:1% !important;}
+					.productMenuWrap{ overflow:hidden; width:100%; height:260px; }
+						.productMenu{ height:100%; text-align:center; background-size:auto 100%; transition:all 0.5s ease-in-out;  -moz-transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; }
+						.productMenu:hover{ overflow:hidden; transform:scale(1.1); -ms-transform:scale(1.1); -webkit-transform:scale(1.1); -moz-transform:scale(1.1); -o-transform:scale(1.1); }
+							.productMenu01{ background:url('../img/main/bg_product01.png') left top no-repeat; }
+							.productMenu02{ background:url('../img/main/bg_product02.png') left top no-repeat; }
+							.productMenu03{ background:url('../img/main/bg_product03.png') left top no-repeat; }
+							.productMenu04{ background:url('../img/main/bg_product04.png') left top no-repeat; }
+							.productMenu05{ background:url('../img/main/bg_product05.png') left top no-repeat; }
+							.productMenu06{ background:url('../img/main/bg_product06.png') left top no-repeat; }
+							.productMenu a{ display:block; padding:55px 0; }
+
+				.productLinkWrap{ margin-top:17px; }
+					.productLink{ width:540px; height:80px; line-height:80px; background:#636b7e; display:inline-block; text-align:center; color:#fff; font-size:28px; }
+						.productLink02{ margin-left:15px; }
+						.ico_roundArrow{ width:42px; height:42px; vertical-align:middle; display:inline-block; background:url('../img/common/icon_roundArrow.png') left center no-repeat; padding-right:10px; }
+
+
+
+
+	/* 홍보채널 */
+	.promotionWrap{ width:100%; background:#feae2c; }
+		.promotionInner{ width:80%;padding:60px 10% 60px 10%; margin:0 auto;}
+			.promotionTitleWrap{ width:170px; height:75px; margin:0 auto; position:relative; overflow:hidden; }
+				.promotionTitleWrap .textWrap{ display:inline-block; font-size:24px; color:#fff; padding:10px 0 0 15px; }
+                    .promotionTitleWrap span.textWrapTitleBold{ font-size:40px; color:#fff; font-weight:bold; }
+                        .promotionTitleWrap span.textWrapTitleBold.clr139da9{ visibility:hidden; }
+
+			.promotionContentWrap{ margin-top:80px; }
+			.promotionContentWrap:after{ content:''; display:block; clear:both; }
+
+				.promotionContent{ float:left;width:100%; }
+					.promotionMenu{ position:relative; }
+						.ico_promotionMenu{ position:absolute; right:15px; bottom:20px; }
+
+					.promotionMenu01{ height:194px; }
+					.promotionMenu01:after{ content:''; display:block; clear:both; }
+
+						.promotionMenuTitle{ font-size:24px; color:#333; font-weight:bold; }
+							.promotionMenuTitle span{ font-size:13px; line-height:18px; color:#8b8b8b; display:block; padding-top:10px; }
+
+						.promotionMenu01_01{ text-align:center;width:33%; height:194px; float:left;background-size:100% 100% !important;background:url('../img/main/bg_promotion01.png') left top no-repeat; }
+							.promotionMenu01_01 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+							.promotionMenu01_01 .ico_customerMenu{ position:inherit; }
+						.promotionMenu01_02{ text-align:center;width:32.5%; height:194px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_promotion02.png') left top no-repeat; margin-left:1%; }
+							.promotionMenu01_02 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+							.promotionMenu01_02 .ico_customerMenu{ position:inherit; }
+						.promotionMenu01_03{ text-align:center;width:32.5%; height:194px; float:left;background-size:100% 100% !important;background:url('../img/main/bg_promotion03.png') left top no-repeat; margin-left:1%; }
+							.promotionMenu01_03 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+							.promotionMenu01_03 .ico_customerMenu{ position:inherit; }
+					.promotionMenu02{ margin-top:9px; }
+					.promotionMenu02:after{ content:''; display:block; clear:both; }
+
+						.promotionMenu02_01{ width:49.5%; height:194px; float:left; background-size:100% 100% !important;background:url('../img/main/bg_promotion04.png') left top no-repeat; }
+							.promotionMenu02_01 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+						.promotionMenu02_02{ width:49.5%; height:194px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_promotion05.png') left top no-repeat; margin-left:1%; }
+							.promotionMenu02_02 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+				.promotionVideo{ width:99%;margin-top:10px; height:190px; margin-left:6px; float:left; position:relative; }
+					.promotionVideo iframe{ position:absolute; width:100%; height:100%;z-index:9999; }
+
+
+	/* 고객센터 */
+	.customerWrap{ width:100%; background:#3d9aa2; }
+		.customerInner{ width:80%;padding:60px 10% 60px 10%; margin:0 auto; }
+			.customerTitleWrap{ width:180px; height:75px; margin:0 auto; position:relative; overflow:hidden; }
+				.customerTitleWrap .textWrap{ display:inline-block; font-size:24px; color:#fff; padding:10px 0 0 15px; }
+                    .customerTitleWrap span.textWrapTitleBold{ font-size:40px; color:#fff; font-weight:bold; }
+                        .customerTitleWrap span.textWrapTitleBold.clrfec02c{ visibility:hidden; }
+
+			.customerContentWrap{ margin-top:80px; }
+			.customerContentWrap:after{ content:''; display:block; clear:both; }
+
+				.customerContent01{ margin-bottom:1%;width:49.5%; height:194px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_customer04.png') left top no-repeat; }
+                    .customerContent01 a{ display:block; height:129px; padding:40px 35px 25px 40px; }
+
+					.customerMenu{ position:relative; }
+						.ico_customerMenu{ position:absolute; right:15px; bottom:20px; }
+
+						.customerMenuTitle{ font-size:24px; color:#333; font-weight:bold; }
+							.customerMenuTitle span{ font-size:13px; line-height:18px; color:#8b8b8b; display:block; padding-top:10px; }
+
+				.customerContent02{ width:49.5%; height:194px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_customer04.png') left top no-repeat; margin-left:1%; }
+					.customerContent02 a{ display:block; height:129px; padding:40px 35px 25px 40px; }
+
+				.customerContent03{ float:left; margin-left:0;width:100%; }
+					.customerMenu03{ height:195px; }
+					.customerMenu03:after{ content:''; display:block; clear:both; }
+
+						.customerMenu03_01{ width:32.5%; height:195px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_customer04.png') left top no-repeat; }
+							.customerMenu03_01 a{ display:block; height:130px; padding:40px 35px 25px 40px; }
+
+						.customerMenu03_02{ width:66.5%; height:195px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_customer06.png') left top no-repeat; margin-left:1%; }
+							.customerMenu03_02 a{ display:block; height:130px; padding:40px 35px 25px 40px; }
+
+					.customerMenu04{ height:99%;background-size:100% 100% !important; background:url('../img/main/bg_customer06.png') left top no-repeat; margin-top:1%;  }
+						.customerMenu04 a{ display:block; height:130px; padding:40px 35px 25px 40px; }
+
+
+
+	/* MY늘곁애 */
+	.myneulWrap{ width:100%; background:#5bc27b; }
+		.myneulInner{ width:80%;padding:60px 10% 60px 10%; margin:0 auto; }
+			.myneulTitleWrap{ width:167px; height:75px; margin:0 auto; position:relative; overflow:hidden; }
+				.myneulTitleWrap .textWrap{ display:inline-block; font-size:24px; color:#fff; padding:10px 0 0 15px; }
+                    .myneulTitleWrap span.textWrapTitleBold{ font-size:40px; color:#fff; font-weight:bold; }
+                        .myneulTitleWrap span.textWrapTitleBold.clrffe065{ visibility:hidden; }
+
+                    .bg_top{ width:19px; height:17px; background:url('../img/common/ico_mainTitle.png') left top no-repeat; display:block; position:absolute; left:0; top:0; }
+                    .bg_bot{ width:19px; height:17px; background:url('../img/common/ico_mainTitle.png') left top no-repeat; display:block; position:absolute; right:0; bottom:0; }
+
+			.myneulContentWrap{ margin-top:80px; }
+			.myneulContentWrap:after{ content:''; display:block; clear:both; }
+
+				.myneulContent01{ width:99%; float:left; }
+					.myneulMenu{ position:relative; }
+						.ico_myneulMenu{ position:absolute; right:20px; bottom:24px; }
+
+					.myneulMenu01{ height:195px; background-size:100% 100% !important;background:url('../img/main/bg_customer06.png') left top no-repeat; }
+						.myneulMenu01 a{ display:block; height:130px; padding:40px 35px 25px 40px; }
+
+						.myneulMenuTitle{ font-size:24px; color:#333; font-weight:bold; }
+							.myneulMenuTitle span{ font-size:13px; line-height:18px; color:#8b8b8b; display:block; padding-top:10px; }
+
+					.myneulMenu02{ height:195px;background-size:100% 100% !important; background:url('../img/main/bg_customer06.png') left top no-repeat; margin-top:7px;margin-bottom:1%; }
+						.myneulMenu02 a{ display:block; height:130px; padding:40px 35px 25px 40px; }
+
+				.myneulContent02{ width:32.5%; height:397px; float:left; background:url('../img/main/bg_myneul03.png') left top no-repeat; margin-left:0; }
+					.myneulContent02 a{ display:block; height:332px; padding:40px 35px 25px 40px; }
+
+				.myneulContent03{ width:66.5%; float:left; margin-left:1%; }
+					.myneulMenu03{ height:195px;background-size:100% 100% !important; background:url('../img/main/bg_customer05.png') left top no-repeat; }
+						.myneulMenu03 a{ display:block; height:130px; padding:40px 35px 25px 40px; }
+
+					.myneulMenu04{ height:195px; background-size:100% 100% !important;background:url('../img/main/bg_customer05.png') left top no-repeat; margin-top:7px; }
+						.myneulMenu04 a{ display:block; height:130px; padding:40px 35px 25px 40px; }
+
+
+
 }
 
 
 @media screen and (min-width: 360px) and (max-width: 767px){
+
+	.headerMenuWrap {margin-top:25px;}
     #wrap{ min-width:360px; }
     #header{ min-width:360px; }
-    .topAreaWrap{ top:10px; }
+    .topAreaWrap{ top:0;}
+    .topAreaWrap:after{ content:''; display:block; clear:both; }
     .visual{ width:100%; }
-    .visual li{ width:100%; height:300px; }
-    .visual li img{ width:100%; height:395px; }
-    .topArea{ width:290px; }
-    .topArea h1{ width:13%; }
+    .visual li{ width:100%; height:472px; background-size:100% 100%!important;background:url('../img/main/img_visual01_t.jpg') no-repeat 0 0;}
+    .visual li img{display:none;}
+
+    .topArea{ position:fixed;width:100%;padding:11px 0; text-align:center;border-bottom:1px solid #a7c2ce;background:url('../img/main/tabletTopBG.png') repeat 0 0;}
+    .topArea h1{ width:14%;float:none;margin:0 auto; }
+    .topArea h1.logo {padding-top: 0;}
     .topArea img{ width:100%; }
-    .headerInnerWrap{ width:290px; margin-left:-145px; margin-top:0; }
-    .headerMenuTitle{ width:260px; margin:0 auto -20px; auto; }
+    .headerInnerWrap{ width:100%; margin-left:0;left:0; margin-top:0;top:55px; }
+    .headerMenuTitle{display: none; width:380px; margin:0 auto -10px;}
     .headerMenuTitle img{ width:100%; }
 
     #container{ min-width:360px; }
-    .introHeaderWrap{ margin-top:70px; }
+    .introHeaderWrap{ margin-top:140px; }
     .introBlock{ width:290px; }
     .introBlock ul{ }
     .introBlock ul li{ width:30.3%; margin-right:4%; }
@@ -392,7 +653,7 @@ ul.footer__footMenuWrap__footMenuInner__footMenu li a{ color:#878787; font-size:
     .introBlock02 .introBtn{ width:190px; }
     .introBlock02 .introBtn img{ width:100%; }
 
-    #footer{ min-width:360px; }
+	#footer{ min-width:360px; }
     .footer__footMenuWrap__footMenuInner{ width:330px; }
     ul.footer__footMenuWrap__footMenuInner__footMenu li{ line-height:29px; }
     .footer__footContent{ width:290px; }
@@ -403,6 +664,585 @@ ul.footer__footMenuWrap__footMenuInner__footMenu li a{ color:#878787; font-size:
     .footer__footContent__copyRightWrap div span{ display:inline-block; padding-left:0; }
     .ico_Foot{ display:none; }
 
-    .gnbArea{ width:10%; }
-    .gnbGrayArea{ width:10%; }
+    .gnbArea{ width:10%;float:none;top:15px;right:20px;left:inherit; }
+    .gnbArea a img {width:70% !important;}
+    .gnbGrayArea{ width:10%;float:none;top:15px;right:20px;left:inherit; }
+    .gnbGrayArea a{ display:block; }
+    .gnbGrayArea a img {width:70% !important;}
+    .gnbGrayArea a span{ display:block; color:#747474; padding-top:5px; font-size:14px; font-weight:bold; text-align:center; }
+    .gnbArea a span {font-size:11px;display:none;}
+    .gnbGrayArea a span {font-size:11px;}
+    .counselWrap{ height:100px; }
+    .counsel{ width:80%; margin:0 auto; padding:27px 0; }
+    .counsel img{ width:100%; }
+    .headerMenuArea {padding:0 10%;}
+    .headerMenuArea ul {width:100%;}
+	.headerMenuArea ul li{ margin-bottom:10px;background-size:100% 100% !important;width:32%; height:95px; float:left; margin-left:1%;transition:all 0.8s, color 0.3s 0.3s; }
+	.headerMenuArea ul li + li + li + li {margin-left:0;}
+	.headerMenuArea ul li + li + li + li + li {margin-left:1%;}
+	.headerMenuArea ul li.headerMenu01{ margin-left:0; background:url('../img/main/img_headerMenu01.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu02{ background:url('../img/main/img_headerMenu02.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu03{ background:url('../img/main/img_headerMenu03.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu04{ background:url('../img/main/img_headerMenu04.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu05{ background:url('../img/main/img_headerMenu05.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu01:hover{ background:url('../img/main/img_headerMenu01_hover.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu02:hover{ background:url('../img/main/img_headerMenu02_hover.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu03:hover{ background:url('../img/main/img_headerMenu03_hover.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu04:hover{ background:url('../img/main/img_headerMenu04_hover.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu05:hover{ background:url('../img/main/img_headerMenu05_hover.png') left top no-repeat; }
+	.headerMenuArea ul li a{ width:32%; height:85px; display:block; }
+	.headerMenuArea ul li a img{ width:100%; }
+	.headerInfoWrap{ padding:0 5%;margin-top:0;}
+
+	.headerCounsel{ width:94%; height:115px;padding:15px 3%; float:left; background:url('../img/main/tablet_selBG.png') 0 0 repeat; }
+		.headerCounselField{ width:100%; margin:0 0 0 0; }
+			.headerCounselFieldInner {padding-left:32%;background-size:75px 38px !important;background:url('../img/main/t_ver_callnum.png') 5px 25px no-repeat;}
+			.headerCounselFieldInner:after{ content:''; display:block; clear:both; }
+				.headerCounselFieldInner .inputWrap{ float:left; width:50%;}
+					.headerCounselFieldInner .inputWrap .inputName{ width:95%; height:35px; background:url('../img/main/bg_headerCounselName.jpg') left top no-repeat; }
+						.headerCounselFieldInner .inputWrap .inputName input[type="text"]{ width:60%; height:35px; margin-left:30%; border:none; font-size:14px; color:#666; }
+					.headerCounselFieldInner .inputWrap .inputPhone{ width:95%; height:35px; background:url('../img/main/bg_headerCounselphone.jpg') left top no-repeat; margin-top:5px; }
+						.headerCounselFieldInner .inputWrap .inputPhone input[type="text"]{ width:60%; height:35px; margin-left:30%; border:none; font-size:14px; color:#666; }
+				.headerCounselFieldInner .fieldButton{ float:left; margin-left:1%; }
+					.headerCounselFieldInner .fieldButton a{ display:block; }
+					.headerCounselFieldInner .fieldButton a img {width:100%;}
+			.headerCounselField .infoAgree{ margin-top:10px;padding-left:32%; font-size:11px; color:#1c1e1e; font-weight:bold; }
+				.headerCounselField .infoAgree a{ display:inline-block; margin-left:10px; }
+.headerBannerWrap{ display:none;width:654px; height:242px; float:left; margin-left:12px; position:relative; }
+
+
+
+
+/* container */
+	/* 늘곁애는 늘 신뢰를 할 수 있습니다 */
+	.neulneulWrap{ width:100%; background:#5bb1d2; }
+		.neulneulInner{ width:90%;padding:30px 5% 30px 5%; margin:0 auto; }
+			.neulneulTitleWrap{ width:230px; height:45px; margin:0 auto; position:relative; overflow:hidden; }
+			    .neulneulTitleWrap .textWrap{ display:inline-block; font-size:12px; color:#fff; padding:10px 0 0 12px; }
+			        .neulneulTitleWrap span.textWrapTitleBold{ font-size:20px; color:#fff; font-weight:bold; /*position:absolute; left:0; top:0;*/ }
+			            .neulneulTitleWrap span.textWrapTitleBold.clr0d4d94{ visibility:hidden; }
+			            .neulneulTitleWrap span.textWrapTitleBold.clrfade7d{ visibility:hidden; }
+			.neulneulInner > p{ display:none;text-align:center; font-size:12px; color:#fff; }
+
+			.neulneulContentWrap{ margin-top:20px; }
+				.neulneulContentWrap ul:after{ content:''; display:block; clear:both; }
+					.neulneulContentWrap ul li{ width:50%; float:left; margin-left:0;margin-bottom:1%; }
+						.neulneulIcon{ font-size:14px; color:#0d4d94; text-align:center; padding-top:110px; font-weight:bold; }
+							.neulneulIcon span{ font-size:12px; display:block; color:#fff; font-weight:normal; }
+
+						.neulneulIcon01{background-size:105px 105px !important; background:url('../img/main/ico_neulneul01.png') center top no-repeat; }
+						.neulneulIcon02{background-size:105px 105px !important; background:url('../img/main/ico_neulneul02.png') center top no-repeat; }
+						.neulneulIcon03{background-size:105px 105px !important; background:url('../img/main/ico_neulneul03.png') center top no-repeat; }
+						.neulneulIcon04{background-size:105px 105px !important; background:url('../img/main/ico_neulneul04.png') center top no-repeat; }
+
+
+	/* 늘곁애소개 */
+	.infoWrap{ width:100%; background:#3d79c1; }
+		.infoInner{ width:90%;padding:60px 5% 60px 5%; margin:0 auto; }
+			.infoTitleWrap{ width:105px; height:41px; margin:0 auto; position:relative; overflow:hidden; }
+                .infoTitleWrap .textWrap{ display:inline-block; font-size:12px; color:#fff; padding:5px 0 0 12px; }
+                    .infoTitleWrap span.textWrapTitleBold{ font-size:20px; color:#fff; font-weight:bold; }
+                        .infoTitleWrap span.textWrapTitleBold.clrb4ef67{ visibility:hidden; }
+			.infoContentWrap{ margin-top:40px; }
+
+				.infoMenu{ position:relative; }
+					.ico_infoMenu{ position:absolute; right:15px; bottom:20px; }
+
+				.infoContent01:after{ content:''; display:block; clear:both; }
+
+					.infoMenuTitle{ font-size:12px; color:#333; }
+						.infoMenuTitle span{ font-size:13px; line-height:18px; color:#8b8b8b; display:block; padding-top:10px; }
+
+					.infoMenu01{ text-align:center;width:33%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_info01.png') left top no-repeat; }
+						.infoMenu01 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+					.infoMenu01	.ico_customerMenu{ position:inherit; }
+					.infoMenu02{ text-align:center;width:32.5%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_info02.png') left top no-repeat; margin-left:1%; }
+						.infoMenu02 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+					.infoMenu02	.ico_customerMenu{ position:inherit; }
+					.infoMenu03{ text-align:center;width:32.5%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_info03.png') left top no-repeat; margin-left:1%; }
+						.infoMenu03 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+					.infoMenu03	.ico_customerMenu{ position:inherit; }
+				.infoContent02{ margin-top:7px; }
+				.infoContent02:after{ content:''; display:block; clear:both; }
+
+					.infoMenu04{ text-align:center;width:33%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_info04.png') left top no-repeat; }
+						.infoMenu04 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+						.infoMenu04	.ico_customerMenu{ position:inherit; }
+					.infoMenu05{ width:66%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_info05.png') left top no-repeat; margin-left:1%; }
+						.infoMenu05 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+						.ico_customerMenu img {width: 55px;height: 47.5px;}
+
+	/* 늘곁애상품안내 */
+	.productWrap{ width:100%; background:#efefef; }
+		.productInner{ width:90%;padding:30px 5% 30px 5%; margin:0 auto; }
+			.productTitleWrap{ width:145px; height:45px; margin:0 auto; position:relative; overflow:hidden; }
+				.productTitleWrap .textWrap{ display:inline-block; font-size:12px; color:#333; padding:5px 0 0 12px; }
+                    .productTitleWrap span.textWrapTitleBold{ font-size:20px; color:#fff; font-weight:bold; }
+                        .productTitleWrap span.textWrapTitleBold.clr00968a{ visibility:hidden; }
+
+				.bg_gTop{ width:10px; height:9px; background:url('../img/common/ico_gMainTitle.png') left top no-repeat; display:block; position:absolute; left:0; top:0; }
+				.bg_gBot{ width:10px; height:9px; background:url('../img/common/ico_gMainTitle.png') left top no-repeat; display:block; position:absolute; right:0; bottom:0; }
+
+		.productContentWrap{ margin-top:40px; }
+			.productContentWrap ul:after{ content:''; display:block; clear:both; }
+				.productContentWrap ul li{ width:49%; height:130px; margin-left:0; margin-bottom:1%; float:left; background:url('../img/main/bg_product.png') left top no-repeat; }
+				.productContentWrap ul li:nth-child(2n) {margin-left:1% !important;}
+					.productMenuWrap{ overflow:hidden; width:100%; height:130px; }
+						.productMenu{ height:100%; text-align:center; background-size:auto 100%; transition:all 0.5s ease-in-out;  -moz-transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; }
+						.productMenu:hover{ overflow:hidden; transform:scale(1.1); -ms-transform:scale(1.1); -webkit-transform:scale(1.1); -moz-transform:scale(1.1); -o-transform:scale(1.1); }
+							.productMenu01{ background-size:100% 100% !important;background:url('../img/main/bg_product01.png') left top no-repeat; }
+							.productMenu02{ background-size:100% 100% !important;background:url('../img/main/bg_product02.png') left top no-repeat; }
+							.productMenu03{ background-size:100% 100% !important;background:url('../img/main/bg_product03.png') left top no-repeat; }
+							.productMenu04{ background-size:100% 100% !important;background:url('../img/main/bg_product04.png') left top no-repeat; }
+							.productMenu05{ background-size:100% 100% !important;background:url('../img/main/bg_product05.png') left top no-repeat; }
+							.productMenu06{ background-size:100% 100% !important;background:url('../img/main/bg_product06.png') left top no-repeat; }
+							.productMenu a{ display:block; padding:22px 0; }
+							.productMenu a img {width:50%;}
+
+				.productLinkWrap{ margin-top:17px; }
+					.productLink{ width:540px; height:80px; line-height:80px; background:#636b7e; display:inline-block; text-align:center; color:#fff; font-size:28px; }
+						.productLink02{ margin-left:15px; }
+						.ico_roundArrow{ width:42px; height:42px; vertical-align:middle; display:inline-block; background:url('../img/common/icon_roundArrow.png') left center no-repeat; padding-right:10px; }
+
+
+
+
+	/* 홍보채널 */
+	.promotionWrap{ width:100%; background:#feae2c; }
+		.promotionInner{ width:90%;padding:30px 5% 30px 5%; margin:0 auto;}
+			.promotionTitleWrap{ width:95px; height:50px; margin:0 auto; position:relative; overflow:hidden; }
+				.promotionTitleWrap .textWrap{ display:inline-block; font-size:12px; color:#fff; padding:10px 0 0 15px; }
+                    .promotionTitleWrap span.textWrapTitleBold{ font-size:20px; color:#fff; font-weight:bold; }
+                        .promotionTitleWrap span.textWrapTitleBold.clr139da9{ visibility:hidden; }
+
+			.promotionContentWrap{ margin-top:40px; }
+			.promotionContentWrap:after{ content:''; display:block; clear:both; }
+
+				.promotionContent{ float:left;width:100%; }
+					.promotionMenu{ position:relative; }
+						.ico_promotionMenu{ position:absolute; right:15px; bottom:20px; }
+
+					.promotionMenu01{ height:97.5px; }
+					.promotionMenu01:after{ content:''; display:block; clear:both; }
+
+						.promotionMenuTitle{ font-size:12px; color:#333; font-weight:bold; }
+							.promotionMenuTitle span{ font-size:13px; line-height:18px; color:#8b8b8b; display:block; padding-top:10px; }
+
+						.promotionMenu01_01{ text-align:center;width:33%; height:97.5px; float:left;background-size:100% 100% !important;background:url('../img/main/bg_promotion01.png') left top no-repeat; }
+							.promotionMenu01_01 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+							.promotionMenu01_01 .ico_customerMenu{ position:inherit; }
+						.promotionMenu01_02{ text-align:center;width:32.5%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_promotion02.png') left top no-repeat; margin-left:1%; }
+							.promotionMenu01_02 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+							.promotionMenu01_02 .ico_customerMenu{ position:inherit; }
+						.promotionMenu01_03{ text-align:center;width:32.5%; height:97.5px; float:left;background-size:100% 100% !important;background:url('../img/main/bg_promotion03.png') left top no-repeat; margin-left:1%; }
+							.promotionMenu01_03 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+							.promotionMenu01_03 .ico_customerMenu{ position:inherit; }
+					.promotionMenu02{ margin-top:9px; }
+					.promotionMenu02:after{ content:''; display:block; clear:both; }
+
+						.promotionMenu02_01{ width:49.5%; height:97.5px; float:left; background-size:100% 100% !important;background:url('../img/main/bg_promotion04.png') left top no-repeat; }
+							.promotionMenu02_01 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+						.promotionMenu02_02{ width:49.5%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_promotion05.png') left top no-repeat; margin-left:1%; }
+							.promotionMenu02_02 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+				.promotionVideo{ width:99%;margin-top:10px; height:190px; margin-left:6px; float:left; position:relative; }
+					.promotionVideo iframe{ position:absolute; width:100%; height:100%;z-index:9999; }
+
+
+	/* 고객센터 */
+	.customerWrap{ width:100%; background:#3d9aa2; }
+		.customerInner{ width:90%;padding:30px 5% 30px 5%; margin:0 auto; }
+			.customerTitleWrap{ width:100px; height:50px; margin:0 auto; position:relative; overflow:hidden; }
+				.customerTitleWrap .textWrap{ display:inline-block; font-size:12px; color:#fff; padding:10px 0 0 15px; }
+                    .customerTitleWrap span.textWrapTitleBold{ font-size:20px; color:#fff; font-weight:bold; }
+                        .customerTitleWrap span.textWrapTitleBold.clrfec02c{ visibility:hidden; }
+
+			.customerContentWrap{ margin-top:40px; }
+			.customerContentWrap:after{ content:''; display:block; clear:both; }
+
+				.customerContent01{ margin-bottom:1%;width:49.5%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_customer04.png') left top no-repeat; }
+                    .customerContent01 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+					.customerMenu{ position:relative; }
+						.ico_customerMenu{ position:absolute; right:15px; bottom:20px; }
+
+						.customerMenuTitle{ font-size:12px; color:#333; font-weight:bold; }
+							.customerMenuTitle span{ font-size:13px; line-height:18px; color:#8b8b8b; display:block; padding-top:10px; }
+
+				.customerContent02{ width:49.5%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_customer04.png') left top no-repeat; margin-left:1%; }
+					.customerContent02 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+				.customerContent03{ float:left; margin-left:0;width:100%; }
+					.customerMenu03{ height:97.5px; }
+					.customerMenu03:after{ content:''; display:block; clear:both; }
+
+						.customerMenu03_01{ width:32.5%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_customer04.png') left top no-repeat; }
+							.customerMenu03_01 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+						.customerMenu03_02{ width:66.5%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_customer06.png') left top no-repeat; margin-left:1%; }
+							.customerMenu03_02 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+					.customerMenu04{ height:99%;background-size:100% 100% !important; background:url('../img/main/bg_customer06.png') left top no-repeat; margin-top:1%;  }
+						.customerMenu04 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+
+
+	/* MY늘곁애 */
+	.myneulWrap{ width:100%; background:#5bc27b; }
+		.myneulInner{ width:90%;padding:30px 5% 30px 5%; margin:0 auto; }
+			.myneulTitleWrap{ width:100px; height:50px; margin:0 auto; position:relative; overflow:hidden; }
+				.myneulTitleWrap .textWrap{ display:inline-block; font-size:12px; color:#fff; padding:10px 0 0 15px; }
+                    .myneulTitleWrap span.textWrapTitleBold{ font-size:20px; color:#fff; font-weight:bold; }
+                        .myneulTitleWrap span.textWrapTitleBold.clrffe065{ visibility:hidden; }
+
+                    .bg_top{ width:10px; height:9px; background:url('../img/common/ico_mainTitle.png') left top no-repeat; display:block; position:absolute; left:0; top:0; }
+                    .bg_bot{ width:10px; height:9px; background:url('../img/common/ico_mainTitle.png') left top no-repeat; display:block; position:absolute; right:0; bottom:0; }
+
+			.myneulContentWrap{ margin-top:40px; }
+			.myneulContentWrap:after{ content:''; display:block; clear:both; }
+
+				.myneulContent01{ width:99%; float:left; }
+					.myneulMenu{ position:relative; }
+						.ico_myneulMenu { position:absolute; right:20px; text-align:right;bottom:24px; }
+						.ico_myneulMenu img  {width:50%;}
+					.myneulMenu01{ height:97.5px; background-size:100% 100% !important;background:url('../img/main/bg_customer06.png') left top no-repeat; }
+						.myneulMenu01 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+						.myneulMenuTitle{ font-size:12px; color:#333; font-weight:bold; }
+							.myneulMenuTitle span{ font-size:13px; line-height:18px; color:#8b8b8b; display:block; padding-top:10px; }
+
+					.myneulMenu02{ height:97.5px;margin-bottom:1%;background-size:100% 100% !important; background:url('../img/main/bg_customer06.png') left top no-repeat; margin-top:1%; }
+						.myneulMenu02 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+				.myneulContent02{ width:32.5%; height:195px; float:left; background:url('../img/main/bg_myneul03.png') left top no-repeat; margin-left:0; }
+					.myneulContent02 a{ display:block; height:135px; padding:20px 17px 12px 20px; }
+				.myneulContent03{ width:66.5%; float:left; margin-left:1%; }
+					.myneulMenu03{ height:97.5px;background-size:100% 100% !important; background:url('../img/main/bg_customer05.png') left top no-repeat; }
+						.myneulMenu03 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+					.myneulMenu04{ height:97.5px; background-size:100% 100% !important;background:url('../img/main/bg_customer05.png') left top no-repeat; margin-top:1%; }
+						.myneulMenu04 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 359px){
+	.headerMenuWrap {margin-top:25px;}
+    #wrap{ min-width:320px; }
+    #header{ min-width:320px; }
+    .topAreaWrap{ top:0;}
+    .topAreaWrap:after{ content:''; display:block; clear:both; }
+    .visual{ width:100%; }
+    .visual li{ width:100%; height:472px; background-size:100% 100%!important;background:url('../img/main/img_visual01_t.jpg') no-repeat 0 0;}
+    .visual li img{display:none;}
+
+    .topArea{ position:fixed;width:100%;padding:11px 0; text-align:center;border-bottom:1px solid #a7c2ce;background:url('../img/main/tabletTopBG.png') repeat 0 0;}
+    .topArea h1{ width:14%;float:none;margin:0 auto; }
+    .topArea h1.logo {padding-top: 0;}
+    .topArea img{ width:100%; }
+    .headerInnerWrap{ width:100%; margin-left:0;left:0; margin-top:0;top:55px; }
+    .headerMenuTitle{display: none; width:380px; margin:0 auto -10px;}
+    .headerMenuTitle img{ width:100%; }
+
+    #container{ min-width:320px; }
+    .introHeaderWrap{ margin-top:140px; }
+    .introBlock{ width:290px; }
+    .introBlock ul{ }
+    .introBlock ul li{ width:30.3%; margin-right:4%; }
+    .introBlock ul li img{ width:100%; }
+    .introBlock .introBtn{ width:170px; }
+    .introBlock .introBtn img{ width:100%; }
+
+    .introCon{ padding-bottom:35px; }
+    .introCon .intextWrap{ width:290px; margin:0 auto; padding:40px 0 15px 0; }
+    .introCon .intextWrap .introspan01{ font-size:20px; }
+    .introCon .intextWrap .introspan02{ font-size:26px; }
+    .introCon .intextWrap .introspan03{ font-size:22px; }
+    .introCon .intextWrap .introspan04{ font-size:18px; }
+    .introCon .intextWrap .introspan05{ font-size:20px; }
+
+    .introBlock02{ width:320px; }
+    .introBlock02 ul{ margin-bottom:40px; }
+    .introBlock02 ul li{ width:22%; margin-right:3%; }
+    .introBlock02 ul li img{ width:100%; }
+    .introBlock02 .introBtn{ width:190px; }
+    .introBlock02 .introBtn img{ width:100%; }
+
+	#footer{ min-width:320px; }
+    .footer__footMenuWrap__footMenuInner{ width:300px; }
+    ul.footer__footMenuWrap__footMenuInner__footMenu li a {font-size:12px;}
+    ul.footer__footMenuWrap__footMenuInner__footMenu li{ line-height:29px; }
+    .footer__footContent{ width:290px; }
+    .footer__footContent__fLogo{ width:15%; }
+    .footer__footContent__fLogo img{ width:100%; }
+    .footer__footContent__copyRightWrap{ width:70%; margin-left:5%; }
+    .footer__footContent__copyRightWrap div{ margin-top:0; }
+    .footer__footContent__copyRightWrap div span{ display:inline-block; padding-left:0; }
+    .ico_Foot{ display:none; }
+
+    .gnbArea{ width:10%;float:none;top:15px;right:20px;left:inherit; }
+    .gnbArea a img {width:70% !important;}
+    .gnbGrayArea{ width:10%;float:none;top:15px;right:20px;left:inherit; }
+    .gnbGrayArea a{ display:block; }
+    .gnbGrayArea a img {width:70% !important;}
+    .gnbGrayArea a span{ display:block; color:#747474; padding-top:5px; font-size:14px; font-weight:bold; text-align:center; }
+    .gnbArea a span {font-size:11px;display:none;}
+    .gnbGrayArea a span {font-size:11px;}
+    .counselWrap{ height:100px; }
+    .counsel{ width:80%; margin:0 auto; padding:27px 0; }
+    .counsel img{ width:100%; }
+    .headerMenuArea {padding:0 10%;}
+    .headerMenuArea ul {width:100%;}
+	.headerMenuArea ul li{ margin-bottom:10px;background-size:100% 100% !important;width:32%; height:95px; float:left; margin-left:1%;transition:all 0.8s, color 0.3s 0.3s; }
+	.headerMenuArea ul li + li + li + li {margin-left:0;}
+	.headerMenuArea ul li + li + li + li + li {margin-left:1%;}
+	.headerMenuArea ul li.headerMenu01{ margin-left:0; background:url('../img/main/img_headerMenu01.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu02{ background:url('../img/main/img_headerMenu02.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu03{ background:url('../img/main/img_headerMenu03.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu04{ background:url('../img/main/img_headerMenu04.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu05{ background:url('../img/main/img_headerMenu05.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu01:hover{ background:url('../img/main/img_headerMenu01_hover.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu02:hover{ background:url('../img/main/img_headerMenu02_hover.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu03:hover{ background:url('../img/main/img_headerMenu03_hover.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu04:hover{ background:url('../img/main/img_headerMenu04_hover.png') left top no-repeat; }
+	.headerMenuArea ul li.headerMenu05:hover{ background:url('../img/main/img_headerMenu05_hover.png') left top no-repeat; }
+	.headerMenuArea ul li a{ width:32%; height:85px; display:block; }
+	.headerMenuArea ul li a img{ width:100%; }
+	.headerInfoWrap{ padding:0 5%;margin-top:0;}
+
+	.headerCounsel{ width:94%; height:115px;padding:15px 3%; float:left; background:url('../img/main/tablet_selBG.png') 0 0 repeat; }
+		.headerCounselField{ width:100%; margin:0 0 0 0; }
+			.headerCounselFieldInner {padding-left:32%;background-size:75px 38px !important;background:url('../img/main/t_ver_callnum.png') 5px 25px no-repeat;}
+			.headerCounselFieldInner:after{ content:''; display:block; clear:both; }
+				.headerCounselFieldInner .inputWrap{ float:left; width:45%;}
+					.headerCounselFieldInner .inputWrap .inputName{ width:95%; height:35px; background:url('../img/main/bg_headerCounselName.jpg') left top no-repeat; }
+						.headerCounselFieldInner .inputWrap .inputName input[type="text"]{ width:60%; height:35px; margin-left:40%; border:none; font-size:14px; color:#666; }
+					.headerCounselFieldInner .inputWrap .inputPhone{ width:95%; height:35px; background:url('../img/main/bg_headerCounselphone.jpg') left top no-repeat; margin-top:5px; }
+						.headerCounselFieldInner .inputWrap .inputPhone input[type="text"]{ width:60%; height:35px; margin-left:40%; border:none; font-size:14px; color:#666; }
+				.headerCounselFieldInner .fieldButton{ float:left; margin-left:1%; }
+					.headerCounselFieldInner .fieldButton a{ display:block; }
+					.headerCounselFieldInner .fieldButton a img {width:100%;}
+			.headerCounselField .infoAgree{ margin-top:10px;padding-left:32%; font-size:11px; color:#1c1e1e; font-weight:bold; }
+				.headerCounselField .infoAgree a{ display:inline-block; margin-left:10px; }
+.headerBannerWrap{ display:none;width:654px; height:242px; float:left; margin-left:12px; position:relative; }
+
+
+
+
+/* container */
+	/* 늘곁애는 늘 신뢰를 할 수 있습니다 */
+	.neulneulWrap{ width:100%; background:#5bb1d2; }
+		.neulneulInner{ width:90%;padding:30px 5% 30px 5%; margin:0 auto; }
+			.neulneulTitleWrap{ width:230px; height:45px; margin:0 auto; position:relative; overflow:hidden; }
+			    .neulneulTitleWrap .textWrap{ display:inline-block; font-size:12px; color:#fff; padding:10px 0 0 12px; }
+			        .neulneulTitleWrap span.textWrapTitleBold{ font-size:20px; color:#fff; font-weight:bold; /*position:absolute; left:0; top:0;*/ }
+			            .neulneulTitleWrap span.textWrapTitleBold.clr0d4d94{ visibility:hidden; }
+			            .neulneulTitleWrap span.textWrapTitleBold.clrfade7d{ visibility:hidden; }
+			.neulneulInner > p{ display:none;text-align:center; font-size:12px; color:#fff; }
+
+			.neulneulContentWrap{ margin-top:20px; }
+				.neulneulContentWrap ul:after{ content:''; display:block; clear:both; }
+					.neulneulContentWrap ul li{ width:50%; float:left; margin-left:0;margin-bottom:1%; }
+						.neulneulIcon{ font-size:14px; color:#0d4d94; text-align:center; padding-top:110px; font-weight:bold; }
+							.neulneulIcon span{ font-size:12px; display:block; color:#fff; font-weight:normal; }
+
+						.neulneulIcon01{background-size:105px 105px !important; background:url('../img/main/ico_neulneul01.png') center top no-repeat; }
+						.neulneulIcon02{background-size:105px 105px !important; background:url('../img/main/ico_neulneul02.png') center top no-repeat; }
+						.neulneulIcon03{background-size:105px 105px !important; background:url('../img/main/ico_neulneul03.png') center top no-repeat; }
+						.neulneulIcon04{background-size:105px 105px !important; background:url('../img/main/ico_neulneul04.png') center top no-repeat; }
+
+
+	/* 늘곁애소개 */
+	.infoWrap{ width:100%; background:#3d79c1; }
+		.infoInner{ width:90%;padding:60px 5% 60px 5%; margin:0 auto; }
+			.infoTitleWrap{ width:105px; height:41px; margin:0 auto; position:relative; overflow:hidden; }
+                .infoTitleWrap .textWrap{ display:inline-block; font-size:12px; color:#fff; padding:5px 0 0 12px; }
+                    .infoTitleWrap span.textWrapTitleBold{ font-size:20px; color:#fff; font-weight:bold; }
+                        .infoTitleWrap span.textWrapTitleBold.clrb4ef67{ visibility:hidden; }
+			.infoContentWrap{ margin-top:40px; }
+
+				.infoMenu{ position:relative; }
+					.ico_infoMenu{ position:absolute; right:15px; bottom:20px; }
+
+				.infoContent01:after{ content:''; display:block; clear:both; }
+
+					.infoMenuTitle{ font-size:12px; color:#333; }
+						.infoMenuTitle span{ font-size:13px; line-height:18px; color:#8b8b8b; display:block; padding-top:10px; }
+
+					.infoMenu01{ text-align:center;width:33%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_info01.png') left top no-repeat; }
+						.infoMenu01 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+					.infoMenu01	.ico_customerMenu{ position:inherit; }
+					.infoMenu02{ text-align:center;width:32.5%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_info02.png') left top no-repeat; margin-left:1%; }
+						.infoMenu02 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+					.infoMenu02	.ico_customerMenu{ position:inherit; }
+					.infoMenu03{ text-align:center;width:32.5%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_info03.png') left top no-repeat; margin-left:1%; }
+						.infoMenu03 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+					.infoMenu03	.ico_customerMenu{ position:inherit; }
+				.infoContent02{ margin-top:7px; }
+				.infoContent02:after{ content:''; display:block; clear:both; }
+
+					.infoMenu04{ text-align:center;width:33%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_info04.png') left top no-repeat; }
+						.infoMenu04 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+						.infoMenu04	.ico_customerMenu{ position:inherit; }
+					.infoMenu05{ width:66%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_info05.png') left top no-repeat; margin-left:1%; }
+						.infoMenu05 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+						.ico_customerMenu img {width: 55px;height: 47.5px;}
+
+	/* 늘곁애상품안내 */
+	.productWrap{ width:100%; background:#efefef; }
+		.productInner{ width:90%;padding:30px 5% 30px 5%; margin:0 auto; }
+			.productTitleWrap{ width:145px; height:45px; margin:0 auto; position:relative; overflow:hidden; }
+				.productTitleWrap .textWrap{ display:inline-block; font-size:12px; color:#333; padding:5px 0 0 12px; }
+                    .productTitleWrap span.textWrapTitleBold{ font-size:20px; color:#fff; font-weight:bold; }
+                        .productTitleWrap span.textWrapTitleBold.clr00968a{ visibility:hidden; }
+
+				.bg_gTop{ width:10px; height:9px; background:url('../img/common/ico_gMainTitle.png') left top no-repeat; display:block; position:absolute; left:0; top:0; }
+				.bg_gBot{ width:10px; height:9px; background:url('../img/common/ico_gMainTitle.png') left top no-repeat; display:block; position:absolute; right:0; bottom:0; }
+
+		.productContentWrap{ margin-top:40px; }
+			.productContentWrap ul:after{ content:''; display:block; clear:both; }
+				.productContentWrap ul li{ width:49%; height:130px; margin-left:0; margin-bottom:1%; float:left; background:url('../img/main/bg_product.png') left top no-repeat; }
+				.productContentWrap ul li:nth-child(2n) {margin-left:1% !important;}
+					.productMenuWrap{ overflow:hidden; width:100%; height:130px; }
+						.productMenu{ height:100%; text-align:center; background-size:auto 100%; transition:all 0.5s ease-in-out;  -moz-transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; }
+						.productMenu:hover{ overflow:hidden; transform:scale(1.1); -ms-transform:scale(1.1); -webkit-transform:scale(1.1); -moz-transform:scale(1.1); -o-transform:scale(1.1); }
+							.productMenu01{ background-size:100% 100% !important;background:url('../img/main/bg_product01.png') left top no-repeat; }
+							.productMenu02{ background-size:100% 100% !important;background:url('../img/main/bg_product02.png') left top no-repeat; }
+							.productMenu03{ background-size:100% 100% !important;background:url('../img/main/bg_product03.png') left top no-repeat; }
+							.productMenu04{ background-size:100% 100% !important;background:url('../img/main/bg_product04.png') left top no-repeat; }
+							.productMenu05{ background-size:100% 100% !important;background:url('../img/main/bg_product05.png') left top no-repeat; }
+							.productMenu06{ background-size:100% 100% !important;background:url('../img/main/bg_product06.png') left top no-repeat; }
+							.productMenu a{ display:block; padding:22px 0; }
+							.productMenu a img {width:50%;}
+
+				.productLinkWrap{ margin-top:17px; }
+					.productLink{ width:540px; height:80px; line-height:80px; background:#636b7e; display:inline-block; text-align:center; color:#fff; font-size:28px; }
+						.productLink02{ margin-left:15px; }
+						.ico_roundArrow{ width:42px; height:42px; vertical-align:middle; display:inline-block; background:url('../img/common/icon_roundArrow.png') left center no-repeat; padding-right:10px; }
+
+
+
+
+	/* 홍보채널 */
+	.promotionWrap{ width:100%; background:#feae2c; }
+		.promotionInner{ width:90%;padding:30px 5% 30px 5%; margin:0 auto;}
+			.promotionTitleWrap{ width:95px; height:50px; margin:0 auto; position:relative; overflow:hidden; }
+				.promotionTitleWrap .textWrap{ display:inline-block; font-size:12px; color:#fff; padding:10px 0 0 15px; }
+                    .promotionTitleWrap span.textWrapTitleBold{ font-size:20px; color:#fff; font-weight:bold; }
+                        .promotionTitleWrap span.textWrapTitleBold.clr139da9{ visibility:hidden; }
+
+			.promotionContentWrap{ margin-top:40px; }
+			.promotionContentWrap:after{ content:''; display:block; clear:both; }
+
+				.promotionContent{ float:left;width:100%; }
+					.promotionMenu{ position:relative; }
+						.ico_promotionMenu{ position:absolute; right:15px; bottom:20px; }
+
+					.promotionMenu01{ height:97.5px; }
+					.promotionMenu01:after{ content:''; display:block; clear:both; }
+
+						.promotionMenuTitle{ font-size:12px; color:#333; font-weight:bold; }
+							.promotionMenuTitle span{ font-size:13px; line-height:18px; color:#8b8b8b; display:block; padding-top:10px; }
+
+						.promotionMenu01_01{ text-align:center;width:33%; height:97.5px; float:left;background-size:100% 100% !important;background:url('../img/main/bg_promotion01.png') left top no-repeat; }
+							.promotionMenu01_01 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+							.promotionMenu01_01 .ico_customerMenu{ position:inherit; }
+						.promotionMenu01_02{ text-align:center;width:32.5%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_promotion02.png') left top no-repeat; margin-left:1%; }
+							.promotionMenu01_02 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+							.promotionMenu01_02 .ico_customerMenu{ position:inherit; }
+						.promotionMenu01_03{ text-align:center;width:32.5%; height:97.5px; float:left;background-size:100% 100% !important;background:url('../img/main/bg_promotion03.png') left top no-repeat; margin-left:1%; }
+							.promotionMenu01_03 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+							.promotionMenu01_03 .ico_customerMenu{ position:inherit; }
+					.promotionMenu02{ margin-top:9px; }
+					.promotionMenu02:after{ content:''; display:block; clear:both; }
+
+						.promotionMenu02_01{ width:49.5%; height:97.5px; float:left; background-size:100% 100% !important;background:url('../img/main/bg_promotion04.png') left top no-repeat; }
+							.promotionMenu02_01 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+						.promotionMenu02_02{ width:49.5%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_promotion05.png') left top no-repeat; margin-left:1%; }
+							.promotionMenu02_02 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+				.promotionVideo{ width:99%;margin-top:10px; height:190px; margin-left:6px; float:left; position:relative; }
+					.promotionVideo iframe{ position:absolute; width:100%; height:100%;z-index:9999; }
+
+
+	/* 고객센터 */
+	.customerWrap{ width:100%; background:#3d9aa2; }
+		.customerInner{ width:90%;padding:30px 5% 30px 5%; margin:0 auto; }
+			.customerTitleWrap{ width:100px; height:50px; margin:0 auto; position:relative; overflow:hidden; }
+				.customerTitleWrap .textWrap{ display:inline-block; font-size:12px; color:#fff; padding:10px 0 0 15px; }
+                    .customerTitleWrap span.textWrapTitleBold{ font-size:20px; color:#fff; font-weight:bold; }
+                        .customerTitleWrap span.textWrapTitleBold.clrfec02c{ visibility:hidden; }
+
+			.customerContentWrap{ margin-top:40px; }
+			.customerContentWrap:after{ content:''; display:block; clear:both; }
+
+				.customerContent01{ margin-bottom:1%;width:49.5%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_customer04.png') left top no-repeat; }
+                    .customerContent01 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+					.customerMenu{ position:relative; }
+						.ico_customerMenu{ position:absolute; right:15px; bottom:20px; }
+
+						.customerMenuTitle{ font-size:12px; color:#333; font-weight:bold; }
+							.customerMenuTitle span{ font-size:13px; line-height:18px; color:#8b8b8b; display:block; padding-top:10px; }
+
+				.customerContent02{ width:49.5%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_customer04.png') left top no-repeat; margin-left:1%; }
+					.customerContent02 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+				.customerContent03{ float:left; margin-left:0;width:100%; }
+					.customerMenu03{ height:97.5px; }
+					.customerMenu03:after{ content:''; display:block; clear:both; }
+
+						.customerMenu03_01{ width:32.5%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_customer04.png') left top no-repeat; }
+							.customerMenu03_01 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+						.customerMenu03_02{ width:66.5%; height:97.5px; float:left;background-size:100% 100% !important; background:url('../img/main/bg_customer06.png') left top no-repeat; margin-left:1%; }
+							.customerMenu03_02 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+					.customerMenu04{ height:99%;background-size:100% 100% !important; background:url('../img/main/bg_customer06.png') left top no-repeat; margin-top:1%;  }
+						.customerMenu04 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+
+
+	/* MY늘곁애 */
+	.myneulWrap{ width:100%; background:#5bc27b; }
+		.myneulInner{ width:90%;padding:30px 5% 30px 5%; margin:0 auto; }
+			.myneulTitleWrap{ width:100px; height:50px; margin:0 auto; position:relative; overflow:hidden; }
+				.myneulTitleWrap .textWrap{ display:inline-block; font-size:12px; color:#fff; padding:10px 0 0 15px; }
+                    .myneulTitleWrap span.textWrapTitleBold{ font-size:20px; color:#fff; font-weight:bold; }
+                        .myneulTitleWrap span.textWrapTitleBold.clrffe065{ visibility:hidden; }
+
+                    .bg_top{ width:10px; height:9px; background:url('../img/common/ico_mainTitle.png') left top no-repeat; display:block; position:absolute; left:0; top:0; }
+                    .bg_bot{ width:10px; height:9px; background:url('../img/common/ico_mainTitle.png') left top no-repeat; display:block; position:absolute; right:0; bottom:0; }
+
+			.myneulContentWrap{ margin-top:40px; }
+			.myneulContentWrap:after{ content:''; display:block; clear:both; }
+
+				.myneulContent01{ width:99%; float:left; }
+					.myneulMenu{ position:relative; }
+						.ico_myneulMenu { position:absolute; right:20px; text-align:right;bottom:24px; }
+						.ico_myneulMenu img  {width:50%;}
+					.myneulMenu01{ height:97.5px; background-size:100% 100% !important;background:url('../img/main/bg_customer06.png') left top no-repeat; }
+						.myneulMenu01 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+						.myneulMenuTitle{ font-size:12px; color:#333; font-weight:bold; }
+							.myneulMenuTitle span{ font-size:13px; line-height:18px; color:#8b8b8b; display:block; padding-top:10px; }
+
+					.myneulMenu02{ height:97.5px;margin-bottom:1%;background-size:100% 100% !important; background:url('../img/main/bg_customer06.png') left top no-repeat; margin-top:1%; }
+						.myneulMenu02 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+				.myneulContent02{ width:32.5%; height:195px; float:left; background:url('../img/main/bg_myneul03.png') left top no-repeat; margin-left:0; }
+					.myneulContent02 a{ display:block; height:135px; padding:20px 17px 12px 20px; }
+				.myneulContent03{ width:66.5%; float:left; margin-left:1%; }
+					.myneulMenu03{ height:97.5px;background-size:100% 100% !important; background:url('../img/main/bg_customer05.png') left top no-repeat; }
+						.myneulMenu03 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+					.myneulMenu04{ height:97.5px; background-size:100% 100% !important;background:url('../img/main/bg_customer05.png') left top no-repeat; margin-top:1%; }
+						.myneulMenu04 a{ display:block; height:65px; padding:20px 17px 12px 20px; }
+
+
 }
