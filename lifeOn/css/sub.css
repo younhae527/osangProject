@@ -1390,6 +1390,7 @@ p.funeralInfo-TxtSummary{ font-size:14px; color:#939393; }
 
     .dailyWrap__dailyList{ width:26%; padding:30px 3%; }
     .dailyWrap__dailyListImg img{ width:100%; }
+    span.dailyWrap__dailyListTitle-title{ font-size:14px; }
 
     .view_tableStyle01 tbody td.table-content{ padding:27px 5%; }
     .table-recommend__inner-bottom textarea{ width:84% }
@@ -1400,11 +1401,69 @@ p.funeralInfo-TxtSummary{ font-size:14px; color:#939393; }
     .funeralInfo-InnerBox-right{ width:42%; padding:27px 3%; }
 
     .recruit-infoInner-Box01 span{ width:100%; display:block; margin-bottom:10px; }
+
+    .subMenuGnbWrap__introduceSubMenuGnb{ width:768px; }
+    .subMenuGnbWrap__introduceSubMenuGnb ul{ padding:25px 0 26px 90px; }
+    .ceo-greetingInner_ceo-name{ float:none; width:inherit; background-position:center top; text-align:center; }
+    .ceo-greetingInner_ceo-greeting{ float:none; margin-top:30px; }
+    .ceo-greetingInner_ceo-greeting__text-left, .ceo-greetingInner_ceo-greeting__text-right{ width:45%; }
+
+    .companyIntroductionInner__box02-img img, .companyIntroductionInner__box03-img img, .companyIntroductionInner__box04-img img, .companyIntroductionInner__box07-img img,
+    .companyIntroductionInner__box09-img img, .companyIntroductionInner__box10-img img, .companyIntroductionInner__box11-img img{ width:100%; }
+    .companyIntroductionInner__box05-Left, .companyIntroductionInner__box05-Right{ width:49%; }
+    .companyIntroductionInner__box05-Left img, .companyIntroductionInner__box05-Right img{ width:100%; }
+
+    .companyIntroductionInner__box08Inner-box01, .companyIntroductionInner__box08Inner-box02, .companyIntroductionInner__box08Inner-box03{ width:33.1%; height:264px; }
+    .companyIntroductionInner__box08Inner-box01-Img img{ width:100%; }
+    .companyIntroductionInner__box08Inner-box02-Img img{ width:100%; }
+    .companyIntroductionInner__box08Inner-box03-Img img{ width:100%; }
+    .companyIntroductionInner__box08Inner-box01-Txt, .companyIntroductionInner__box08Inner-box02-Txt, .companyIntroductionInner__box08Inner-box03-Txt{ padding:24px 4%; }
+
+    .historyBlock{ background-position:center top; }
+    .historyBlock div.h_2016 table td + td{ padding:165px 0 0 3%; }
+    .historyBlock div table td ul li{ text-indent:-23%; font-size:13px; padding-left:23%; }
+    .historyBlock div table td ul li span{ margin-right:3%; }
+    .historyBlock div table td ul li img{ width:100%; }
+    .historyBlock div.h_2015 table td{ padding:43px 3% 0 0; }
+    .historyBlock div.h_2015 table td ul li span{ margin-left:3%; }
+    .historyBlock div.h_2014 table td + td{ padding:46px 0 0 3%; }
+    .historyBlock div.h_2013 table td{ padding:32px 3% 0 0 }
+    .historyBlock div.h_2013 table td ul li span{ margin-left:3%; }
+    .historyBlock div.h_2012 table td + td{ padding:50px 0 0 3%; }
+    .historyBlock div.h_2011 table td{ padding:65px 3% 0 0 }
+    .historyBlock div.h_2011 table td ul li span{ margin-left:3%; }
+    .historyBlock div.h_2010 table td + td{ padding:15px 0 0 3%; }
+    .historyBlock div.h_2009 table td{ padding:27px 3% 0 0 }
+    .historyBlock div.h_2009 table td ul li span{ margin-left:3%; }
+    .historyBlock div.h_2008 table td + td{ padding:37px 0 0 3%; }
+    .historyBlock div.h_2007 table td{ padding:0 3% 0 0 }
+    .historyBlock div.h_2007 table td ul li span{ margin-left:3%; }
+    .historyBlock div.h_2006 table td + td{ padding:5px 0 0 3%; }
+    .historyBlock2{ background-position:center top; }
+    .historyBlock2 div table td ul li { text-indent:-23%; padding-left:23%; }
+    .historyBlock2 div table td ul li span { margin-right:3%; }
+    .historyBlock2 div.h_1999 table td + td { padding:163px 0 0 3%; }
+    .historyBlock2 div.h_1997 table td ul li span{ margin-left:3%; }
+    .historyBlock2 div.h_1997 table td { padding:0 3% 0 0; }
+    .historyBlock2 div.h_1996 table td + td { padding:20px 0 0 3%; }
+    .historyBlock2 div.h_1995 table td ul li span{ margin-left:3%; }
+    .historyBlock2 div.h_1995 table td { padding:48px 3% 0 0; }
+    .historyBlock2 div.h_1987 table td + td { padding:45px 0 0 3%; }
+
+    ul.tabTableWrap-EA5__tabTitle li{ width:33.3%; }
+    .galleyBox table td img{ width:100%; }
+    .galleyBox table td{ width:30%; }
+    .galleyBox table td + td{ width:58%; padding-left:2%; }
+
+    .galleyZone #bx-pager{ float:none; width:100%; }
+    .galleyZone #bx-pager2{ float:none; width:100%; }
+    .galleyZone #bx-pager3{ float:none; width:100%; }
+    .viewSlide{ float:none; width:93%; }
 }
 
 
 @media screen and (min-width: 360px) and (max-width: 767px){
-    .subMember-subVisual{ height:126px; font-size:40px; padding-top:103px; }
+    .subMember-subVisual{ height:126px; font-size:40px; padding-top:103px; background-size:100% 100%; }
     .subMember-subVisual p{ font-size:14px; }
     #commonWrap{ width:320px; }
     #commonWrap .lineMapWrap{ width:320px; }
@@ -1434,7 +1493,7 @@ p.funeralInfo-TxtSummary{ font-size:14px; color:#939393; }
     .memberInnerWrap__memberInnerContainer__loginWrap__loginInner-right__join{ display:block; margin-top:10px; text-align:center;  }
     .memberInnerWrap__memberInnerContainer__loginWrap__loginInner-right__join a{ margin:10px 0 10px 6px; }
 
-    .subIntroduce-subVisual{ height:176px; font-size:40px; padding-top:103px; }
+    .subIntroduce-subVisual{ height:176px; font-size:40px; padding-top:103px; background-size:100% 100%; }
     .subIntroduce-subVisual p{ font-size:14px; }
     .subMenuGnbWrap__customerSubMenuGnb{ width:320px; }
     .subMenuGnbWrap__customerSubMenuGnb ul{ padding:15px 0 16px 0; }
@@ -1468,7 +1527,7 @@ p.funeralInfo-TxtSummary{ font-size:14px; color:#939393; }
     .sitemap__menuWrap>div + div + div + div + div + div{ height:380px; }
     .sitemap__menuWrap__menuListWrap{ width:48.5%; margin:20px 1% 0 1% }
 
-    .subMyneul-subVisual{ height:136px; font-size:40px; }
+    .subMyneul-subVisual{ height:136px; font-size:40px; background-size:100% 100%; }
     .subMyneul-subVisual p{ font-size:14px; }
     .subMenuGnbWrap__myneulSubMenuGnb{ width:320px; }
     .subMenuGnbWrap__myneulSubMenuGnb ul{ padding:15px 0 16px 0; }
@@ -1500,7 +1559,7 @@ p.funeralInfo-TxtSummary{ font-size:14px; color:#939393; }
     .join_productComplete{ height:172px; background-position:center 40px; }
     .join_productComplete p.join_productComplete-title{ margin-top:95px; }
 
-    .subPromotion-subVisual{ height:136px; font-size:40px; }
+    .subPromotion-subVisual{ height:136px; font-size:40px; background-size:100% 100%; }
     .subPromotion-subVisual p{ font-size:14px; }
     .subMenuGnbWrap__promotionSubMenuGnb{ width:330px; }
     .subMenuGnbWrap__promotionSubMenuGnb ul{padding:15px 0 16px 0; }
@@ -1550,9 +1609,11 @@ p.funeralInfo-TxtSummary{ font-size:14px; color:#939393; }
     .prCenterInner__dailyWrap div + div + div + div{ margin-left:3%; }
     .prCenterInner__dailyWrap div + div + div + div + div{ margin-left:0; }
     .prCenterInner__dailyWrap div + div + div + div + div + div{ margin-left:3%; }
-    .dailyWrap__dailyListTitle{ width:100%; float:none; }
+
+    .dailyWrap__dailyListTitle{ width:100%; height:56px; float:none; }
     .dailyWrap__dailyListImg{ width:100%; float:none; margin-top:20px; }
     .dailyWrap__dailyListImg img{ width:100%; }
+    span.dailyWrap__dailyListTitle-title{ font-size:14px; }
 
     .view_tableStyle01 tbody td.table-content{ padding:27px 5%; }
     .table-recommend__inner-bottom textarea{ width:69%; padding:7px 0; }
@@ -1568,6 +1629,76 @@ p.funeralInfo-TxtSummary{ font-size:14px; color:#939393; }
     .funeralInfo-InnerBox-right{ width:93%; float:none; padding:27px 3%; margin-top:10px; }
 
     .recruit-infoInner-Box01 span{ width:100%; display:block; margin-bottom:10px; }
+
+    .subMenuGnbWrap__introduceSubMenuGnb{ width:330px; }
+
+    .subMenuGnbWrap__introduceSubMenuGnb ul{ padding:15px 0 16px 0; }
+    .subMenuGnbWrap__introduceSubMenuGnb ul li{ padding:0 12px; }
+    .subMenuGnbWrap__introduceSubMenuGnb ul li a{ font-size:16px; }
+
+    .ceo-greetingInner_ceo-name{ float:none; width:inherit; background-position:center top; text-align:center; }
+    .ceo-greetingInner_ceo-greeting h4{ font-size:20px; }
+    .ceo-greetingInner_ceo-greeting{ float:none; margin-top:30px; }
+    .ceo-greetingInner_ceo-name span{ padding-left:3%; }
+    .ceo-greetingInner_ceo-greeting__text-left, .ceo-greetingInner_ceo-greeting__text-right{ float:none; width:100%; margin-top:30px; }
+    .ceo-greetingInner_ceo-greeting__text-right{ margin-left:0; }
+
+    .companyIntroductionInner__box02-img img, .companyIntroductionInner__box03-img img, .companyIntroductionInner__box04-img img, .companyIntroductionInner__box07-img img,
+    .companyIntroductionInner__box09-img img, .companyIntroductionInner__box10-img img, .companyIntroductionInner__box11-img img{ width:100%; }
+    .companyIntroductionInner__box05-Left, .companyIntroductionInner__box05-Right{ float:none; width:100%; }
+    .companyIntroductionInner__box05-Left img, .companyIntroductionInner__box05-Right img{ width:100%; }
+    .companyIntroductionInner__box05-Right{ margin-left:0; }
+
+    .companyIntroductionInner__box08Inner-box01, .companyIntroductionInner__box08Inner-box02, .companyIntroductionInner__box08Inner-box03{ float:none; width:100%; height:inherit; margin-bottom:10px; }
+    .companyIntroductionInner__box08Inner-box01-Img img{ width:100%; }
+    .companyIntroductionInner__box08Inner-box02-Img img{ width:100%; }
+    .companyIntroductionInner__box08Inner-box03-Img img{ width:100%; }
+    .companyIntroductionInner__box08Inner-box01-Txt, .companyIntroductionInner__box08Inner-box02-Txt, .companyIntroductionInner__box08Inner-box03-Txt{ padding:24px 4%; }
+
+    .historyBlock{ height:100%; background:none; }
+    .historyBlock div.h_2016 table td + td{ padding:0 0 0 3%; }
+    .historyBlock div table td ul li{ text-indent:0; font-size:13px; padding-left:0; }
+    .historyBlock div table td ul li span{ display:block; margin-right:0; }
+    .historyBlock div table td ul li img{ width:100%; display:none; }
+    .historyBlock div.h_2015 table td{ padding:0 3% 0 0; }
+    .historyBlock div.h_2015 table td ul li span{ margin-left:0 }
+    .historyBlock div.h_2014 table td + td{ padding:0 0 0 3%; }
+    .historyBlock div.h_2013 table td{ padding:0 3% 0 0 }
+    .historyBlock div.h_2013 table td ul li span{ margin-left:3%; }
+    .historyBlock div.h_2012 table td + td{ padding:0 0 0 3%; }
+    .historyBlock div.h_2011 table td{ padding:0 3% 0 0 }
+    .historyBlock div.h_2011 table td ul li span{ margin-left:0; }
+    .historyBlock div.h_2010 table td + td{ padding:0 0 0 3%; }
+    .historyBlock div.h_2009 table td{ padding:0 3% 0 0 }
+    .historyBlock div.h_2009 table td ul li span{ margin-left:0; }
+    .historyBlock div.h_2008 table td + td{ padding:0 0 0 3%; }
+    .historyBlock div.h_2007 table td{ padding:0 3% 0 0 }
+    .historyBlock div.h_2007 table td ul li span{ margin-left:0; }
+    .historyBlock div.h_2006 table td + td{ padding: 0 0 3%; }
+    .historyBlock2{ height:100%; background:none; }
+    .historyBlock2 div table td ul li { text-indent:0; padding-left:0; }
+    .historyBlock2 div table td ul li span { margin-right:0; display:block; }
+    .historyBlock2 div.h_1999 table td + td { padding:0 0 0 3%; }
+    .historyBlock2 div.h_1997 table td ul li span{ margin-left:0; }
+    .historyBlock2 div.h_1997 table td { padding:0 3% 0 0; }
+    .historyBlock2 div.h_1996 table td + td { padding:0 0 0 3%; }
+    .historyBlock2 div.h_1995 table td ul li span{ margin-left:0; }
+    .historyBlock2 div.h_1995 table td { padding:0 3% 0 0; }
+    .historyBlock2 div.h_1987 table td + td { padding:0 0 0 3%; }
+
+    ul.tabTableWrap-EA5__tabTitle li{ width:33.3%; }
+    ul.tabTableWrap-EA5__tabTitle li a{ font-size:11px; }
+    .galleyBox table td img{ width:100%; }
+    .galleyBox table td{ width:40%; }
+    .galleyBox table td + td{ width:58%; padding-left:2%; }
+
+    .galleyZone #bx-pager{ float:none; width:100%; }
+    .galleyZone #bx-pager2{ float:none; width:100%; }
+    .galleyZone #bx-pager3{ float:none; width:100%; }
+    .viewSlide{ float:none; width:87%; }
+
+    .mapInfo_on{ display:none; }
+    p.address_p{ line-height:20px; text-indent:0; padding-left:16%; }
 }
 
 
