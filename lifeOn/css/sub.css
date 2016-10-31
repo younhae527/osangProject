@@ -2469,6 +2469,9 @@ p.funeralInfo-TxtSummary{ font-size:14px; color:#939393; }
 
     .subIntroduce-subVisual{ height:176px; font-size:40px; padding-top:103px; background-size:100% 100%; }
     .subIntroduce-subVisual p{ font-size:12px; }
+
+    .subCustomer-subVisual{ height:176px; font-size:40px; padding-top:103px; background-size:100% 100%; }
+    .subCustomer-subVisual p{ font-size:12px; }
     .subMenuGnbWrap__customerSubMenuGnb{ width:300px; }
     .subMenuGnbWrap__customerSubMenuGnb ul{ padding:15px 0 16px 0; }
     .subMenuGnbWrap__customerSubMenuGnb ul li{ padding:5px 12px 5px 13px; }
@@ -2938,7 +2941,7 @@ p.funeralInfo-TxtSummary{ font-size:14px; color:#939393; }
     	.subCustomerWrap02-Inner__subCustomerContent ul:after{ content:''; display:block; clear:both; }
     	.subCustomerWrap02-Inner__subCustomerContent ul li{ float:left;width:48%;margin-bottom:1%; border:1px solid #cacaca; margin-right:1%; border-radius:5px; }
     	.subCustomerWrap02-Inner__subCustomerContent ul li.last{ margin-right:0; }
-    	.subCustomerWrap02-Inner__subCustomerContent ul li a{ display:block; font-size:12px; color:#636363; text-align:center; padding:14px 18px; }
+    	.subCustomerWrap02-Inner__subCustomerContent ul li a{ display:block; font-size:12px; color:#636363; text-align:center; padding:14px 15px; }
     	.subCustomerWrap02-Inner__subCustomerContent ul li a:hover{ background:#52b8ff; color:#fff; }
 
     	/* CUSTOMER_AP검색 */
@@ -2953,7 +2956,7 @@ p.funeralInfo-TxtSummary{ font-size:14px; color:#939393; }
     	.subCustomerWrap03-Inner__subCustomerContent__Inner-box p{ margin-left:0;background:url('../img/sub/common/ico_blueBlit.gif') left 2px no-repeat; font-size:13px; color:#000; padding-left:2%; }
     	.subCustomerWrap03-Inner__subCustomerContent__Inner-box div{ padding:10px 0 0 1%; }
     	.subCustomerWrap03-Inner__subCustomerContent__Inner-box div label{ font-size:14px; color:#000; margin-right:10px; }
-    	.subCustomerWrap03-Inner__subCustomerContent__Inner-box div input[type="text"]{ height:25px; border:1px solid #cbcbcb; border-right:1px solid #e4e4e4; border-bottom:1px solid #e4e4e4; }
+    	.subCustomerWrap03-Inner__subCustomerContent__Inner-box div input[type="text"]{ width:59%; height:25px; border:1px solid #cbcbcb; border-right:1px solid #e4e4e4; border-bottom:1px solid #e4e4e4; }
     	.subCustomerWrap03-Inner__subCustomerContent__Inner-box div a{ display:inline-block; border:1px solid #666; background:#858585; font-size:12px; text-align:center; color:#fff; text-align:center; padding:4px 10px; vertical-align:middle; border-radius:3px; }
 
     	/* CUSTOMER_bannerCenter02 */
@@ -2973,7 +2976,7 @@ p.funeralInfo-TxtSummary{ font-size:14px; color:#939393; }
     	.subCustomerWrap04-Inner__subCustomerContent ul:after{ content:''; display:block; clear:both; }
     	.subCustomerWrap04-Inner__subCustomerContent ul li{ float:left; margin-bottom:1%;width:48%; border:1px solid #cacaca; margin-right:1%; border-radius:5px; }
     	.subCustomerWrap04-Inner__subCustomerContent ul li.last{ margin-right:0; }
-    	.subCustomerWrap04-Inner__subCustomerContent ul li a{ display:block; font-size:12px; color:#636363; text-align:center; padding:14px 18px; }
+    	.subCustomerWrap04-Inner__subCustomerContent ul li a{ display:block; font-size:12px; color:#636363; text-align:center; padding:14px 15px; }
     	.subCustomerWrap04-Inner__subCustomerContent ul li a:hover{ background:#52b8ff; color:#fff; }
 
     	/* CUSTOMER_사이버추모관 */

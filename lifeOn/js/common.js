@@ -1,14 +1,14 @@
-/* Main Header Script : Visual
+/* Main Header Script : Visual*/
 $(function(){
     $('.visual').bxSlider({
         auto: true,
         autoControls: false,
         pager: false,
         controls: false,
-        pause:3000
+        pause:4000
     });
 });
-*/
+
 
 
 /* Main Header Script : Banner */
