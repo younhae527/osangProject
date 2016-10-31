@@ -9,7 +9,24 @@ $(function(){
     });
 });
 
+$(document).ready(function(){
+     var p = $("#commonWrap").offset().top;
 
+    $(window).scroll(function(){
+        if(p<$(window).scrollTop()){
+            console.log("div reached");
+            $(".subMenuGnbWrap").css({position:"fixed",top:0});
+            $(".subMenuGnbWrap").css('z-index','999999999');
+            $(".subMenuGnbWrap").css('width','100%');
+        }
+        else{
+            console.log("div out");
+            $(".subMenuGnbWrap").css({position:"relative"});
+            $(".subMenuGnbWrap").css('width','100%');
+        }
+
+    })
+});
 
 /* Main Header Script : Banner */
 $(function(){
