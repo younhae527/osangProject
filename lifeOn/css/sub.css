@@ -2691,7 +2691,7 @@ p.funeralInfo-TxtSummary{ font-size:14px; color:#939393; }
     .productFuneralWrap__topBox-Img{ width:100%; float:none; padding:0 0 50px 0; }
     .productFuneralWrap__topBox-Img img{ width:100%; }
     .productFuneralWrap__topBox-TxtWrap{ width:100%; float:none; }
-    .productFuneralWrap__topBox-TxtWrap .btnLeftWrap a{ padding:16px 9.5%; }
+    .productFuneralWrap__topBox-TxtWrap .btnLeftWrap a{ padding:16px 8.5%; }
     .productFuneralWrap__ListWrap{ margin-top:30px; border:none; }
     .productFuneralWrap__ListWrap li{ width:96%; height:700px; margin-bottom:10px; border:1px solid #d6d6d6; }
 
@@ -2702,6 +2702,7 @@ p.funeralInfo-TxtSummary{ font-size:14px; color:#939393; }
     .productInnerWrap .wedingBox{ padding:10px 3%; }
     .productInnerWrap .wedingBox2 table tr td{ padding:0 1%; }
     .productInnerWrap .wedingBox2 table tr td img{ width:100%; }
+    .productInnerWrap .wedingBox2 table tr td img.non100per{ width:20%; margin-top:10px; }
 
     .productInnerWrap .float_l{ float:none !important; }
     .productInnerWrap .btnWrite.float_r{ float:none !important; text-align:center; margin-top:30px; }
