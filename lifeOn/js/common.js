@@ -1,6 +1,6 @@
 /* Main Header Script : Visual*/
 $(function(){
-    $('.visual').bxSlider({
+    $('.mainVisual').bxSlider({
         auto: true,
         autoControls: false,
         pager: false,
@@ -9,6 +9,24 @@ $(function(){
     });
 });
 
+$(document).ready(function(){
+     var p = $(".subDepthInner").offset().top;
+
+    $(window).scroll(function(){
+        if(p<$(window).scrollTop()){
+            console.log("div reached");
+            $(".subMenuGnbWrap").css({position:"fixed",top:0});
+            $(".subMenuGnbWrap").css('z-index','999999999');
+            $(".subMenuGnbWrap").css('width','100%');
+        }
+        else{
+            console.log("div out");
+            $(".subMenuGnbWrap").css({position:"relative"});
+            $(".subMenuGnbWrap").css('width','100%');
+        }
+
+    })
+});
 $(document).ready(function(){
      var p = $("#commonWrap").offset().top;
 
@@ -27,6 +45,7 @@ $(document).ready(function(){
 
     })
 });
+
 
 /* Main Header Script : Banner */
 $(function(){
